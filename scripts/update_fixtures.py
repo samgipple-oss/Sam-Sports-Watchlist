@@ -311,6 +311,107 @@ def merge_curated(merged, entries, today, end):
         applied += 1
     return applied
 
+
+PRIME_UCL_GUIDE = "https://www.live-footballontv.com/live-champions-league-football-on-tv.html"
+# Manually cross-checked fixture on the UK broadcast guide (4 November 2026).
+PRIME_UCL_CONFIRMED = {
+    ("2026-11-24", "arsenal", "borussia dortmund"),
+}
+
+class PlainText(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+        self.skip = 0
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style", "noscript"):
+            self.skip += 1
+    def handle_endtag(self, tag):
+        if tag in ("script", "style", "noscript") and self.skip:
+            self.skip -= 1
+    def handle_data(self, data):
+        if not self.skip and data.strip():
+            self.parts.append(html.unescape(data.strip()))
+
+def normalize_club(name):
+    name = name.casefold()
+    name = re.sub(r"\b(fc|cf|afc|ssc|fk|rc|ac|club)\b", "", name)
+    name = re.sub(r"[^a-z0-9]+", " ", name).strip()
+    aliases = {
+        "bvb": "borussia dortmund",
+        "dortmund": "borussia dortmund",
+        "arsenal fc": "arsenal",
+        "man city": "manchester city",
+        "man utd": "manchester united",
+        "psg": "paris saint germain",
+        "inter milan": "internazionale",
+        "inter": "internazionale",
+        "atletico madrid": "atletico madrid",
+    }
+    return aliases.get(name, name)
+
+def prime_ucl_from_uk_guide(today, end):
+    """Read explicit Prime Video selections; do not assume all Tuesday UCL games."""
+    selections = set(PRIME_UCL_CONFIRMED)
+    try:
+        raw = download(PRIME_UCL_GUIDE)
+        parser = PlainText()
+        parser.feed(raw)
+        lines = [re.sub(r"\s+", " ", x).strip() for x in parser.parts]
+        month_names = {name.lower():i for i,name in enumerate(
+            ("January","February","March","April","May","June","July",
+             "August","September","October","November","December"),1)}
+        date_re = re.compile(
+            r"^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+"
+            r"(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]+)\s+(20\d{2})$", re.I)
+        current_date = None
+        for i, line in enumerate(lines):
+            match = date_re.match(line)
+            if match:
+                day, month, year = match.groups()
+                try:
+                    current_date = dt.date(int(year),month_names[month.lower()],int(day))
+                except (KeyError, ValueError):
+                    current_date = None
+                continue
+            if not current_date or not today <= current_date <= end:
+                continue
+            # A fixture title must itself be followed by an explicit Prime
+            # listing, before the next fixture/date heading.
+            fixture = re.match(r"^(.{2,70}?)\s+v\s+(.{2,70}?)$", line, re.I)
+            if not fixture:
+                continue
+            next_lines = lines[i+1:i+12]
+            rights = []
+            for next_line in next_lines:
+                if date_re.match(next_line) or re.match(r"^.{2,70}\s+v\s+.{2,70}$", next_line):
+                    break
+                rights.append(next_line)
+            if not any("amazon prime video" in x.casefold() for x in rights):
+                continue
+            home, away = fixture.groups()
+            selections.add((current_date.isoformat(),normalize_club(home),normalize_club(away)))
+    except Exception as exc:
+        print(f"INFO: Prime UK guide unavailable; using confirmed selections only: {exc}",flush=True)
+    return selections
+
+def apply_prime_ucl(merged, today, end):
+    selections = prime_ucl_from_uk_guide(today, end)
+    applied = 0
+    for g in merged.values():
+        if g.get("competition") != "Champions League":
+            continue
+        teams = g.get("title","").split(" at ")
+        if len(teams) != 2:
+            continue
+        away, home = [normalize_club(t) for t in teams]
+        if (g["date"],home,away) in selections:
+            g.update(service="Prime Video",broadcastVerified=True,
+                     broadcastSource=PRIME_UCL_GUIDE)
+            applied += 1
+    print(f"Prime Video Champions League broadcasts applied: {applied}",flush=True)
+    return applied
+
 def main():
     today = dt.datetime.now(TZ).date()
     end = today + dt.timedelta(days=34)
@@ -365,6 +466,8 @@ def main():
     for g in rugby:
         merged[g["id"]] = g
     print(f"Rugby fixtures added: {len(rugby)}",flush=True)
+
+    apply_prime_ucl(merged,today,end)
 
     curated = read_json(CURATED,[])
     if not isinstance(curated,list):
