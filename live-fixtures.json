@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T14:07:11.029711+00:00",
+  "updatedAt": "2026-11-04T14:10:33.057307+00:00",
   "successfulChecks": 280,
-  "totalChecks": 315,
+  "totalChecks": 280,
   "items": [
     {
       "id": "espn:soccer/uefa.champions:401915382",
@@ -328,6 +328,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-06:20:10",
+      "date": "2026-11-06",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Ireland vs Argentina",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:basketball/nba:401909288",
       "date": "2026-11-07",
       "time": "00:00",
@@ -436,6 +448,18 @@
       "broadcastVerified": true
     },
     {
+      "id": "nationschampionship:2026:11-07:11:40",
+      "date": "2026-11-07",
+      "time": "11:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Italy vs South Africa",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:soccer/eng.1:401878758",
       "date": "2026-11-07",
       "time": "12:30",
@@ -472,6 +496,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-07:14:10",
+      "date": "2026-11-07",
+      "time": "14:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Scotland vs New Zealand",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:soccer/eng.1:401878760",
       "date": "2026-11-07",
       "time": "15:00",
@@ -496,6 +532,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-07:16:40",
+      "date": "2026-11-07",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Wales vs Japan",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:soccer/eng.1:401878757",
       "date": "2026-11-07",
       "time": "17:30",
@@ -506,6 +554,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "nationschampionship:2026:11-07:20:10",
+      "date": "2026-11-07",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "France vs Fiji",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:soccer/usa.1:761939",
@@ -890,6 +950,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "nationschampionship:2026:11-08:15:10",
+      "date": "2026-11-08",
+      "time": "15:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "England vs Australia",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:soccer/eng.1:401879240",
@@ -1820,6 +1892,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-13:20:10",
+      "date": "2026-11-13",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "France vs South Africa",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:basketball/nba:401909297",
       "date": "2026-11-14",
       "time": "00:00",
@@ -1928,6 +2012,18 @@
       "broadcastVerified": true
     },
     {
+      "id": "nationschampionship:2026:11-14:11:40",
+      "date": "2026-11-14",
+      "time": "11:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Italy vs Argentina",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:soccer/eng.w.1:401902863",
       "date": "2026-11-14",
       "time": "12:45",
@@ -1964,6 +2060,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-14:14:10",
+      "date": "2026-11-14",
+      "time": "14:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Wales vs New Zealand",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:soccer/eng.w.1:401902861",
       "date": "2026-11-14",
       "time": "15:00",
@@ -1974,6 +2082,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "nationschampionship:2026:11-14:16:40",
+      "date": "2026-11-14",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "England vs Japan",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:soccer/uefa.nations:401861164",
@@ -2072,6 +2192,18 @@
       "liveStatus": "Scheduled",
       "broadcastVerified": true,
       "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
+      "id": "nationschampionship:2026:11-14:20:10",
+      "date": "2026-11-14",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Ireland vs Fiji",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:basketball/nba:401909980",
@@ -2192,6 +2324,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "nationschampionship:2026:11-15:15:10",
+      "date": "2026-11-15",
+      "time": "15:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Scotland vs Australia",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:soccer/eng.w.1:401902864",
@@ -3350,6 +3494,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-21:14:10",
+      "date": "2026-11-21",
+      "time": "14:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Scotland vs Japan",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:soccer/eng.1:401879235",
       "date": "2026-11-21",
       "time": "15:00",
@@ -3410,6 +3566,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-21:16:40",
+      "date": "2026-11-21",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Italy vs Fiji",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
       "id": "espn:soccer/eng.w.1:401902854",
       "date": "2026-11-21",
       "time": "17:15",
@@ -3444,6 +3612,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": true
+    },
+    {
+      "id": "nationschampionship:2026:11-21:20:10",
+      "date": "2026-11-21",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "title": "Wales vs Australia",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:basketball/nba:401910024",
@@ -4358,6 +4538,30 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-27:16:40",
+      "date": "2026-11-27",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "title": "Northern 6 vs Southern 6",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
+      "id": "ukrugby:2026-11-27:tbc:tbc",
+      "date": "2026-11-27",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879225",
       "date": "2026-11-27",
       "time": "20:00",
@@ -4380,6 +4584,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "nationschampionship:2026:11-27:20:10",
+      "date": "2026-11-27",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "title": "Northern 3 vs Southern 3",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:basketball/nba:401909326",
@@ -4514,6 +4730,30 @@
       "broadcastVerified": true
     },
     {
+      "id": "nationschampionship:2026:11-28:13:10",
+      "date": "2026-11-28",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "title": "Northern 5 vs Southern 5",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
+      "id": "ukrugby:2026-11-28:tbc:tbc",
+      "date": "2026-11-28",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -4536,6 +4776,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "nationschampionship:2026:11-28:16:40",
+      "date": "2026-11-28",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "title": "Northern 2 vs Southern 2",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:soccer/eng.1:401878752",
@@ -4622,6 +4874,30 @@
       "broadcastVerified": false
     },
     {
+      "id": "nationschampionship:2026:11-29:13:10",
+      "date": "2026-11-29",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "title": "Northern 4 vs Southern 4",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
+    },
+    {
+      "id": "ukrugby:2026-11-29:tbc:tbc",
+      "date": "2026-11-29",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879228",
       "date": "2026-11-29",
       "time": "14:05",
@@ -4680,6 +4956,18 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "nationschampionship:2026:11-29:16:40",
+      "date": "2026-11-29",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "title": "Northern 1 vs Southern 1",
+      "service": "ITVX",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
+      "source": "Published 2026 Nations Championship schedule"
     },
     {
       "id": "espn:football/nfl:401873084",
@@ -6210,216 +6498,6 @@
       "ok": true
     },
     {
-      "feed": "rugby/164",
-      "date": "2026-11-04",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-05",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-06",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-07",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-08",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-09",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-10",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-11",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-12",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-13",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-14",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-15",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-16",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-17",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-18",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-19",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-20",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-21",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-22",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-23",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-24",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-25",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-26",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-27",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-28",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-29",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-30",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-01",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-02",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-03",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-04",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-05",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-06",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-07",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-08",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
       "feed": "soccer/eng.1",
       "date": "2026-11-04",
       "ok": true
@@ -7470,5 +7548,5 @@
       "ok": true
     }
   ],
-  "note": "NBA, MLS, Women’s Champions League and UK home-nation Nations League games have access rules. Prime Video Nations League PPV is excluded. Other rights require verified overrides."
+  "note": "UK rugby Nations Championship fixtures use published 2026 schedule and ITVX rights; other UK TV rights require verification."
 }
