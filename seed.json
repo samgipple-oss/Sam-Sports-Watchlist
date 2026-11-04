@@ -1,0 +1,1109 @@
+[
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "Chicago Fire vs Columbus Crew",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "FC Cincinnati vs Nashville SC",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "D.C. United vs New York City FC",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "Inter Miami vs Charlotte FC",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "CF Montréal vs Vancouver Whitecaps",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "New York Red Bulls vs Atlanta United",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "Orlando City vs New England Revolution",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "21:00",
+    "sport": "MLS",
+    "title": "Philadelphia Union vs Toronto FC",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "00:00",
+    "sport": "MLS",
+    "title": "Austin FC vs Portland Timbers",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "00:00",
+    "sport": "MLS",
+    "title": "FC Dallas vs Colorado Rapids",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "00:00",
+    "sport": "MLS",
+    "title": "Houston Dynamo vs St. Louis City",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "00:00",
+    "sport": "MLS",
+    "title": "Minnesota United vs San Jose Earthquakes",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "00:00",
+    "sport": "MLS",
+    "title": "Real Salt Lake vs LA Galaxy",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "00:00",
+    "sport": "MLS",
+    "title": "San Diego FC vs Sporting Kansas City",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "00:00",
+    "sport": "MLS",
+    "title": "Seattle Sounders vs LAFC",
+    "service": "Apple TV",
+    "competition": "Decision Day",
+    "priority": true
+  },
+  {
+    "date": "2026-11-06",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "Ireland vs Argentina",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "11:40",
+    "sport": "Rugby",
+    "title": "Italy vs South Africa",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "Scotland vs New Zealand",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Wales vs Japan",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "France vs Fiji",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "15:10",
+    "sport": "Rugby",
+    "title": "England vs Australia",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-13",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "France vs South Africa",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "11:40",
+    "sport": "Rugby",
+    "title": "Italy vs Argentina",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "Wales vs New Zealand",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "England vs Japan",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-14",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "Ireland vs Fiji",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "15:10",
+    "sport": "Rugby",
+    "title": "Scotland vs Australia",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "England vs New Zealand",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "Scotland vs Japan",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Ireland vs South Africa",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Italy vs Fiji",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "France vs Argentina",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "Wales vs Australia",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-27",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "11th-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-27",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "5th-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "13:10",
+    "sport": "Rugby",
+    "title": "9th-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "3rd-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "13:10",
+    "sport": "Rugby",
+    "title": "7th-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Nations Championship Final (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-04",
+    "time": "22:40",
+    "sport": "Football",
+    "title": "Champions League highlights",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-06",
+    "time": "19:30",
+    "sport": "Football",
+    "title": "Hamburg vs Borussia Mönchengladbach",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-06",
+    "time": "19:30",
+    "sport": "Football",
+    "title": "Raith Rovers vs Dunfermline",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "17:30",
+    "sport": "Football",
+    "title": "Altrincham vs Notts County",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "18:00",
+    "sport": "Football",
+    "title": "Linfield vs Coleraine",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "14:15",
+    "sport": "Football",
+    "title": "Cray Wanderers vs Stockport County",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "14:30",
+    "sport": "Football",
+    "title": "London City Lionesses vs Birmingham City",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "16:10",
+    "sport": "Football",
+    "title": "Rangers Women vs Hearts Women",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "17:45",
+    "sport": "Football",
+    "title": "Häcken vs Chelsea",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "20:00",
+    "sport": "Football",
+    "title": "Inter Milan vs Manchester City",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "17:45",
+    "sport": "Football",
+    "title": "Barcelona vs Arsenal",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "England vs Croatia",
+    "service": "ITVX",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-13",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Scotland vs North Macedonia",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "13:30",
+    "sport": "Football",
+    "title": "Chelsea vs Manchester City",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "14:10",
+    "sport": "Football",
+    "title": "Hearts vs Hibernian",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "17:00",
+    "sport": "Football",
+    "title": "Norway vs Wales",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "17:30",
+    "sport": "Football",
+    "title": "Hamilton vs Ross County",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Northern Ireland vs Ukraine",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "17:35",
+    "sport": "Football",
+    "title": "Cambrian United vs Bangor 1876",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Spain vs England",
+    "service": "ITVX",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-16",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Switzerland vs Scotland",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Hungary vs Northern Ireland",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Wales vs Portugal",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "17:45",
+    "sport": "Football",
+    "title": "Häcken vs Manchester City",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "17:45",
+    "sport": "Football",
+    "title": "Real Madrid vs Inter Milan",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "20:00",
+    "sport": "Football",
+    "title": "Chelsea vs PSG",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "20:00",
+    "sport": "Football",
+    "title": "Juventus vs OH Leuven",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "17:45",
+    "sport": "Football",
+    "title": "Austria Wien vs Bayern Munich",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "17:45",
+    "sport": "Football",
+    "title": "Paris FC vs HB Køge",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "20:00",
+    "sport": "Football",
+    "title": "Arsenal vs Lyon",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "20:00",
+    "sport": "Football",
+    "title": "Barcelona vs Servette",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "20:00",
+    "sport": "Football",
+    "title": "Benfica vs Roma",
+    "service": "Disney+",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "19:30",
+    "sport": "Football",
+    "title": "Bayern Munich vs Köln",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "19:30",
+    "sport": "Football",
+    "title": "Inverness CT vs Ayr United",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Cliftonville vs Glentoran",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "17:30",
+    "sport": "Football",
+    "title": "Montrose vs Alloa Athletic",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "12:00",
+    "sport": "Football",
+    "title": "Burnley vs Blackburn",
+    "service": "ITVX",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "14:30",
+    "sport": "Football",
+    "title": "Arsenal vs West Ham",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "17:15",
+    "sport": "Football",
+    "title": "The New Saints vs Wrexham",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "20:00",
+    "sport": "Football",
+    "title": "Arsenal vs Borussia Dortmund",
+    "service": "Prime",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-27",
+    "time": "19:30",
+    "sport": "Football",
+    "title": "Werder Bremen vs Borussia Mönchengladbach",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-27",
+    "time": "19:45",
+    "sport": "Football",
+    "title": "Glentoran vs Larne",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "12:30",
+    "sport": "Football",
+    "title": "Barry Town vs Caernarfon",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "17:15",
+    "sport": "Football",
+    "title": "Holywell Town vs Llandudno",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "TBC",
+    "sport": "Football",
+    "title": "Ukraine vs England",
+    "service": "ITVX",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Sunday early game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "TBC",
+    "sport": "NFL",
+    "title": "Sunday late game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Sunday early game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "TBC",
+    "sport": "NFL",
+    "title": "Sunday late game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Sunday early game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "TBC",
+    "sport": "NFL",
+    "title": "Sunday late game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Jets at Chiefs",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "21:25",
+    "sport": "NFL",
+    "title": "Packers at Patriots",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Wild Card — teams TBC",
+    "service": "Apple TV",
+    "competition": "Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "First round Game 1 window — teams TBC",
+    "service": "Apple TV",
+    "competition": "Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-27",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "First round Game 2 window — teams TBC",
+    "service": "Apple TV",
+    "competition": "Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "First round Game 3 if required — teams TBC",
+    "service": "Apple TV",
+    "competition": "Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Thunder",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-06",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Magic at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-06",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Heat at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "76ers at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at Lakers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "22:00",
+    "sport": "NBA",
+    "title": "Nuggets at Pacers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-08",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Knicks at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-08",
+    "time": "20:30",
+    "sport": "NBA",
+    "title": "76ers at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-08",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Lakers at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-11",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Celtics at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-12",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-14",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Knicks at Pacers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-14",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Warriors at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-15",
+    "time": "18:00",
+    "sport": "NBA",
+    "title": "Pacers at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-15",
+    "time": "21:00",
+    "sport": "NBA",
+    "title": "Lakers at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-15",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Knicks at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-19",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Celtics at Nuggets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Rockets at Nuggets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "18:00",
+    "sport": "NBA",
+    "title": "Bucks at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-22",
+    "time": "20:30",
+    "sport": "NBA",
+    "title": "Pistons at Hawks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-22",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Thunder at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-23",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Celtics at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-25",
+    "time": "22:00",
+    "sport": "NBA",
+    "title": "Heat at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-29",
+    "time": "21:00",
+    "sport": "NBA",
+    "title": "Celtics at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-12-01",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Lakers at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-12-02",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Knicks at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-12-03",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Knicks at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  }
+]
