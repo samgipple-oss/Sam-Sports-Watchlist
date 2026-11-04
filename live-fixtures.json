@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T14:26:35.424772+00:00",
-  "successfulChecks": 280,
-  "totalChecks": 280,
+  "updatedAt": "2026-11-04T14:50:44.158238+00:00",
+  "successfulChecks": 315,
+  "totalChecks": 315,
   "items": [
     {
       "id": "espn:soccer/uefa.champions:401915382",
@@ -6149,6 +6149,181 @@
   ],
   "coverage": [
     {
+      "feed": "baseball/mlb",
+      "date": "2026-11-04",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-05",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-06",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-07",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-08",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-09",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-10",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-11",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-12",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-13",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-14",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-15",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-16",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-17",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-18",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-19",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-20",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-21",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-22",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-23",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-24",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-25",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-26",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-27",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-28",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-29",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-11-30",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-01",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-02",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-03",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-04",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-05",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-06",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-07",
+      "ok": true
+    },
+    {
+      "feed": "baseball/mlb",
+      "date": "2026-12-08",
+      "ok": true
+    },
+    {
       "feed": "basketball/nba",
       "date": "2026-11-04",
       "ok": true
@@ -7549,5 +7724,5 @@
       "ok": true
     }
   ],
-  "note": "UK rugby Nations Championship fixtures use published 2026 schedule and ITVX rights; other UK TV rights require verification."
+  "note": "MLB.TV assumed; tennis, rugby union and rugby league included only when a free UK broadcaster is explicitly listed in a parseable guide row."
 }
