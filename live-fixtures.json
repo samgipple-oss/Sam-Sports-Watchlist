@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T17:34:49.979939+00:00",
+  "updatedAt": "2026-11-04T18:15:01.951883+00:00",
   "successfulChecks": 315,
   "totalChecks": 315,
   "items": [
@@ -12,7 +12,7 @@
       "title": "Liverpool at Fenerbahce",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "broadcastVerified": false
     },
     {
@@ -24,7 +24,7 @@
       "title": "Real Madrid at AEK Athens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "broadcastVerified": false
     },
     {
