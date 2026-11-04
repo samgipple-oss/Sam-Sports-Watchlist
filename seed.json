@@ -1,5 +1,320 @@
 [
   {
+    "date": "2026-11-04",
+    "time": "22:40",
+    "sport": "Football",
+    "title": "Champions League highlights",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "76ers at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Hawks at Wizards",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Bulls at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Bucks at Celtics",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Hornets at Nets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Thunder",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-05",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pacers at Grizzlies",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Jazz at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Timberwolves at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Raptors at Nuggets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Mavericks at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Lakers at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-05",
+    "time": "03:30",
+    "sport": "NBA",
+    "title": "Heat at Clippers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-06",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Magic at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-06",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Heat at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-06",
+    "time": "19:30",
+    "sport": "Football",
+    "title": "Hamburg vs Borussia Mönchengladbach",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-06",
+    "time": "19:30",
+    "sport": "Football",
+    "title": "Raith Rovers vs Dunfermline",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-06",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "Ireland vs Argentina",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Celtics at Hornets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Wizards at Hawks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "76ers at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Jazz at Mavericks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Raptors at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Timberwolves at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Thunder at Grizzlies",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at Lakers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Spurs at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "11:40",
+    "sport": "Rugby",
+    "title": "Italy vs South Africa",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "Scotland vs New Zealand",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-07",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Wales vs Japan",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "17:30",
+    "sport": "Football",
+    "title": "Altrincham vs Notts County",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "18:00",
+    "sport": "Football",
+    "title": "Linfield vs Coleraine",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-07",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "France vs Fiji",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
     "date": "2026-11-07",
     "time": "21:00",
     "sport": "MLS",
@@ -72,6 +387,15 @@
     "priority": false
   },
   {
+    "date": "2026-11-07",
+    "time": "22:00",
+    "sport": "NBA",
+    "title": "Nuggets at Pacers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
     "date": "2026-11-08",
     "time": "00:00",
     "sport": "MLS",
@@ -135,264 +459,57 @@
     "priority": true
   },
   {
-    "date": "2026-11-06",
-    "time": "20:10",
-    "sport": "Rugby",
-    "title": "Ireland vs Argentina",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-07",
-    "time": "11:40",
-    "sport": "Rugby",
-    "title": "Italy vs South Africa",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-07",
-    "time": "14:10",
-    "sport": "Rugby",
-    "title": "Scotland vs New Zealand",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": true
-  },
-  {
-    "date": "2026-11-07",
-    "time": "16:40",
-    "sport": "Rugby",
-    "title": "Wales vs Japan",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-07",
-    "time": "20:10",
-    "sport": "Rugby",
-    "title": "France vs Fiji",
-    "service": "ITVX",
-    "competition": "Nations Championship",
+    "date": "2026-11-08",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Nets at Hawks",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
     "date": "2026-11-08",
-    "time": "15:10",
-    "sport": "Rugby",
-    "title": "England vs Australia",
-    "service": "ITVX",
-    "competition": "Nations Championship",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Knicks at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": true
   },
   {
-    "date": "2026-11-13",
-    "time": "20:10",
-    "sport": "Rugby",
-    "title": "France vs South Africa",
-    "service": "ITVX",
-    "competition": "Nations Championship",
+    "date": "2026-11-08",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Wizards at Thunder",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
-    "date": "2026-11-14",
-    "time": "11:40",
-    "sport": "Rugby",
-    "title": "Italy vs Argentina",
-    "service": "ITVX",
-    "competition": "Nations Championship",
+    "date": "2026-11-08",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Magic at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
-    "date": "2026-11-14",
-    "time": "14:10",
-    "sport": "Rugby",
-    "title": "Wales vs New Zealand",
-    "service": "ITVX",
-    "competition": "Nations Championship",
+    "date": "2026-11-08",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Rockets at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
-    "date": "2026-11-14",
-    "time": "16:40",
-    "sport": "Rugby",
-    "title": "England vs Japan",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": true
-  },
-  {
-    "date": "2026-11-14",
-    "time": "20:10",
-    "sport": "Rugby",
-    "title": "Ireland vs Fiji",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-15",
-    "time": "15:10",
-    "sport": "Rugby",
-    "title": "Scotland vs Australia",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": true
-  },
-  {
-    "date": "2026-11-21",
-    "time": "14:10",
-    "sport": "Rugby",
-    "title": "England vs New Zealand",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": true
-  },
-  {
-    "date": "2026-11-21",
-    "time": "14:10",
-    "sport": "Rugby",
-    "title": "Scotland vs Japan",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": true
-  },
-  {
-    "date": "2026-11-21",
-    "time": "16:40",
-    "sport": "Rugby",
-    "title": "Ireland vs South Africa",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-21",
-    "time": "16:40",
-    "sport": "Rugby",
-    "title": "Italy vs Fiji",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-21",
-    "time": "20:10",
-    "sport": "Rugby",
-    "title": "France vs Argentina",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-21",
-    "time": "20:10",
-    "sport": "Rugby",
-    "title": "Wales vs Australia",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-27",
-    "time": "16:40",
-    "sport": "Rugby",
-    "title": "11th-place playoff (TBC)",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-27",
-    "time": "20:10",
-    "sport": "Rugby",
-    "title": "5th-place playoff (TBC)",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-28",
-    "time": "13:10",
-    "sport": "Rugby",
-    "title": "9th-place playoff (TBC)",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-28",
-    "time": "16:40",
-    "sport": "Rugby",
-    "title": "3rd-place playoff (TBC)",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-29",
-    "time": "13:10",
-    "sport": "Rugby",
-    "title": "7th-place playoff (TBC)",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-29",
-    "time": "16:40",
-    "sport": "Rugby",
-    "title": "Nations Championship Final (TBC)",
-    "service": "ITVX",
-    "competition": "Nations Championship",
-    "priority": false
-  },
-  {
-    "date": "2026-11-04",
-    "time": "22:40",
-    "sport": "Football",
-    "title": "Champions League highlights",
-    "service": "BBC iPlayer",
-    "competition": "UK TV listing",
-    "priority": false
-  },
-  {
-    "date": "2026-11-06",
-    "time": "19:30",
-    "sport": "Football",
-    "title": "Hamburg vs Borussia Mönchengladbach",
-    "service": "BBC iPlayer",
-    "competition": "UK TV listing",
-    "priority": false
-  },
-  {
-    "date": "2026-11-06",
-    "time": "19:30",
-    "sport": "Football",
-    "title": "Raith Rovers vs Dunfermline",
-    "service": "BBC iPlayer",
-    "competition": "UK TV listing",
-    "priority": false
-  },
-  {
-    "date": "2026-11-07",
-    "time": "17:30",
-    "sport": "Football",
-    "title": "Altrincham vs Notts County",
-    "service": "BBC iPlayer",
-    "competition": "UK TV listing",
-    "priority": false
-  },
-  {
-    "date": "2026-11-07",
-    "time": "18:00",
-    "sport": "Football",
-    "title": "Linfield vs Coleraine",
-    "service": "BBC iPlayer",
-    "competition": "UK TV listing",
+    "date": "2026-11-08",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Spurs at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
@@ -415,11 +532,173 @@
   },
   {
     "date": "2026-11-08",
+    "time": "15:10",
+    "sport": "Rugby",
+    "title": "England vs Australia",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-08",
     "time": "16:10",
     "sport": "Football",
     "title": "Rangers Women vs Hearts Women",
     "service": "BBC iPlayer",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Jets at Chiefs",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "20:30",
+    "sport": "NBA",
+    "title": "76ers at Bulls",
+    "service": "Prime / League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-08",
+    "time": "21:25",
+    "sport": "NFL",
+    "title": "Packers at Patriots",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-08",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Lakers at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-09",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Jazz at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-09",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Nets at Mavericks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-09",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Celtics at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-09",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Heat at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-09",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Pelicans at Clippers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Lakers at Hawks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Hornets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Wizards at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Grizzlies at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pacers at Mavericks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Nuggets at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Spurs at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-10",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Pelicans at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
@@ -438,6 +717,150 @@
     "title": "Inter Milan vs Manchester City",
     "service": "Disney+",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-11",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Bucks at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-11",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Celtics at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-11",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Heat at Jazz",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-11",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Clippers at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-11",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Magic at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-11",
+    "time": "04:00",
+    "sport": "NBA",
+    "title": "Thunder at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-12",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Wizards at Pacers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Celtics at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Nets at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Spurs at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Lakers at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Nuggets at Grizzlies",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Magic at Jazz",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Warriors at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-12",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Thunder at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
@@ -460,11 +883,146 @@
   },
   {
     "date": "2026-11-13",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Pistons at Wizards",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-13",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Raptors at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-13",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Mavericks at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-13",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Hornets at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-13",
     "time": "19:45",
     "sport": "Football",
     "title": "Scotland vs North Macedonia",
     "service": "BBC iPlayer",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-13",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "France vs South Africa",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Knicks at Pacers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-14",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Bucks at Magic",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Hawks at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Grizzlies at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Jazz at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Warriors at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-14",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "03:30",
+    "sport": "NBA",
+    "title": "Thunder at Clippers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "11:40",
+    "sport": "Rugby",
+    "title": "Italy vs Argentina",
+    "service": "ITVX",
+    "competition": "Nations Championship",
     "priority": false
   },
   {
@@ -484,6 +1042,24 @@
     "service": "BBC iPlayer",
     "competition": "UK TV listing",
     "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "Wales vs New Zealand",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-14",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "England vs Japan",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
   },
   {
     "date": "2026-11-14",
@@ -513,12 +1089,93 @@
     "priority": false
   },
   {
+    "date": "2026-11-14",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "Ireland vs Fiji",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Nuggets at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Mavericks at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Nets at Grizzlies",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Bulls at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pistons at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "15:10",
+    "sport": "Rugby",
+    "title": "Scotland vs Australia",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
     "date": "2026-11-15",
     "time": "17:35",
     "sport": "Football",
     "title": "Cambrian United vs Bangor 1876",
     "service": "BBC iPlayer",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "18:00",
+    "sport": "NBA",
+    "title": "Pacers at 76ers",
+    "service": "Prime / League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-15",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Sunday early game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
     "priority": false
   },
   {
@@ -531,12 +1188,165 @@
     "priority": false
   },
   {
+    "date": "2026-11-15",
+    "time": "21:00",
+    "sport": "NBA",
+    "title": "Lakers at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-15",
+    "time": "21:30",
+    "sport": "NBA",
+    "title": "Hornets at Clippers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "22:00",
+    "sport": "NBA",
+    "title": "Spurs at Jazz",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Knicks at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-15",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Mavericks at Celtics",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-15",
+    "time": "TBC",
+    "sport": "NFL",
+    "title": "Sunday late game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-16",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Rockets at Wizards",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-16",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Hawks at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-16",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Thunder at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
     "date": "2026-11-16",
     "time": "19:45",
     "sport": "Football",
     "title": "Switzerland vs Scotland",
     "service": "BBC iPlayer",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Bulls at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Magic at Celtics",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Grizzlies at Wizards",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Rockets at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "76ers at Nets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Warriors at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-17",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Suns at Nuggets",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
@@ -555,6 +1365,51 @@
     "title": "Wales vs Portugal",
     "service": "BBC iPlayer",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Knicks at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pistons at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Hornets at Lakers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-18",
+    "time": "04:00",
+    "sport": "NBA",
+    "title": "Jazz at Clippers",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
@@ -591,6 +1446,114 @@
     "title": "Juventus vs OH Leuven",
     "service": "Disney+",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Bucks at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Rockets at Pacers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Grizzlies at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "76ers at Magic",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Bulls at Nets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Wizards at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Hawks at Thunder",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pistons at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Celtics at Nuggets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-19",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Warriors at Mavericks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Jazz at Lakers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-19",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Suns at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
@@ -639,6 +1602,51 @@
     "priority": false
   },
   {
+    "date": "2026-11-19",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Wild Card — teams TBC",
+    "service": "Apple TV",
+    "competition": "Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Warriors at Grizzlies",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Clippers at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Knicks at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
     "date": "2026-11-20",
     "time": "19:30",
     "sport": "Football",
@@ -666,12 +1674,228 @@
     "priority": false
   },
   {
+    "date": "2026-11-20",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "First round Game 1 window — teams TBC",
+    "service": "Apple TV",
+    "competition": "Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-20",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 1 — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Hornets at Hawks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Pacers at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Magic at Nets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Raptors at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pelicans at Thunder",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Wizards at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Suns at Jazz",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Rockets at Nuggets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Kings at Lakers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "England vs New Zealand",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "14:10",
+    "sport": "Rugby",
+    "title": "Scotland vs Japan",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Ireland vs South Africa",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Italy vs Fiji",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
     "date": "2026-11-21",
     "time": "17:30",
     "sport": "Football",
     "title": "Montrose vs Alloa Athletic",
     "service": "BBC iPlayer",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "18:00",
+    "sport": "NBA",
+    "title": "Bucks at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "France vs Argentina",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "Wales vs Australia",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-21",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 1 — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Trail Blazers at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Clippers at Mavericks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pelicans at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Grizzlies at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Celtics at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
     "priority": false
   },
   {
@@ -702,12 +1926,327 @@
     "priority": false
   },
   {
+    "date": "2026-11-22",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Sunday early game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "20:30",
+    "sport": "NBA",
+    "title": "Pistons at Hawks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-22",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Thunder at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-22",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 1 — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-22",
+    "time": "TBC",
+    "sport": "NFL",
+    "title": "Sunday late game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-23",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Magic at Wizards",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-23",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Mavericks at Jazz",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-23",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Nuggets at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-23",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pacers at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-23",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Celtics at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-23",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 1 — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Trail Blazers at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Grizzlies at Hornets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Nets at Timberwolves",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Thunder at Pacers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Bucks at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Suns at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Clippers at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Jazz at Lakers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Spurs at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
     "date": "2026-11-24",
     "time": "20:00",
     "sport": "Football",
     "title": "Arsenal vs Borussia Dortmund",
     "service": "Prime",
     "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-24",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 1 — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-25",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Pistons at Magic",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-25",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Celtics at Wizards",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-25",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Mavericks at Nuggets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-25",
+    "time": "22:00",
+    "sport": "NBA",
+    "title": "Heat at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": true
+  },
+  {
+    "date": "2026-11-26",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Bulls at Hornets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-26",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Timberwolves at Thunder",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-26",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Cavaliers at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-26",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Nets at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-26",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Clippers at Grizzlies",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-26",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Suns at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-26",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Spurs at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-26",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Kings at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-27",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "11th-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
     "priority": false
   },
   {
@@ -729,120 +2268,12 @@
     "priority": false
   },
   {
-    "date": "2026-11-28",
-    "time": "12:30",
-    "sport": "Football",
-    "title": "Barry Town vs Caernarfon",
-    "service": "BBC iPlayer",
-    "competition": "UK TV listing",
-    "priority": false
-  },
-  {
-    "date": "2026-11-28",
-    "time": "17:15",
-    "sport": "Football",
-    "title": "Holywell Town vs Llandudno",
-    "service": "BBC iPlayer",
-    "competition": "UK TV listing",
-    "priority": false
-  },
-  {
-    "date": "2026-12-01",
-    "time": "TBC",
-    "sport": "Football",
-    "title": "Ukraine vs England",
+    "date": "2026-11-27",
+    "time": "20:10",
+    "sport": "Rugby",
+    "title": "5th-place playoff (TBC)",
     "service": "ITVX",
-    "competition": "UK TV listing",
-    "priority": false
-  },
-  {
-    "date": "2026-11-15",
-    "time": "18:00",
-    "sport": "NFL",
-    "title": "Sunday early game — selection TBC",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-15",
-    "time": "TBC",
-    "sport": "NFL",
-    "title": "Sunday late game — selection TBC",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-22",
-    "time": "18:00",
-    "sport": "NFL",
-    "title": "Sunday early game — selection TBC",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-22",
-    "time": "TBC",
-    "sport": "NFL",
-    "title": "Sunday late game — selection TBC",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-29",
-    "time": "18:00",
-    "sport": "NFL",
-    "title": "Sunday early game — selection TBC",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-29",
-    "time": "TBC",
-    "sport": "NFL",
-    "title": "Sunday late game — selection TBC",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-08",
-    "time": "18:00",
-    "sport": "NFL",
-    "title": "Jets at Chiefs",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-08",
-    "time": "21:25",
-    "sport": "NFL",
-    "title": "Packers at Patriots",
-    "service": "Channel 5 / 5Action",
-    "competition": "Free NFL",
-    "priority": false
-  },
-  {
-    "date": "2026-11-19",
-    "time": "TBC",
-    "sport": "MLS",
-    "title": "Wild Card — teams TBC",
-    "service": "Apple TV",
-    "competition": "Playoffs",
-    "priority": false
-  },
-  {
-    "date": "2026-11-20",
-    "time": "TBC",
-    "sport": "MLS",
-    "title": "First round Game 1 window — teams TBC",
-    "service": "Apple TV",
-    "competition": "Playoffs",
+    "competition": "Nations Championship",
     "priority": false
   },
   {
@@ -855,220 +2286,229 @@
     "priority": false
   },
   {
-    "date": "2026-12-01",
+    "date": "2026-11-27",
     "time": "TBC",
     "sport": "MLS",
-    "title": "First round Game 3 if required — teams TBC",
+    "title": "Round One Game 2 — fixtures TBC",
     "service": "Apple TV",
-    "competition": "Playoffs",
+    "competition": "MLS Playoffs",
     "priority": false
   },
   {
-    "date": "2026-11-05",
-    "time": "01:00",
+    "date": "2026-11-28",
+    "time": "00:00",
     "sport": "NBA",
-    "title": "Cavaliers at Thunder",
+    "title": "Heat at Knicks",
     "service": "League Pass",
     "competition": "NBA",
-    "priority": true
+    "priority": false
   },
   {
-    "date": "2026-11-06",
-    "time": "02:00",
-    "sport": "NBA",
-    "title": "Magic at Suns",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-06",
-    "time": "03:00",
-    "sport": "NBA",
-    "title": "Heat at Warriors",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-07",
+    "date": "2026-11-28",
     "time": "00:30",
     "sport": "NBA",
-    "title": "76ers at Cavaliers",
+    "title": "76ers at Pacers",
     "service": "League Pass",
     "competition": "NBA",
-    "priority": true
+    "priority": false
   },
   {
-    "date": "2026-11-07",
-    "time": "03:00",
+    "date": "2026-11-28",
+    "time": "00:30",
     "sport": "NBA",
-    "title": "Trail Blazers at Lakers",
+    "title": "Nets at Raptors",
     "service": "League Pass",
     "competition": "NBA",
-    "priority": true
+    "priority": false
   },
   {
-    "date": "2026-11-07",
-    "time": "22:00",
+    "date": "2026-11-28",
+    "time": "00:30",
     "sport": "NBA",
-    "title": "Nuggets at Pacers",
+    "title": "Bucks at Pistons",
     "service": "League Pass",
     "competition": "NBA",
-    "priority": true
+    "priority": false
   },
   {
-    "date": "2026-11-08",
+    "date": "2026-11-28",
     "time": "01:00",
     "sport": "NBA",
-    "title": "Knicks at Cavaliers",
+    "title": "Hawks at Celtics",
     "service": "League Pass",
     "competition": "NBA",
-    "priority": true
+    "priority": false
   },
   {
-    "date": "2026-11-08",
-    "time": "20:30",
-    "sport": "NBA",
-    "title": "76ers at Bulls",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-08",
-    "time": "23:00",
-    "sport": "NBA",
-    "title": "Lakers at Pistons",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-11",
-    "time": "01:00",
-    "sport": "NBA",
-    "title": "Celtics at 76ers",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-12",
-    "time": "00:00",
-    "sport": "NBA",
-    "title": "Cavaliers at Knicks",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-14",
-    "time": "00:00",
-    "sport": "NBA",
-    "title": "Knicks at Pacers",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-14",
-    "time": "02:30",
-    "sport": "NBA",
-    "title": "Warriors at Spurs",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-15",
-    "time": "18:00",
-    "sport": "NBA",
-    "title": "Pacers at 76ers",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-15",
-    "time": "21:00",
-    "sport": "NBA",
-    "title": "Lakers at Suns",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-15",
-    "time": "23:00",
-    "sport": "NBA",
-    "title": "Knicks at Raptors",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-19",
-    "time": "02:00",
-    "sport": "NBA",
-    "title": "Celtics at Nuggets",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-21",
-    "time": "03:00",
-    "sport": "NBA",
-    "title": "Rockets at Nuggets",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-21",
-    "time": "18:00",
-    "sport": "NBA",
-    "title": "Bucks at 76ers",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-22",
-    "time": "20:30",
-    "sport": "NBA",
-    "title": "Pistons at Hawks",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-22",
-    "time": "23:00",
-    "sport": "NBA",
-    "title": "Thunder at Heat",
-    "service": "League Pass",
-    "competition": "NBA",
-    "priority": true
-  },
-  {
-    "date": "2026-11-23",
+    "date": "2026-11-28",
     "time": "01:30",
     "sport": "NBA",
-    "title": "Celtics at Warriors",
+    "title": "Grizzlies at Timberwolves",
     "service": "League Pass",
     "competition": "NBA",
-    "priority": true
+    "priority": false
   },
   {
-    "date": "2026-11-25",
-    "time": "22:00",
+    "date": "2026-11-28",
+    "time": "02:00",
     "sport": "NBA",
-    "title": "Heat at 76ers",
+    "title": "Mavericks at Suns",
     "service": "League Pass",
     "competition": "NBA",
-    "priority": true
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Warriors at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Pelicans at Clippers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Lakers at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "02:30",
+    "sport": "NBA",
+    "title": "Nuggets at Jazz",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "12:30",
+    "sport": "Football",
+    "title": "Barry Town vs Caernarfon",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "13:10",
+    "sport": "Rugby",
+    "title": "9th-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "3rd-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "17:15",
+    "sport": "Football",
+    "title": "Holywell Town vs Llandudno",
+    "service": "BBC iPlayer",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "22:00",
+    "sport": "NBA",
+    "title": "Magic at Wizards",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Nets at Hornets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-28",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 2 — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Thunder at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Pacers at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "76ers at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "13:10",
+    "sport": "Rugby",
+    "title": "7th-place playoff (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "16:40",
+    "sport": "Rugby",
+    "title": "Nations Championship Final (TBC)",
+    "service": "ITVX",
+    "competition": "Nations Championship",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "18:00",
+    "sport": "NFL",
+    "title": "Sunday early game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
   },
   {
     "date": "2026-11-29",
@@ -1080,6 +2520,114 @@
     "priority": true
   },
   {
+    "date": "2026-11-29",
+    "time": "21:00",
+    "sport": "NBA",
+    "title": "Lakers at Grizzlies",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "22:00",
+    "sport": "NBA",
+    "title": "Suns at Jazz",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Pelicans at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Hawks at Knicks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Heat at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Nuggets at Raptors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "23:00",
+    "sport": "NBA",
+    "title": "Magic at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-29",
+    "time": "TBC",
+    "sport": "NFL",
+    "title": "Sunday late game — selection TBC",
+    "service": "Channel 5 / 5Action",
+    "competition": "Free NFL",
+    "priority": false
+  },
+  {
+    "date": "2026-11-30",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Clippers at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-11-30",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Timberwolves at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Nuggets at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Wizards at Hornets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
     "date": "2026-12-01",
     "time": "00:30",
     "sport": "NBA",
@@ -1087,6 +2635,96 @@
     "service": "League Pass",
     "competition": "NBA",
     "priority": true
+  },
+  {
+    "date": "2026-12-01",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Thunder at Nets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Spurs at Bucks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Celtics at Mavericks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Pelicans at Kings",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "TBC",
+    "sport": "Football",
+    "title": "Ukraine vs England",
+    "service": "ITVX",
+    "competition": "UK TV listing",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "First round Game 3 if required — teams TBC",
+    "service": "Apple TV",
+    "competition": "Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-12-01",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 3 if needed — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-12-02",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Grizzlies at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-02",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Pacers at Cavaliers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-02",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Hawks at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
   },
   {
     "date": "2026-12-02",
@@ -1098,6 +2736,78 @@
     "priority": true
   },
   {
+    "date": "2026-12-02",
+    "time": "01:30",
+    "sport": "NBA",
+    "title": "Raptors at Rockets",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-02",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Clippers at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-02",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Timberwolves at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-02",
+    "time": "04:00",
+    "sport": "NBA",
+    "title": "Jazz at Warriors",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-02",
+    "time": "TBC",
+    "sport": "MLS",
+    "title": "Round One Game 3 if needed — fixtures TBC",
+    "service": "Apple TV",
+    "competition": "MLS Playoffs",
+    "priority": false
+  },
+  {
+    "date": "2026-12-03",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Grizzlies at Pistons",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-03",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Nuggets at 76ers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-03",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Hornets at Celtics",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
     "date": "2026-12-03",
     "time": "01:00",
     "sport": "NBA",
@@ -1105,5 +2815,95 @@
     "service": "League Pass",
     "competition": "NBA",
     "priority": true
+  },
+  {
+    "date": "2026-12-03",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Nets at Thunder",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-03",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Lakers at Pelicans",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-03",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Magic at Mavericks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-03",
+    "time": "02:00",
+    "sport": "NBA",
+    "title": "Kings at Suns",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-03",
+    "time": "03:30",
+    "sport": "NBA",
+    "title": "Timberwolves at Clippers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-04",
+    "time": "00:00",
+    "sport": "NBA",
+    "title": "Pacers at Hawks",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-04",
+    "time": "00:30",
+    "sport": "NBA",
+    "title": "Wizards at Heat",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-04",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Raptors at Spurs",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-04",
+    "time": "01:00",
+    "sport": "NBA",
+    "title": "Cavaliers at Bulls",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
+  },
+  {
+    "date": "2026-12-04",
+    "time": "03:00",
+    "sport": "NBA",
+    "title": "Jazz at Trail Blazers",
+    "service": "League Pass",
+    "competition": "NBA",
+    "priority": false
   }
 ]
