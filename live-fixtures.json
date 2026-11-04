@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T13:29:53.473337+00:00",
-  "successfulChecks": 252,
-  "totalChecks": 252,
+  "updatedAt": "2026-11-04T13:33:33.151093+00:00",
+  "successfulChecks": 288,
+  "totalChecks": 288,
   "items": [
     {
       "id": "espn:soccer/uefa.champions:401915382",
@@ -1528,6 +1528,30 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/uefa.nations:401861145",
+      "date": "2026-11-12",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Belgium at Türkiye",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861146",
+      "date": "2026-11-12",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Cyprus at Armenia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
       "id": "espn:soccer/uefa.wchampions:401916986",
       "date": "2026-11-12",
       "time": "17:45",
@@ -1538,6 +1562,79 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861149",
+      "date": "2026-11-12",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Belarus at San Marino",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861150",
+      "date": "2026-11-12",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Croatia at England",
+      "service": "ITVX",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861147",
+      "date": "2026-11-12",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Finland at Albania",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861151",
+      "date": "2026-11-12",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "France at Italy",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861152",
+      "date": "2026-11-12",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Latvia at Montenegro",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861148",
+      "date": "2026-11-12",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Spain at Czechia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909977",
@@ -1598,6 +1695,127 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861162",
+      "date": "2026-11-13",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Kazakhstan at Moldova",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861153",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Azerbaijan at Liechtenstein",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861154",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Estonia at Luxembourg",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861160",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Faroe Islands at Slovakia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861158",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Germany at Serbia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861155",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Gibraltar at Andorra",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861159",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Greece at Netherlands",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861157",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Iceland at Bulgaria",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861161",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "North Macedonia at Scotland",
+      "service": "BBC iPlayer",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861156",
+      "date": "2026-11-13",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Switzerland at Slovenia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909297",
@@ -1732,6 +1950,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "espn:soccer/uefa.nations:401861163",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Israel at Kosovo",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
       "id": "espn:soccer/eng.w.1:401902861",
       "date": "2026-11-14",
       "time": "15:00",
@@ -1744,6 +1974,31 @@
       "broadcastVerified": false
     },
     {
+      "id": "espn:soccer/uefa.nations:401861164",
+      "date": "2026-11-14",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Hungary at Georgia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861165",
+      "date": "2026-11-14",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Wales at Norway",
+      "service": "BBC iPlayer",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
       "id": "espn:soccer/eng.w.1:401902862",
       "date": "2026-11-14",
       "time": "17:15",
@@ -1754,6 +2009,67 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861166",
+      "date": "2026-11-14",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Bosnia-Herzegovina at Sweden",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861167",
+      "date": "2026-11-14",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Denmark at Portugal",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861168",
+      "date": "2026-11-14",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Poland at Romania",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861170",
+      "date": "2026-11-14",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Republic of Ireland at Austria",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861169",
+      "date": "2026-11-14",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Ukraine at Northern Ireland",
+      "service": "BBC iPlayer",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
     },
     {
       "id": "espn:basketball/nba:401909980",
@@ -1816,6 +2132,18 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/uefa.nations:401861171",
+      "date": "2026-11-15",
+      "time": "14:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Armenia at Latvia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
       "id": "espn:soccer/eng.w.1:401902859",
       "date": "2026-11-15",
       "time": "14:00",
@@ -1840,6 +2168,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "espn:soccer/uefa.nations:401861172",
+      "date": "2026-11-15",
+      "time": "14:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Montenegro at Cyprus",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
       "id": "espn:football/nfl:401873053",
       "date": "2026-11-15",
       "time": "14:30",
@@ -1858,6 +2198,30 @@
       "sport": "Football",
       "competition": "WSL",
       "title": "London City Lionesses at Arsenal",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861173",
+      "date": "2026-11-15",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Albania at Belarus",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861174",
+      "date": "2026-11-15",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "San Marino at Finland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -1954,6 +2318,55 @@
       "sport": "NFL",
       "competition": "NFL",
       "title": "Minnesota Vikings at Green Bay Packers",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861178",
+      "date": "2026-11-15",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Czechia at Croatia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861175",
+      "date": "2026-11-15",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "England at Spain",
+      "service": "ITVX",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861176",
+      "date": "2026-11-15",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Italy at Belgium",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861177",
+      "date": "2026-11-15",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Türkiye at France",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -2104,6 +2517,127 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/uefa.nations:401861180",
+      "date": "2026-11-16",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Moldova at Faroe Islands",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861181",
+      "date": "2026-11-16",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Slovakia at Kazakhstan",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861183",
+      "date": "2026-11-16",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Bulgaria at Estonia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861184",
+      "date": "2026-11-16",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Liechtenstein at Lithuania",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861182",
+      "date": "2026-11-16",
+      "time": "17:00",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Luxembourg at Iceland",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861179",
+      "date": "2026-11-16",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Malta at Gibraltar",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861185",
+      "date": "2026-11-16",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Netherlands at Germany",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861186",
+      "date": "2026-11-16",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Scotland at Switzerland",
+      "service": "BBC iPlayer",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861188",
+      "date": "2026-11-16",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Serbia at Greece",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861187",
+      "date": "2026-11-16",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Slovenia at North Macedonia",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
       "id": "espn:basketball/nba:401909995",
       "date": "2026-11-17",
       "time": "00:00",
@@ -2210,6 +2744,104 @@
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861193",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Austria at Israel",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861190",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Georgia at Ukraine",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861192",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Kosovo at Republic of Ireland",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861191",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Northern Ireland at Hungary",
+      "service": "BBC iPlayer",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861194",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Norway at Denmark",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861189",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Portugal at Wales",
+      "service": "BBC iPlayer",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861196",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Romania at Bosnia-Herzegovina",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.nations:401861195",
+      "date": "2026-11-17",
+      "time": "19:45",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "title": "Sweden at Poland",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910002",
@@ -6126,6 +6758,186 @@
       "ok": true
     },
     {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-04",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-05",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-06",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-07",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-08",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-09",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-10",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-11",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-12",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-13",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-14",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-15",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-16",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-17",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-18",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-19",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-20",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-21",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-22",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-23",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-24",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-25",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-26",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-27",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-28",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-29",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-11-30",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-01",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-02",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-03",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-04",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-05",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-06",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-07",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-08",
+      "ok": true
+    },
+    {
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-09",
+      "ok": true
+    },
+    {
       "feed": "soccer/uefa.wchampions",
       "date": "2026-11-04",
       "ok": true
@@ -6486,5 +7298,5 @@
       "ok": true
     }
   ],
-  "note": "NBA, MLS and Women’s Champions League have competition-level access rules. Other UK broadcast rights require verified per-fixture overrides."
+  "note": "NBA, MLS, Women’s Champions League and UK home-nation Nations League games have access rules. Prime Video Nations League PPV is excluded. Other rights require verified overrides."
 }
