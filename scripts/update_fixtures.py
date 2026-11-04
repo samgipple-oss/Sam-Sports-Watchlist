@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'live-fixtures.json'
 OVERRIDES = ROOT / 'broadcast-overrides.json'
+CURATED = ROOT / 'verified-broadcasts.json'
 TZ = ZoneInfo('Europe/London')
 FEEDS = [
     ('NBA', 'NBA', 'basketball/nba', 'League Pass'),
@@ -170,6 +171,37 @@ def main():
         relevant = [local_day - dt.timedelta(days=1), local_day]
         if not all((path, d.isoformat()) in successful_ids for d in relevant if d >= today):
             merged[gid] = entitlement(game, overrides, old)
+    # Curated UK broadcasts are a separate list, since ESPN cannot identify
+    # which NFL game Channel 5 selects and its rugby feed is unreliable.
+    # Each entry needs a specific broadcast source URL and a service we own.
+    curated = read_json(CURATED, [])
+    if not isinstance(curated, list):
+        curated = []
+    added = 0
+    for entry in curated:
+        if not isinstance(entry, dict):
+            continue
+        if not all(isinstance(entry.get(k), str) and entry[k].strip()
+                   for k in ('id', 'date', 'time', 'sport', 'competition', 'title', 'service', 'sourceUrl')):
+            continue
+        if not today.isoformat() <= entry['date'] <= end.isoformat():
+            continue
+        if entry['service'] not in ALLOWED or not entry['sourceUrl'].startswith('https://'):
+            continue
+        # When the same NFL game is already fetched from ESPN, upgrade that
+        # record rather than show a second copy.
+        match = next((g for g in merged.values() if g.get('sport') == entry['sport']
+                      and g.get('date') == entry['date']
+                      and g.get('title', '').casefold() == entry['title'].casefold()), None)
+        if match is not None:
+            match.update(service=entry['service'], broadcastVerified=True,
+                         broadcastSource=entry['sourceUrl'])
+        else:
+            merged[entry['id']] = {k: entry[k] for k in ('id','date','time','sport','competition','title','service')}
+            merged[entry['id']].update(source='Verified UK broadcast list',
+                                      broadcastVerified=True, broadcastSource=entry['sourceUrl'])
+        added += 1
+    print(f'Curated UK broadcasts applied: {added}', flush=True)
     coverage = [{'feed': path, 'date': day, 'ok': ok, **({'error': error[:180]} if error else {})} for path, day, ok, _, error in sorted(results, key=lambda r: (r[0], r[1]))]
     payload = {
         'updatedAt': dt.datetime.now(dt.timezone.utc).isoformat(),
