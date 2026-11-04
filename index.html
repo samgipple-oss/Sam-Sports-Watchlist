@@ -288,14 +288,15 @@
       const iframe = document.createElement("iframe");
 
       // Start Jungle — Busy Earnin' at 15 seconds
+      // Attempt autoplay when the baseball is clicked
       iframe.src =
         "https://www.youtube.com/embed/" +
         videoId +
-        "?start=15&playsinline=1";
+        "?start=15&autoplay=1&playsinline=1";
 
       iframe.title = "Jungle — Busy Earnin'";
       iframe.allow =
-        "accelerometer; encrypted-media; " +
+        "autoplay; accelerometer; encrypted-media; " +
         "gyroscope; picture-in-picture; fullscreen";
       iframe.allowFullscreen = true;
       iframe.referrerPolicy =
