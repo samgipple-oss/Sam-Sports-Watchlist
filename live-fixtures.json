@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T15:25:52.471307+00:00",
+  "updatedAt": "2026-11-04T15:37:45.018859+00:00",
   "successfulChecks": 315,
   "totalChecks": 315,
   "items": [
@@ -4551,18 +4551,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-27:tbc:tbc",
-      "date": "2026-11-27",
-      "time": "16:40",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879225",
       "date": "2026-11-27",
       "time": "20:00",
@@ -4743,18 +4731,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-28:tbc:tbc",
-      "date": "2026-11-28",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -4885,18 +4861,6 @@
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
       "source": "Published 2026 Nations Championship schedule"
-    },
-    {
-      "id": "ukrugby:2026-11-29:tbc:tbc",
-      "date": "2026-11-29",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "espn:soccer/eng.1:401879228",
