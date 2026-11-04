@@ -24,6 +24,7 @@ FEEDS = [
     ('Football', 'Champions League', 'soccer/uefa.champions', 'Check broadcaster'),
     ('Football', 'Premier League', 'soccer/eng.1', 'Check broadcaster'),
     ('Football', 'WSL', 'soccer/eng.w.1', 'Check broadcaster'),
+    ('Football', 'UEFA Nations League', 'soccer/uefa.nations', 'Check broadcaster'),
     ('Football', 'Women’s Champions League', 'soccer/uefa.wchampions', 'Disney+'),
 ]
 ALLOWED = {
@@ -83,6 +84,21 @@ def fetch(job):
                 time.sleep(0.5 * (attempt + 1))
     return path, day.isoformat(), False, [], error
 
+def nations_league_service(game):
+    """Free UK rights for the four home nations; do not include Prime PPV."""
+    if game.get('competition') != 'UEFA Nations League':
+        return None
+    title = str(game.get('title', ''))
+    teams = [team.strip().casefold() for team in title.split(' at ')]
+    if len(teams) != 2:
+        return None
+    if 'england' in teams:
+        return 'ITVX'
+    if any(team in teams for team in ('scotland', 'wales', 'northern ireland')):
+        return 'BBC iPlayer'
+    return None
+
+
 def entitlement(game, overrides, old):
     """Only claim verified broadcasts when supported by explicit evidence."""
     game = dict(game)
@@ -93,6 +109,8 @@ def entitlement(game, overrides, old):
         game.update(service='Apple TV', broadcastVerified=True)
     elif game['competition'] == 'Women’s Champions League':
         game.update(service='Disney+', broadcastVerified=True)
+    elif nations_league_service(game):
+        game.update(service=nations_league_service(game), broadcastVerified=True, broadcastSource='https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/')
     else:
         game.update(service='Check broadcaster', broadcastVerified=False)
 
@@ -159,7 +177,7 @@ def main():
         'totalChecks': len(results),
         'items': sorted(merged.values(), key=lambda g: (g.get('date', ''), g.get('time', ''), g.get('title', ''))),
         'coverage': coverage,
-        'note': 'NBA, MLS and Women’s Champions League have competition-level access rules. Other UK broadcast rights require verified per-fixture overrides.',
+        'note': 'NBA, MLS, Women’s Champions League and UK home-nation Nations League games have access rules. Prime Video Nations League PPV is excluded. Other rights require verified overrides.',
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Updated: {len(merged)} fixtures; {len(successful)}/{len(results)} checks succeeded; {sum(g.get("broadcastVerified") is True for g in merged.values())} watchable', flush=True)
