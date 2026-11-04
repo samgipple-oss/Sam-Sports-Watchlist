@@ -25,7 +25,7 @@
   <title>SPORTS ALMANAC</title>
 
   <style>
-    /* Ensure the title and baseball display correctly */
+    /* Existing heading layout */
     .headrow h1 {
       text-transform: uppercase;
       display: flex;
@@ -34,6 +34,7 @@
       gap: 10px;
     }
 
+    /* Small baseball Easter egg */
     .headrow h1 .baseball {
       font-family: "Apple Color Emoji",
                    "Segoe UI Emoji",
@@ -45,6 +46,91 @@
       text-shadow: none;
       display: inline-block;
       line-height: 1;
+    }
+
+    .jukebox-ball {
+      appearance: none;
+      background: transparent;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .jukebox-ball:hover {
+      transform: rotate(25deg) scale(1.12);
+    }
+
+    .jukebox-ball:active {
+      transform: rotate(80deg) scale(0.95);
+    }
+
+    .jukebox-ball:focus-visible {
+      outline: 2px solid #f4e5da;
+      outline-offset: 4px;
+      border-radius: 50%;
+    }
+
+    /* Hidden until the baseball is clicked */
+    .jukebox-player {
+      max-width: 360px;
+      margin: 12px 0 18px;
+      padding: 12px;
+      background: #442a32;
+      border: 1px solid #81505a;
+      border-radius: 10px;
+      color: #f4e5da;
+      box-shadow: 0 8px 20px #0003;
+    }
+
+    .jukebox-player[hidden] {
+      display: none;
+    }
+
+    .jukebox-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+    }
+
+    .jukebox-top button {
+      background: transparent;
+      border: 0;
+      padding: 0 3px;
+      color: #f4e5da;
+      font-size: 21px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .jukebox-player p {
+      margin: 8px 0 12px;
+      font-size: 12px;
+      color: #e5c9c5;
+    }
+
+    .jukebox-video {
+      width: 100%;
+    }
+
+    .jukebox-video iframe {
+      display: block;
+      width: 100%;
+      min-height: 200px;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 5px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .jukebox-ball {
+        transition: none;
+      }
     }
   </style>
 </head>
@@ -58,8 +144,16 @@
     <div class="headrow">
       <h1>
         SPORTS ALMANAC
-        <span class="baseball" role="img"
-              aria-label="Baseball">⚾️</span>
+
+        <button
+          id="jukeboxBall"
+          class="baseball jukebox-ball"
+          type="button"
+          title="Press for good vibes 🎵"
+          aria-label="Open the Almanac jukebox"
+          aria-expanded="false"
+          aria-controls="jukeboxPlayer"
+        >⚾️</button>
       </h1>
 
       <button id="refresh"
@@ -71,6 +165,27 @@
     <p class="muted" id="status">
       Loading saved schedule…
     </p>
+
+    <!-- Tiny jukebox, revealed by the baseball -->
+    <div id="jukeboxPlayer"
+         class="jukebox-player"
+         hidden>
+
+      <div class="jukebox-top">
+        <span>♫ THE ALMANAC JUKEBOX</span>
+
+        <button
+          id="closeJukebox"
+          type="button"
+          aria-label="Close jukebox"
+        >×</button>
+      </div>
+
+      <p>Jungle — Busy Earnin'</p>
+
+      <div id="jukeboxVideo"
+           class="jukebox-video"></div>
+    </div>
   </header>
 
   <section class="stats">
@@ -144,6 +259,69 @@
 
 </main>
 
+<!-- Your existing fixtures application -->
 <script src="app.js" defer></script>
+
+<!-- Almanac jukebox: independent of app.js -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const ball = document.getElementById("jukeboxBall");
+    const player = document.getElementById("jukeboxPlayer");
+    const video = document.getElementById("jukeboxVideo");
+    const close = document.getElementById("closeJukebox");
+
+    const videoId = "BcsfftwLUf0";
+
+    function closePlayer() {
+      player.hidden = true;
+      ball.setAttribute("aria-expanded", "false");
+      ball.setAttribute(
+        "aria-label",
+        "Open the Almanac jukebox"
+      );
+
+      // Removing the iframe stops playback.
+      video.replaceChildren();
+    }
+
+    function openPlayer() {
+      const iframe = document.createElement("iframe");
+
+      // Start Jungle — Busy Earnin' at 15 seconds
+      iframe.src =
+        "https://www.youtube.com/embed/" +
+        videoId +
+        "?start=15&playsinline=1";
+
+      iframe.title = "Jungle — Busy Earnin'";
+      iframe.allow =
+        "accelerometer; encrypted-media; " +
+        "gyroscope; picture-in-picture; fullscreen";
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy =
+        "strict-origin-when-cross-origin";
+
+      video.replaceChildren(iframe);
+
+      player.hidden = false;
+      ball.setAttribute("aria-expanded", "true");
+      ball.setAttribute(
+        "aria-label",
+        "Close the Almanac jukebox"
+      );
+    }
+
+    ball.addEventListener("click", () => {
+      if (player.hidden) {
+        openPlayer();
+      } else {
+        closePlayer();
+      }
+    });
+
+    close.addEventListener("click", closePlayer);
+  });
+</script>
+
 </body>
 </html>
