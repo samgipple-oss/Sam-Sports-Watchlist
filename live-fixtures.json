@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T18:55:19.143569+00:00",
+  "updatedAt": "2026-11-04T21:55:13.541563+00:00",
   "successfulChecks": 315,
   "totalChecks": 315,
   "items": [
@@ -12,7 +12,7 @@
       "title": "Liverpool at Fenerbahce",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
+      "liveStatus": "Full Time",
       "broadcastVerified": false
     },
     {
@@ -24,7 +24,7 @@
       "title": "Real Madrid at AEK Athens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
+      "liveStatus": "Full Time",
       "broadcastVerified": false
     },
     {
@@ -36,7 +36,7 @@
       "title": "Arsenal at Slavia Prague",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Full Time",
       "broadcastVerified": false
     },
     {
@@ -48,7 +48,7 @@
       "title": "Club Brugge at PSV Eindhoven",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Full Time",
       "broadcastVerified": false
     },
     {
@@ -60,7 +60,7 @@
       "title": "Como at Lens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "broadcastVerified": false
     },
     {
@@ -72,7 +72,7 @@
       "title": "Manchester City at RB Leipzig",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Full Time",
       "broadcastVerified": false
     },
     {
@@ -84,7 +84,7 @@
       "title": "Napoli at FC Porto",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Full Time",
       "broadcastVerified": false
     },
     {
@@ -96,7 +96,7 @@
       "title": "Real Betis at Borussia Dortmund",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "broadcastVerified": false
     },
     {
@@ -108,7 +108,7 @@
       "title": "Sabah FK at Viking FK",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Full Time",
       "broadcastVerified": false
     },
     {
