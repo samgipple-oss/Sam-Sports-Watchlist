@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T13:14:48.004148+00:00",
+  "updatedAt": "2026-11-04T13:29:53.473337+00:00",
   "successfulChecks": 252,
-  "totalChecks": 288,
+  "totalChecks": 252,
   "items": [
     {
       "id": "espn:soccer/uefa.champions:401915382",
@@ -12,7 +12,8 @@
       "title": "Liverpool at Fenerbahce",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915383",
@@ -23,7 +24,8 @@
       "title": "Real Madrid at AEK Athens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915381",
@@ -34,7 +36,8 @@
       "title": "Arsenal at Slavia Prague",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915303",
@@ -45,7 +48,8 @@
       "title": "Club Brugge at PSV Eindhoven",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915305",
@@ -56,7 +60,8 @@
       "title": "Como at Lens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915306",
@@ -67,7 +72,8 @@
       "title": "Manchester City at RB Leipzig",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915301",
@@ -78,7 +84,8 @@
       "title": "Napoli at FC Porto",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915304",
@@ -89,7 +96,8 @@
       "title": "Real Betis at Borussia Dortmund",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915302",
@@ -100,7 +108,8 @@
       "title": "Sabah FK at Viking FK",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909923",
@@ -111,7 +120,8 @@
       "title": "Atlanta Hawks at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909922",
@@ -122,7 +132,8 @@
       "title": "Philadelphia 76ers at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909925",
@@ -133,7 +144,8 @@
       "title": "Charlotte Hornets at Brooklyn Nets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909926",
@@ -144,7 +156,8 @@
       "title": "Chicago Bulls at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909924",
@@ -155,7 +168,8 @@
       "title": "Milwaukee Bucks at Boston Celtics",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909929",
@@ -166,7 +180,8 @@
       "title": "Cleveland Cavaliers at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909927",
@@ -177,7 +192,8 @@
       "title": "Indiana Pacers at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909928",
@@ -188,7 +204,8 @@
       "title": "Utah Jazz at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909930",
@@ -199,7 +216,8 @@
       "title": "Minnesota Timberwolves at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909932",
@@ -210,7 +228,8 @@
       "title": "Portland Trail Blazers at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909931",
@@ -221,7 +240,8 @@
       "title": "Toronto Raptors at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909933",
@@ -232,7 +252,8 @@
       "title": "Dallas Mavericks at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909934",
@@ -243,7 +264,8 @@
       "title": "Los Angeles Lakers at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909935",
@@ -254,7 +276,8 @@
       "title": "Miami Heat at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873037",
@@ -265,7 +288,8 @@
       "title": "Jacksonville Jaguars at Baltimore Ravens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909936",
@@ -276,7 +300,8 @@
       "title": "Orlando Magic at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909937",
@@ -287,7 +312,8 @@
       "title": "Miami Heat at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879242",
@@ -298,7 +324,8 @@
       "title": "Coventry City at Everton",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909288",
@@ -309,7 +336,8 @@
       "title": "Boston Celtics at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909287",
@@ -320,7 +348,8 @@
       "title": "Washington Wizards at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909289",
@@ -331,7 +360,8 @@
       "title": "Philadelphia 76ers at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909293",
@@ -342,7 +372,8 @@
       "title": "Minnesota Timberwolves at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909291",
@@ -353,7 +384,8 @@
       "title": "Oklahoma City Thunder at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909292",
@@ -364,7 +396,8 @@
       "title": "Toronto Raptors at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909290",
@@ -375,7 +408,8 @@
       "title": "Utah Jazz at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909294",
@@ -386,7 +420,8 @@
       "title": "Portland Trail Blazers at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909295",
@@ -397,7 +432,8 @@
       "title": "San Antonio Spurs at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401878758",
@@ -408,7 +444,8 @@
       "title": "Tottenham Hotspur at Leeds United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902869",
@@ -419,7 +456,8 @@
       "title": "Everton at Chelsea",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902868",
@@ -430,7 +468,8 @@
       "title": "West Ham United at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878760",
@@ -441,7 +480,8 @@
       "title": "Hull City at Arsenal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879241",
@@ -452,7 +492,8 @@
       "title": "Newcastle United at Fulham",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878757",
@@ -463,7 +504,8 @@
       "title": "Manchester City at Nottingham Forest",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/usa.1:761939",
@@ -474,7 +516,8 @@
       "title": "Atlanta United FC at Red Bull New York",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761938",
@@ -485,7 +528,8 @@
       "title": "Charlotte FC at Inter Miami CF",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761935",
@@ -496,7 +540,8 @@
       "title": "Columbus Crew at Chicago Fire FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761937",
@@ -507,7 +552,8 @@
       "title": "Nashville SC at FC Cincinnati",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761940",
@@ -518,7 +564,8 @@
       "title": "New England Revolution at Orlando City SC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761936",
@@ -529,7 +576,8 @@
       "title": "New York City FC at D.C. United",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761941",
@@ -540,7 +588,8 @@
       "title": "Toronto FC at Philadelphia Union",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761934",
@@ -551,7 +600,8 @@
       "title": "Vancouver Whitecaps at CF Montréal",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909938",
@@ -562,7 +612,8 @@
       "title": "Denver Nuggets at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761943",
@@ -573,7 +624,8 @@
       "title": "Colorado Rapids at FC Dallas",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761946",
@@ -584,7 +636,8 @@
       "title": "LA Galaxy at Real Salt Lake",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761948",
@@ -595,7 +648,8 @@
       "title": "LAFC at Seattle Sounders FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761942",
@@ -606,7 +660,8 @@
       "title": "Portland Timbers at Austin FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761945",
@@ -617,7 +672,8 @@
       "title": "San Jose Earthquakes at Minnesota United FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761947",
@@ -628,7 +684,8 @@
       "title": "Sporting Kansas City at San Diego FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/usa.1:761944",
@@ -639,7 +696,8 @@
       "title": "St. Louis CITY SC at Houston Dynamo FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909939",
@@ -650,7 +708,8 @@
       "title": "Brooklyn Nets at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909940",
@@ -661,7 +720,8 @@
       "title": "New York Knicks at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909941",
@@ -672,7 +732,8 @@
       "title": "Washington Wizards at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909942",
@@ -683,7 +744,8 @@
       "title": "Orlando Magic at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909943",
@@ -694,7 +756,8 @@
       "title": "Houston Rockets at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909944",
@@ -705,7 +768,8 @@
       "title": "San Antonio Spurs at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.w.1:401902871",
@@ -716,7 +780,8 @@
       "title": "Arsenal at Liverpool",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902870",
@@ -727,7 +792,8 @@
       "title": "Manchester United at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878759",
@@ -738,7 +804,8 @@
       "title": "AFC Bournemouth at Ipswich Town",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879244",
@@ -749,7 +816,8 @@
       "title": "Brentford at Brighton & Hove Albion",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902866",
@@ -760,7 +828,8 @@
       "title": "Brighton & Hove Albion at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902867",
@@ -771,7 +840,8 @@
       "title": "Charlton Athletic at Crystal Palace",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879239",
@@ -782,7 +852,8 @@
       "title": "Chelsea at Sunderland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879243",
@@ -793,7 +864,8 @@
       "title": "Liverpool at Crystal Palace",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902872",
@@ -804,7 +876,8 @@
       "title": "Birmingham City at London City Lionesses",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873038",
@@ -815,7 +888,8 @@
       "title": "Cincinnati Bengals at Atlanta Falcons",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879240",
@@ -826,7 +900,8 @@
       "title": "Aston Villa at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873039",
@@ -837,7 +912,8 @@
       "title": "Cleveland Browns at New Orleans Saints",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873040",
@@ -848,7 +924,8 @@
       "title": "Dallas Cowboys at Indianapolis Colts",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873041",
@@ -859,7 +936,8 @@
       "title": "Denver Broncos at Carolina Panthers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873042",
@@ -870,7 +948,8 @@
       "title": "Detroit Lions at Miami Dolphins",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873043",
@@ -881,7 +960,8 @@
       "title": "Los Angeles Rams at Washington Commanders",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873044",
@@ -892,7 +972,8 @@
       "title": "New York Giants at Philadelphia Eagles",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873045",
@@ -903,7 +984,8 @@
       "title": "New York Jets at Kansas City Chiefs",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909945",
@@ -914,7 +996,8 @@
       "title": "Philadelphia 76ers at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873046",
@@ -925,7 +1008,8 @@
       "title": "Houston Texans at Los Angeles Chargers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873048",
@@ -936,7 +1020,8 @@
       "title": "Arizona Cardinals at Seattle Seahawks",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873049",
@@ -947,7 +1032,8 @@
       "title": "Green Bay Packers at New England Patriots",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873047",
@@ -958,7 +1044,8 @@
       "title": "Las Vegas Raiders at San Francisco 49ers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909946",
@@ -969,7 +1056,8 @@
       "title": "Los Angeles Lakers at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909947",
@@ -980,7 +1068,8 @@
       "title": "Utah Jazz at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909948",
@@ -991,7 +1080,8 @@
       "title": "Brooklyn Nets at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909949",
@@ -1002,7 +1092,8 @@
       "title": "Boston Celtics at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873050",
@@ -1013,7 +1104,8 @@
       "title": "Tampa Bay Buccaneers at Chicago Bears",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909951",
@@ -1024,7 +1116,8 @@
       "title": "Miami Heat at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909950",
@@ -1035,7 +1128,8 @@
       "title": "New Orleans Pelicans at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909953",
@@ -1046,7 +1140,8 @@
       "title": "Cleveland Cavaliers at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909952",
@@ -1057,7 +1152,8 @@
       "title": "Los Angeles Lakers at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909954",
@@ -1068,7 +1164,8 @@
       "title": "Washington Wizards at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909955",
@@ -1079,7 +1176,8 @@
       "title": "Memphis Grizzlies at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909956",
@@ -1090,7 +1188,8 @@
       "title": "Indiana Pacers at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873051",
@@ -1101,7 +1200,8 @@
       "title": "Buffalo Bills at Minnesota Vikings",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909957",
@@ -1112,7 +1212,8 @@
       "title": "Denver Nuggets at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909958",
@@ -1123,7 +1224,8 @@
       "title": "San Antonio Spurs at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909959",
@@ -1134,7 +1236,8 @@
       "title": "New Orleans Pelicans at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916991",
@@ -1143,9 +1246,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Chelsea at BK Häcken",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916990",
@@ -1154,9 +1258,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Paris FC at Real Madrid",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916987",
@@ -1165,9 +1270,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Bayern Munich at Paris Saint-Germain",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916988",
@@ -1176,9 +1282,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Manchester City at Internazionale",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916989",
@@ -1187,9 +1294,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Servette at Roma",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909960",
@@ -1200,7 +1308,8 @@
       "title": "Milwaukee Bucks at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909961",
@@ -1211,7 +1320,8 @@
       "title": "Boston Celtics at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909962",
@@ -1222,7 +1332,8 @@
       "title": "LA Clippers at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909963",
@@ -1233,7 +1344,8 @@
       "title": "Miami Heat at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909964",
@@ -1244,7 +1356,8 @@
       "title": "Orlando Magic at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909965",
@@ -1255,7 +1368,8 @@
       "title": "Oklahoma City Thunder at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916985",
@@ -1264,9 +1378,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "HB Køge at OH Leuven",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916983",
@@ -1275,9 +1390,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Austria Vienna at Benfica",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916984",
@@ -1286,9 +1402,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "OL Lyonnes at Juventus",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909968",
@@ -1299,7 +1416,8 @@
       "title": "Boston Celtics at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909967",
@@ -1310,7 +1428,8 @@
       "title": "Cleveland Cavaliers at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909966",
@@ -1321,7 +1440,8 @@
       "title": "Washington Wizards at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909972",
@@ -1332,7 +1452,8 @@
       "title": "Brooklyn Nets at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909970",
@@ -1343,7 +1464,8 @@
       "title": "Denver Nuggets at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909971",
@@ -1354,7 +1476,8 @@
       "title": "Los Angeles Lakers at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909969",
@@ -1365,7 +1488,8 @@
       "title": "San Antonio Spurs at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909973",
@@ -1376,7 +1500,8 @@
       "title": "Orlando Magic at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909974",
@@ -1387,7 +1512,8 @@
       "title": "Golden State Warriors at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909975",
@@ -1398,7 +1524,8 @@
       "title": "Oklahoma City Thunder at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916986",
@@ -1407,9 +1534,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Arsenal at Barcelona",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909977",
@@ -1420,7 +1548,8 @@
       "title": "Detroit Pistons at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909976",
@@ -1431,7 +1560,8 @@
       "title": "Toronto Raptors at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909978",
@@ -1442,7 +1572,8 @@
       "title": "Dallas Mavericks at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873052",
@@ -1453,7 +1584,8 @@
       "title": "Washington Commanders at New York Giants",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909979",
@@ -1464,7 +1596,8 @@
       "title": "Charlotte Hornets at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909297",
@@ -1475,7 +1608,8 @@
       "title": "Milwaukee Bucks at Orlando Magic",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909296",
@@ -1486,7 +1620,8 @@
       "title": "New York Knicks at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909299",
@@ -1497,7 +1632,8 @@
       "title": "Atlanta Hawks at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909298",
@@ -1508,7 +1644,8 @@
       "title": "Cleveland Cavaliers at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909300",
@@ -1519,7 +1656,8 @@
       "title": "Memphis Grizzlies at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909301",
@@ -1530,7 +1668,8 @@
       "title": "Utah Jazz at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909302",
@@ -1541,7 +1680,8 @@
       "title": "Golden State Warriors at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909303",
@@ -1552,7 +1692,8 @@
       "title": "Portland Trail Blazers at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909304",
@@ -1563,7 +1704,8 @@
       "title": "Oklahoma City Thunder at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.w.1:401902863",
@@ -1574,7 +1716,8 @@
       "title": "Crystal Palace at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902865",
@@ -1585,7 +1728,8 @@
       "title": "Manchester City at Chelsea",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902861",
@@ -1596,7 +1740,8 @@
       "title": "Everton at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902862",
@@ -1607,7 +1752,8 @@
       "title": "Liverpool at Brighton & Hove Albion",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909980",
@@ -1618,7 +1764,8 @@
       "title": "Denver Nuggets at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909981",
@@ -1629,7 +1776,8 @@
       "title": "Dallas Mavericks at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909983",
@@ -1640,7 +1788,8 @@
       "title": "Brooklyn Nets at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909984",
@@ -1651,7 +1800,8 @@
       "title": "Chicago Bulls at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909982",
@@ -1662,7 +1812,8 @@
       "title": "Detroit Pistons at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.w.1:401902859",
@@ -1673,7 +1824,8 @@
       "title": "Birmingham City at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902860",
@@ -1684,7 +1836,8 @@
       "title": "Charlton Athletic at West Ham United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873053",
@@ -1695,7 +1848,8 @@
       "title": "New England Patriots at Detroit Lions",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902864",
@@ -1706,7 +1860,8 @@
       "title": "London City Lionesses at Arsenal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873054",
@@ -1717,7 +1872,8 @@
       "title": "Buffalo Bills at New York Jets",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873055",
@@ -1728,7 +1884,8 @@
       "title": "Carolina Panthers at New Orleans Saints",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873056",
@@ -1739,7 +1896,8 @@
       "title": "Houston Texans at Cleveland Browns",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909985",
@@ -1750,7 +1908,8 @@
       "title": "Indiana Pacers at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873057",
@@ -1761,7 +1920,8 @@
       "title": "Jacksonville Jaguars at Tennessee Titans",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873058",
@@ -1772,7 +1932,8 @@
       "title": "Kansas City Chiefs at Atlanta Falcons",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873059",
@@ -1783,7 +1944,8 @@
       "title": "Miami Dolphins at Indianapolis Colts",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873060",
@@ -1794,7 +1956,8 @@
       "title": "Minnesota Vikings at Green Bay Packers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909986",
@@ -1805,7 +1968,8 @@
       "title": "Los Angeles Lakers at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873061",
@@ -1816,7 +1980,8 @@
       "title": "Los Angeles Rams at Arizona Cardinals",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873062",
@@ -1827,7 +1992,8 @@
       "title": "Seattle Seahawks at Las Vegas Raiders",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873063",
@@ -1838,7 +2004,8 @@
       "title": "San Francisco 49ers at Dallas Cowboys",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909987",
@@ -1849,7 +2016,8 @@
       "title": "Charlotte Hornets at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909988",
@@ -1860,7 +2028,8 @@
       "title": "San Antonio Spurs at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909989",
@@ -1871,7 +2040,8 @@
       "title": "Dallas Mavericks at Boston Celtics",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909990",
@@ -1882,7 +2052,8 @@
       "title": "New York Knicks at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909991",
@@ -1893,7 +2064,8 @@
       "title": "Houston Rockets at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909992",
@@ -1904,7 +2076,8 @@
       "title": "Atlanta Hawks at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873064",
@@ -1915,7 +2088,8 @@
       "title": "Pittsburgh Steelers at Cincinnati Bengals",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909993",
@@ -1926,7 +2100,8 @@
       "title": "Oklahoma City Thunder at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909995",
@@ -1937,7 +2112,8 @@
       "title": "Chicago Bulls at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909996",
@@ -1948,7 +2124,8 @@
       "title": "Memphis Grizzlies at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909994",
@@ -1959,7 +2136,8 @@
       "title": "Orlando Magic at Boston Celtics",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909998",
@@ -1970,7 +2148,8 @@
       "title": "Houston Rockets at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909997",
@@ -1981,7 +2160,8 @@
       "title": "Philadelphia 76ers at Brooklyn Nets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910000",
@@ -1992,7 +2172,8 @@
       "title": "Golden State Warriors at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909999",
@@ -2003,7 +2184,8 @@
       "title": "Portland Trail Blazers at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873065",
@@ -2014,7 +2196,8 @@
       "title": "Los Angeles Chargers at Baltimore Ravens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910001",
@@ -2025,7 +2208,8 @@
       "title": "Phoenix Suns at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910002",
@@ -2036,7 +2220,8 @@
       "title": "New York Knicks at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910004",
@@ -2047,7 +2232,8 @@
       "title": "Detroit Pistons at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910003",
@@ -2058,7 +2244,8 @@
       "title": "Portland Trail Blazers at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910005",
@@ -2069,7 +2256,8 @@
       "title": "Charlotte Hornets at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910006",
@@ -2080,7 +2268,8 @@
       "title": "Utah Jazz at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916981",
@@ -2089,9 +2278,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Internazionale at Real Madrid",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916982",
@@ -2100,9 +2290,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Manchester City at BK Häcken",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916979",
@@ -2111,9 +2302,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "OH Leuven at Juventus",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916980",
@@ -2122,9 +2314,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Paris Saint-Germain at Chelsea",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910008",
@@ -2135,7 +2328,8 @@
       "title": "Houston Rockets at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910007",
@@ -2146,7 +2340,8 @@
       "title": "Memphis Grizzlies at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910009",
@@ -2157,7 +2352,8 @@
       "title": "Milwaukee Bucks at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910010",
@@ -2168,7 +2364,8 @@
       "title": "Philadelphia 76ers at Orlando Magic",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910011",
@@ -2179,7 +2376,8 @@
       "title": "Chicago Bulls at Brooklyn Nets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910012",
@@ -2190,7 +2388,8 @@
       "title": "Washington Wizards at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910014",
@@ -2201,7 +2400,8 @@
       "title": "Atlanta Hawks at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910013",
@@ -2212,7 +2412,8 @@
       "title": "Detroit Pistons at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910015",
@@ -2223,7 +2424,8 @@
       "title": "Boston Celtics at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910016",
@@ -2234,7 +2436,8 @@
       "title": "Golden State Warriors at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910018",
@@ -2245,7 +2448,8 @@
       "title": "Phoenix Suns at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910017",
@@ -2256,7 +2460,8 @@
       "title": "Utah Jazz at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916978",
@@ -2265,9 +2470,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Bayern Munich at Austria Vienna",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916977",
@@ -2276,9 +2482,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "HB Køge at Paris FC",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916976",
@@ -2287,9 +2494,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "OL Lyonnes at Arsenal",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916974",
@@ -2298,9 +2506,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Roma at Benfica",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.wchampions:401916975",
@@ -2309,9 +2518,10 @@
       "sport": "Football",
       "competition": "Women’s Champions League",
       "title": "Servette at Barcelona",
-      "service": "Check broadcaster",
+      "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910019",
@@ -2322,7 +2532,8 @@
       "title": "Golden State Warriors at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910022",
@@ -2333,7 +2544,8 @@
       "title": "LA Clippers at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910021",
@@ -2344,7 +2556,8 @@
       "title": "New York Knicks at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910020",
@@ -2355,7 +2568,8 @@
       "title": "Portland Trail Blazers at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873066",
@@ -2366,7 +2580,8 @@
       "title": "Indianapolis Colts at Houston Texans",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909305",
@@ -2377,7 +2592,8 @@
       "title": "Charlotte Hornets at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909307",
@@ -2388,7 +2604,8 @@
       "title": "Indiana Pacers at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909306",
@@ -2399,7 +2616,8 @@
       "title": "Orlando Magic at Brooklyn Nets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909308",
@@ -2410,7 +2628,8 @@
       "title": "Toronto Raptors at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909310",
@@ -2421,7 +2640,8 @@
       "title": "New Orleans Pelicans at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909309",
@@ -2432,7 +2652,8 @@
       "title": "Washington Wizards at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909311",
@@ -2443,7 +2664,8 @@
       "title": "Phoenix Suns at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909312",
@@ -2454,7 +2676,8 @@
       "title": "Houston Rockets at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909313",
@@ -2465,7 +2688,8 @@
       "title": "Sacramento Kings at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879233",
@@ -2476,7 +2700,8 @@
       "title": "Fulham at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902853",
@@ -2487,7 +2712,8 @@
       "title": "Chelsea at Liverpool",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879235",
@@ -2498,7 +2724,8 @@
       "title": "Crystal Palace at Coventry City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878754",
@@ -2509,7 +2736,8 @@
       "title": "Ipswich Town at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879236",
@@ -2520,7 +2748,8 @@
       "title": "Leeds United at Chelsea",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879238",
@@ -2531,7 +2760,8 @@
       "title": "Nottingham Forest at AFC Bournemouth",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878756",
@@ -2542,7 +2772,8 @@
       "title": "Sunderland at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902854",
@@ -2553,7 +2784,8 @@
       "title": "Crystal Palace at London City Lionesses",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879232",
@@ -2564,7 +2796,8 @@
       "title": "Arsenal at Newcastle United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910023",
@@ -2575,7 +2808,8 @@
       "title": "Milwaukee Bucks at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910024",
@@ -2586,7 +2820,8 @@
       "title": "Portland Trail Blazers at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910025",
@@ -2597,7 +2832,8 @@
       "title": "LA Clippers at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910026",
@@ -2608,7 +2844,8 @@
       "title": "Memphis Grizzlies at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910027",
@@ -2619,7 +2856,8 @@
       "title": "New Orleans Pelicans at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910028",
@@ -2630,7 +2868,8 @@
       "title": "Boston Celtics at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.w.1:401902857",
@@ -2641,7 +2880,8 @@
       "title": "Manchester United at Birmingham City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902852",
@@ -2652,7 +2892,8 @@
       "title": "Tottenham Hotspur at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902856",
@@ -2663,7 +2904,8 @@
       "title": "Aston Villa at Charlton Athletic",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902855",
@@ -2674,7 +2916,8 @@
       "title": "Brighton & Hove Albion at Everton",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879234",
@@ -2685,7 +2928,8 @@
       "title": "Brighton & Hove Albion at Hull City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.w.1:401902858",
@@ -2696,7 +2940,8 @@
       "title": "West Ham United at Arsenal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878755",
@@ -2707,7 +2952,8 @@
       "title": "Manchester United at Liverpool",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873067",
@@ -2718,7 +2964,8 @@
       "title": "Arizona Cardinals at Kansas City Chiefs",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873068",
@@ -2729,7 +2976,8 @@
       "title": "Baltimore Ravens at Carolina Panthers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873069",
@@ -2740,7 +2988,8 @@
       "title": "Jacksonville Jaguars at New York Giants",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873070",
@@ -2751,7 +3000,8 @@
       "title": "Miami Dolphins at Buffalo Bills",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873071",
@@ -2762,7 +3012,8 @@
       "title": "New Orleans Saints at Chicago Bears",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873072",
@@ -2773,7 +3024,8 @@
       "title": "Tampa Bay Buccaneers at Detroit Lions",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873073",
@@ -2784,7 +3036,8 @@
       "title": "Tennessee Titans at Dallas Cowboys",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910029",
@@ -2795,7 +3048,8 @@
       "title": "Detroit Pistons at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873074",
@@ -2806,7 +3060,8 @@
       "title": "New York Jets at Los Angeles Chargers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873075",
@@ -2817,7 +3072,8 @@
       "title": "Las Vegas Raiders at Denver Broncos",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873076",
@@ -2828,7 +3084,8 @@
       "title": "Pittsburgh Steelers at Philadelphia Eagles",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910030",
@@ -2839,7 +3096,8 @@
       "title": "Oklahoma City Thunder at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910033",
@@ -2850,7 +3108,8 @@
       "title": "Dallas Mavericks at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910032",
@@ -2861,7 +3120,8 @@
       "title": "Denver Nuggets at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910031",
@@ -2872,7 +3132,8 @@
       "title": "Orlando Magic at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910034",
@@ -2883,7 +3144,8 @@
       "title": "Indiana Pacers at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873077",
@@ -2894,7 +3156,8 @@
       "title": "Minnesota Vikings at San Francisco 49ers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910035",
@@ -2905,7 +3168,8 @@
       "title": "Boston Celtics at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879237",
@@ -2916,7 +3180,8 @@
       "title": "Everton at Brentford",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910036",
@@ -2927,7 +3192,8 @@
       "title": "Memphis Grizzlies at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910037",
@@ -2938,7 +3204,8 @@
       "title": "Portland Trail Blazers at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910040",
@@ -2949,7 +3216,8 @@
       "title": "Brooklyn Nets at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910039",
@@ -2960,7 +3228,8 @@
       "title": "Milwaukee Bucks at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910038",
@@ -2971,7 +3240,8 @@
       "title": "Oklahoma City Thunder at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910041",
@@ -2982,7 +3252,8 @@
       "title": "Cleveland Cavaliers at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910042",
@@ -2993,7 +3264,8 @@
       "title": "Phoenix Suns at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873078",
@@ -3004,7 +3276,8 @@
       "title": "Cincinnati Bengals at Washington Commanders",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910043",
@@ -3015,7 +3288,8 @@
       "title": "LA Clippers at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910045",
@@ -3026,7 +3300,8 @@
       "title": "San Antonio Spurs at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910044",
@@ -3037,7 +3312,8 @@
       "title": "Utah Jazz at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.champions:401915300",
@@ -3048,7 +3324,8 @@
       "title": "Aston Villa at Galatasaray",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915380",
@@ -3059,7 +3336,8 @@
       "title": "LASK Linz at Bodo/Glimt",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915296",
@@ -3070,7 +3348,8 @@
       "title": "AEK Athens at Como",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915295",
@@ -3081,7 +3360,8 @@
       "title": "Borussia Dortmund at Arsenal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915294",
@@ -3092,7 +3372,8 @@
       "title": "FC Porto at Feyenoord Rotterdam",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915299",
@@ -3103,7 +3384,8 @@
       "title": "Lens at RB Leipzig",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915379",
@@ -3114,7 +3396,8 @@
       "title": "Napoli at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915298",
@@ -3125,7 +3408,8 @@
       "title": "PSV Eindhoven at Real Madrid",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915297",
@@ -3136,7 +3420,8 @@
       "title": "Real Betis at Slovan Bratislava",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909314",
@@ -3147,7 +3432,8 @@
       "title": "Detroit Pistons at Orlando Magic",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909315",
@@ -3158,7 +3444,8 @@
       "title": "Boston Celtics at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909316",
@@ -3169,7 +3456,8 @@
       "title": "Dallas Mavericks at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.champions:401915378",
@@ -3180,7 +3468,8 @@
       "title": "Barcelona at Sabah FK",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915293",
@@ -3191,7 +3480,8 @@
       "title": "Villarreal at Slavia Prague",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915374",
@@ -3202,7 +3492,8 @@
       "title": "AS Roma at Paris Saint-Germain",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915377",
@@ -3213,7 +3504,8 @@
       "title": "Bayern Munich at Lille",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915375",
@@ -3224,7 +3516,8 @@
       "title": "Fenerbahce at Shakhtar Donetsk",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915292",
@@ -3235,7 +3528,8 @@
       "title": "Liverpool at Club Brugge",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915373",
@@ -3246,7 +3540,8 @@
       "title": "Manchester United at Sporting CP",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915376",
@@ -3257,7 +3552,8 @@
       "title": "VfB Stuttgart at Internazionale",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915291",
@@ -3268,7 +3564,8 @@
       "title": "Viking FK at Atlético Madrid",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909317",
@@ -3279,7 +3576,8 @@
       "title": "Miami Heat at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909318",
@@ -3290,7 +3588,8 @@
       "title": "Chicago Bulls at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909319",
@@ -3301,7 +3600,8 @@
       "title": "Cleveland Cavaliers at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909320",
@@ -3312,7 +3612,8 @@
       "title": "Minnesota Timberwolves at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909322",
@@ -3323,7 +3624,8 @@
       "title": "Brooklyn Nets at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873079",
@@ -3334,7 +3636,8 @@
       "title": "Green Bay Packers at Los Angeles Rams",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909321",
@@ -3345,7 +3648,8 @@
       "title": "LA Clippers at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909323",
@@ -3356,7 +3660,8 @@
       "title": "Phoenix Suns at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909324",
@@ -3367,7 +3672,8 @@
       "title": "Sacramento Kings at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909325",
@@ -3378,7 +3684,8 @@
       "title": "San Antonio Spurs at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873081",
@@ -3389,7 +3696,8 @@
       "title": "Chicago Bears at Detroit Lions",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873080",
@@ -3400,7 +3708,8 @@
       "title": "Philadelphia Eagles at Dallas Cowboys",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873082",
@@ -3411,7 +3720,8 @@
       "title": "Kansas City Chiefs at Buffalo Bills",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879225",
@@ -3422,7 +3732,8 @@
       "title": "Chelsea at Nottingham Forest",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873083",
@@ -3433,7 +3744,8 @@
       "title": "Denver Broncos at Pittsburgh Steelers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909326",
@@ -3444,7 +3756,8 @@
       "title": "Miami Heat at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909329",
@@ -3455,7 +3768,8 @@
       "title": "Brooklyn Nets at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909327",
@@ -3466,7 +3780,8 @@
       "title": "Milwaukee Bucks at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909328",
@@ -3477,7 +3792,8 @@
       "title": "Philadelphia 76ers at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909330",
@@ -3488,7 +3804,8 @@
       "title": "Atlanta Hawks at Boston Celtics",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909331",
@@ -3499,7 +3816,8 @@
       "title": "Memphis Grizzlies at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909332",
@@ -3510,7 +3828,8 @@
       "title": "Dallas Mavericks at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909334",
@@ -3521,7 +3840,8 @@
       "title": "Denver Nuggets at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909336",
@@ -3532,7 +3852,8 @@
       "title": "Golden State Warriors at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909333",
@@ -3543,7 +3864,8 @@
       "title": "Los Angeles Lakers at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909335",
@@ -3554,7 +3876,8 @@
       "title": "New Orleans Pelicans at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879226",
@@ -3565,7 +3888,8 @@
       "title": "Brentford at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879227",
@@ -3576,7 +3900,8 @@
       "title": "Coventry City at Leeds United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878752",
@@ -3587,7 +3912,8 @@
       "title": "Aston Villa at Ipswich Town",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910046",
@@ -3598,7 +3924,8 @@
       "title": "Orlando Magic at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910047",
@@ -3609,7 +3936,8 @@
       "title": "Brooklyn Nets at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910048",
@@ -3620,7 +3948,8 @@
       "title": "Indiana Pacers at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910049",
@@ -3631,7 +3960,8 @@
       "title": "Oklahoma City Thunder at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910050",
@@ -3642,7 +3972,8 @@
       "title": "Philadelphia 76ers at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879229",
@@ -3653,7 +3984,8 @@
       "title": "Liverpool at Everton",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879228",
@@ -3664,7 +3996,8 @@
       "title": "AFC Bournemouth at Fulham",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879230",
@@ -3675,7 +4008,8 @@
       "title": "Hull City at Crystal Palace",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879231",
@@ -3686,7 +4020,8 @@
       "title": "Newcastle United at Brighton & Hove Albion",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879224",
@@ -3697,7 +4032,8 @@
       "title": "Tottenham Hotspur at Sunderland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878753",
@@ -3708,7 +4044,8 @@
       "title": "Manchester City at Arsenal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873084",
@@ -3719,7 +4056,8 @@
       "title": "Atlanta Falcons at Minnesota Vikings",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873085",
@@ -3730,7 +4068,8 @@
       "title": "Baltimore Ravens at Houston Texans",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873086",
@@ -3741,7 +4080,8 @@
       "title": "Las Vegas Raiders at Cleveland Browns",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873087",
@@ -3752,7 +4092,8 @@
       "title": "New Orleans Saints at Cincinnati Bengals",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873088",
@@ -3763,7 +4104,8 @@
       "title": "New York Giants at Indianapolis Colts",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873089",
@@ -3774,7 +4116,8 @@
       "title": "New York Jets at Miami Dolphins",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910052",
@@ -3785,7 +4128,8 @@
       "title": "Boston Celtics at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910051",
@@ -3796,7 +4140,8 @@
       "title": "Los Angeles Lakers at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873090",
@@ -3807,7 +4152,8 @@
       "title": "Tennessee Titans at Jacksonville Jaguars",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873091",
@@ -3818,7 +4164,8 @@
       "title": "Seattle Seahawks at San Francisco 49ers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873092",
@@ -3829,7 +4176,8 @@
       "title": "Washington Commanders at Arizona Cardinals",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910053",
@@ -3840,7 +4188,8 @@
       "title": "Phoenix Suns at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910056",
@@ -3851,7 +4200,8 @@
       "title": "Atlanta Hawks at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910057",
@@ -3862,7 +4212,8 @@
       "title": "Denver Nuggets at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910054",
@@ -3873,7 +4224,8 @@
       "title": "Miami Heat at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910058",
@@ -3884,7 +4236,8 @@
       "title": "New Orleans Pelicans at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910055",
@@ -3895,7 +4248,8 @@
       "title": "Orlando Magic at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873093",
@@ -3906,7 +4260,8 @@
       "title": "New England Patriots at Los Angeles Chargers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910059",
@@ -3917,7 +4272,8 @@
       "title": "LA Clippers at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910060",
@@ -3928,7 +4284,8 @@
       "title": "Minnesota Timberwolves at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910062",
@@ -3939,7 +4296,8 @@
       "title": "Denver Nuggets at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910061",
@@ -3950,7 +4308,8 @@
       "title": "Washington Wizards at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910064",
@@ -3961,7 +4320,8 @@
       "title": "Los Angeles Lakers at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910063",
@@ -3972,7 +4332,8 @@
       "title": "Oklahoma City Thunder at Brooklyn Nets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910065",
@@ -3983,7 +4344,8 @@
       "title": "Boston Celtics at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910066",
@@ -3994,7 +4356,8 @@
       "title": "San Antonio Spurs at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873094",
@@ -4005,7 +4368,8 @@
       "title": "Carolina Panthers at Tampa Bay Buccaneers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910067",
@@ -4016,7 +4380,8 @@
       "title": "New Orleans Pelicans at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879221",
@@ -4027,7 +4392,8 @@
       "title": "Ipswich Town at Coventry City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910068",
@@ -4038,7 +4404,8 @@
       "title": "Indiana Pacers at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910069",
@@ -4049,7 +4416,8 @@
       "title": "Memphis Grizzlies at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910070",
@@ -4060,7 +4428,8 @@
       "title": "Atlanta Hawks at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910071",
@@ -4071,7 +4440,8 @@
       "title": "New York Knicks at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910072",
@@ -4082,7 +4452,8 @@
       "title": "Toronto Raptors at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910073",
@@ -4093,7 +4464,8 @@
       "title": "LA Clippers at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910074",
@@ -4104,7 +4476,8 @@
       "title": "Minnesota Timberwolves at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910075",
@@ -4115,7 +4488,8 @@
       "title": "Utah Jazz at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879222",
@@ -4126,7 +4500,8 @@
       "title": "Crystal Palace at Chelsea",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879218",
@@ -4137,7 +4512,8 @@
       "title": "Leeds United at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879220",
@@ -4148,7 +4524,8 @@
       "title": "Nottingham Forest at Hull City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879219",
@@ -4159,7 +4536,8 @@
       "title": "Sunderland at Liverpool",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878750",
@@ -4170,7 +4548,8 @@
       "title": "Arsenal at Brentford",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879223",
@@ -4181,7 +4560,8 @@
       "title": "Brighton & Hove Albion at AFC Bournemouth",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878751",
@@ -4192,7 +4572,8 @@
       "title": "Everton at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879217",
@@ -4203,7 +4584,8 @@
       "title": "Manchester United at Newcastle United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910077",
@@ -4214,7 +4596,8 @@
       "title": "Denver Nuggets at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910076",
@@ -4225,7 +4608,8 @@
       "title": "Memphis Grizzlies at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910078",
@@ -4236,7 +4620,8 @@
       "title": "Charlotte Hornets at Boston Celtics",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910082",
@@ -4247,7 +4632,8 @@
       "title": "Brooklyn Nets at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910081",
@@ -4258,7 +4644,8 @@
       "title": "Los Angeles Lakers at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910080",
@@ -4269,7 +4656,8 @@
       "title": "New York Knicks at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910079",
@@ -4280,7 +4668,8 @@
       "title": "Orlando Magic at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910083",
@@ -4291,7 +4680,8 @@
       "title": "Sacramento Kings at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910084",
@@ -4302,7 +4692,8 @@
       "title": "Minnesota Timberwolves at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401878749",
@@ -4313,7 +4704,8 @@
       "title": "Fulham at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910085",
@@ -4324,7 +4716,8 @@
       "title": "Indiana Pacers at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910086",
@@ -4335,7 +4728,8 @@
       "title": "Washington Wizards at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910087",
@@ -4346,7 +4740,8 @@
       "title": "Cleveland Cavaliers at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401910088",
@@ -4357,7 +4752,8 @@
       "title": "Toronto Raptors at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:football/nfl:401873096",
@@ -4368,7 +4764,8 @@
       "title": "Kansas City Chiefs at Los Angeles Rams",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401910089",
@@ -4379,7 +4776,8 @@
       "title": "Utah Jazz at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909450",
@@ -4390,7 +4788,8 @@
       "title": "TBD at TBD",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909451",
@@ -4401,7 +4800,8 @@
       "title": "TBD at TBD",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909452",
@@ -4412,7 +4812,8 @@
       "title": "TBD at TBD",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909453",
@@ -4423,7 +4824,8 @@
       "title": "TBD at TBD",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/eng.1:401879213",
@@ -4434,7 +4836,8 @@
       "title": "Liverpool at Chelsea",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879210",
@@ -4445,7 +4848,8 @@
       "title": "Coventry City at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879215",
@@ -4456,7 +4860,8 @@
       "title": "Crystal Palace at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879216",
@@ -4467,7 +4872,8 @@
       "title": "Hull City at AFC Bournemouth",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879211",
@@ -4478,7 +4884,8 @@
       "title": "Ipswich Town at Leeds United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878747",
@@ -4489,7 +4896,8 @@
       "title": "Brighton & Hove Albion at Nottingham Forest",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879214",
@@ -4500,7 +4908,8 @@
       "title": "Manchester City at Brentford",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879212",
@@ -4511,7 +4920,8 @@
       "title": "Fulham at Everton",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401878748",
@@ -4522,7 +4932,8 @@
       "title": "Sunderland at Newcastle United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/eng.1:401879209",
@@ -4533,7 +4944,8 @@
       "title": "Arsenal at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873097",
@@ -4544,7 +4956,8 @@
       "title": "Cincinnati Bengals at Cleveland Browns",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873098",
@@ -4555,7 +4968,8 @@
       "title": "Detroit Lions at Atlanta Falcons",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873099",
@@ -4566,7 +4980,8 @@
       "title": "Green Bay Packers at New Orleans Saints",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873100",
@@ -4577,7 +4992,8 @@
       "title": "Jacksonville Jaguars at Chicago Bears",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873101",
@@ -4588,7 +5004,8 @@
       "title": "Los Angeles Chargers at Tampa Bay Buccaneers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873095",
@@ -4599,7 +5016,8 @@
       "title": "San Francisco 49ers at New York Giants",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873102",
@@ -4610,7 +5028,8 @@
       "title": "Washington Commanders at Tennessee Titans",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873103",
@@ -4621,7 +5040,8 @@
       "title": "Miami Dolphins at Denver Broncos",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873104",
@@ -4632,7 +5052,8 @@
       "title": "Philadelphia Eagles at Arizona Cardinals",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873105",
@@ -4643,7 +5064,8 @@
       "title": "Buffalo Bills at New England Patriots",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873106",
@@ -4654,7 +5076,8 @@
       "title": "Carolina Panthers at Minnesota Vikings",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873107",
@@ -4665,7 +5088,8 @@
       "title": "Houston Texans at Pittsburgh Steelers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:football/nfl:401873108",
@@ -4676,7 +5100,8 @@
       "title": "Dallas Cowboys at Seattle Seahawks",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:basketball/nba:401909454",
@@ -4687,7 +5112,8 @@
       "title": "TBD at TBD",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": true
     },
     {
       "id": "espn:soccer/uefa.champions:401915290",
@@ -4698,7 +5124,8 @@
       "title": "Feyenoord Rotterdam at Viking FK",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915372",
@@ -4709,7 +5136,8 @@
       "title": "Sabah FK at Villarreal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915287",
@@ -4720,7 +5148,8 @@
       "title": "Club Brugge at Napoli",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915289",
@@ -4731,7 +5160,8 @@
       "title": "Galatasaray at AEK Athens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915285",
@@ -4742,7 +5172,8 @@
       "title": "Manchester City at Barcelona",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915286",
@@ -4753,7 +5184,8 @@
       "title": "Paris Saint-Germain at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915371",
@@ -4764,7 +5196,8 @@
       "title": "RB Leipzig at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915284",
@@ -4775,7 +5208,8 @@
       "title": "Slavia Prague at Bayern Munich",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     },
     {
       "id": "espn:soccer/uefa.champions:401915288",
@@ -4786,7 +5220,8 @@
       "title": "Sporting CP at AS Roma",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled"
+      "liveStatus": "Scheduled",
+      "broadcastVerified": false
     }
   ],
   "coverage": [
@@ -5151,222 +5586,6 @@
       "ok": true
     },
     {
-      "feed": "rugby/164",
-      "date": "2026-11-04",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-05",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-06",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-07",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-08",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-09",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-10",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-11",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-12",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-13",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-14",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-15",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-16",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-17",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-18",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-19",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-20",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-21",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-22",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-23",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-24",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-25",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-26",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-27",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-28",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-29",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-11-30",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-01",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-02",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-03",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-04",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-05",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-06",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-07",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-08",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
-      "feed": "rugby/164",
-      "date": "2026-12-09",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
-    },
-    {
       "feed": "soccer/eng.1",
       "date": "2026-11-04",
       "ok": true
@@ -6267,5 +6486,5 @@
       "ok": true
     }
   ],
-  "note": "Public feeds are best-effort; UK TV rights are not verified."
+  "note": "NBA, MLS and Women’s Champions League have competition-level access rules. Other UK broadcast rights require verified per-fixture overrides."
 }
