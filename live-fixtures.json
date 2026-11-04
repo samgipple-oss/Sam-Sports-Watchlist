@@ -1,8 +1,249 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-11-04T12:45:35.431872+00:00",
   "successfulChecks": 0,
-  "totalChecks": 0,
+  "totalChecks": 40,
   "items": [],
-  "coverage": [],
-  "note": "Run the Refresh sports fixtures GitHub Action to populate this file."
+  "coverage": [
+    {
+      "feed": "basketball/nba",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "basketball/nba",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "basketball/nba",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "basketball/nba",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "basketball/nba",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "football/nfl",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "football/nfl",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "football/nfl",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "football/nfl",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "football/nfl",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.1",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.1",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.1",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.1",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.1",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.w.1",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.w.1",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.w.1",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.w.1",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/eng.w.1",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.champions",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.champions",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.champions",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.champions",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.champions",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.wchampions",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.wchampions",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.wchampions",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.wchampions",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/uefa.wchampions",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/usa.1",
+      "weekStart": "2026-11-04",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/usa.1",
+      "weekStart": "2026-11-11",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/usa.1",
+      "weekStart": "2026-11-18",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/usa.1",
+      "weekStart": "2026-11-25",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "soccer/usa.1",
+      "weekStart": "2026-12-02",
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    }
+  ],
+  "note": "Public feeds are best-effort; UK TV rights are not verified."
 }
