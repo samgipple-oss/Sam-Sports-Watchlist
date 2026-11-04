@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T14:10:33.057307+00:00",
+  "updatedAt": "2026-11-04T14:14:34.222724+00:00",
   "successfulChecks": 280,
   "totalChecks": 280,
   "items": [
@@ -4172,10 +4172,11 @@
       "sport": "Football",
       "competition": "Champions League",
       "title": "Borussia Dortmund at Arsenal",
-      "service": "Check broadcaster",
+      "service": "Prime Video",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
-      "broadcastVerified": false
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.live-footballontv.com/live-champions-league-football-on-tv.html"
     },
     {
       "id": "espn:soccer/uefa.champions:401915294",
