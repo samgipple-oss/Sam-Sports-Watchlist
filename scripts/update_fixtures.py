@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Fetch public ESPN scoreboards server-side for a rolling 35-day window.
-Uses Python standard library only. Partial failures are recorded, not hidden.
+"""Update a rolling 35-day UK sports calendar from ESPN's public scoreboards.
+
+Uses single-day requests because ESPN's scoreboard no longer accepts date ranges.
+Standard library only; failed requests are logged and existing data is preserved.
 """
 import datetime as dt
 import json
-import os
 import pathlib
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -26,97 +28,69 @@ FEEDS = [
     ('Rugby', 'Rugby Union', 'rugby/164', 'Check broadcaster'),
 ]
 
+
 def fetch(job):
-    sport, competition, path, service, start, end = job
-    dates = start.strftime('%Y%m%d') + '-' + end.strftime('%Y%m%d')
-    url = f'https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?' + urllib.parse.urlencode({'dates': dates, 'limit': 300})
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 SportsWatchlist/1.0', 'Accept': 'application/json'})
-    last_error = None
-    for attempt in range(2):
+    sport, competition, path, service, day, today, end = job
+    url = ('https://site.api.espn.com/apis/site/v2/sports/' + path + '/scoreboard?'
+           + urllib.parse.urlencode({'dates': day.strftime('%Y%m%d'), 'limit': 300}))
+    request = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (compatible; SportsWatchlist/1.0)',
+        'Accept': 'application/json',
+    })
+    error = None
+    for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=18) as response:
-                obj = json.load(response)
-            if not isinstance(obj.get('events'), list):
-                raise ValueError('No events array')
-            fixtures = []
-            for event in obj['events']:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                data = json.load(response)
+            if not isinstance(data, dict) or not isinstance(data.get('events'), list):
+                raise ValueError('Missing events array')
+            games = []
+            for event in data['events']:
                 try:
                     competitors = event['competitions'][0]['competitors']
                     if len(competitors) < 2:
                         continue
-                    away = next((x for x in competitors if x.get('homeAway') == 'away'), competitors[0])
-                    home = next((x for x in competitors if x.get('homeAway') == 'home'), competitors[1])
-                    timestamp = dt.datetime.fromisoformat(event['date'].replace('Z', '+00:00')).astimezone(TZ)
-                    if not start <= timestamp.date() <= end:
+                    away = next((c for c in competitors if c.get('homeAway') == 'away'), competitors[0])
+                    home = next((c for c in competitors if c.get('homeAway') == 'home'), competitors[1])
+                    when = dt.datetime.fromisoformat(event['date'].replace('Z', '+00:00')).astimezone(TZ)
+                    if not today <= when.date() <= end:
                         continue
-                    name = lambda x: x.get('team', {}).get('displayName') or x.get('team', {}).get('name') or 'TBC'
-                    fixtures.append({
+                    def team_name(side):
+                        team = side.get('team') or {}
+                        return team.get('displayName') or team.get('name') or 'TBC'
+                    games.append({
                         'id': f'espn:{path}:{event["id"]}',
-                        'date': timestamp.date().isoformat(),
-                        'time': timestamp.strftime('%H:%M'),
-                        'sport': sport, 'competition': competition,
-                        'title': f'{name(away)} at {name(home)}',
-                        'service': service, 'source': 'Scheduled data feed',
-                        'liveStatus': event.get('status', {}).get('type', {}).get('description', '')
+                        'date': when.date().isoformat(),
+                        'time': when.strftime('%H:%M'),
+                        'sport': sport,
+                        'competition': competition,
+                        'title': f'{team_name(away)} at {team_name(home)}',
+                        'service': service,
+                        'source': 'Scheduled data feed',
+                        'liveStatus': event.get('status', {}).get('type', {}).get('description', ''),
                     })
-                except (KeyError, ValueError, TypeError):
+                except (KeyError, ValueError, TypeError, IndexError, AttributeError):
                     continue
-            return (path, start.isoformat(), True, fixtures, None)
+            return path, day.isoformat(), True, games, None
         except Exception as exc:
-            last_error = str(exc)
-            if attempt == 0:
-                time.sleep(0.5)
-    return (path, start.isoformat(), False, [], last_error)
+            error = f'{type(exc).__name__}: {exc}'
+            if attempt < 2:
+                time.sleep(0.5 * (attempt + 1))
+    return path, day.isoformat(), False, [], error
+
 
 def main():
     today = dt.datetime.now(TZ).date()
     end = today + dt.timedelta(days=34)
-    jobs = []
-    for feed in FEEDS:
-        for offset in range(0, 35, 7):
-            a = today + dt.timedelta(days=offset)
-            jobs.append((*feed, a, min(a + dt.timedelta(days=6), end)))
+    # One extra UTC date catches games just after midnight in UK local time.
+    days = [today + dt.timedelta(days=n) for n in range(36)]
+    jobs = [(*feed, day, today, end) for feed in FEEDS for day in days]
     results = []
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        for future in as_completed([pool.submit(fetch, job) for job in jobs]):
-            results.append(future.result())
-    successful = [r for r in results if r[2]]
-    existing = {}
-    if OUT.exists():
-        try:
-            existing = json.loads(OUT.read_text())
-        except (ValueError, OSError):
-            pass
-    # Do not erase previously obtained fixtures on partial feed failures.
-    fixtures = {g['id']: g for g in existing.get('items', []) if today.isoformat() <= g.get('date', '') <= end.isoformat() and g.get('id')}
-    for _, _, _, games, _ in successful:
-        for game in games:
-            fixtures[game['id']] = game
-    coverage = [{'feed': r[0], 'weekStart': r[1], 'ok': r[2], **({'error': r[4][:180]} if r[4] else {})} for r in sorted(results, key=lambda x: (x[0], x[1]))]
-    payload = {
-        'updatedAt': dt.datetime.now(dt.timezone.utc).isoformat(),
-        'successfulChecks': len(successful), 'totalChecks': len(results),
-        'items': sorted(fixtures.values(), key=lambda g: (g['date'], g['time'], g['title'])),
-        'coverage': coverage,
-        'note': 'Public feeds are best-effort; UK TV rights are not verified.'
-    }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n')
-    print(f"Updated: {len(fixtures)} fixtures; {len(successful)}/{len(results)} checks succeeded")
-    for feed, week_start, ok, games, error in sorted(
-        results, key=lambda r: (r[0], r[1])
-    ):
-        if not ok:
-            print(f"FAILED {feed} ({week_start}): {error}", flush=True)
-        else:
-            print(
-                f"OK {feed} ({week_start}): {len(games)} fixtures",
-                flush=True
-            )
-
-    if not successful:
-        raise RuntimeError(
-            "All sports feeds failed. See individual errors above."
-        )
-
-if __name__ == '__main__':
-    main()
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [executor.submit(fetch, job) for job in jobs]
+        for future in as_completed(futures):
+            result = future.result()
+            results.append(result)
+            path, day, ok, games, error = result
+            if not ok:
+                print(f'FAILED {path} ({day}): {error}', flush=True)
