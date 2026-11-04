@@ -439,18 +439,23 @@ def rugby_from_tv_guide(today, end):
     return out
 
 
+# Updated URLs for tennis, rugby league and club rugby.
 EXTRA_GUIDES = (
     (
         "Tennis",
-        "https://www.wheresthematch.com/?sportid=17",
+        "https://www.wheresthematch.com/live-tennis-on-tv/",
     ),
     (
         "Rugby League",
-        "https://www.wheresthematch.com/?sportid=2",
+        "https://www.wheresthematch.com/live-rugby-league-on-tv/",
     ),
     (
         "Rugby",
-        "https://www.wheresthematch.com/?sportid=3",
+        "https://www.wheresthematch.com/gallagher-premiership-rugby-on-tv/",
+    ),
+    (
+        "Rugby",
+        "https://www.wheresthematch.com/live-rugby-union-on-tv/",
     ),
 )
 
@@ -468,56 +473,88 @@ MONTH_NUMBERS = {
 }
 
 
+def free_service(broadcasters):
+    """Identify only explicitly listed free UK broadcasters."""
+    b = " ".join(broadcasters)
+
+    if re.search(
+        r"BBC\s*iPlayer|BBC\s*Sport\s*Website|"
+        r"BBC\s*(?:One|Two|1|2)(?!\d)",
+        b, re.I,
+    ):
+        return "BBC iPlayer"
+
+    if re.search(
+        r"ITVX|ITV\s*[14](?!\d)",
+        b, re.I,
+    ):
+        return "ITVX"
+
+    if re.search(
+        r"Channel\s*4(?!\d)",
+        b, re.I,
+    ):
+        return "Channel 4"
+
+    if re.search(
+        r"5Action",
+        b, re.I,
+    ):
+        return "5Action"
+
+    if re.search(
+        r"Channel\s*5(?!\d)",
+        b, re.I,
+    ):
+        return "Channel 5"
+
+    return None
+
+
 def extra_free_sport_from_guide(sport, url, today, end):
+    """Read fixture rows and retain only free UK broadcasts."""
     try:
         raw = download(url)
         parser = TableRows()
         parser.feed(raw)
+
     except Exception as exc:
         print(
-            f"INFO: {sport} TV guide unavailable: {exc}",
+            f"WARNING: {sport} TV guide unavailable "
+            f"({url}): {exc}",
             flush=True,
         )
         return []
 
     out = []
+    dated = 0
+
+    date_pattern = re.compile(
+        r"\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\w*\s+"
+        r"(\d{1,2})(?:st|nd|rd|th)?\s+"
+        r"([A-Za-z]+)\s+(20\d{2})\s+"
+        r"(\d{1,2}):(\d{2})",
+        re.I,
+    )
 
     for cells in parser.rows:
-        if len(cells) < 2:
+        if len(cells) < 3:
             continue
 
-        joined = " ".join(cells)
-
-        if re.search(
-            r"\bBBC iPlayer\b|\bBBC Sport Website\b|"
-            r"\bBBC[12]\b",
-            joined,
-            re.I,
-        ):
-            service = "BBC iPlayer"
-        elif re.search(r"\bITVX\b", joined, re.I):
-            service = "ITVX"
-        elif re.search(r"\bChannel 4\b", joined, re.I):
-            service = "Channel 4"
-        elif re.search(
-            r"\bChannel 5\b|\b5Action\b", joined, re.I
-        ):
-            service = "Channel 5"
-        else:
-            continue
-
-        match = re.search(
-            r"\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\w*\s+"
-            r"(\d{1,2})(?:st|nd|rd|th)?\s+"
-            r"([A-Za-z]+)\s+(20\d{2})\s+"
-            r"(\d{1,2}):(\d{2})",
-            joined,
-            re.I,
+        # Expected columns:
+        # Fixture | Date/time | Competition | Broadcasters
+        date_cell = next(
+            (
+                c for c in cells[1:-1]
+                if date_pattern.search(c)
+            ),
+            None,
         )
 
-        if not match:
+        if not date_cell:
             continue
 
+        match = date_pattern.search(date_cell)
         dd, month, year, hour, minute = match.groups()
 
         try:
@@ -532,12 +569,20 @@ def extra_free_sport_from_guide(sport, url, today, end):
         if not today <= date <= end:
             continue
 
+        dated += 1
+
+        # Only inspect the broadcaster column.
+        service = free_service(cells[-1:])
+
+        if not service:
+            continue
+
         title = re.sub(
             r"\s+", " ", cells[0]
         ).strip()
 
         title = re.sub(
-            r"\s+Image.*$",
+            r"\s*Image.*$",
             "",
             title,
             flags=re.I,
@@ -546,39 +591,64 @@ def extra_free_sport_from_guide(sport, url, today, end):
         if not 4 <= len(title) <= 130:
             continue
 
-        if (
-            sport == "Rugby"
-            and not re.search(r"\b(v|vs)\b", title, re.I)
-        ):
-            continue
+        competition_cell = " ".join(
+            cells[2:-1]
+        ).strip()
 
-        competition = (
-            "Tennis"
-            if sport == "Tennis"
-            else (
-                "Rugby League"
-                if sport == "Rugby League"
-                else "Club Rugby / Rugby Union"
-            )
-        )
-
-        if (
-            sport == "Rugby"
-            and re.search(
-                r"\bNations Championship|"
-                r"\bInternational|\bSix Nations",
-                joined,
+        if sport == "Tennis":
+            if not re.search(
+                r"tennis|ATP|WTA|Wimbledon|Grand Slam",
+                title + " " + competition_cell,
                 re.I,
+            ):
+                continue
+
+            competition = (
+                competition_cell or "Tennis"
             )
-        ):
-            continue
+
+        elif sport == "Rugby League":
+            if not re.search(
+                r"rugby league|super league|challenge cup|NRL",
+                title + " " + competition_cell,
+                re.I,
+            ):
+                continue
+
+            competition = (
+                competition_cell or "Rugby League"
+            )
+
+        else:
+            if not re.search(
+                r"\b(v|vs)\b",
+                title,
+                re.I,
+            ):
+                continue
+
+            if re.search(
+                r"Nations Championship|International|"
+                r"Six Nations|World Cup",
+                competition_cell,
+                re.I,
+            ):
+                continue
+
+            competition = (
+                competition_cell
+                or "Club Rugby / Rugby Union"
+            )
 
         slug = re.sub(
-            r"[^a-z0-9]+", "-", title.lower()
+            r"[^a-z0-9]+",
+            "-",
+            title.lower(),
         ).strip("-")[:90]
 
         identifier = (
-            f"freeguide:{sport.lower().replace(' ', '-')}:"
+            f"freeguide:"
+            f"{sport.lower().replace(' ', '-')}:"
             f"{date}:{hour}:{minute}:{slug}"
         )
 
@@ -598,10 +668,19 @@ def extra_free_sport_from_guide(sport, url, today, end):
         )
 
     print(
-        f"{sport} free UK TV guide: "
-        f"{len(out)} parsable fixtures",
+        f"{sport} TV guide: "
+        f"{len(parser.rows)} table rows; "
+        f"{dated} dated upcoming fixtures; "
+        f"{len(out)} free UK fixtures ({url})",
         flush=True,
     )
+
+    if not parser.rows:
+        print(
+            f"WARNING: {sport} guide returned no HTML "
+            f"table rows; website layout may have changed",
+            flush=True,
+        )
 
     return out
 
