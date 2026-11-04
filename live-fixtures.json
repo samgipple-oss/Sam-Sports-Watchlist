@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T18:29:24.420315+00:00",
+  "updatedAt": "2026-11-04T18:33:40.581744+00:00",
   "successfulChecks": 315,
   "totalChecks": 315,
   "items": [
@@ -24,7 +24,7 @@
       "title": "Real Madrid at AEK Athens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
+      "liveStatus": "In Progress",
       "broadcastVerified": false
     },
     {
