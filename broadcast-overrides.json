@@ -1,1 +1,10 @@
-{}
+{
+  "espn:football/nfl:401873045": {
+    "service": "5Action",
+    "sourceUrl": "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
+  },
+  "espn:football/nfl:401873049": {
+    "service": "Channel 5",
+    "sourceUrl": "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
+  }
+}
