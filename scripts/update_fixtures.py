@@ -102,7 +102,21 @@ def main():
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n')
     print(f"Updated: {len(fixtures)} fixtures; {len(successful)}/{len(results)} checks succeeded")
-    # Workflow succeeds even if feeds all fail, retaining prior data and showing failure status.
+    for feed, week_start, ok, games, error in sorted(
+        results, key=lambda r: (r[0], r[1])
+    ):
+        if not ok:
+            print(f"FAILED {feed} ({week_start}): {error}", flush=True)
+        else:
+            print(
+                f"OK {feed} ({week_start}): {len(games)} fixtures",
+                flush=True
+            )
+
+    if not successful:
+        raise RuntimeError(
+            "All sports feeds failed. See individual errors above."
+        )
 
 if __name__ == '__main__':
     main()
