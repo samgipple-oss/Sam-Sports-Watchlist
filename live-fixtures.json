@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T13:57:38.720801+00:00",
+  "updatedAt": "2026-11-04T14:01:59.793157+00:00",
   "successfulChecks": 288,
   "totalChecks": 288,
   "items": [
@@ -982,10 +982,11 @@
       "sport": "NFL",
       "competition": "NFL",
       "title": "New York Jets at Kansas City Chiefs",
-      "service": "Check broadcaster",
+      "service": "5Action",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
-      "broadcastVerified": false
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
     },
     {
       "id": "espn:basketball/nba:401909945",
@@ -1030,10 +1031,11 @@
       "sport": "NFL",
       "competition": "NFL",
       "title": "Green Bay Packers at New England Patriots",
-      "service": "Check broadcaster",
+      "service": "Channel 5",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
-      "broadcastVerified": false
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
     },
     {
       "id": "espn:football/nfl:401873047",
