@@ -1,3 +1,35 @@
+#!/usr/bin/env python3
+"""Refresh ESPN fixtures and attach conservative UK viewing entitlements.
+
+Optional broadcast-overrides.json maps ESPN fixture IDs to verified UK services.
+Unknown football broadcasts remain hidden by the strict front-end filter.
+"""
+import datetime as dt
+import json
+import pathlib
+import time
+import urllib.parse
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from zoneinfo import ZoneInfo
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+OUT = ROOT / 'live-fixtures.json'
+OVERRIDES = ROOT / 'broadcast-overrides.json'
+TZ = ZoneInfo('Europe/London')
+FEEDS = [
+    ('NBA', 'NBA', 'basketball/nba', 'League Pass'),
+    ('NFL', 'NFL', 'football/nfl', 'Check broadcaster'),
+    ('MLS', 'MLS', 'soccer/usa.1', 'Apple TV'),
+    ('Football', 'Champions League', 'soccer/uefa.champions', 'Check broadcaster'),
+    ('Football', 'Premier League', 'soccer/eng.1', 'Check broadcaster'),
+    ('Football', 'WSL', 'soccer/eng.w.1', 'Check broadcaster'),
+    ('Football', 'Women’s Champions League', 'soccer/uefa.wchampions', 'Disney+'),
+]
+ALLOWED = {
+    'League Pass', 'Apple TV', 'Disney+', 'Prime', 'Prime Video',
+    'BBC iPlayer', 'ITVX', 'Channel 4', 'Channel 5', '5Action', 'Netflix',
+}
 
 def read_json(path, default):
     try:
@@ -126,3 +158,11 @@ def main():
         'successfulChecks': len(successful),
         'totalChecks': len(results),
         'items': sorted(merged.values(), key=lambda g: (g.get('date', ''), g.get('time', ''), g.get('title', ''))),
+        'coverage': coverage,
+        'note': 'NBA, MLS and Women’s Champions League have competition-level access rules. Other UK broadcast rights require verified per-fixture overrides.',
+    }
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'Updated: {len(merged)} fixtures; {len(successful)}/{len(results)} checks succeeded; {sum(g.get("broadcastVerified") is True for g in merged.values())} watchable', flush=True)
+
+if __name__ == '__main__':
+    main()
