@@ -17,10 +17,19 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'live-fixtures.json'
 OVERRIDES = ROOT / 'broadcast-overrides.json'
 CURATED = ROOT / 'verified-broadcasts.json'
+# Built into this one-file updater: individually listed free UK NFL games.
+# Future NFL selections are deliberately NOT assumed to be free.
+BUILTIN_NFL = {
+    ('2026-11-08', frozenset(('new york jets', 'kansas city chiefs'))): ('5Action', 'https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/'),
+    ('2026-11-08', frozenset(('green bay packers', 'new england patriots'))): ('Channel 5', 'https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/'),
+}
+
 TZ = ZoneInfo('Europe/London')
 FEEDS = [
     ('NBA', 'NBA', 'basketball/nba', 'League Pass'),
     ('NFL', 'NFL', 'football/nfl', 'Check broadcaster'),
+    # ESPN rugby endpoints are not consistently available; errors are reported.
+    ('Rugby', 'Rugby Union', 'rugby/164', 'Check broadcaster'),
     ('MLS', 'MLS', 'soccer/usa.1', 'Apple TV'),
     ('Football', 'Champions League', 'soccer/uefa.champions', 'Check broadcaster'),
     ('Football', 'Premier League', 'soccer/eng.1', 'Check broadcaster'),
@@ -100,6 +109,14 @@ def nations_league_service(game):
     return None
 
 
+def built_in_nfl(game):
+    if game.get('sport') != 'NFL':
+        return None
+    teams = str(game.get('title', '')).casefold().split(' at ')
+    if len(teams) != 2:
+        return None
+    return BUILTIN_NFL.get((game.get('date'), frozenset(teams)))
+
 def entitlement(game, overrides, old):
     """Only claim verified broadcasts when supported by explicit evidence."""
     game = dict(game)
@@ -114,6 +131,12 @@ def entitlement(game, overrides, old):
         game.update(service=nations_league_service(game), broadcastVerified=True, broadcastSource='https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/')
     else:
         game.update(service='Check broadcaster', broadcastVerified=False)
+
+    # Built-in individually listed broadcasts require no second JSON upload.
+    selected = built_in_nfl(game)
+    if selected:
+        service, evidence = selected
+        game.update(service=service, broadcastVerified=True, broadcastSource=evidence)
 
     # Overrides must be manually verified against an actual UK match listing.
     entry = overrides.get(gid)
@@ -133,7 +156,7 @@ def entitlement(game, overrides, old):
 def main():
     today = dt.datetime.now(TZ).date()
     end = today + dt.timedelta(days=34)
-    days = [today + dt.timedelta(days=n) for n in range(36)]
+    days = [today + dt.timedelta(days=n) for n in range(35)]
     existing = read_json(OUT, {})
     if not isinstance(existing, dict):
         existing = {}
@@ -201,7 +224,11 @@ def main():
             merged[entry['id']].update(source='Verified UK broadcast list',
                                       broadcastVerified=True, broadcastSource=entry['sourceUrl'])
         added += 1
+    builtin_count = sum(bool(built_in_nfl(g)) for g in merged.values())
+    print(f'Built-in UK NFL broadcasts applied: {builtin_count}', flush=True)
     print(f'Curated UK broadcasts applied: {added}', flush=True)
+    if not any(g.get('sport') == 'Rugby' for g in merged.values()):
+        print('WARNING: Rugby feed returned no fixtures. Cannot safely fabricate rugby fixtures or broadcast rights.', flush=True)
     coverage = [{'feed': path, 'date': day, 'ok': ok, **({'error': error[:180]} if error else {})} for path, day, ok, _, error in sorted(results, key=lambda r: (r[0], r[1]))]
     payload = {
         'updatedAt': dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -211,7 +238,9 @@ def main():
         'coverage': coverage,
         'note': 'NBA, MLS, Women’s Champions League and UK home-nation Nations League games have access rules. Prime Video Nations League PPV is excluded. Other rights require verified overrides.',
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temp = OUT.with_suffix('.json.tmp')
+    temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temp.replace(OUT)
     print(f'Updated: {len(merged)} fixtures; {len(successful)}/{len(results)} checks succeeded; {sum(g.get("broadcastVerified") is True for g in merged.values())} watchable', flush=True)
 
 if __name__ == '__main__':
