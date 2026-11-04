@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T14:01:59.793157+00:00",
-  "successfulChecks": 288,
-  "totalChecks": 288,
+  "updatedAt": "2026-11-04T14:07:11.029711+00:00",
+  "successfulChecks": 280,
+  "totalChecks": 315,
   "items": [
     {
       "id": "espn:soccer/uefa.champions:401915382",
@@ -6035,11 +6035,6 @@
       "ok": true
     },
     {
-      "feed": "basketball/nba",
-      "date": "2026-12-09",
-      "ok": true
-    },
-    {
       "feed": "football/nfl",
       "date": "2026-11-04",
       "ok": true
@@ -6215,9 +6210,214 @@
       "ok": true
     },
     {
-      "feed": "football/nfl",
-      "date": "2026-12-09",
-      "ok": true
+      "feed": "rugby/164",
+      "date": "2026-11-04",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-05",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-06",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-07",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-08",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-09",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-10",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-11",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-12",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-13",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-14",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-15",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-16",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-17",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-18",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-19",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-20",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-21",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-22",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-23",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-24",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-25",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-26",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-27",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-28",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-29",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-11-30",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-01",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-02",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-03",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-04",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-05",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-06",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-07",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "feed": "rugby/164",
+      "date": "2026-12-08",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "feed": "soccer/eng.1",
@@ -6395,11 +6595,6 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.1",
-      "date": "2026-12-09",
-      "ok": true
-    },
-    {
       "feed": "soccer/eng.w.1",
       "date": "2026-11-04",
       "ok": true
@@ -6572,11 +6767,6 @@
     {
       "feed": "soccer/eng.w.1",
       "date": "2026-12-08",
-      "ok": true
-    },
-    {
-      "feed": "soccer/eng.w.1",
-      "date": "2026-12-09",
       "ok": true
     },
     {
@@ -6755,11 +6945,6 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.champions",
-      "date": "2026-12-09",
-      "ok": true
-    },
-    {
       "feed": "soccer/uefa.nations",
       "date": "2026-11-04",
       "ok": true
@@ -6932,11 +7117,6 @@
     {
       "feed": "soccer/uefa.nations",
       "date": "2026-12-08",
-      "ok": true
-    },
-    {
-      "feed": "soccer/uefa.nations",
-      "date": "2026-12-09",
       "ok": true
     },
     {
@@ -7115,11 +7295,6 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.wchampions",
-      "date": "2026-12-09",
-      "ok": true
-    },
-    {
       "feed": "soccer/usa.1",
       "date": "2026-11-04",
       "ok": true
@@ -7292,11 +7467,6 @@
     {
       "feed": "soccer/usa.1",
       "date": "2026-12-08",
-      "ok": true
-    },
-    {
-      "feed": "soccer/usa.1",
-      "date": "2026-12-09",
       "ok": true
     }
   ],
