@@ -1955,19 +1955,18 @@ dialog{max-width:min(92vw,680px);width:100%;max-height:85vh;overflow:auto;backgr
 .wizard-kicker{margin:0;color:#ffc4bb;font-size:10px;letter-spacing:.2em;font-weight:750}
 .wizard-step h2{font:italic bold clamp(27px,6vw,44px)/1.05 Georgia,serif;margin:9px 0 12px}
 .wizard-step h2:focus{outline:none}.wizard-intro{margin:0 auto 18px;color:var(--sub);max-width:34ch}
-.wizard-step form{display:grid;gap:9px;margin:0 auto;max-width:340px}
 .wizard-step input,.wizard-step button{min-width:0;min-height:43px;border:1px solid #857781;border-radius:10px;background:#1b202b;padding:8px 12px}
 .wizard-step input{width:100%}.wizard-step label{display:block;font-size:13px;margin:3px 0}
-.wizard-step button[data-account="save"],.wizard-step button[data-account$="next"],.wizard-step button[type="submit"]{background:#952d39;border-color:#d66a73}
+.wizard-step button[data-step="save"],.wizard-step button[data-step$="next"]{background:#952d39;border-color:#d66a73}
 .wizard-step button:disabled{opacity:.5;cursor:default}.wizard-step :is(input,button):focus-visible{outline:2px solid #f6c0bb;outline-offset:2px}
-.wizard-actions,.team-account-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:15px 0 0}
+.wizard-actions,.team-preference-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:15px 0 0}
 .wizard-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .wizard-step .team-choice{width:100%;overflow-wrap:anywhere;text-align:left}.team-choice small{display:block;color:var(--sub);font-size:11px}
 .wizard-step .team-choice[aria-pressed="true"]{border-color:#f1848a;background:#60303a}.team-choice[aria-pressed="true"]::before{content:"✓ ";color:#ffd0cc}
 .team-scroll{max-height:32svh;overflow:auto;padding:3px}
 #teamCount,#teamLoadStatus{font-size:12px;color:var(--sub);margin:8px 0}
-.wizard-error{font-size:13px;color:#ffb4af;margin:10px 0 0}.wizard-error:empty,#teamAccountStatus:empty,#teamLoadStatus:empty{display:none}
-.wizard-review{overflow-wrap:anywhere}.team-account p{margin:5px 0}.team-account-actions{justify-content:flex-start}
+.wizard-error{font-size:13px;color:#ffb4af;margin:10px 0 0}.wizard-error:empty,#teamPreferenceStatus:empty,#teamLoadStatus:empty{display:none}
+.wizard-review{overflow-wrap:anywhere}.team-preferences p{margin:5px 0}.team-preference-actions{justify-content:flex-start}
 @media(max-width:380px){.wizard-step{padding:16px}.wizard-choices{gap:5px}.wizard-step .team-choice{padding:7px 8px}}
 .team-summary{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:18px}
 .team-summary p{margin:5px 0}.team-form-list,.team-news ul{list-style:none;padding:0;margin:0}
@@ -1994,12 +1993,12 @@ dialog{max-width:min(92vw,680px);width:100%;max-height:85vh;overflow:auto;backgr
 <div class="tools"><select id="championLeague" aria-label="Championship league"><option value="">All sports</option></select><input id="championSearch" type="search" placeholder="Find a champion or year" aria-label="Search champions"></div><div class="stack" id="championList"></div></section>
 
 <section class="section" id="teamsPage" aria-label="My Teams">
-<div id="teamWizard" class="team-wizard" aria-label="My Teams account setup"></div>
+<div id="teamWizard" class="team-wizard" aria-label="My Teams setup"></div>
 <div id="teamDashboard" class="team-dashboard" hidden>
-  <div class="card team-account"><div class="inner">
-    <strong id="teamAccountEmail"></strong><p class="muted" id="teamFavouriteSports"></p>
-    <div class="team-account-actions"><button class="outline" type="button" id="editTeamProfile">Edit sports and teams</button><button class="outline" type="button" id="signOutTeams">Sign out</button></div>
-    <p id="teamAccountStatus" role="status"></p>
+  <div class="card team-preferences"><div class="inner">
+    <strong>Favourite sports</strong><p class="muted" id="teamFavouriteSports"></p>
+    <div class="team-preference-actions"><button class="outline" type="button" id="editTeamProfile">Edit sports and teams</button></div>
+    <p id="teamPreferenceStatus" role="status"></p>
   </div></div>
   <div class="team-heading"><h2 class="sectiontitle">Following</h2><button class="outline" type="button" id="refreshTeams" disabled>↻ Refresh teams</button></div>
   <div id="teamCards" class="stack" aria-live="polite"></div>
@@ -2363,8 +2362,6 @@ async function loadTeamUpdate(team,force=false){
   });
   renderTeamCards();
 }
-// Add your Supabase Project URL and public publishable key here.
-const ACCOUNT_CONFIG={"url":"https://cgopozmkowrpooywrlyg.supabase.co","publishableKey":"sb_publishable_9XYGrgHtqVYlyk6gZ7qKLg_pU0ja95N"};
 const SPORT_LEAGUES={
   'Football':['Premier League','WSL','Champions League','MLS'],
   'Basketball':['NBA'],
@@ -2372,12 +2369,11 @@ const SPORT_LEAGUES={
   'American football':['NFL'],
   'Ice hockey':['NHL']
 };
-const PROFILE_KEY='sports_almanac_preferences';
+const PROFILE_KEY='sports-almanac-local-preferences-v1';
 const TEAM_LIMIT=24;
 const wizard=$('teamWizard');
 const dashboard=$('teamDashboard');
-let account, clientTask, user=null, accountStarted=false, accountBusy=false;
-let stage='loading', accountMessage='', email='', codeSentAt=0, sportIndex=0, searchTeams='';
+let stage='sports', wizardMessage='', sportIndex=0, searchTeams='', storageMessage='';
 let profile=null, draftSports=new Set(), draftTeams=new Map();
 const directoryTasks=new Map(), directoryFailures=new Set();
 
@@ -2390,21 +2386,18 @@ function teamProfile(value){
     .map(team=>({id:String(team.id),league:team.league,name:team.name.slice(0,100),shortName:String(team.shortName||'').slice(0,100)}));
   return {version:1,sports,teams:[...new Map(teams.map(team=>[teamKey(team),team])).values()].slice(0,TEAM_LIMIT)};
 }
-function accountClient(){
-  if(!clientTask){
-    clientTask=new Promise((resolve,reject)=>{
-      if(window.supabase?.createClient){resolve();return;}
-      const script=document.createElement('script');
-      script.src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
-      script.onload=resolve;
-      script.onerror=()=>{script.remove();reject(new Error('Account service could not be loaded.'));};
-      document.head.append(script);
-    }).then(()=>window.supabase.createClient(ACCOUNT_CONFIG.url,ACCOUNT_CONFIG.publishableKey,{
-      auth:{storageKey:'sports-almanac-account',detectSessionInUrl:false}
-    })).catch(error=>{clientTask=null;throw error;});
+try{
+  profile=teamProfile(JSON.parse(localStorage.getItem(PROFILE_KEY)));
+  if(!profile){
+    const legacy=JSON.parse(localStorage.getItem('sports-almanac-my-teams-v1'));
+    if(Array.isArray(legacy)&&legacy.length){
+      const sports=Object.keys(SPORT_LEAGUES).filter(sport=>legacy.some(team=>SPORT_LEAGUES[sport].includes(team?.league)));
+      profile=teamProfile({version:1,sports,teams:legacy});
+    }
   }
-  return clientTask;
-}
+}catch(error){ /* Preferences can still be used during the current visit. */ }
+if(profile){followed=profile.teams;stage='dashboard';}
+
 function startPreferences(){
   draftSports=new Set(profile?.sports||[]);
   draftTeams=new Map((profile?.teams||[]).map(team=>[teamKey(team),team]));
@@ -2412,81 +2405,15 @@ function startPreferences(){
   searchTeams='';
   openStep('sports');
 }
-function applyAccount(next){
-  if(next&&user?.id===next.id){user=next;return;}
-  user=next;
-  email='';
-  codeSentAt=0;
-  draftSports=new Set();
-  draftTeams=new Map();
-  profile=teamProfile(user?.user_metadata?.[PROFILE_KEY]);
-  followed=profile?.teams||[];
-  if(!user) openStep('email');
-  else if(profile) openStep('dashboard');
-  else startPreferences();
-}
-async function startAccount(){
-  if(accountStarted) return;
-  accountStarted=true;
-  if(!ACCOUNT_CONFIG.url||!ACCOUNT_CONFIG.publishableKey){openStep('unavailable');return;}
-  openStep('loading');
-  try{
-    account=await accountClient();
-    const {data,error}=await account.auth.getSession();
-    if(error) throw error;
-    if(data.session){
-      const verified=await account.auth.getUser();
-      if(verified.error) throw verified.error;
-      applyAccount(verified.data.user);
-    }else applyAccount(null);
-    account.auth.onAuthStateChange((event,session)=>{
-      if(event==='SIGNED_OUT'||event==='SIGNED_IN') applyAccount(session?.user||null);
-    });
-  }catch(error){
-    accountStarted=false;
-    openStep('connection');
-  }
-}
 function openStep(next){
   stage=next;
-  accountMessage='';
-  renderAccount(true);
+  wizardMessage='';
+  renderWizard(true);
 }
-function setAccountMessage(message=''){
-  accountMessage=message;
-  const status=$('accountMessage');
+function setWizardMessage(message=''){
+  wizardMessage=message;
+  const status=$('wizardMessage');
   if(status) status.textContent=message;
-}
-function accountButtons(disabled){
-  accountBusy=disabled;
-  wizard.setAttribute('aria-busy',String(disabled));
-  for(const button of wizard.querySelectorAll('button')){
-    if(disabled){
-      button.dataset.wasDisabled=String(button.disabled);
-      button.disabled=true;
-    }else{
-      if(button.dataset.wasDisabled!==undefined) button.disabled=button.dataset.wasDisabled==='true';
-      delete button.dataset.wasDisabled;
-    }
-  }
-  $('editTeamProfile').disabled=disabled;
-  $('signOutTeams').disabled=disabled;
-}
-async function accountAction(action){
-  if(accountBusy) return;
-  setAccountMessage();
-  accountButtons(true);
-  try{await action();}
-  catch(error){setAccountMessage(error.message||'Something went wrong. Please try again.');}
-  finally{accountButtons(false);}
-}
-async function sendTeamCode(address){
-  const {error}=await account.auth.signInWithOtp({email:address,options:{shouldCreateUser:true}});
-  if(error) throw error;
-  email=address;
-  codeSentAt=Date.now();
-  if(stage==='code') setAccountMessage('A new code was sent. Check your inbox.');
-  else openStep('code');
 }
 function currentSport(){return [...draftSports][sportIndex];}
 function populateSport(sport){
@@ -2507,7 +2434,7 @@ function populateSport(sport){
 }
 function choicesFor(sport){
   const teams=new Map(SPORT_LEAGUES[sport].flatMap(league=>teamDirectory.get(league)||[]).map(team=>[teamKey(team),team]));
-  // Keep account selections visible even if ESPN changes a league roster.
+  // Keep saved selections visible even if ESPN changes a league roster.
   for(const team of draftTeams.values()) if(SPORT_LEAGUES[sport].includes(team.league)) teams.set(teamKey(team),team);
   return [...teams.values()].sort((a,b)=>a.name.localeCompare(b.name));
 }
@@ -2525,7 +2452,7 @@ function renderSportTeams(){
   $('retrySportTeams').hidden=!failed;
   $('teamCount').textContent=`${draftTeams.size} of ${TEAM_LIMIT} teams selected`;
 }
-function renderAccount(animate=false){
+function renderWizard(animate=false){
   if(!['#teams','#history'].includes(location.hash)) return;
   const ready=stage==='dashboard';
   wizard.hidden=ready;
@@ -2534,7 +2461,7 @@ function renderAccount(animate=false){
   $('almanacFooter').hidden=!ready;
   wizard.dataset.stage=stage;
   if(ready){
-    $('teamAccountEmail').textContent=user?.email||'';
+    $('teamPreferenceStatus').textContent=storageMessage;
     $('teamFavouriteSports').textContent=profile.sports.join(' · ');
     renderTeamCards();
     followed.forEach(team=>loadTeamUpdate(team));
@@ -2543,53 +2470,31 @@ function renderAccount(animate=false){
   const sports=[...draftSports];
   const sport=currentSport();
   const steps={
-    loading:['My Teams','Connecting to your account…',''],
-    unavailable:['My Teams','Account sign-up is awaiting setup.',''],
-    connection:['Couldn’t connect','The account service is unavailable. Try again in a moment.','<button type="button" data-account="retry">Try again</button>'],
-    email:['Create an account','Enter your email to sign up or sign back in.',`<form data-account-form="email"><label for="teamEmail">Email address</label><input id="teamEmail" type="email" name="email" autocomplete="email" required><button type="submit">Send sign-in code</button></form>`],
-    code:['Check your email',`Enter the six-digit code sent to ${esc(email)}.`,'<form data-account-form="code"><label for="teamCode">Verification code</label><input id="teamCode" name="code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}" required><button type="submit">Verify and continue</button></form><div class="wizard-actions"><button class="outline" type="button" data-account="change-email">Change email</button><button class="outline" type="button" data-account="resend">Resend code</button></div>'],
-    sports:['What sports do you like?','Choose the sports you want to follow.',`<div class="wizard-choices">${Object.keys(SPORT_LEAGUES).map(name=>`<button class="team-choice" type="button" data-pick-sport="${esc(name)}" aria-pressed="${draftSports.has(name)}">${esc(name)}</button>`).join('')}</div><div class="wizard-actions">${profile?'<button class="outline" type="button" data-account="cancel">Cancel</button>':''}<button id="continueSports" type="button" data-account="sports-next" ${draftSports.size?'':'disabled'}>Continue</button></div>`],
+    sports:['What sports do you like?','Choose the sports you want to follow. Your picks stay in this browser.',`<div class="wizard-choices">${Object.keys(SPORT_LEAGUES).map(name=>`<button class="team-choice" type="button" data-pick-sport="${esc(name)}" aria-pressed="${draftSports.has(name)}">${esc(name)}</button>`).join('')}</div><div class="wizard-actions">${profile?'<button class="outline" type="button" data-step="cancel">Cancel</button>':''}<button id="continueSports" type="button" data-step="sports-next" ${draftSports.size?'':'disabled'}>Continue</button></div>`],
     pick:[`Pick your ${esc((sport||'').toLowerCase())} teams`,'Choose the teams you want on your dashboard. You can skip this sport.',
-      `<label for="sportTeamSearch">Search teams</label><input id="sportTeamSearch" type="search" autocomplete="off"><p id="teamLoadStatus" role="status"></p><button type="button" class="outline" id="retrySportTeams" data-account="retry-teams" hidden>Retry team lists</button><div id="sportTeamList" class="wizard-choices team-scroll"></div><p id="teamCount"></p><div class="wizard-actions"><button class="outline" type="button" data-account="back">Back</button><button type="button" data-account="teams-next">Continue</button></div>`],
+      `<label for="sportTeamSearch">Search teams</label><input id="sportTeamSearch" type="search" autocomplete="off"><p id="teamLoadStatus" role="status"></p><button type="button" class="outline" id="retrySportTeams" data-step="retry-teams" hidden>Retry team lists</button><div id="sportTeamList" class="wizard-choices team-scroll"></div><p id="teamCount"></p><div class="wizard-actions"><button class="outline" type="button" data-step="back">Back</button><button type="button" data-step="teams-next">Continue</button></div>`],
     review:['Ready to follow your teams?',`${sports.length} sport${sports.length===1?'':'s'} · ${draftTeams.size} team${draftTeams.size===1?'':'s'}`,
-      `<p class="wizard-review">${esc([...draftTeams.values()].map(team=>team.name).join(' · ')||'You can add teams any time.')}</p><div class="wizard-actions"><button class="outline" type="button" data-account="back">Back</button><button type="button" data-account="save">Save and open My Teams</button></div>`]
+      `<p class="wizard-review">${esc([...draftTeams.values()].map(team=>team.name).join(' · ')||'You can add teams any time.')}</p><div class="wizard-actions"><button class="outline" type="button" data-step="back">Back</button><button type="button" data-step="save">Save and open My Teams</button></div>`]
   };
   const [title,description,controls]=steps[stage];
-  const progress=stage==='sports'?'YOUR PREFERENCES':stage==='pick'?`SPORT ${sportIndex+1} OF ${sports.length}`:stage==='review'?'FINISH SETUP':'SPORTS ALMANAC ACCOUNT';
-  wizard.innerHTML=`<div class="wizard-step ${animate?'wizard-enter':''}"><p class="wizard-kicker">${progress}</p><h2 id="wizardTitle" tabindex="-1">${title}</h2><p class="wizard-intro">${description}</p>${controls}<p id="accountMessage" class="wizard-error" role="status">${esc(accountMessage)}</p></div>`;
+  const progress=stage==='sports'?'MY TEAMS SETUP':stage==='pick'?`SPORT ${sportIndex+1} OF ${sports.length}`:'FINISH SETUP';
+  wizard.innerHTML=`<div class="wizard-step ${animate?'wizard-enter':''}"><p class="wizard-kicker">${progress}</p><h2 id="wizardTitle" tabindex="-1">${title}</h2><p class="wizard-intro">${description}</p>${controls}<p id="wizardMessage" class="wizard-error" role="status">${esc(wizardMessage)}</p></div>`;
   if(stage==='pick'){
     $('sportTeamSearch').value=searchTeams;
     populateSport(sport);
   }
-  if(accountBusy) accountButtons(true);
   if(animate) $('wizardTitle').focus({preventScroll:true});
 }
-async function saveTeamProfile(){
-  const owner=user?.id;
+function saveTeamProfile(){
   const next=teamProfile({version:1,sports:[...draftSports],teams:[...draftTeams.values()]});
-  if(!owner||!next) throw new Error('Sign in and select a sport before saving.');
-  const {data,error}=await account.auth.updateUser({data:{[PROFILE_KEY]:next}});
-  if(error) throw error;
-  if(user?.id!==owner) return;
-  user=data.user;
-  profile=teamProfile(user?.user_metadata?.[PROFILE_KEY]);
-  if(!profile) throw new Error('The account did not confirm the save. Please try again.');
+  if(!next){setWizardMessage('Choose at least one sport.');return;}
+  profile=next;
   followed=profile.teams;
+  storageMessage='';
+  try{localStorage.setItem(PROFILE_KEY,JSON.stringify(profile));}
+  catch(error){storageMessage='Browser storage is unavailable. These choices will last for this visit.';}
   openStep('dashboard');
 }
-wizard.addEventListener('submit',event=>{
-  const form=event.target;
-  if(!form.dataset.accountForm) return;
-  event.preventDefault();
-  const values=new FormData(form);
-  if(form.dataset.accountForm==='email') accountAction(()=>sendTeamCode(String(values.get('email')).trim()));
-  else accountAction(async()=>{
-    const {data,error}=await account.auth.verifyOtp({email,token:String(values.get('code')).trim(),type:'email'});
-    if(error) throw error;
-    if(!data.user) throw new Error('We could not confirm this sign-in. Please request a new code.');
-    applyAccount(data.user);
-  });
-});
 wizard.addEventListener('input',event=>{
   if(event.target.id!=='sportTeamSearch') return;
   searchTeams=event.target.value;
@@ -2597,10 +2502,10 @@ wizard.addEventListener('input',event=>{
 });
 wizard.addEventListener('click',event=>{
   const button=event.target.closest('button');
-  if(!button||accountBusy) return;
+  if(!button) return;
   const sport=button.dataset.pickSport;
   const key=button.dataset.pickTeam;
-  const action=button.dataset.account;
+  const action=button.dataset.step;
   if(sport){
     if(draftSports.has(sport)) draftSports.delete(sport);
     else draftSports.add(sport);
@@ -2609,12 +2514,12 @@ wizard.addEventListener('click',event=>{
   }else if(key){
     if(draftTeams.has(key)) draftTeams.delete(key);
     else{
-      if(draftTeams.size>=TEAM_LIMIT){setAccountMessage(`Choose up to ${TEAM_LIMIT} teams.`);return;}
+      if(draftTeams.size>=TEAM_LIMIT){setWizardMessage(`Choose up to ${TEAM_LIMIT} teams.`);return;}
       const team=choicesFor(currentSport()).find(team=>teamKey(team)===key);
       if(!team) return;
       draftTeams.set(key,team);
     }
-    setAccountMessage();
+    setWizardMessage();
     button.setAttribute('aria-pressed',String(draftTeams.has(key)));
     $('teamCount').textContent=`${draftTeams.size} of ${TEAM_LIMIT} teams selected`;
   }else if(action==='sports-next'){
@@ -2635,25 +2540,12 @@ wizard.addEventListener('click',event=>{
   }else if(action==='retry-teams'){
     for(const league of SPORT_LEAGUES[currentSport()]) directoryFailures.delete(league);
     populateSport(currentSport());
-  }else if(action==='retry') startAccount();
-  else if(action==='change-email') openStep('email');
-  else if(action==='cancel') openStep('dashboard');
-  else if(action==='resend'){
-    const wait=Math.ceil((60000-(Date.now()-codeSentAt))/1000);
-    if(wait>0) setAccountMessage(`Try again in ${wait} seconds.`);
-    else accountAction(()=>sendTeamCode(email));
-  }else if(action==='save') accountAction(saveTeamProfile);
+  }else if(action==='cancel') openStep('dashboard');
+  else if(action==='save') saveTeamProfile();
 });
 $('editTeamProfile').onclick=startPreferences;
-$('signOutTeams').onclick=()=>accountAction(async()=>{
-  const {error}=await account.auth.signOut({scope:'local'});
-  if(error){$('teamAccountStatus').textContent='Could not sign out. Please try again.';return;}
-  $('teamAccountStatus').textContent='';
-  applyAccount(null);
-});
 function showMyTeams(){
-  if(!accountStarted&&stage==='loading') startAccount();
-  else if(stage==='dashboard'||wizard.dataset.stage!==stage) renderAccount();
+  if(stage==='dashboard'||wizard.dataset.stage!==stage) renderWizard(true);
 }
 
 $('refreshTeams').onclick=()=>followed.forEach(team=>loadTeamUpdate(team,true));
