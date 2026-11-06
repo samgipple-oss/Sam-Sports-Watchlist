@@ -20,6 +20,9 @@ const TODAY = () => {
 const STORE = 'sports-watchlist-favorites-v1';
 const CACHE = 'sports-watchlist-live-v3';
 const OLD = 'sports-watchlist-live-v1';
+const FAVORITES_V2 = 'sports-watchlist-favorites-v2';
+const GENDER_STORE = 'sports-watchlist-gender-filter-v1';
+const EXCLUDE_STORE = 'sports-watchlist-excluded-sports-v1';
 
 const escape = s =>
   String(s ?? '').replace(/[&<>"']/g, c => ({
@@ -58,15 +61,11 @@ const normalize = g => ({
   source: g.source || 'Saved list'
 });
 
-const NBA_TEAMS = [
-  '76ers', 'Bucks', 'Bulls', 'Cavaliers', 'Celtics',
-  'Clippers', 'Grizzlies', 'Hawks', 'Heat', 'Hornets',
-  'Jazz', 'Kings', 'Knicks', 'Lakers', 'Magic',
-  'Mavericks', 'Nets', 'Nuggets', 'Pacers',
-  'Pelicans', 'Pistons', 'Raptors', 'Rockets',
-  'Spurs', 'Suns', 'Thunder', 'Timberwolves',
-  'Trail Blazers', 'Warriors', 'Wizards'
-];
+const canonical = s =>
+  String(s || '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ');
 
 const clean = s =>
   String(s || '')
@@ -75,13 +74,26 @@ const clean = s =>
     .replace(/\s+/g, ' ')
     .trim();
 
+const NBA_TEAMS = [
+  '76ers', 'Bucks', 'Bulls', 'Cavaliers',
+  'Celtics', 'Clippers', 'Grizzlies', 'Hawks',
+  'Heat', 'Hornets', 'Jazz', 'Kings',
+  'Knicks', 'Lakers', 'Magic', 'Mavericks',
+  'Nets', 'Nuggets', 'Pacers', 'Pelicans',
+  'Pistons', 'Raptors', 'Rockets', 'Spurs',
+  'Suns', 'Thunder', 'Timberwolves',
+  'Trail Blazers', 'Warriors', 'Wizards'
+];
+
 function teamName(s, g) {
   const name = clean(s);
 
   if (g.sport === 'NBA') {
     const match = NBA_TEAMS.find(
-      t => name === clean(t) || name.endsWith(' ' + clean(t))
+      t => name === clean(t) ||
+        name.endsWith(' ' + clean(t))
     );
+
     if (match) return clean(match);
   }
 
@@ -110,15 +122,23 @@ function key(g) {
   ].join('|');
 }
 
-const ALLOWED = new Set([
-  'bbc iplayer', 'itvx', 'disney+', 'prime',
-  'prime video', 'amazon prime', 'channel 4',
-  'channel 5', '5action', 'netflix', 'apple tv',
-  'league pass', 'nba league pass'
-]);
+const favoriteKey = g => key(g);
 
-const canonical = s =>
-  String(s || '').trim().toLowerCase().replace(/\s+/g, ' ');
+const ALLOWED = new Set([
+  'bbc iplayer',
+  'itvx',
+  'disney+',
+  'prime',
+  'prime video',
+  'amazon prime',
+  'channel 4',
+  'channel 5',
+  '5action',
+  'netflix',
+  'apple tv',
+  'league pass',
+  'nba league pass'
+]);
 
 function watchable(g) {
   const competition = canonical(g.competition);
@@ -136,12 +156,99 @@ function watchable(g) {
   return verified && ALLOWED.has(service);
 }
 
-const GENDER_STORE = 'sports-watchlist-gender-filter-v1';
+/*
+  FINISHED-GAME DETECTION
 
-let genderFilter = safeRead(GENDER_STORE, 'all');
+  A game is considered finished ONLY if its
+  fixture data explicitly confirms completion.
 
-if (!['all', 'men', 'women'].includes(genderFilter)) {
-  genderFilter = 'all';
+  We do not guess from the scheduled start time.
+
+  Postponed, suspended, delayed and unknown
+  statuses are not treated as completed.
+*/
+
+function confirmedFinal(g) {
+  if (!g || typeof g !== 'object') return false;
+
+  const status = g.status;
+
+  if (
+    g.completed === true ||
+    g.isCompleted === true ||
+    g.isFinal === true ||
+    g._confirmedFinal === true ||
+    status?.completed === true ||
+    status?.type?.completed === true
+  ) {
+    return true;
+  }
+
+  const finalCodes = new Set([
+    'final',
+    'ft',
+    'finished',
+    'completed',
+    'full time',
+    'fulltime',
+    'game over',
+    'aet',
+    'after extra time',
+    'after penalties',
+    'final ot',
+    'final so',
+    'final pens',
+    'final pk',
+    'status final',
+    'status full time'
+  ]);
+
+  const fields = [
+    g.liveStatus,
+    g.statusText,
+    g.statusName,
+    g.state,
+    typeof status === 'string' ? status : null,
+    status?.name,
+    status?.description,
+    status?.detail,
+    status?.shortDetail,
+    status?.state,
+    status?.type?.name,
+    status?.type?.description,
+    status?.type?.detail,
+    status?.type?.shortDetail
+  ];
+
+  return fields.some(value => {
+    if (typeof value !== 'string') return false;
+
+    const s = canonical(
+      value.replace(/_/g, ' ').replace(/-/g, ' ')
+    );
+
+    if (finalCodes.has(s)) return true;
+
+    return /^final(?:\s|$)/.test(s) ||
+      /^ft(?:\s|$)/.test(s) ||
+      /^full time(?:\s|$)/.test(s) ||
+      /^finished(?:\s|$)/.test(s) ||
+      /^completed(?:\s|$)/.test(s);
+  });
+}
+
+/*
+  Determine status directly from the current
+  fixture record before it is displayed.
+*/
+
+function liveGame(g) {
+  const item = normalize(g);
+
+  return {
+    ...item,
+    _confirmedFinal: confirmedFinal(item)
+  };
 }
 
 function eventGender(g) {
@@ -149,8 +256,10 @@ function eventGender(g) {
   const title = canonical(g.title);
   const sport = canonical(g.sport);
 
-  if (/\b(women|womens|women's|female|ladies|girls|wsl|nwsl|uwcl|wnba|wta)\b/
-    .test(competition + ' ' + title)) {
+  if (
+    /\b(women|womens|women's|female|ladies|girls|wsl|nwsl|uwcl|wnba|wta)\b/
+      .test(competition + ' ' + title)
+  ) {
     return 'women';
   }
 
@@ -175,30 +284,36 @@ function eventGender(g) {
   return 'unknown';
 }
 
-const FAVORITES_V2 = 'sports-watchlist-favorites-v2';
-const favoriteKey = g => key(g);
+let genderFilter = safeRead(GENDER_STORE, 'all');
+
+if (!['all', 'men', 'women'].includes(genderFilter)) {
+  genderFilter = 'all';
+}
 
 let seed = [];
 let live = [];
+
 let view = 'upcoming';
 let sport = 'All';
 let service = 'All';
 let query = '';
 let date = TODAY();
 
-let favorites = new Set(safeRead(FAVORITES_V2, []));
-let legacyFavorites = new Set(safeRead(STORE, []));
+let favorites = new Set(
+  safeRead(FAVORITES_V2, [])
+);
 
-let lastRefresh = 0;
-let updating = false;
-
-const EXCLUDE_STORE = 'sports-watchlist-excluded-sports-v1';
+let legacyFavorites = new Set(
+  safeRead(STORE, [])
+);
 
 let excludedSports = new Set(
   safeRead(EXCLUDE_STORE, [])
 );
 
 let excludeMode = false;
+let lastRefresh = 0;
+let updating = false;
 
 const saveExcluded = () =>
   localStorage.setItem(
@@ -207,152 +322,100 @@ const saveExcluded = () =>
   );
 
 /*
- * NEW: CONFIRMED COMPLETION DETECTION
- *
- * Games are only considered completed when
- * their fixture feed explicitly marks them final.
- *
- * Start times and elapsed time are NOT used.
- *
- * Delayed, postponed, suspended and unknown
- * games remain eligible for Saved.
- */
-
-function confirmedFinal(g) {
-  const status = g.status;
-
-  if (
-    g._confirmedFinal === true ||
-    g.completed === true ||
-    g.isCompleted === true ||
-    g.isFinal === true ||
-    status?.completed === true ||
-    status?.type?.completed === true
-  ) {
-    return true;
-  }
-
-  const fields = [
-    g.liveStatus,
-    g.statusText,
-    g.statusName,
-    g.state,
-    status?.name,
-    status?.description,
-    status?.detail,
-    status?.shortDetail,
-    status?.type?.name,
-    status?.type?.description,
-    status?.type?.detail,
-    status?.type?.shortDetail
-  ];
-
-  const matchesFinal = value => {
-    if (typeof value !== 'string') return false;
-
-    const label = value
-      .trim()
-      .toLowerCase()
-      .replace(/^status[_\s-]+/, '')
-      .replace(/_/g, ' ')
-      .replace(/\s+/g, ' ');
-
-    return /^(?:final(?:\s*(?:\/|-|\()\s*(?:ot|so|pen|pens|pk)\)?)?|ft|full time|finished|completed|game over|after extra time|aet|after penalties)$/
-      .test(label);
-  };
-
-  return fields.some(matchesFinal) ||
-    (typeof status === 'string' && matchesFinal(status));
-}
-
-/*
- * The completed flag is derived from LIVE feed
- * data rather than guessing from schedule dates.
- */
-
-const liveGame = g => ({
-  ...normalize(g),
-  _confirmedFinal: confirmedFinal(g)
-});
-
-/* COMBINE SEED AND LIVE FIXTURES */
+  COMBINE SEED AND LIVE GAMES
+*/
 
 function allGames() {
   const m = new Map();
 
   seed.forEach(g => {
-    g = normalize(g);
-    m.set(key(g), g);
+    const item = normalize(g);
+    m.set(key(item), item);
   });
 
   live.forEach(g => {
-    g = liveGame(g);
-
-    const k = key(g);
+    const item = liveGame(g);
+    const k = key(item);
     const old = m.get(k);
 
-    m.set(
-      k,
-      old
-        ? {
-            ...old,
-            ...g,
-            priority: old.priority || g.priority,
-            service: g.service,
-            source: 'Live fixture feed',
-            broadcastVerified:
-              g.broadcastVerified === true ||
-              g.ukBroadcastVerified === true
-          }
-        : g
-    );
+    if (old) {
+      m.set(k, {
+        ...old,
+        ...item,
+        priority: old.priority || item.priority,
+        service: item.service,
+        source: 'Live fixture feed',
+        broadcastVerified:
+          item.broadcastVerified === true ||
+          item.ukBroadcastVerified === true
+      });
+    } else {
+      m.set(k, item);
+    }
   });
 
   return [...m.values()]
     .filter(watchable)
     .map(g => {
+      const item = {
+        ...g,
+        _confirmedFinal: confirmedFinal(g)
+      };
+
       if (
-        canonical(g.sport) === 'nba' &&
-        canonical(g.competition) === 'nba'
+        canonical(item.sport) === 'nba' &&
+        canonical(item.competition) === 'nba'
       ) {
-        return { ...g, service: 'League Pass' };
+        return {
+          ...item,
+          service: 'League Pass'
+        };
       }
 
       if (
-        canonical(g.sport) === 'mls' &&
-        canonical(g.competition) === 'mls'
+        canonical(item.sport) === 'mls' &&
+        canonical(item.competition) === 'mls'
       ) {
-        return { ...g, service: 'Apple TV' };
+        return {
+          ...item,
+          service: 'Apple TV'
+        };
       }
 
       if (
-        canonical(g.sport) === 'mlb' &&
-        canonical(g.competition) === 'mlb'
+        canonical(item.sport) === 'mlb' &&
+        canonical(item.competition) === 'mlb'
       ) {
-        return { ...g, service: 'MLB.TV' };
+        return {
+          ...item,
+          service: 'MLB.TV'
+        };
       }
 
-      return g;
+      return item;
     })
-    .sort(
-      (a, b) =>
-        a.date.localeCompare(b.date) ||
-        (
-          a.time === 'TBC'
-            ? 1
-            : b.time === 'TBC'
-              ? -1
-              : a.time.localeCompare(b.time)
-        ) ||
-        a.title.localeCompare(b.title)
+    .sort((a, b) =>
+      a.date.localeCompare(b.date) ||
+      (
+        a.time === 'TBC'
+          ? 1
+          : b.time === 'TBC'
+            ? -1
+            : a.time.localeCompare(b.time)
+      ) ||
+      a.title.localeCompare(b.title)
     );
 }
 
-/* FILTER CHIPS */
+/*
+  FILTER BUTTONS
+*/
 
 function chips(id, values, current, cb) {
   $(id).innerHTML = values.map(v =>
-    `<button class="chip ${v === current ? 'active' : ''}" data-v="${escape(v)}">${escape(v)}</button>`
+    `<button class="chip ${
+      v === current ? 'active' : ''
+    }" data-v="${escape(v)}">${escape(v)}</button>`
   ).join('');
 
   $(id).querySelectorAll('button').forEach(b => {
@@ -363,7 +426,9 @@ function chips(id, values, current, cb) {
   });
 }
 
-/* RENDER THE FIXTURES */
+/*
+  MAIN RENDER
+*/
 
 function render() {
   const games = allGames();
@@ -407,24 +472,35 @@ function render() {
 
   sportsBox.innerHTML =
     `<div style="width:100%;display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:9px">
-      <button id="sportMode" class="chip ${excludeMode ? 'active' : ''}"
-        type="button" aria-pressed="${excludeMode}">
-        ${excludeMode ? '✓ Exclude sports' : '⊖ Exclude sports'}
+      <button id="sportMode"
+        class="chip ${excludeMode ? 'active' : ''}"
+        type="button"
+        aria-pressed="${excludeMode}">
+        ${excludeMode
+          ? '✓ Exclude sports'
+          : '⊖ Exclude sports'}
       </button>
       ${excludeMode
         ? '<button id="clearExcluded" class="chip" type="button">Clear exclusions</button><span style="font-size:12px;opacity:.8">Select sports to hide</span>'
         : ''}
     </div>` +
+
     sports.map(v =>
       `<button class="chip ${
         excludeMode
           ? (excludedSports.has(v) ? 'active' : '')
           : (v === sport ? 'active' : '')
-      }" data-v="${escape(v)}" type="button"
+      }"
+      data-v="${escape(v)}"
+      type="button"
       aria-pressed="${
-        excludeMode ? excludedSports.has(v) : v === sport
+        excludeMode
+          ? excludedSports.has(v)
+          : v === sport
       }">${
-        excludeMode && excludedSports.has(v) ? '✕ ' : ''
+        excludeMode && excludedSports.has(v)
+          ? '✕ '
+          : ''
       }${escape(v)}</button>`
     ).join('');
 
@@ -441,7 +517,8 @@ function render() {
     };
   }
 
-  sportsBox.querySelectorAll('button[data-v]')
+  sportsBox
+    .querySelectorAll('button[data-v]')
     .forEach(b => {
       b.onclick = () => {
         const v = b.dataset.v;
@@ -468,7 +545,9 @@ function render() {
 
   if (!genderBox) {
     genderBox = document.createElement('div');
+
     genderBox.id = 'genderFilters';
+
     genderBox.style.cssText =
       'display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:12px 0';
 
@@ -480,30 +559,37 @@ function render() {
 
   genderBox.innerHTML =
     '<span style="font-size:12px;opacity:.8;margin-right:3px">Competition</span>' +
+
     [
       ['all', 'All'],
       ['men', 'Men’s only'],
       ['women', 'Women’s only']
     ].map(([v, label]) =>
-      `<button type="button" class="chip ${
-        genderFilter === v ? 'active' : ''
-      }" data-gender="${v}" aria-pressed="${
-        genderFilter === v
-      }">${label}</button>`
+      `<button
+        type="button"
+        class="chip ${
+          genderFilter === v ? 'active' : ''
+        }"
+        data-gender="${v}"
+        aria-pressed="${
+          genderFilter === v
+        }">${label}</button>`
     ).join('');
 
-  genderBox.querySelectorAll('button').forEach(b => {
-    b.onclick = () => {
-      genderFilter = b.dataset.gender;
+  genderBox
+    .querySelectorAll('button')
+    .forEach(b => {
+      b.onclick = () => {
+        genderFilter = b.dataset.gender;
 
-      localStorage.setItem(
-        GENDER_STORE,
-        JSON.stringify(genderFilter)
-      );
+        localStorage.setItem(
+          GENDER_STORE,
+          JSON.stringify(genderFilter)
+        );
 
-      render();
-    };
-  });
+        render();
+      };
+    });
 
   chips(
     'services',
@@ -523,47 +609,73 @@ function render() {
     });
 
   /*
-   * NEW SAVED VIEW BEHAVIOUR
-   *
-   * A favourited game is displayed only if
-   * the feed has NOT confirmed it is final.
-   *
-   * The favourite is retained in localStorage.
-   */
+    IMPORTANT CHANGE:
 
-  const list = games.filter(g =>
-    (genderFilter === 'all' ||
-      eventGender(g) === genderFilter) &&
+    Upcoming: Hide confirmed finished games.
+    Saved: Hide confirmed finished games.
+    All dates: Keep every game.
 
-    (excludeMode
-      ? !excludedSports.has(g.sport)
-      : (sport === 'All' || g.sport === sport)) &&
+    Never hide a game simply because its
+    start time has passed.
+  */
 
-    (service === 'All' || g.service === service) &&
+  const list = games.filter(g => {
+    if (
+      genderFilter !== 'all' &&
+      eventGender(g) !== genderFilter
+    ) {
+      return false;
+    }
 
-    (!query || (
-      g.title + ' ' +
-      g.sport + ' ' +
-      (g.competition || '') + ' ' +
-      g.service
-    ).toLowerCase().includes(query)) &&
+    if (excludeMode) {
+      if (excludedSports.has(g.sport)) {
+        return false;
+      }
+    } else if (
+      sport !== 'All' &&
+      g.sport !== sport
+    ) {
+      return false;
+    }
 
-    (
-      view !== 'faves' ||
-      (
+    if (
+      service !== 'All' &&
+      g.service !== service
+    ) {
+      return false;
+    }
+
+    if (query) {
+      const searchable = (
+        g.title + ' ' +
+        g.sport + ' ' +
+        (g.competition || '') + ' ' +
+        g.service
+      ).toLowerCase();
+
+      if (!searchable.includes(query)) {
+        return false;
+      }
+    }
+
+    if (view === 'faves') {
+      return (
         favorites.has(favoriteKey(g)) &&
         !g._confirmedFinal
-      )
-    ) &&
+      );
+    }
 
-    (
-      view !== 'upcoming' ||
-      (
+    if (view === 'upcoming') {
+      return (
+        !g._confirmedFinal &&
         g.date >= date &&
         g.date < addDays(date, 30)
-      )
-    )
-  );
+      );
+    }
+
+    // All dates: show finished and unfinished.
+    return true;
+  });
 
   $('gameCount').textContent = list.length;
 
@@ -571,14 +683,13 @@ function render() {
     new Set(list.map(g => g.date)).size;
 
   /*
-   * Saved count now excludes confirmed
-   * completed games present in the feed.
-   */
+    Count only favourites that are not
+    confirmed finished.
+  */
 
-  const activeSaved = games.filter(
-    g =>
-      favorites.has(favoriteKey(g)) &&
-      !g._confirmedFinal
+  const activeSaved = games.filter(g =>
+    favorites.has(favoriteKey(g)) &&
+    !g._confirmedFinal
   ).length;
 
   $('favCount').textContent =
@@ -605,13 +716,16 @@ function render() {
             gs.length === 1 ? '' : 's'
           }</span>
         </div>
+
         ${gs.map(g =>
           `<div class="game">
             <div class="time">${escape(g.time)}</div>
+
             <div>
               <div class="match">${
                 g.priority ? '★ ' : ''
               }${escape(g.title)}</div>
+
               <div class="meta">
                 ${escape(g.sport)} ·
                 ${escape(g.competition || '')} ·
@@ -621,9 +735,12 @@ function render() {
                   : ''}
               </div>
             </div>
+
             <button
               class="star ${
-                favorites.has(favoriteKey(g)) ? 'on' : ''
+                favorites.has(favoriteKey(g))
+                  ? 'on'
+                  : ''
               }"
               data-id="${escape(favoriteKey(g))}"
               aria-label="Save fixture">${
@@ -635,6 +752,7 @@ function render() {
         ).join('')}
       </section>`
     ).join('')
+
     : '<div class="empty">No watchable fixtures found for these filters or dates. Unverified UK broadcasts are hidden.</div>';
 
   $('results')
@@ -657,7 +775,9 @@ function render() {
     });
 }
 
-/* REFRESH LIVE FIXTURES */
+/*
+  FETCH LIVE SCHEDULE
+*/
 
 async function refresh() {
   if (updating) return;
@@ -684,7 +804,6 @@ async function refresh() {
       throw Error('Missing fixture list');
     }
 
-    // NEW: Read confirmed completion status.
     live = data.items.map(liveGame);
 
     const at =
@@ -705,11 +824,14 @@ async function refresh() {
 
     $('status').textContent =
       `Server checked ${
-        new Date(at).toLocaleString('en-GB', {
-          timeZone: TZ
-        })
+        new Date(at).toLocaleString(
+          'en-GB',
+          { timeZone: TZ }
+        )
       } · ${n}/${total} feed checks successful${
-        n < total ? ' · partial coverage' : ''
+        n < total
+          ? ' · partial coverage'
+          : ''
       } · only watchable fixtures shown`;
 
   } catch (e) {
@@ -725,7 +847,9 @@ async function refresh() {
   render();
 }
 
-/* INITIALISE APPLICATION */
+/*
+  INITIALISE APP
+*/
 
 async function init() {
   date = TODAY();
@@ -752,7 +876,10 @@ async function init() {
   };
 
   $('search').oninput = e => {
-    query = e.target.value.toLowerCase().trim();
+    query = e.target.value
+      .toLowerCase()
+      .trim();
+
     render();
   };
 
@@ -767,9 +894,10 @@ async function init() {
   $('refresh').onclick = refresh;
 
   try {
-    const r = await fetch('./seed.json?v=4', {
-      cache: 'no-store'
-    });
+    const r = await fetch(
+      './seed.json?v=4',
+      { cache: 'no-store' }
+    );
 
     if (!r.ok) throw Error();
 
@@ -792,7 +920,6 @@ async function init() {
     cached?.items &&
     Array.isArray(cached.items)
   ) {
-    // NEW: Check cached statuses too.
     live = cached.items.map(liveGame);
 
     lastRefresh =
