@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -1946,26 +1945,45 @@ h1{font:bold italic clamp(38px,7vw,64px)/1.05 Georgia,serif;letter-spacing:-1.5p
 .statgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:14px 0}.statbox{padding:15px;border:1px solid #7e6d73;border-radius:13px;background:#1c222b}.statbox strong{font:italic bold 30px Georgia,serif;display:block}.statbox span{font-size:11px;color:var(--sub);text-transform:uppercase;letter-spacing:.06em}
 .tablewrap{overflow-x:auto}.standings{width:100%;border-collapse:collapse;font-size:13px}.standings th,.standings td{text-align:left;padding:8px 9px;border-bottom:1px solid #44444f}.standings th{color:#f1d8d4}.standings td:not(:first-child),.standings th:not(:first-child){text-align:right}.card h3{font:italic bold 19px Georgia,serif;margin:0 0 9px}.champion{display:grid;grid-template-columns:80px minmax(0,1fr);gap:12px}.champion .year{color:#fdc0ab;font-weight:bold}.champion strong{display:block}.champion p{margin:3px 0;color:#bdb5b6;font-size:12px}
 dialog{max-width:min(92vw,680px);width:100%;max-height:85vh;overflow:auto;background:#151d28;color:var(--ink);border:1px solid #a58d8b;border-radius:15px;padding:0}dialog::backdrop{background:#000c}.modalhead{display:flex;justify-content:space-between;align-items:center;padding:13px 17px;background:#2b2028;position:sticky;top:0}.modalhead button{border:1px solid #786c72;border-radius:8px;background:#202531;color:#fff;padding:5px 10px}#modalBody{padding:17px}.smallstats{width:100%;border-collapse:collapse;font-size:12px;margin:10px 0 20px}.smallstats td,.smallstats th{padding:6px;text-align:left;border-bottom:1px solid #373c45}
-@media(max-width:480px){.shell{padding:20px 12px 25px}h1{font-size:44px}.headtop{align-items:center}.back{font-size:11px}.tools>*{font-size:12px}.champion{grid-template-columns:65px 1fr}}
+.team-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0}.team-heading .sectiontitle{margin:0}
+.team-tools select{max-width:min(100%,300px)}#teamStorageStatus:empty{display:none}
+.team-summary{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:18px}
+.team-summary p{margin:5px 0}.team-form-list,.team-news ul{list-style:none;padding:0;margin:0}
+.team-form-list li{display:grid;grid-template-columns:auto 1fr auto;align-items:start;gap:8px;margin:7px 0}
+.team-form-list li.muted{display:block}.team-form-list small{display:block;color:var(--sub)}
+.team-form{min-width:24px;text-align:center;border-radius:5px;background:#534633;color:#fff1d6;font-size:12px;line-height:24px}
+.team-form[data-form="W"]{background:#1c4c3d;color:#ddffec}.team-form[data-form="L"]{background:#582e38;color:#ffe5e6}
+.team-news{padding-top:0}.team-news li{padding:6px 0}.team-news a{overflow-wrap:anywhere}
+@media(max-width:480px){.team-summary{grid-template-columns:minmax(0,1fr)}.shell{padding:20px 12px 25px}h1{font-size:44px}.headtop{align-items:center}.back{font-size:11px}.tools>*{font-size:12px}.champion{grid-template-columns:65px 1fr}}
 </style>
 <main class="shell">
 <header><div class="headtop"><div class="eyebrow">YOUR SPORTS · UK TIME</div><a class="back" href="#fixtures">← Fixtures</a></div>
 <h1 id="pageTitle">Recent Results</h1><p class="subtitle" id="pageDesc">Confirmed results and game details across major sports. Browse the archive using the tabs below.</p></header>
 <section class="section active" id="resultsPage" aria-label="Recent results">
-<div class="tools"><select id="resultLeague" aria-label="Results sport"><option value="">All sports</option></select><select id="resultRange" aria-label="Results period"><option value="2">Last 48 hours</option><option value="7" selected>Last 7 days</option><option value="14">Last 14 days</option><option value="365">All archived</option></select><button id="reload" type="button">↻ Refresh</button></div>
+<div class="tools"><select id="resultLeague" aria-label="Results sport"><option value="">All sports</option></select><select id="resultRange" aria-label="Results period"><option value="2">Last 48 hours</option><option value="7" selected>Last 7 days</option><option value="14">Last 14 days</option><option value="365">All archived</option></select><input id="resultDate" type="date" aria-label="Find results by date"><button id="clearResultDate" type="button" hidden>Clear date</button><button id="reload" type="button">↻ Refresh</button></div>
 <div class="notice" id="resultStatus">Loading confirmed results…</div><div class="stack" id="resultList"></div><div class="tools"><button id="moreResults" type="button" hidden>Show more results</button></div></section>
 <section class="section" id="recordsPage" aria-label="Records and statistics">
 <h2 class="sectiontitle">Season Statistics</h2><p class="subhead">League standings and verified results-based summaries. These are seasonal figures, not all-time records.</p>
 <div class="tools"><select id="recordsLeague" aria-label="League for standings"></select></div>
 <div class="statgrid"><div class="statbox"><strong id="archiveTotal">—</strong><span>Archived finals</span></div><div class="statbox"><strong id="archiveLeagues">—</strong><span>Leagues covered</span></div></div>
 <div id="standingsArea" class="stack"></div>
-<h2 class="sectiontitle">Archive Milestones</h2><p class="subhead">Highlights calculated only from results already collected by Sports Almanac, not official all-time league records.</p><div id="milestoneArea" class="stack"></div></section>
-<section class="section" id="historyPage" aria-label="Sports history">
-<h2 class="sectiontitle">On This Date</h2><p class="subhead">Explore confirmed game scores from a date in our growing historical archive.</p>
-<div class="tools"><input id="historyDate" type="date" aria-label="Historical date"><select id="historyLeague" aria-label="Historical sport"><option value="">All sports</option></select><button id="historyGo" type="button">Find scores</button></div>
-<p class="notice" id="historyStatus">Choose a date to explore results.</p><div class="stack" id="historyList"></div>
+<h2 class="sectiontitle">Archive Milestones</h2><p class="subhead">Highlights calculated only from results already collected by Sports Almanac, not official all-time league records.</p><div id="milestoneArea" class="stack"></div>
 <h2 class="sectiontitle">Championship Archive</h2><p class="subhead">Verified seasonal winners with links to league and competition sources. This list expands as new seasons are added.</p>
 <div class="tools"><select id="championLeague" aria-label="Championship league"><option value="">All sports</option></select><input id="championSearch" type="search" placeholder="Find a champion or year" aria-label="Search champions"></div><div class="stack" id="championList"></div></section>
+
+<section class="section" id="teamsPage" aria-label="My Teams">
+<h2 class="sectiontitle">Follow a team</h2>
+<p class="subhead">Pick your teams across leagues. Your choices are saved in this browser.</p>
+<div class="tools team-tools">
+  <select id="teamLeague" aria-label="Team league"></select>
+  <select id="teamPicker" aria-label="Choose a team" disabled><option value="">Choose a league</option></select>
+  <button id="followTeam" type="button" disabled>＋ Follow team</button>
+  <button id="reloadTeamList" type="button">Reload team list</button>
+</div>
+<p id="teamStorageStatus" class="notice" role="status"></p>
+<div class="team-heading"><h2 class="sectiontitle">Following</h2><button class="outline" type="button" id="refreshTeams" disabled>↻ Refresh teams</button></div>
+<div id="teamCards" class="stack" aria-live="polite"></div>
+</section>
 <footer class="notice" style="border-top:1px solid #444954;margin-top:35px;padding-top:14px">Data: ESPN public scoreboards and league tables, with cited championship records. Final scores only. ESPN's endpoints are unofficial and can change; some league and box score coverage may be unavailable. The archive builds over time and is not yet comprehensive.</footer>
 </main>
 <dialog id="boxscoreDialog"><div class="modalhead"><strong id="modalTitle">Game details</strong><button id="closeDialog" type="button">Close ×</button></div><div id="modalBody"></div></dialog>
@@ -2002,21 +2020,21 @@ dialog{max-width:min(92vw,680px);width:100%;max-height:85vh;overflow:auto;backgr
     Fixtures:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/>',
     Results:'<path d="M8 21h8M12 17v4M6 3h12v7a6 6 0 0 1-12 0V3ZM6 6H3v3a4 4 0 0 0 4 4m11-7h3v3a4 4 0 0 1-4 4"/>',
     Records:'<path d="M4 20V11M10 20V4M16 20v-8M22 20v-5M2 21h21"/>',
-    History:'<path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5M12 7v5l4 2"/>'
+    'My Teams':'<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/><circle cx="9" cy="7" r="4"/>'
   };
   const nav = document.createElement('nav');
   nav.id='almanacBottomNav';nav.setAttribute('aria-label','Sports Almanac sections');
   for(const [label,href] of [
     ['Fixtures','#fixtures'], ['Results','#results'],
-    ['Records','#records'], ['History','#history']
+    ['Records','#records'], ['My Teams','#teams']
   ]){
-    const a=document.createElement('a');a.href=href;a.dataset.section=label.toLowerCase();
+    const a=document.createElement('a');a.href=href;a.dataset.section=href.slice(1);
     a.innerHTML=`<svg viewBox="0 0 24 24" aria-hidden="true">${icons[label]}</svg><span>${label}</span>`;
     nav.append(a);
   }
   function mark(){
     const hash=location.hash.slice(1);
-    const section=['results','records','history'].includes(hash)?hash:'fixtures';
+    const section=hash==='history'?'teams':['results','records','teams'].includes(hash)?hash:'fixtures';
     for(const a of nav.querySelectorAll('a')){
       a.classList.toggle('active',a.dataset.section===section);
       if(a.dataset.section===section)a.setAttribute('aria-current','page');
@@ -2055,24 +2073,24 @@ const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const fmt=d=>dateLocale.format(new Date(d));
 const now=()=>new Date();
 function selectOptions(el, items){for(const name of items){const o=document.createElement('option');o.value=name;o.textContent=name;el.append(o)}}
-selectOptions($('resultLeague'),LEAGUES);selectOptions($('historyLeague'),LEAGUES);selectOptions($('recordsLeague'),LEAGUES);selectOptions($('championLeague'),LEAGUES);
-$('historyDate').value=dayKey(now());
+selectOptions($('resultLeague'),LEAGUES);selectOptions($('recordsLeague'),LEAGUES);selectOptions($('championLeague'),LEAGUES);
 function section(){
-  const section=location.hash.slice(1);
-  const showArchive=['results','records','history'].includes(section);
+  const hash=location.hash.slice(1);
+  const section=hash==='history'?'teams':hash;
+  const showArchive=['results','records','teams'].includes(section);
   fixtures.hidden=showArchive;
   host.hidden=!showArchive;
   if(!showArchive){window.scrollTo(0,0);return;}
-  if(Date.now()-Math.max(lastAttempt,Date.parse(archive.updated)||0)>6*3600000) load();
-  ['results','records','history'].forEach(s=>$(s+'Page').classList.toggle('active',s===section));
-  const desc={results:['Recent Results','Final scores, game details and box scores across your sports.'],records:['Records & Statistics','Season standings, performance data and milestones from your archived results.'],history:['Sports History','Look up past results, championship winners and historical games.']};
+  if(section!=='teams'&&Date.now()-Math.max(lastAttempt,Date.parse(archive.updated)||0)>6*3600000) load();
+  ['results','records','teams'].forEach(s=>$(s+'Page').classList.toggle('active',s===section));
+  const desc={results:['Recent Results','Final scores, game details and box scores across your sports.'],records:['Records & Statistics','Season standings, performance data and milestones from your archived results.'],teams:['My Teams','The teams you follow, their next matches, recent form and available headlines.']};
   $('pageTitle').textContent=desc[section][0];$('pageDesc').textContent=desc[section][1];window.scrollTo({top:0,behavior:'instant'});
   renderActive();
 }
 function renderActive(){
   if(location.hash==='#results') renderResults();
-  if(location.hash==='#records') renderRecords();
-  if(location.hash==='#history'){renderHistory();renderChampions()}
+  if(location.hash==='#records'){renderRecords();renderChampions()}
+  if(['#teams','#history'].includes(location.hash)) showMyTeams();
 }
 window.addEventListener('hashchange',section);
 const API='https://site.api.espn.com/apis';
@@ -2169,10 +2187,16 @@ function gameHTML(g){const winHome=g.homeWinner,winAway=g.awayWinner;
     <div class="game-actions"><button class="outline" type="button" data-game="${esc(g.id)}" data-league="${esc(g.league)}">Box score / details ↗</button></div></article>`}
 function renderGames(target, list, empty){target.innerHTML=list.length?list.map(gameHTML).join(''):`<div class="empty">${esc(empty)}</div>`}
 function renderResults(){const days=+$('resultRange').value;const cutoff=now().getTime()-days*86400000;const league=$('resultLeague').value;
-  const list=(archive.results||[]).filter(g=>(!league||g.league===league)&&(days===365||new Date(g.date).getTime()>=cutoff));
+  const date=$('resultDate').value;
+  $('resultRange').disabled=!!date;
+  $('clearResultDate').hidden=!date;
+  const list=(archive.results||[]).filter(g=>(!league||g.league===league)&&
+    (date?dayKey(g.date)===date:days===365||Date.parse(g.date)>=cutoff));
   $('moreResults').hidden=list.length<=resultLimit;
-  renderGames($('resultList'),list.slice(0,resultLimit),'No confirmed results in this window. Choose a longer date range or tap Refresh to check for new scores.')}
+  renderGames($('resultList'),list.slice(0,resultLimit),date?'No archived finals for this date and league.':'No confirmed results in this window. Choose a longer date range or tap Refresh to check for new scores.')}
 function resetResults(){resultLimit=RESULT_BATCH;renderResults()}
+$('resultDate').onchange=resetResults;
+$('clearResultDate').onclick=()=>{$('resultDate').value='';resetResults()};
 $('resultRange').onchange=resetResults;$('resultLeague').onchange=resetResults;$('reload').onclick=load;
 $('moreResults').onclick=()=>{resultLimit+=RESULT_BATCH;renderResults()};
 const selectedStat=(s,keys)=>{for(const key of keys)if(s[key]!==undefined&&s[key]!==null)return String(s[key]);return '—'};
@@ -2185,11 +2209,6 @@ function renderRecords(){const league=$('recordsLeague').value;$('archiveTotal')
   $('milestoneArea').innerHTML=games.length?`<article class="card"><div class="inner"><h3>Highest combined score in our archive</h3><strong>${esc(highest.away)} ${esc(highest.awayScore)} – ${esc(highest.homeScore)} ${esc(highest.home)}</strong><p class="muted">${fmt(highest.date)} · Combined points/goals: ${+highest.homeScore + +highest.awayScore}</p></div></article><article class="card"><div class="inner"><h3>Largest victory margin in our archive</h3><strong>${esc(widest.away)} ${esc(widest.awayScore)} – ${esc(widest.homeScore)} ${esc(widest.home)}</strong><p class="muted">${fmt(widest.date)} · Margin: ${Math.abs(+widest.homeScore-+widest.awayScore)}</p></div></article>`:'<div class="empty">Not enough confirmed score data to calculate archive highlights.</div>';
 }
 $('recordsLeague').onchange=renderRecords;
-function renderHistory(){const selected=$('historyDate').value,league=$('historyLeague').value;
-  const list=(archive.results||[]).filter(g=>dayKey(g.date)===selected&&(!league||g.league===league));
-  $('historyStatus').textContent=`${list.length} archived final${list.length===1?'':'s'} found for ${selected}. Older dates require additional historical backfill.`;
-  renderGames($('historyList'),list,'No archived results for this date. The archive grows when this browser refreshes the scores.');}
-$('historyGo').onclick=renderHistory;$('historyLeague').onchange=renderHistory;$('historyDate').onchange=renderHistory;
 function renderChampions(){const league=$('championLeague').value,q=$('championSearch').value.toLowerCase();const filtered=champions.filter(c=>(!league||c.league===league)&&[c.league,c.season,c.winner,c.detail].join(' ').toLowerCase().includes(q));
   $('championList').innerHTML=filtered.length?filtered.map(c=>`<article class="card"><div class="inner champion"><div class="year">${esc(c.season)}</div><div><span class="tag">${esc(c.league)}</span><h3 style="margin-top:9px">${esc(c.winner)}</h3><p>${esc(c.detail)}</p><a href="${esc(c.url)}" target="_blank" rel="noopener noreferrer" style="font-size:12px">Verify with source ↗</a></div></div></article>`).join(''):'<div class="empty">No verified champion matches that search.</div>'}
 $('championLeague').onchange=renderChampions;$('championSearch').oninput=renderChampions;
@@ -2202,7 +2221,196 @@ async function showBox(e){const button=e.target.closest('[data-game]');if(!butto
     const scoring=(data.scoringPlays||[]).slice(0,15).map(p=>`<p class="muted">${esc(p.text||p.type?.text||'Scoring play')}</p>`).join('');
     $('modalBody').innerHTML=`<p><strong>${esc(g.away)} ${esc(g.awayScore)} — ${esc(g.homeScore)} ${esc(g.home)}</strong></p>${details||scoring||'<p class="muted">This provider has no detailed box score for this event.</p>'}<p><a href="${esc(g.detailUrl)}" target="_blank" rel="noopener noreferrer">Open game on ESPN ↗</a></p>`;
   }catch(err){$('modalBody').innerHTML=`<p class="muted">Full box score unavailable from ESPN for this event or browser.</p><p><a href="${esc(g.detailUrl)}" target="_blank" rel="noopener noreferrer">View game details on ESPN ↗</a></p>`}}
-$('resultList').addEventListener('click',showBox);$('historyList').addEventListener('click',showBox);$('closeDialog').onclick=()=>$('boxscoreDialog').close();$('boxscoreDialog').onclick=e=>{if(e.target===$('boxscoreDialog'))$('boxscoreDialog').close()};
+$('resultList').addEventListener('click',showBox);$('closeDialog').onclick=()=>$('boxscoreDialog').close();$('boxscoreDialog').onclick=e=>{if(e.target===$('boxscoreDialog'))$('boxscoreDialog').close()};
+const TEAM_STORAGE='sports-almanac-my-teams-v1';
+const teamDirectory=new Map(), teamUpdates=new Map();
+const nextDate=new Intl.DateTimeFormat('en-GB',{
+  weekday:'short',day:'numeric',month:'short',timeZone:'Europe/London'
+});
+const kickoff=new Intl.DateTimeFormat('en-GB',{
+  hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZone:'Europe/London'
+});
+let followed=[];
+try{
+  const saved=JSON.parse(localStorage.getItem(TEAM_STORAGE));
+  if(Array.isArray(saved)) followed=saved.filter(team=>Object.hasOwn(PATHS,team?.league)&&/^\d+$/.test(team.id)&&typeof team.name==='string');
+}catch(error){ /* Team choices can still be used during this visit. */ }
+const teamKey=team=>(PATHS[team.league].startsWith('soccer/')?'soccer':team.league)+':'+team.id;
+const teamName=name=>String(name||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+let directoryAttempt=0, teamTabOpened=false;
+selectOptions($('teamLeague'),LEAGUES);
+$('teamLeague').value='Premier League';
+
+function renderTeamPicker(message=''){
+  const league=$('teamLeague').value;
+  const selected=$('teamPicker').value;
+  const teams=teamDirectory.get(league)||[];
+  const remaining=teams.filter(team=>!followed.some(saved=>teamKey(saved)===teamKey(team)));
+  const options=remaining.map(team=>new Option(team.name,team.id));
+  const placeholder=message||(options.length?'Choose a team':'No more teams available');
+  $('teamPicker').replaceChildren(new Option(placeholder,''),...options);
+  if(remaining.some(team=>team.id===selected)) $('teamPicker').value=selected;
+  $('teamPicker').disabled=!options.length;
+  $('followTeam').disabled=!$('teamPicker').value;
+}
+async function loadTeamDirectory(){
+  const league=$('teamLeague').value;
+  const attempt=++directoryAttempt;
+  if(teamDirectory.has(league)){renderTeamPicker();return;}
+  renderTeamPicker('Loading teams…');
+  try{
+    const data=await espn(`${API}/site/v2/sports/${PATHS[league]}/teams?limit=1000`);
+    const teams=(data.sports||[]).flatMap(sport=>(sport.leagues||[]).flatMap(group=>group.teams||[]))
+      .map(entry=>entry.team).filter(team=>team?.displayName&&/^\d+$/.test(team.id)&&team.isActive!==false&&team.isAllStar!==true)
+      .map(team=>({id:String(team.id),league,name:team.displayName,shortName:team.shortDisplayName||''}));
+    teamDirectory.set(league,[...new Map(teams.map(team=>[team.id,team])).values()].sort((a,b)=>a.name.localeCompare(b.name)));
+    if(attempt===directoryAttempt) renderTeamPicker();
+  }catch(error){
+    if(attempt===directoryAttempt) renderTeamPicker('Team list unavailable');
+  }
+}
+function saveTeamChoices(){
+  try{localStorage.setItem(TEAM_STORAGE,JSON.stringify(followed));}
+  catch(error){$('teamStorageStatus').textContent='Team choices can only be kept during this visit.';}
+}
+function teamAliases(team){
+  return new Set([team.name,team.shortName].map(teamName).filter(Boolean));
+}
+function teamGame(event,team){
+  const competition=event.competitions?.[0];
+  const sides=competition?.competitors||[];
+  const ours=sides.find(side=>String(side.team?.id??side.id)===team.id);
+  const opponent=sides.find(side=>side!==ours);
+  const name=opponent?.team?.displayName||opponent?.team?.name;
+  const status=competition?.status?.type||event.status?.type;
+  const date=event.date||competition?.date;
+  if(!ours||!name||!status||!Number.isFinite(Date.parse(date))) return null;
+  const result=parseGame(event,team.league,PATHS[team.league]);
+  if(status.completed===true && result){
+    const outcome=(ours.winner===true||ours.score?.winner===true)?'W'
+      :(opponent.winner===true||opponent.score?.winner===true)?'L':null;
+    return {...result,opponent:name,isHome:ours.homeAway==='home',final:true,outcome};
+  }
+  if(status.state!=='pre'||/postponed|cancel|suspend|abandon|delay/i.test(status.name||'')) return null;
+  return {id:String(event.id),date,opponent:name,isHome:ours.homeAway==='home',
+    timeKnown:competition.timeValid!==false&&status.name!=='STATUS_TIME_TBD',final:false};
+}
+function archiveTeamGames(team){
+  const names=teamAliases(team);
+  return archive.results.filter(game=>game.league===team.league&&(names.has(teamName(game.home))||names.has(teamName(game.away))))
+    .map(game=>{
+      const isHome=names.has(teamName(game.home));
+      return {...game,isHome,opponent:isHome?game.away:game.home,final:true};
+    });
+}
+function espnStory(article,names){
+  const url=article.links?.web?.href||'';
+  if(!/^https:\/\/(?:www\.)?espn\.(?:com|co\.uk)\//i.test(url)||!article.headline) return null;
+  if(!(article.categories||[]).some(category=>category.type==='team'&&names.has(teamName(category.description)))) return null;
+  return {url,title:article.headline};
+}
+function renderTeamCards(){
+  $('refreshTeams').disabled=!followed.length;
+  if(!followed.length){
+    $('teamCards').innerHTML='<div class="empty">No teams followed yet. Pick a league and a team above to build your dashboard.</div>';
+    return;
+  }
+  $('teamCards').innerHTML=followed.map(team=>{
+    const data=teamUpdates.get(teamKey(team));
+    const games=[...new Map([...archiveTeamGames(team),...(data?.games||[])].map(game=>[game.id,game])).values()];
+    const next=games.filter(game=>!game.final&&Date.parse(game.date)>=Date.now())
+      .sort((a,b)=>Date.parse(a.date)-Date.parse(b.date))[0];
+    const recent=games.filter(game=>game.final).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date)).slice(0,3);
+    const nextHTML=next
+      ? `<strong>${next.isHome?'vs':'at'} ${esc(next.opponent)}</strong><p class="muted">${nextDate.format(new Date(next.date))} · ${next.timeKnown?kickoff.format(new Date(next.date))+' UK':'Time TBC'} · ${next.isHome?'Home':'Away'}</p>`
+      : '<p class="muted">'+(data?.loading?'Checking upcoming fixtures…':data?.failed?'Upcoming fixtures could not be loaded.':'No upcoming match listed yet.')+'</p>';
+    const latest=recent.length?recent.map(game=>{
+      const teamScore=game.isHome?game.homeScore:game.awayScore;
+      const oppositionScore=game.isHome?game.awayScore:game.homeScore;
+      const form=game.outcome||(+teamScore===+oppositionScore?'D':+teamScore>+oppositionScore?'W':'L');
+      const label=form==='W'?'Win':form==='D'?'Draw':'Loss';
+      return `<li><span class="team-form" data-form="${form}" aria-label="${label}">${form}</span><span>${esc(game.opponent)} <small>${fmt(game.date)}</small></span><strong>${esc(teamScore)}–${esc(oppositionScore)}</strong></li>`;
+    }).join(''):'<li class="muted">'+(data?.loading?'Checking recent scores…':'No recent results available.')+'</li>';
+    const news=(data?.news||[]).map(story=>`<li><a href="${esc(story.url)}" target="_blank" rel="noopener noreferrer">${esc(story.title)} ↗</a></li>`).join('');
+    return `<article class="card"><div class="top"><strong>${esc(team.name)}</strong><span>${esc(team.league)}</span></div>
+      <div class="inner team-summary">
+        <div><h3>Next match</h3>${nextHTML}</div>
+        <div><h3>Recent form</h3><ul class="team-form-list">${latest}</ul></div>
+      </div>
+      ${news?`<div class="inner team-news"><h3>Latest from ESPN</h3><ul>${news}</ul></div>`:''}
+      <div class="game-actions"><button type="button" class="outline" data-unfollow="${esc(teamKey(team))}" aria-label="Unfollow ${esc(team.name)}">Unfollow</button></div>
+    </article>`;
+  }).join('');
+}
+async function loadTeamUpdate(team,force=false){
+  const key=teamKey(team);
+  const old=teamUpdates.get(key);
+  if(old?.loading||(!force&&old&&Date.now()-old.checkedAt<15*60000)) return;
+  teamUpdates.set(key,{...old,loading:true});
+  renderTeamCards();
+  const base=`${API}/site/v2/sports/${PATHS[team.league]}`;
+  const schedule=`${base}/teams/${team.id}/schedule`;
+  const soccer=PATHS[team.league].startsWith('soccer/');
+  const season=new Date().getFullYear();
+  const soccerSchedule=`${API}/site/v2/sports/soccer/all/teams/${team.id}/schedule`;
+  const scheduleURLs=soccer?[soccerSchedule,soccerSchedule+'?fixture=true']
+    :team.league==='MLB'?[
+      schedule+'?season='+season+'&seasontype=2',
+      schedule+'?season='+season+'&seasontype=3',
+      schedule+'?season='+(season+1)+'&seasontype=2'
+    ]:[schedule];
+  const [schedules,news]=await Promise.all([
+    Promise.allSettled(scheduleURLs.map(url=>espn(url).catch(error=>{
+      if(!soccer) throw error;
+      return espn(url.replace(soccerSchedule,schedule));
+    }))),
+    espn(`${base}/news?team=${team.id}&limit=8`).catch(()=>null)
+  ]);
+  const games=new Map((old?.games||[]).map(game=>[game.id,game]));
+  for(const scheduleResult of schedules){
+    if(scheduleResult.status!=='fulfilled') continue;
+    for(const event of scheduleResult.value.events||[]){
+      const game=teamGame(event,team);
+      if(game) games.set(game.id,game);
+      else games.delete(String(event.id));
+    }
+  }
+  const names=teamAliases(team);
+  teamUpdates.set(key,{
+    games:[...games.values()],news:news?(news.articles||[]).map(article=>espnStory(article,names)).filter(Boolean).slice(0,3):old?.news||[],
+    failed:schedules.every(result=>result.status==='rejected'),checkedAt:Date.now(),loading:false
+  });
+  renderTeamCards();
+}
+function showMyTeams(){
+  renderTeamCards();
+  if(!teamTabOpened){teamTabOpened=true;loadTeamDirectory();}
+  followed.forEach(team=>loadTeamUpdate(team));
+}
+$('teamLeague').onchange=loadTeamDirectory;
+$('teamPicker').onchange=()=>{$('followTeam').disabled=!$('teamPicker').value;};
+$('reloadTeamList').onclick=loadTeamDirectory;
+$('followTeam').onclick=()=>{
+  const team=teamDirectory.get($('teamLeague').value)?.find(item=>item.id===$('teamPicker').value);
+  if(!team||followed.some(saved=>teamKey(saved)===teamKey(team))) return;
+  followed.push(team);
+  saveTeamChoices();
+  renderTeamPicker();
+  loadTeamUpdate(team);
+};
+$('refreshTeams').onclick=()=>{
+  followed.forEach(team=>loadTeamUpdate(team,true));
+};
+$('teamCards').addEventListener('click',event=>{
+  const button=event.target.closest('[data-unfollow]');
+  if(!button) return;
+  followed=followed.filter(team=>teamKey(team)!==button.dataset.unfollow);
+  saveTeamChoices();
+  renderTeamCards();
+  renderTeamPicker();
+  $('teamPicker').focus();
+});
+
 reportStatus();
 section();
 })();
