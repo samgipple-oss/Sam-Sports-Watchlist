@@ -2,491 +2,442 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport"
-        content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#10141c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Sports Almanac | Your Sports · UK Time</title>
+<style>
+:root{color-scheme:dark;--cream:#f8ecd9;--soft:#d3c8bb;--muted:#aeb1b7;--line:#807a78;--red:#9d1d2a;--red-bright:#e33a3e;--panel:#161a20;--blue:#21b7eb;--orange:#f29336}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;background:#0b1017;color:var(--cream);font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+body:before{content:"";position:absolute;z-index:-2;left:0;right:0;top:0;height:650px;pointer-events:none;background:radial-gradient(ellipse 56% 37% at 84% 39%,#ac3d33bd,transparent 90%),radial-gradient(ellipse 73% 47% at 26% 37%,#521d2d8f,transparent 90%),linear-gradient(180deg,#111b2a 0%,#1c1926 29%,#411c29 57%,#0a111b 100%)}
+body:after{content:"";position:absolute;pointer-events:none;z-index:-1;inset:0 0 auto;height:650px;opacity:.16;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23fff' filter='url(%23n)' opacity='.26' d='M0 0h160v160H0z'/%3E%3C/svg%3E")}
+button,input{font:inherit}
+button{cursor:pointer;-webkit-tap-highlight-color:transparent}
+button:focus-visible,input:focus-visible{outline:2px solid #ffdbaa;outline-offset:3px}
+.shell{position:relative;width:min(100%,850px);margin:auto;padding:24px 22px 70px}
 
-  <meta name="theme-color" content="#84252f">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style"
-        content="black-translucent">
-  <meta name="apple-mobile-web-app-title"
-        content="SPORTS ALMANAC">
+/* HEADER AND BASEBALL LOGO */
 
-  <meta name="description"
-        content="Your personal UK sports almanac">
+.hero{position:relative;isolation:isolate;padding:0 6px 12px;overflow:visible}
+.hero:before{content:"";position:absolute;z-index:-1;inset:-10px -22px -65px;background:linear-gradient(transparent 0%,#14182000 58%,#0b1017 100%);pointer-events:none}
+.eyebrow{display:flex;align-items:center;gap:13px;letter-spacing:.4em;font-size:10px;font-weight:750;color:#f4e9dc;white-space:nowrap;margin:0 0 7px 5px}
+.eyebrow:after{content:"";height:1px;width:52px;background:linear-gradient(90deg,#d8c0aa,transparent)}
+.headrow{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
+.masthead{width:min(74%,560px);height:auto;display:block;overflow:visible;filter:drop-shadow(0 7px 12px #02040b70)}
+#refresh{flex:none;margin-top:32px;border:1px solid #d46a64;background:#19171bcd;color:var(--cream);border-radius:9px;padding:10px 14px;min-width:100px;min-height:40px;font-size:13px;white-space:nowrap;box-shadow:0 3px 14px #04050730}
+#refresh:disabled{opacity:.65}
+.statusline{margin:0 4px 21px;font-size:11px;line-height:1.5;color:#e1c9c2;opacity:.92;letter-spacing:.01em}
 
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="apple-touch-icon"
-        sizes="512x512"
-        href="./icon-512.png?v=5">
-  <link rel="stylesheet" href="style.css">
+/* SUMMARY COUNTERS */
 
-  <title>SPORTS ALMANAC</title>
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:18px}
+.stats>div{min-width:0;position:relative;border:1px solid #867776;border-radius:13px;background:linear-gradient(120deg,#24272ce9,#11171ee9);padding:12px 16px 12px 22px;box-shadow:0 5px 15px #0005}
+.stats>div:before{content:"";position:absolute;left:11px;top:21%;height:58%;width:3px;border-radius:5px;background:var(--red-bright)}
+.stats>div:nth-child(2):before{background:var(--blue)}
+.stats>div:nth-child(3):before{background:#e3a52d}
+.stats strong{display:block;color:var(--cream);font:italic 750 clamp(27px,5.3vw,43px)/1.1 Georgia,"Times New Roman",serif;font-variant-numeric:tabular-nums}
+.stats small{display:block;font-size:11px;color:#d7d7d5;letter-spacing:.17em;text-transform:uppercase;margin-top:5px}
 
-  <style>
-    .headrow h1 {
-      text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
+/* SEARCH AND FILTERS */
 
-    .headrow h1 .baseball {
-      font-family: "Apple Color Emoji",
-                   "Segoe UI Emoji",
-                   "Noto Color Emoji",
-                   sans-serif;
-      font-size: 0.75em;
-      font-weight: normal;
-      color: inherit;
-      text-shadow: none;
-      display: inline-block;
-      line-height: 1;
-    }
+.controls{margin:0 0 20px}
+.searchwrap{position:relative;margin-bottom:13px}
+.searchwrap:before{content:"";position:absolute;left:17px;top:50%;transform:translateY(-55%);height:15px;width:15px;border:2px solid #f4efea;border-radius:50%;pointer-events:none}
+.searchwrap:after{content:"";position:absolute;left:32px;top:28px;width:10px;height:2px;background:#f4efea;transform:rotate(48deg);transform-origin:left center;pointer-events:none}
+#search{width:100%;height:50px;border:1px solid #8c8584;border-radius:12px;background:linear-gradient(120deg,#1d2329ec,#121920ef);color:var(--cream);padding:0 17px 0 53px;font-size:15px}
+#search::placeholder{color:#9d9fa6}
+.tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid #938687;border-radius:12px;background:#171d24e8;overflow:hidden;margin:0 0 15px}
+.tabs button{min-width:0;padding:12px 4px;border:0;border-right:1px solid #514b50;background:transparent;color:#efe6dc;font-size:15px}
+.tabs button:last-child{border:0}
+.tabs button.active{border-radius:10px;background:linear-gradient(125deg,#aa2630,#801a29);font-weight:750;color:#fff0e8;box-shadow:inset 0 1px 0 #e6a8a35c}
+.scrollchips{display:flex;gap:8px;align-items:center;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;padding:3px 0 8px;margin:0 0 8px}
+.scrollchips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid #938582;border-radius:10px;background:linear-gradient(#272a2ddc,#171c23e8);color:#f1e8db;font-size:13px;white-space:nowrap;padding:8px 12px;min-height:37px}
+.chip.active{border-color:#eb6667;background:linear-gradient(115deg,#a7232e,#771b28);color:white;font-weight:750}
+#sports>div:first-child{width:auto!important;flex:0 0 auto!important;display:flex!important;align-items:center!important;flex-wrap:nowrap!important;gap:8px!important;margin:0!important}
+#sports>div:first-child span{font-size:11px!important;white-space:nowrap}
+#sports .chip{flex:none}
+#genderFilters{display:flex!important;align-items:center!important;gap:8px!important;overflow-x:auto!important;flex-wrap:nowrap!important;scrollbar-width:none;margin:0 0 10px!important;padding:0 0 5px!important;min-width:0}
+#genderFilters>span{white-space:nowrap;font-size:12px!important;color:#d7c6c0!important;margin-right:3px!important}
+#genderFilters .chip{flex:none}
+#services{margin-bottom:12px}
 
-    .jukebox-ball {
-      appearance: none;
-      background: transparent;
-      border: 0;
-      padding: 0;
-      margin: 0;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
+/* DATE NAVIGATION */
 
-    .jukebox-ball:hover {
-      transform: rotate(25deg) scale(1.12);
-    }
+.datebar{display:grid;grid-template-columns:40px minmax(0,1fr) 40px 78px;gap:9px;margin-bottom:4px}
+.datebar button,#date{min-height:42px;border-radius:11px;border:1px solid #928785;background:linear-gradient(120deg,#252a30,#151c23);color:#f9ebdf}
+.datebar button{font-size:22px}
+.datebar button:last-child{font-size:14px;font-weight:650;border-color:#df6361;background:linear-gradient(#8c1d2a,#681821)}
+#date{padding:9px 8px;text-align:center;font-size:14px;width:100%;min-width:0;color-scheme:dark}
 
-    .jukebox-ball:active {
-      transform: rotate(80deg) scale(0.95);
-    }
+/* FIXTURE CARDS */
 
-    .jukebox-ball:focus-visible {
-      outline: 2px solid #f4e5da;
-      outline-offset: 4px;
-      border-radius: 50%;
-    }
+.day{margin:21px 0 18px;border:1px solid #8b7b76;border-radius:13px;background:linear-gradient(130deg,#191e25e8,#10161fe8);overflow:hidden;box-shadow:0 6px 20px #0004}
+.dayhead{display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:2px solid #c52638;padding:12px 17px 13px;background:linear-gradient(90deg,#262329,#1b2027)}
+.dayhead strong{font:italic 700 clamp(18px,3.1vw,26px)/1.2 Georgia,"Times New Roman",serif;color:var(--cream)}
+.dayhead span{font-size:12px;font-style:italic;color:#d6cdc7;white-space:nowrap}
+.game{display:grid;grid-template-columns:60px 29px minmax(0,1fr) 30px;align-items:center;gap:13px;padding:14px 17px;position:relative;min-height:79px}
+.game+.game:before{content:"";position:absolute;left:17px;right:17px;top:0;height:1px;background:#77706d77}
+.game .time{position:relative;display:flex;align-items:center;padding-left:12px;font-size:15px;line-height:1.2;font-weight:780;color:#f2e8da;font-variant-numeric:tabular-nums;white-space:nowrap}
+.game .time:before{content:"";position:absolute;left:0;top:50%;height:30px;transform:translateY(-50%);width:3px;border-radius:4px;background:#21b7eb}
+.game:has(.sporticon.rugby) .time:before,.game:has(.sporticon.football) .time:before{background:#ee7b35}
+.game:has(.sporticon.nfl) .time:before{background:#eaaa3a}
+.sporticon{width:26px;height:26px;display:flex;align-items:center;justify-content:center;font-size:21px;color:#f2e8da;font-family:Arial,sans-serif;opacity:.93}
+.match{color:#fff0e2;font:700 17px/1.22 Georgia,"Times New Roman",serif;overflow-wrap:anywhere}
+.meta{margin-top:5px;color:#bbb9b8;font-size:11px;line-height:1.4;text-transform:uppercase;letter-spacing:.055em}
+.star{border:0;background:transparent;color:#e7ddd2;padding:0;font-size:27px;line-height:1}
+.star.on{color:#f8c16a}
+.empty{border:1px solid #706769;border-radius:12px;background:#192028;padding:25px;text-align:center;color:#d9ceca;font-size:13px}
 
-    .jukebox-ball.playing {
-      filter: drop-shadow(0 0 5px #f4e5da);
-    }
+/* FOOTER */
 
-    /* Floating Spotify player */
-    .jukebox-player {
-      position: fixed;
-      right: 16px;
-      bottom: 16px;
-      z-index: 9999;
-      width: 340px;
-      max-width: calc(100vw - 32px);
-      box-sizing: border-box;
-      padding: 12px;
-      background: #442a32;
-      border: 1px solid #81505a;
-      border-radius: 12px;
-      color: #f4e5da;
-      box-shadow: 0 12px 35px rgba(0,0,0,0.45);
-      transition: opacity 0.2s ease,
-                  transform 0.2s ease,
-                  visibility 0.2s;
-    }
+footer{border-top:1px solid #4c4f54;margin-top:27px;padding:13px 2px 0;color:#999da5;font-size:10px;line-height:1.5}
+footer p{margin:6px 0}
 
-    /* Keep Spotify loaded even while closed */
-    .jukebox-player:not(.open) {
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
-      transform: translateY(12px);
-    }
+/* RESPONSIVE IPHONE LAYOUT */
 
-    .jukebox-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      margin-bottom: 10px;
-      font-size: 10px;
-      font-weight: bold;
-      letter-spacing: 1.5px;
-    }
-
-    .jukebox-top button {
-      appearance: none;
-      background: transparent;
-      border: 0;
-      padding: 0 3px;
-      color: #f4e5da;
-      font-size: 21px;
-      line-height: 1;
-      cursor: pointer;
-    }
-
-    .jukebox-video {
-      width: 100%;
-      height: 152px;
-    }
-
-    .jukebox-video iframe {
-      display: block;
-      width: 100% !important;
-      height: 152px !important;
-      border: 0;
-      border-radius: 8px;
-      background: #282828;
-    }
-
-    .jukebox-status {
-      margin: 8px 0 0;
-      font-size: 11px;
-      color: #e5c9c5;
-    }
-
-    /* Smaller player on iPhone */
-    @media (max-width: 600px) {
-      .jukebox-player {
-        width: 288px;
-        max-width: calc(100vw - 20px);
-        right: 10px;
-        bottom: calc(10px + env(safe-area-inset-bottom));
-        padding: 7px;
-        border-radius: 9px;
-      }
-
-      .jukebox-top {
-        margin-bottom: 6px;
-        font-size: 9px;
-        letter-spacing: 0.7px;
-      }
-
-      .jukebox-video,
-      .jukebox-video iframe {
-        height: 152px !important;
-      }
-
-      .jukebox-status {
-        display: none;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .jukebox-ball,
-      .jukebox-player {
-        transition: none;
-      }
-    }
-  </style>
+@media(max-width:560px){
+.shell{padding:max(45px,calc(env(safe-area-inset-top,0px) + 14px)) 13px 45px}
+.eyebrow{font-size:9px;letter-spacing:.29em;margin-left:3px;gap:9px}
+.masthead{width:min(79%,400px)}
+#refresh{margin-top:26px;padding:8px 9px;min-width:78px;font-size:11px;min-height:37px}
+.headrow{gap:5px}
+.hero{padding:0 2px 6px}
+.statusline{margin:0 2px 15px;font-size:10px}
+.stats{gap:8px;margin-bottom:15px}
+.stats>div{border-radius:10px;padding:11px 8px 11px 17px}
+.stats>div:before{left:8px;width:3px}
+.stats strong{font-size:clamp(26px,8vw,37px)}
+.stats small{font-size:9px;letter-spacing:.12em;margin-top:3px}
+#search{height:45px;font-size:13px}
+.searchwrap{margin-bottom:11px}
+.searchwrap:after{top:25px}
+.tabs{margin-bottom:12px}
+.tabs button{padding:10px 2px;font-size:13px}
+.chip{font-size:12px;padding:7px 10px;min-height:34px}
+.scrollchips{gap:6px;margin-bottom:6px}
+#genderFilters{gap:6px!important;margin-bottom:6px!important}
+#genderFilters>span{font-size:11px!important}
+.datebar{grid-template-columns:34px minmax(0,1fr) 34px 61px;gap:6px}
+.datebar button,#date{min-height:38px}
+.datebar button{font-size:20px}
+.datebar button:last-child{font-size:12px}
+#date{font-size:12px;padding:6px 4px}
+.day{margin-top:17px}
+.dayhead{padding:11px 12px}
+.dayhead strong{font-size:19px}
+.dayhead span{font-size:10px}
+.game{grid-template-columns:51px 23px minmax(0,1fr) 26px;gap:8px;padding:12px 11px;min-height:75px}
+.game .time{font-size:12px;padding-left:9px}
+.game .time:before{height:27px}
+.sporticon{width:22px;font-size:18px}
+.match{font-size:15px}
+.meta{font-size:10px;letter-spacing:.01em}
+.star{font-size:26px}
+}
+@media(max-width:350px){
+.shell{padding-left:9px;padding-right:9px}
+.eyebrow{font-size:8px}
+.masthead{width:77%}
+.datebar{grid-template-columns:32px minmax(0,1fr) 32px 55px}
+.game{grid-template-columns:46px 21px minmax(0,1fr) 24px;gap:6px}
+.game .time{font-size:11px}
+.match{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){
+*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}
+}
+</style>
 </head>
-
 <body>
+
 <main class="shell">
 
-  <header>
-    <div class="eyebrow">YOUR SPORTS · UK TIME</div>
+<header class="hero">
+  <div class="eyebrow">YOUR SPORTS · UK TIME</div>
+  <div class="headrow">
 
-    <div class="headrow">
-      <h1>
-        SPORTS ALMANAC
+    <!-- Vector masthead with baseball swoosh -->
+    <svg class="masthead"
+         viewBox="0 0 660 250"
+         xmlns="http://www.w3.org/2000/svg"
+         role="img"
+         aria-label="Sports Almanac, baseball swoosh logo">
+      <defs>
+        <linearGradient id="ball" x1="0" y1="0" x2="1" y2="1">
+          <stop stop-color="#fffef4"/>
+          <stop offset=".6" stop-color="#f4ead9"/>
+          <stop offset="1" stop-color="#a99e91"/>
+        </linearGradient>
+        <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+          <stop stop-color="#9e182c" stop-opacity="0"/>
+          <stop offset=".32" stop-color="#bf2630"/>
+          <stop offset=".72" stop-color="#f5573d"/>
+          <stop offset="1" stop-color="#ffe8a7"/>
+        </linearGradient>
+        <filter id="shine" x="-20%" y="-100%" width="160%" height="300%">
+          <feGaussianBlur stdDeviation="4"/>
+        </filter>
+        <filter id="ballshadow" x="-50%" y="-50%" width="200%" height="200%">
+          <feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#000" flood-opacity=".55"/>
+        </filter>
+      </defs>
 
-        <button
-          id="jukeboxBall"
-          class="baseball jukebox-ball"
-          type="button"
-          title="Press for good vibes 🎵"
-          aria-label="Play Jungle — Busy Earnin'"
-          aria-pressed="false"
-          aria-controls="jukeboxPlayer"
-        >⚾️</button>
-      </h1>
+      <g fill="#fcf0db"
+         font-family="Georgia,'Times New Roman',serif"
+         font-weight="bold"
+         font-style="italic"
+         letter-spacing="-5">
+        <text x="10" y="94" font-size="109"
+              textLength="435"
+              lengthAdjust="spacingAndGlyphs">SPORTS</text>
+        <text x="6" y="192" font-size="107"
+              textLength="555"
+              lengthAdjust="spacingAndGlyphs">ALMANAC</text>
+      </g>
 
-      <button id="refresh"
-              aria-label="Refresh fixtures">
-        ↻ Refresh
-      </button>
-    </div>
+      <path d="M5 229 C145 194 310 221 443 216 S561 197 587 187"
+            stroke="#f75d46"
+            stroke-width="7"
+            fill="none"
+            opacity=".6"
+            filter="url(#shine)"/>
 
-    <p class="muted" id="status">
-      Loading saved schedule…
-    </p>
-  </header>
+      <path d="M2 229 C142 200 299 215 436 213 S557 195 586 184"
+            stroke="url(#trail)"
+            stroke-width="8"
+            fill="none"
+            stroke-linecap="round"/>
 
-  <!-- Spotify player stays mounted for faster playback -->
-  <div id="jukeboxPlayer"
-       class="jukebox-player"
-       aria-hidden="true"
-       inert>
+      <path d="M120 234 C261 206 398 231 562 200"
+            stroke="#fbac78"
+            stroke-opacity=".8"
+            stroke-width="2"
+            fill="none"/>
 
-    <div class="jukebox-top">
-      <span>♫ THE ALMANAC JUKEBOX</span>
+      <path d="M43 237 C213 210 388 230 564 205"
+            stroke="#9c2432"
+            stroke-width="2.5"
+            fill="none"/>
 
-      <button
-        id="closeJukebox"
-        type="button"
-        aria-label="Close jukebox"
-      >×</button>
-    </div>
+      <g transform="translate(591 187) rotate(-19)"
+         filter="url(#ballshadow)">
+        <circle r="43"
+                fill="url(#ball)"
+                stroke="#ddd4c6"
+                stroke-width="1.5"/>
+        <path d="M-23 -35 C-7 -19 -7 17 -23 35 M23 -35 C7 -19 7 17 23 35"
+              fill="none"
+              stroke="#bf3030"
+              stroke-width="2.8"/>
 
-    <div id="spotifyEmbed"
-         class="jukebox-video"></div>
+        <g stroke="#bf3030"
+           stroke-width="1.8"
+           stroke-linecap="round">
+          <path d="M-29 -28l11 6 M-30 -17l12 5 M-31 -6l13 4 M-31 6l13 -4 M-30 18l12 -5 M-29 29l11 -7"/>
+          <path d="M29 -28l-11 6 M30 -17l-12 5 M31 -6l-13 4 M31 6l-13 -4 M30 18l-12 -5 M29 29l-11 -7"/>
+        </g>
 
-    <p id="jukeboxStatus"
-       class="jukebox-status"
-       role="status">
-      Preparing Spotify…
-    </p>
+        <ellipse cx="-14"
+                 cy="-17"
+                 rx="13"
+                 ry="23"
+                 fill="#fff"
+                 opacity=".22"
+                 transform="rotate(25)"/>
+      </g>
+    </svg>
+
+    <button id="refresh"
+            type="button"
+            aria-label="Refresh fixtures">↻ Refresh</button>
   </div>
+</header>
 
-  <section class="stats">
-    <div>
-      <strong id="gameCount">0</strong>
-      <small>Games</small>
-    </div>
-    <div>
-      <strong id="dayCount">0</strong>
-      <small>Dates</small>
-    </div>
-    <div>
-      <strong id="favCount">0</strong>
-      <small>Saved</small>
-    </div>
-  </section>
+<p id="status" class="statusline" role="status">
+  Loading your sports…
+</p>
 
-  <section class="controls">
+<section class="stats" aria-label="Schedule counts">
+  <div>
+    <strong id="gameCount">0</strong>
+    <small>Games</small>
+  </div>
+  <div>
+    <strong id="dayCount">0</strong>
+    <small>Dates</small>
+  </div>
+  <div>
+    <strong id="favCount">0</strong>
+    <small>Saved</small>
+  </div>
+</section>
 
+<section class="controls" aria-label="Fixture filters">
+
+  <div class="searchwrap">
     <input id="search"
            type="search"
            placeholder="Search teams, competitions…"
            aria-label="Search games">
+  </div>
 
-    <div class="tabs" id="views">
-      <button data-view="upcoming" class="active">
-        Upcoming
-      </button>
-      <button data-view="all">
-        All dates
-      </button>
-      <button data-view="faves">
-        ★ Saved
-      </button>
-    </div>
+  <nav class="tabs"
+       id="views"
+       aria-label="Fixture view">
+    <button type="button"
+            data-view="upcoming"
+            class="active">Upcoming</button>
+    <button type="button"
+            data-view="all">All dates</button>
+    <button type="button"
+            data-view="faves">☆ Saved</button>
+  </nav>
 
-    <div class="scrollchips" id="sports"></div>
-    <div class="scrollchips" id="services"></div>
+  <div class="scrollchips"
+       id="sports"
+       aria-label="Sport filters"></div>
 
-    <div class="datebar">
-      <button id="prev"
-              aria-label="Previous date">‹</button>
+  <div class="scrollchips"
+       id="services"
+       aria-label="Broadcaster filters"></div>
 
-      <input id="date" type="date">
+  <div class="datebar">
+    <button id="prev"
+            type="button"
+            aria-label="Previous date">‹</button>
 
-      <button id="next"
-              aria-label="Next date">›</button>
+    <input id="date"
+           type="date"
+           aria-label="Selected date">
 
-      <button id="reset">Today</button>
-    </div>
+    <button id="next"
+            type="button"
+            aria-label="Next date">›</button>
 
-  </section>
+    <button id="reset"
+            type="button">Today</button>
+  </div>
+</section>
 
-  <section id="results" aria-live="polite"></section>
+<section id="results" aria-live="polite"></section>
 
-  <footer>
-    <p>
-      UK time · Times shown in GMT/BST automatically.
-      <strong>TV listings are provisional</strong>
-      unless explicitly marked verified.
-      Public fixture feeds may fail or omit competitions.
-      No scores are shown by default.
-    </p>
-
-    <p>
-      Data source: ESPN public scoreboards where accessible.
-      No paid API, no account required.
-      Saved favourites stay on this device.
-    </p>
-  </footer>
+<footer>
+  <p>UK time · GMT/BST automatically. Broadcast listings may change. No official broadcaster or league affiliation.</p>
+  <p>Your saved fixtures stay on this device. Sports Almanac is an independent fixture guide.</p>
+</footer>
 
 </main>
 
-<!-- Existing fixtures application -->
-<script src="app.js" defer></script>
+<!-- Your existing fixture and favourites logic -->
+<script src="./app.js" defer></script>
 
-<!-- Spotify jukebox -->
 <script>
-  (() => {
-    const track =
-      "spotify:track:43tncrOBxBVimilLyZQAtF";
+/*
+  Presentation-only sports icons.
+  Does not change game data, filters or favourites.
+*/
+(() => {
+  const result = document.getElementById('results');
 
-    const ball =
-      document.getElementById("jukeboxBall");
+  const iconFor = meta => {
+    const m = meta.toLowerCase();
 
-    const panel =
-      document.getElementById("jukeboxPlayer");
+    if (m.includes('nba') || m.includes('basketball'))
+      return 'basketball';
 
-    const embed =
-      document.getElementById("spotifyEmbed");
+    if (m.includes('rugby'))
+      return 'rugby';
 
-    const closeButton =
-      document.getElementById("closeJukebox");
+    if (m.includes('nfl') || m.includes('american football'))
+      return 'nfl';
 
-    const status =
-      document.getElementById("jukeboxStatus");
+    if (m.includes('mlb') || m.includes('baseball'))
+      return 'baseball';
 
-    let controller = null;
-    let ready = false;
-    let playing = false;
-    let pendingPlay = false;
-    let requestedPlay = false;
+    if (m.includes('football') ||
+        m.includes('premier') ||
+        m.includes('uefa') ||
+        m.includes('soccer'))
+      return 'football';
 
-    function showPanel() {
-      panel.classList.add("open");
-      panel.removeAttribute("inert");
-      panel.setAttribute("aria-hidden", "false");
-    }
+    if (m.includes('mls'))
+      return 'football';
 
-    function hidePanel() {
-      panel.classList.remove("open");
-      panel.setAttribute("inert", "");
-      panel.setAttribute("aria-hidden", "true");
-    }
+    if (m.includes('tennis'))
+      return 'tennis';
 
-    function updateBaseball() {
-      ball.classList.toggle("playing", playing);
-      ball.setAttribute(
-        "aria-pressed",
-        String(playing)
-      );
-      ball.setAttribute(
-        "aria-label",
-        playing
-          ? "Pause Jungle — Busy Earnin'"
-          : "Play Jungle — Busy Earnin'"
-      );
-    }
+    return 'other';
+  };
 
-    function setStatus(message) {
-      status.textContent = message;
-    }
+  const paths = {
+    basketball:
+      '<circle cx="12" cy="12" r="9"/>' +
+      '<path d="M3 12h18M12 3c4 5 4 13 0 18M12 3c-4 5-4 13 0 18"/>',
 
-    function playMusic() {
-      requestedPlay = true;
-      showPanel();
+    rugby:
+      '<path d="M4 17C2 12 7 4 18 4c2 6-3 13-14 13Z"/>' +
+      '<path d="m8 14 7-7m-5 1 5 5"/>',
 
-      if (!ready || !controller) {
-        pendingPlay = true;
-        setStatus("Preparing Spotify…");
-        return;
-      }
+    nfl:
+      '<path d="M4 17C2 12 7 4 18 4c2 6-3 13-14 13Z"/>' +
+      '<path d="m8 14 7-7m-5 1 5 5"/>',
 
-      pendingPlay = false;
+    football:
+      '<circle cx="12" cy="12" r="9"/>' +
+      '<path d="m12 7 4 3-1.5 5h-5L8 10ZM8 10 4 9m12 1 4-1m-5.5 6 2 5m-7-5-2 5"/>',
 
-      // Called directly from the baseball tap
-      // whenever Spotify is already ready.
-      controller.play();
+    baseball:
+      '<circle cx="12" cy="12" r="9"/>' +
+      '<path d="M7 5c5 3 5 11 0 14M17 5c-5 3-5 11 0 14"/>',
 
-      setStatus("Starting playback…");
-    }
+    tennis:
+      '<circle cx="12" cy="12" r="9"/>' +
+      '<path d="M5 6c8 3 8 9 0 12M19 6c-8 3-8 9 0 12"/>',
 
-    function pauseMusic() {
-      requestedPlay = false;
-      pendingPlay = false;
+    other:
+      '<path d="m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6Z"/>'
+  };
 
-      if (controller) {
-        controller.pause();
-      }
+  function enhance() {
+    result
+      .querySelectorAll('.game:not([data-illustrated])')
+      .forEach(game => {
+        const meta = game.querySelector('.meta');
+        if (!meta) return;
 
-      playing = false;
-      updateBaseball();
-      setStatus("Paused");
-    }
+        const sport = iconFor(meta.textContent);
 
-    function toggleMusic() {
-      if (playing || (requestedPlay && !ready)) {
-        pauseMusic();
-      } else {
-        playMusic();
-      }
-    }
+        const icon = document.createElement('span');
+        icon.className = 'sporticon ' + sport;
+        icon.setAttribute('aria-hidden', 'true');
 
-    function closeJukebox() {
-      pauseMusic();
-      hidePanel();
-    }
+        icon.innerHTML =
+          '<svg viewBox="0 0 24 24" ' +
+          'width="25" height="25" fill="none" ' +
+          'stroke="currentColor" stroke-width="1.45" ' +
+          'stroke-linecap="round" stroke-linejoin="round" ' +
+          'aria-hidden="true">' +
+          paths[sport] +
+          '</svg>';
 
-    ball.addEventListener("click", toggleMusic);
+        game.querySelector('.time')
+          ?.insertAdjacentElement('afterend', icon);
 
-    closeButton.addEventListener(
-      "click",
-      closeJukebox
-    );
+        game.dataset.illustrated = '1';
+      });
+  }
 
-    window.onSpotifyIframeApiReady = IFrameAPI => {
-      IFrameAPI.createController(
-        embed,
-        {
-          uri: track,
-          width: "100%",
-          height: 152
-        },
-        spotifyController => {
-          controller = spotifyController;
+  new MutationObserver(enhance).observe(result, {
+    childList: true
+  });
 
-          controller.addListener("ready", () => {
-            ready = true;
-            setStatus("Spotify ready");
-
-            if (pendingPlay && requestedPlay) {
-              pendingPlay = false;
-
-              // Best-effort delayed playback.
-              // Safari may block this request.
-              controller.play();
-            }
-          });
-
-          controller.addListener(
-            "playback_started",
-            () => {
-              playing = true;
-              requestedPlay = true;
-              updateBaseball();
-              setStatus("Playing");
-            }
-          );
-
-          controller.addListener(
-            "playback_update",
-            event => {
-              if (!event || !event.data) return;
-
-              playing = !event.data.isPaused;
-              requestedPlay = playing;
-
-              updateBaseball();
-
-              setStatus(
-                playing ? "Playing" : "Paused"
-              );
-            }
-          );
-        }
-      );
-    };
-
-    const script = document.createElement("script");
-
-    script.src =
-      "https://open.spotify.com/embed/iframe-api/v1";
-
-    script.async = true;
-
-    script.onerror = () => {
-      setStatus("Spotify could not load");
-    };
-
-    document.body.appendChild(script);
-  })();
+  enhance();
+})();
 </script>
 
 </body>
