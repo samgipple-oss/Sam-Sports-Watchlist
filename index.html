@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#3b0e18">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>Sports Almanac | Your Sports · UK Time</title>
 <style>
 :root{color-scheme:dark;--wine:#390d17;--red:#9d1928;--red-bright:#b82330;--blush:#dbaf9c;--gold:#e2b779;--pale:#fff0d5;--ink:#211b20;--panel:#2d252b;--line:#8a5b60;--muted:#d2b5ad}
@@ -19,8 +19,7 @@ button{cursor:pointer}
 button:focus-visible,input:focus-visible{outline:3px solid #ffcc79;outline-offset:3px}
 .shell{position:relative;max-width:1160px;margin:0 auto;padding:24px clamp(14px,4vw,44px) 65px}
 .eyebrow{text-align:center;display:flex;align-items:center;justify-content:center;gap:16px;font-size:11px;letter-spacing:.38em;font-weight:900;color:#efc9aa;margin:7px 0 14px}
-.eyebrow:before,.eyebrow:after{content:'';width:65px;max-width:10vw;height:2px;background:linear-gradient(90deg,transparent,var(--gold))}
-.eyebrow:after{transform:rotate(180deg)}
+.eyebrow:before,.eyebrow:after{content:'';width:65px;max-width:10vw;height:2px;background:linear-gradient(90deg,transparent,var(--gold))}.eyebrow:after{transform:rotate(180deg)}
 .brandrow{display:flex;justify-content:center;align-items:center;min-width:0}
 .masthead{flex:0 1 auto;min-width:0;text-align:center;filter:drop-shadow(0 8px 9px #10070b9c)}
 .sportsword{font-family:Georgia,'Times New Roman',serif;font-weight:900;font-style:italic;font-size:clamp(37px,6.7vw,90px);line-height:1;white-space:nowrap;letter-spacing:.11em;color:#fff1d9;-webkit-text-stroke:1.4px #20100b;text-shadow:3px 4px 0 #1a0909;background:linear-gradient(160deg,#d22c35,#9a1525);border:2px solid #f2be78;border-radius:22px 22px 8px 8px;padding:2px 18px 3px;transform:skew(-5deg);position:relative;z-index:1}
@@ -40,8 +39,7 @@ button:focus-visible,input:focus-visible{outline:3px solid #ffcc79;outline-offse
 #search{display:block;width:100%;height:55px;border-radius:26px;border:2px solid #dca76f;color:#fff0df;background:linear-gradient(120deg,#2b2125,#17191c);padding:0 23px;font-size:16px;box-shadow:inset 0 2px 7px #120a0a88,0 5px 8px #16060baa}
 #search::placeholder{color:#cbb4a8}
 .tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:17px 0 18px;border:1px solid #c48d69;border-radius:25px;overflow:hidden;background:#272126}
-.tabs button{padding:13px 5px;border:0;border-right:1px solid #865b59;background:transparent;color:#e5c8b5;font-size:15px}
-.tabs button:last-child{border-right:0}
+.tabs button{padding:13px 5px;border:0;border-right:1px solid #865b59;background:transparent;color:#e5c8b5;font-size:15px}.tabs button:last-child{border-right:0}
 .tabs .active{color:#fff6e7;font-weight:800;background:linear-gradient(#b62734,#7c1023);border-radius:25px;box-shadow:inset 0 0 0 2px #e0ae75}
 .scrollchips{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:10px 0}
 .chip{border:1.5px solid #ad7a73;border-radius:999px;padding:10px 14px;min-height:39px;white-space:nowrap;background:linear-gradient(120deg,#39272b,#261e25);color:#f8dcc7;font-size:13px}
@@ -65,6 +63,7 @@ button:focus-visible,input:focus-visible{outline:3px solid #ffcc79;outline-offse
 .empty{text-align:center;padding:25px;border:1px solid #ad646c;border-radius:16px;background:#30161d;color:#efc9b0}
 footer{padding:20px 4px;color:#bb9892;font-size:11px;line-height:1.6;border-top:1px solid #7b424d}
 footer p{margin:6px 0}
+
 @media(max-width:650px){
 .shell{padding:16px 14px 42px}
 .eyebrow{font-size:9px;letter-spacing:.26em;gap:8px;margin:10px 0 14px}
@@ -114,43 +113,202 @@ footer p{margin:6px 0}
 .game{grid-template-columns:43px minmax(0,1fr) 25px}
 .match{font-size:14px}
 }
-@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* iPhone spacing and filter fixes */
+@media(max-width:650px){
+  .shell{
+    padding-top:max(49px,calc(env(safe-area-inset-top,0px) + 15px));
+    padding-bottom:max(38px,env(safe-area-inset-bottom,0px));
+  }
+  .eyebrow{
+    margin:0 0 12px;
+    white-space:nowrap;
+    font-size:9px;
+    letter-spacing:.2em;
+  }
+  .headerinfo{
+    margin-top:13px;
+    padding-bottom:12px;
+    gap:8px;
+  }
+  #status{
+    min-width:0;
+    font-size:10px;
+    line-height:1.4;
+  }
+  #refresh{flex:none}
+  .controls{
+    padding:11px 10px 12px;
+    overflow:hidden;
+    border-radius:17px;
+  }
+  .scrollchips{
+    margin:8px 0;
+    min-width:0;
+    scroll-snap-type:x proximity;
+    overscroll-behavior-x:contain;
+    -webkit-overflow-scrolling:touch;
+  }
+  .scrollchips .chip{
+    scroll-snap-align:start;
+  }
+  #sports{
+    display:flex;
+    flex-wrap:nowrap!important;
+    align-items:center;
+    overflow-x:auto;
+  }
+  #sports>div:first-child{
+    width:auto!important;
+    flex:0 0 auto!important;
+    margin:0!important;
+    flex-wrap:nowrap!important;
+  }
+  #sports>div:first-child .chip{
+    min-height:32px;
+    padding:7px 9px;
+    font-size:11px;
+  }
+  #genderFilters{
+    display:flex!important;
+    flex-wrap:nowrap!important;
+    overflow-x:auto;
+    min-width:0;
+  }
+  #genderFilters>span{
+    flex:none;
+    font-size:11px!important;
+  }
+  #services{
+    overflow-x:auto;
+    flex-wrap:nowrap!important;
+  }
+  .datebar{margin-top:10px}
+  .datebar button,#date{min-height:39px}
+  .dayhead strong{font-size:19px}
+  .day{margin:12px 0}
+  .game{padding:12px 10px}
+}
+@media(max-width:370px){
+  .shell{
+    padding-top:max(45px,calc(env(safe-area-inset-top,0px) + 12px));
+  }
+  .headerinfo{align-items:flex-start}
+  #refresh{padding:8px 9px}
+}
+
+/* NEW: Full-width mobile masthead */
+@media(max-width:650px){
+  .brandrow{
+    width:100%;
+    justify-content:center;
+  }
+  .masthead{
+    width:100%;
+    max-width:480px;
+    flex:1 1 100%;
+    min-width:0;
+  }
+  .sportsword{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    width:100%;
+    font-size:clamp(37px,11.5vw,63px);
+    letter-spacing:.015em;
+    padding:2px 5px 4px;
+    border-radius:13px 13px 5px 5px;
+    line-height:.94;
+  }
+  .sportsword .starlet{
+    font-size:.35em;
+    flex:none;
+    margin:0 1px;
+  }
+  .brandname{
+    font-size:clamp(65px,19.2vw,98px);
+    letter-spacing:-.055em;
+    transform:scaleX(1);
+    line-height:.8;
+    margin:0;
+    text-shadow:
+      2px 2px 0 #1b0b0b,
+      4px 6px 0 #18070d;
+  }
+  .brandrule{
+    margin:10px 5% 0;
+  }
+  .headerinfo{
+    margin-top:11px;
+  }
+}
+@media(max-width:370px){
+  .sportsword{font-size:11.2vw}
+  .brandname{font-size:19vw}
+}
+@media(prefers-reduced-motion:reduce){
+  *{transition:none!important}
+}
 </style>
 </head>
 <body>
 <main class="shell">
+
 <header>
-<div class="eyebrow">YOUR SPORTS · UK TIME</div>
-<div class="brandrow">
-  <div class="masthead" aria-label="Sports Almanac">
-    <div class="sportsword"><span class="starlet">★</span>SPORTS<span class="starlet">★</span></div>
-    <h1 class="brandname">ALMANAC</h1>
-    <div class="brandrule"></div>
+  <div class="eyebrow">YOUR SPORTS · UK TIME</div>
+
+  <div class="brandrow">
+    <div class="masthead" aria-label="Sports Almanac">
+      <div class="sportsword">
+        <span class="starlet">★</span>SPORTS<span class="starlet">★</span>
+      </div>
+      <h1 class="brandname">ALMANAC</h1>
+      <div class="brandrule"></div>
+    </div>
   </div>
-</div>
-<div class="headerinfo">
-  <span class="statusdot" aria-hidden="true"></span>
-  <p id="status">Loading your sports…</p>
-  <button id="refresh" type="button">↻ Refresh</button>
-</div>
+
+  <div class="headerinfo">
+    <span class="statusdot" aria-hidden="true"></span>
+    <p id="status">Loading your sports…</p>
+    <button id="refresh" type="button">↻ Refresh</button>
+  </div>
 </header>
 
 <section class="controls" aria-label="Fixture filters">
-  <input id="search" type="search" placeholder="⌕ Search teams, competitions…" aria-label="Search games">
+  <input
+    id="search"
+    type="search"
+    placeholder="⌕ Search teams, competitions…"
+    aria-label="Search games">
 
   <div class="tabs" id="views">
-    <button type="button" class="active" data-view="upcoming">Upcoming</button>
-    <button type="button" data-view="all">All dates</button>
-    <button type="button" data-view="faves">★ Saved</button>
+    <button type="button" class="active" data-view="upcoming">
+      Upcoming
+    </button>
+    <button type="button" data-view="all">
+      All dates
+    </button>
+    <button type="button" data-view="faves">
+      ★ Saved
+    </button>
   </div>
 
-  <div class="scrollchips" id="sports" aria-label="Sport selection"></div>
-  <div class="scrollchips" id="services" aria-label="Streaming service selection"></div>
+  <div class="scrollchips" id="sports"
+       aria-label="Sport selection"></div>
+
+  <div class="scrollchips" id="services"
+       aria-label="Streaming service selection"></div>
 
   <div class="datebar">
-    <button id="prev" type="button" aria-label="Previous date">‹</button>
-    <input id="date" type="date" aria-label="Selected date">
-    <button id="next" type="button" aria-label="Next date">›</button>
+    <button id="prev" type="button"
+            aria-label="Previous date">‹</button>
+
+    <input id="date" type="date"
+           aria-label="Selected date">
+
+    <button id="next" type="button"
+            aria-label="Next date">›</button>
+
     <button id="reset" type="button">Today</button>
   </div>
 </section>
@@ -158,17 +316,26 @@ footer p{margin:6px 0}
 <section id="results" aria-live="polite"></section>
 
 <section class="stats" aria-label="Schedule statistics">
-  <div><strong id="gameCount">0</strong><small>Games</small></div>
-  <div><strong id="dayCount">0</strong><small>Dates</small></div>
-  <div><strong id="favCount">0</strong><small>Saved</small></div>
+  <div>
+    <strong id="gameCount">0</strong>
+    <small>Games</small>
+  </div>
+  <div>
+    <strong id="dayCount">0</strong>
+    <small>Dates</small>
+  </div>
+  <div>
+    <strong id="favCount">0</strong>
+    <small>Saved</small>
+  </div>
 </section>
 
 <footer>
   <p>UK time · GMT/BST automatically. Broadcast listings may be provisional. No broadcaster logos or official affiliation.</p>
   <p>Sports Almanac is an independent fixture guide. Saved games remain on your device. Use only fixture data you are permitted to publish.</p>
 </footer>
-</main>
 
+</main>
 <script src="./app.js" defer></script>
 </body>
 </html>
