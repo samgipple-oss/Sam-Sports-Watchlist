@@ -1946,7 +1946,29 @@ h1{font:bold italic clamp(38px,7vw,64px)/1.05 Georgia,serif;letter-spacing:-1.5p
 .tablewrap{overflow-x:auto}.standings{width:100%;border-collapse:collapse;font-size:13px}.standings th,.standings td{text-align:left;padding:8px 9px;border-bottom:1px solid #44444f}.standings th{color:#f1d8d4}.standings td:not(:first-child),.standings th:not(:first-child){text-align:right}.card h3{font:italic bold 19px Georgia,serif;margin:0 0 9px}.champion{display:grid;grid-template-columns:80px minmax(0,1fr);gap:12px}.champion .year{color:#fdc0ab;font-weight:bold}.champion strong{display:block}.champion p{margin:3px 0;color:#bdb5b6;font-size:12px}
 dialog{max-width:min(92vw,680px);width:100%;max-height:85vh;overflow:auto;background:#151d28;color:var(--ink);border:1px solid #a58d8b;border-radius:15px;padding:0}dialog::backdrop{background:#000c}.modalhead{display:flex;justify-content:space-between;align-items:center;padding:13px 17px;background:#2b2028;position:sticky;top:0}.modalhead button{border:1px solid #786c72;border-radius:8px;background:#202531;color:#fff;padding:5px 10px}#modalBody{padding:17px}.smallstats{width:100%;border-collapse:collapse;font-size:12px;margin:10px 0 20px}.smallstats td,.smallstats th{padding:6px;text-align:left;border-bottom:1px solid #373c45}
 .team-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0}.team-heading .sectiontitle{margin:0}
-.team-tools select{max-width:min(100%,300px)}#teamStorageStatus:empty{display:none}
+.team-wizard{display:grid;place-items:center;min-height:calc(100svh - 154px);padding:12px 0}
+.team-wizard[hidden],.team-dashboard[hidden]{display:none}
+.wizard-step{width:min(100%,560px);text-align:center;padding:clamp(18px,5vw,36px);border:1px solid #78676c;border-radius:20px;background:linear-gradient(150deg,#26212b,#151d29);box-shadow:0 16px 44px #0005}
+.wizard-enter,.team-dashboard:not([hidden]){animation:wizard-appear 340ms cubic-bezier(.2,.75,.25,1) both}
+@keyframes wizard-appear{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.wizard-enter,.team-dashboard:not([hidden]){animation:none}}
+.wizard-kicker{margin:0;color:#ffc4bb;font-size:10px;letter-spacing:.2em;font-weight:750}
+.wizard-step h2{font:italic bold clamp(27px,6vw,44px)/1.05 Georgia,serif;margin:9px 0 12px}
+.wizard-step h2:focus{outline:none}.wizard-intro{margin:0 auto 18px;color:var(--sub);max-width:34ch}
+.wizard-step form{display:grid;gap:9px;margin:0 auto;max-width:340px}
+.wizard-step input,.wizard-step button{min-width:0;min-height:43px;border:1px solid #857781;border-radius:10px;background:#1b202b;padding:8px 12px}
+.wizard-step input{width:100%}.wizard-step label{display:block;font-size:13px;margin:3px 0}
+.wizard-step button[data-account="save"],.wizard-step button[data-account$="next"],.wizard-step button[type="submit"]{background:#952d39;border-color:#d66a73}
+.wizard-step button:disabled{opacity:.5;cursor:default}.wizard-step :is(input,button):focus-visible{outline:2px solid #f6c0bb;outline-offset:2px}
+.wizard-actions,.team-account-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:15px 0 0}
+.wizard-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.wizard-step .team-choice{width:100%;overflow-wrap:anywhere;text-align:left}.team-choice small{display:block;color:var(--sub);font-size:11px}
+.wizard-step .team-choice[aria-pressed="true"]{border-color:#f1848a;background:#60303a}.team-choice[aria-pressed="true"]::before{content:"✓ ";color:#ffd0cc}
+.team-scroll{max-height:32svh;overflow:auto;padding:3px}
+#teamCount,#teamLoadStatus{font-size:12px;color:var(--sub);margin:8px 0}
+.wizard-error{font-size:13px;color:#ffb4af;margin:10px 0 0}.wizard-error:empty,#teamAccountStatus:empty,#teamLoadStatus:empty{display:none}
+.wizard-review{overflow-wrap:anywhere}.team-account p{margin:5px 0}.team-account-actions{justify-content:flex-start}
+@media(max-width:380px){.wizard-step{padding:16px}.wizard-choices{gap:5px}.wizard-step .team-choice{padding:7px 8px}}
 .team-summary{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:18px}
 .team-summary p{margin:5px 0}.team-form-list,.team-news ul{list-style:none;padding:0;margin:0}
 .team-form-list li{display:grid;grid-template-columns:auto 1fr auto;align-items:start;gap:8px;margin:7px 0}
@@ -1957,7 +1979,7 @@ dialog{max-width:min(92vw,680px);width:100%;max-height:85vh;overflow:auto;backgr
 @media(max-width:480px){.team-summary{grid-template-columns:minmax(0,1fr)}.shell{padding:20px 12px 25px}h1{font-size:44px}.headtop{align-items:center}.back{font-size:11px}.tools>*{font-size:12px}.champion{grid-template-columns:65px 1fr}}
 </style>
 <main class="shell">
-<header><div class="headtop"><div class="eyebrow">YOUR SPORTS · UK TIME</div><a class="back" href="#fixtures">← Fixtures</a></div>
+<header id="almanacHeader"><div class="headtop"><div class="eyebrow">YOUR SPORTS · UK TIME</div><a class="back" href="#fixtures">← Fixtures</a></div>
 <h1 id="pageTitle">Recent Results</h1><p class="subtitle" id="pageDesc">Confirmed results and game details across major sports. Browse the archive using the tabs below.</p></header>
 <section class="section active" id="resultsPage" aria-label="Recent results">
 <div class="tools"><select id="resultLeague" aria-label="Results sport"><option value="">All sports</option></select><select id="resultRange" aria-label="Results period"><option value="2">Last 48 hours</option><option value="7" selected>Last 7 days</option><option value="14">Last 14 days</option><option value="365">All archived</option></select><input id="resultDate" type="date" aria-label="Find results by date"><button id="clearResultDate" type="button" hidden>Clear date</button><button id="reload" type="button">↻ Refresh</button></div>
@@ -1972,19 +1994,18 @@ dialog{max-width:min(92vw,680px);width:100%;max-height:85vh;overflow:auto;backgr
 <div class="tools"><select id="championLeague" aria-label="Championship league"><option value="">All sports</option></select><input id="championSearch" type="search" placeholder="Find a champion or year" aria-label="Search champions"></div><div class="stack" id="championList"></div></section>
 
 <section class="section" id="teamsPage" aria-label="My Teams">
-<h2 class="sectiontitle">Follow a team</h2>
-<p class="subhead">Pick your teams across leagues. Your choices are saved in this browser.</p>
-<div class="tools team-tools">
-  <select id="teamLeague" aria-label="Team league"></select>
-  <select id="teamPicker" aria-label="Choose a team" disabled><option value="">Choose a league</option></select>
-  <button id="followTeam" type="button" disabled>＋ Follow team</button>
-  <button id="reloadTeamList" type="button">Reload team list</button>
+<div id="teamWizard" class="team-wizard" aria-label="My Teams account setup"></div>
+<div id="teamDashboard" class="team-dashboard" hidden>
+  <div class="card team-account"><div class="inner">
+    <strong id="teamAccountEmail"></strong><p class="muted" id="teamFavouriteSports"></p>
+    <div class="team-account-actions"><button class="outline" type="button" id="editTeamProfile">Edit sports and teams</button><button class="outline" type="button" id="signOutTeams">Sign out</button></div>
+    <p id="teamAccountStatus" role="status"></p>
+  </div></div>
+  <div class="team-heading"><h2 class="sectiontitle">Following</h2><button class="outline" type="button" id="refreshTeams" disabled>↻ Refresh teams</button></div>
+  <div id="teamCards" class="stack" aria-live="polite"></div>
 </div>
-<p id="teamStorageStatus" class="notice" role="status"></p>
-<div class="team-heading"><h2 class="sectiontitle">Following</h2><button class="outline" type="button" id="refreshTeams" disabled>↻ Refresh teams</button></div>
-<div id="teamCards" class="stack" aria-live="polite"></div>
 </section>
-<footer class="notice" style="border-top:1px solid #444954;margin-top:35px;padding-top:14px">Data: ESPN public scoreboards and league tables, with cited championship records. Final scores only. ESPN's endpoints are unofficial and can change; some league and box score coverage may be unavailable. The archive builds over time and is not yet comprehensive.</footer>
+<footer id="almanacFooter" class="notice" style="border-top:1px solid #444954;margin-top:35px;padding-top:14px">Data: ESPN public scoreboards and league tables, with cited championship records. Final scores only. ESPN's endpoints are unofficial and can change; some league and box score coverage may be unavailable. The archive builds over time and is not yet comprehensive.</footer>
 </main>
 <dialog id="boxscoreDialog"><div class="modalhead"><strong id="modalTitle">Game details</strong><button id="closeDialog" type="button">Close ×</button></div><div id="modalBody"></div></dialog>
 </template>
@@ -2083,6 +2104,8 @@ function section(){
   if(!showArchive){window.scrollTo(0,0);return;}
   if(section!=='teams'&&Date.now()-Math.max(lastAttempt,Date.parse(archive.updated)||0)>6*3600000) load();
   ['results','records','teams'].forEach(s=>$(s+'Page').classList.toggle('active',s===section));
+  $('almanacHeader').hidden=section==='teams'&&stage!=='dashboard';
+  $('almanacFooter').hidden=$('almanacHeader').hidden;
   const desc={results:['Recent Results','Final scores, game details and box scores across your sports.'],records:['Records & Statistics','Season standings, performance data and milestones from your archived results.'],teams:['My Teams','The teams you follow, their next matches, recent form and available headlines.']};
   $('pageTitle').textContent=desc[section][0];$('pageDesc').textContent=desc[section][1];window.scrollTo({top:0,behavior:'instant'});
   renderActive();
@@ -2222,7 +2245,6 @@ async function showBox(e){const button=e.target.closest('[data-game]');if(!butto
     $('modalBody').innerHTML=`<p><strong>${esc(g.away)} ${esc(g.awayScore)} — ${esc(g.homeScore)} ${esc(g.home)}</strong></p>${details||scoring||'<p class="muted">This provider has no detailed box score for this event.</p>'}<p><a href="${esc(g.detailUrl)}" target="_blank" rel="noopener noreferrer">Open game on ESPN ↗</a></p>`;
   }catch(err){$('modalBody').innerHTML=`<p class="muted">Full box score unavailable from ESPN for this event or browser.</p><p><a href="${esc(g.detailUrl)}" target="_blank" rel="noopener noreferrer">View game details on ESPN ↗</a></p>`}}
 $('resultList').addEventListener('click',showBox);$('closeDialog').onclick=()=>$('boxscoreDialog').close();$('boxscoreDialog').onclick=e=>{if(e.target===$('boxscoreDialog'))$('boxscoreDialog').close()};
-const TEAM_STORAGE='sports-almanac-my-teams-v1';
 const teamDirectory=new Map(), teamUpdates=new Map();
 const nextDate=new Intl.DateTimeFormat('en-GB',{
   weekday:'short',day:'numeric',month:'short',timeZone:'Europe/London'
@@ -2231,48 +2253,8 @@ const kickoff=new Intl.DateTimeFormat('en-GB',{
   hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZone:'Europe/London'
 });
 let followed=[];
-try{
-  const saved=JSON.parse(localStorage.getItem(TEAM_STORAGE));
-  if(Array.isArray(saved)) followed=saved.filter(team=>Object.hasOwn(PATHS,team?.league)&&/^\d+$/.test(team.id)&&typeof team.name==='string');
-}catch(error){ /* Team choices can still be used during this visit. */ }
 const teamKey=team=>(PATHS[team.league].startsWith('soccer/')?'soccer':team.league)+':'+team.id;
 const teamName=name=>String(name||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
-let directoryAttempt=0, teamTabOpened=false;
-selectOptions($('teamLeague'),LEAGUES);
-$('teamLeague').value='Premier League';
-
-function renderTeamPicker(message=''){
-  const league=$('teamLeague').value;
-  const selected=$('teamPicker').value;
-  const teams=teamDirectory.get(league)||[];
-  const remaining=teams.filter(team=>!followed.some(saved=>teamKey(saved)===teamKey(team)));
-  const options=remaining.map(team=>new Option(team.name,team.id));
-  const placeholder=message||(options.length?'Choose a team':'No more teams available');
-  $('teamPicker').replaceChildren(new Option(placeholder,''),...options);
-  if(remaining.some(team=>team.id===selected)) $('teamPicker').value=selected;
-  $('teamPicker').disabled=!options.length;
-  $('followTeam').disabled=!$('teamPicker').value;
-}
-async function loadTeamDirectory(){
-  const league=$('teamLeague').value;
-  const attempt=++directoryAttempt;
-  if(teamDirectory.has(league)){renderTeamPicker();return;}
-  renderTeamPicker('Loading teams…');
-  try{
-    const data=await espn(`${API}/site/v2/sports/${PATHS[league]}/teams?limit=1000`);
-    const teams=(data.sports||[]).flatMap(sport=>(sport.leagues||[]).flatMap(group=>group.teams||[]))
-      .map(entry=>entry.team).filter(team=>team?.displayName&&/^\d+$/.test(team.id)&&team.isActive!==false&&team.isAllStar!==true)
-      .map(team=>({id:String(team.id),league,name:team.displayName,shortName:team.shortDisplayName||''}));
-    teamDirectory.set(league,[...new Map(teams.map(team=>[team.id,team])).values()].sort((a,b)=>a.name.localeCompare(b.name)));
-    if(attempt===directoryAttempt) renderTeamPicker();
-  }catch(error){
-    if(attempt===directoryAttempt) renderTeamPicker('Team list unavailable');
-  }
-}
-function saveTeamChoices(){
-  try{localStorage.setItem(TEAM_STORAGE,JSON.stringify(followed));}
-  catch(error){$('teamStorageStatus').textContent='Team choices can only be kept during this visit.';}
-}
 function teamAliases(team){
   return new Set([team.name,team.shortName].map(teamName).filter(Boolean));
 }
@@ -2312,7 +2294,7 @@ function espnStory(article,names){
 function renderTeamCards(){
   $('refreshTeams').disabled=!followed.length;
   if(!followed.length){
-    $('teamCards').innerHTML='<div class="empty">No teams followed yet. Pick a league and a team above to build your dashboard.</div>';
+    $('teamCards').innerHTML='<div class="empty">No teams followed yet. Use Edit sports and teams to add teams to your dashboard.</div>';
     return;
   }
   $('teamCards').innerHTML=followed.map(team=>{
@@ -2337,8 +2319,7 @@ function renderTeamCards(){
         <div><h3>Next match</h3>${nextHTML}</div>
         <div><h3>Recent form</h3><ul class="team-form-list">${latest}</ul></div>
       </div>
-      ${news?`<div class="inner team-news"><h3>Latest from ESPN</h3><ul>${news}</ul></div>`:''}
-      <div class="game-actions"><button type="button" class="outline" data-unfollow="${esc(teamKey(team))}" aria-label="Unfollow ${esc(team.name)}">Unfollow</button></div>
+      <div class="inner team-news"><h3>Latest from ESPN</h3>${news?`<ul>${news}</ul>`:'<p class="muted">No team headlines available.</p>'}</div>
     </article>`;
   }).join('');
 }
@@ -2382,34 +2363,300 @@ async function loadTeamUpdate(team,force=false){
   });
   renderTeamCards();
 }
-function showMyTeams(){
-  renderTeamCards();
-  if(!teamTabOpened){teamTabOpened=true;loadTeamDirectory();}
-  followed.forEach(team=>loadTeamUpdate(team));
+// Add your Supabase Project URL and public publishable key here.
+const ACCOUNT_CONFIG={url:'',publishableKey:''};
+const SPORT_LEAGUES={
+  'Football':['Premier League','WSL','Champions League','MLS'],
+  'Basketball':['NBA'],
+  'Baseball':['MLB'],
+  'American football':['NFL'],
+  'Ice hockey':['NHL']
+};
+const PROFILE_KEY='sports_almanac_preferences';
+const TEAM_LIMIT=24;
+const wizard=$('teamWizard');
+const dashboard=$('teamDashboard');
+let account, clientTask, user=null, accountStarted=false, accountBusy=false;
+let stage='loading', accountMessage='', email='', codeSentAt=0, sportIndex=0, searchTeams='';
+let profile=null, draftSports=new Set(), draftTeams=new Map();
+const directoryTasks=new Map(), directoryFailures=new Set();
+
+function teamProfile(value){
+  if(!value||value.version!==1||!Array.isArray(value.sports)||!Array.isArray(value.teams)) return null;
+  const sports=[...new Set(value.sports.filter(sport=>Object.hasOwn(SPORT_LEAGUES,sport)))];
+  if(!sports.length) return null;
+  const leagues=sports.flatMap(sport=>SPORT_LEAGUES[sport]);
+  const teams=value.teams.filter(team=>leagues.includes(team?.league)&&/^\d+$/.test(team.id)&&typeof team.name==='string')
+    .map(team=>({id:String(team.id),league:team.league,name:team.name.slice(0,100),shortName:String(team.shortName||'').slice(0,100)}));
+  return {version:1,sports,teams:[...new Map(teams.map(team=>[teamKey(team),team])).values()].slice(0,TEAM_LIMIT)};
 }
-$('teamLeague').onchange=loadTeamDirectory;
-$('teamPicker').onchange=()=>{$('followTeam').disabled=!$('teamPicker').value;};
-$('reloadTeamList').onclick=loadTeamDirectory;
-$('followTeam').onclick=()=>{
-  const team=teamDirectory.get($('teamLeague').value)?.find(item=>item.id===$('teamPicker').value);
-  if(!team||followed.some(saved=>teamKey(saved)===teamKey(team))) return;
-  followed.push(team);
-  saveTeamChoices();
-  renderTeamPicker();
-  loadTeamUpdate(team);
-};
-$('refreshTeams').onclick=()=>{
-  followed.forEach(team=>loadTeamUpdate(team,true));
-};
-$('teamCards').addEventListener('click',event=>{
-  const button=event.target.closest('[data-unfollow]');
-  if(!button) return;
-  followed=followed.filter(team=>teamKey(team)!==button.dataset.unfollow);
-  saveTeamChoices();
-  renderTeamCards();
-  renderTeamPicker();
-  $('teamPicker').focus();
+function accountClient(){
+  if(!clientTask){
+    clientTask=new Promise((resolve,reject)=>{
+      if(window.supabase?.createClient){resolve();return;}
+      const script=document.createElement('script');
+      script.src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
+      script.onload=resolve;
+      script.onerror=()=>{script.remove();reject(new Error('Account service could not be loaded.'));};
+      document.head.append(script);
+    }).then(()=>window.supabase.createClient(ACCOUNT_CONFIG.url,ACCOUNT_CONFIG.publishableKey,{
+      auth:{storageKey:'sports-almanac-account',detectSessionInUrl:false}
+    })).catch(error=>{clientTask=null;throw error;});
+  }
+  return clientTask;
+}
+function startPreferences(){
+  draftSports=new Set(profile?.sports||[]);
+  draftTeams=new Map((profile?.teams||[]).map(team=>[teamKey(team),team]));
+  sportIndex=0;
+  searchTeams='';
+  openStep('sports');
+}
+function applyAccount(next){
+  if(next&&user?.id===next.id){user=next;return;}
+  user=next;
+  email='';
+  codeSentAt=0;
+  draftSports=new Set();
+  draftTeams=new Map();
+  profile=teamProfile(user?.user_metadata?.[PROFILE_KEY]);
+  followed=profile?.teams||[];
+  if(!user) openStep('email');
+  else if(profile) openStep('dashboard');
+  else startPreferences();
+}
+async function startAccount(){
+  if(accountStarted) return;
+  accountStarted=true;
+  if(!ACCOUNT_CONFIG.url||!ACCOUNT_CONFIG.publishableKey){openStep('unavailable');return;}
+  openStep('loading');
+  try{
+    account=await accountClient();
+    const {data,error}=await account.auth.getSession();
+    if(error) throw error;
+    if(data.session){
+      const verified=await account.auth.getUser();
+      if(verified.error) throw verified.error;
+      applyAccount(verified.data.user);
+    }else applyAccount(null);
+    account.auth.onAuthStateChange((event,session)=>{
+      if(event==='SIGNED_OUT'||event==='SIGNED_IN') applyAccount(session?.user||null);
+    });
+  }catch(error){
+    accountStarted=false;
+    openStep('connection');
+  }
+}
+function openStep(next){
+  stage=next;
+  accountMessage='';
+  renderAccount(true);
+}
+function setAccountMessage(message=''){
+  accountMessage=message;
+  const status=$('accountMessage');
+  if(status) status.textContent=message;
+}
+function accountButtons(disabled){
+  accountBusy=disabled;
+  wizard.setAttribute('aria-busy',String(disabled));
+  for(const button of wizard.querySelectorAll('button')){
+    if(disabled){
+      button.dataset.wasDisabled=String(button.disabled);
+      button.disabled=true;
+    }else{
+      if(button.dataset.wasDisabled!==undefined) button.disabled=button.dataset.wasDisabled==='true';
+      delete button.dataset.wasDisabled;
+    }
+  }
+  $('editTeamProfile').disabled=disabled;
+  $('signOutTeams').disabled=disabled;
+}
+async function accountAction(action){
+  if(accountBusy) return;
+  setAccountMessage();
+  accountButtons(true);
+  try{await action();}
+  catch(error){setAccountMessage(error.message||'Something went wrong. Please try again.');}
+  finally{accountButtons(false);}
+}
+async function sendTeamCode(address){
+  const {error}=await account.auth.signInWithOtp({email:address,options:{shouldCreateUser:true}});
+  if(error) throw error;
+  email=address;
+  codeSentAt=Date.now();
+  if(stage==='code') setAccountMessage('A new code was sent. Check your inbox.');
+  else openStep('code');
+}
+function currentSport(){return [...draftSports][sportIndex];}
+function populateSport(sport){
+  for(const league of SPORT_LEAGUES[sport]){
+    if(teamDirectory.has(league)||directoryTasks.has(league)||directoryFailures.has(league)) continue;
+    const task=espn(`${API}/site/v2/sports/${PATHS[league]}/teams?limit=1000`).then(data=>{
+      const teams=(data.sports||[]).flatMap(sport=>(sport.leagues||[]).flatMap(group=>group.teams||[]))
+        .map(entry=>entry.team).filter(team=>team?.displayName&&/^\d+$/.test(team.id)&&team.isActive!==false&&team.isAllStar!==true)
+        .map(team=>({id:String(team.id),league,name:team.displayName,shortName:team.shortDisplayName||''}));
+      teamDirectory.set(league,[...new Map(teams.map(team=>[team.id,team])).values()]);
+    }).catch(()=>directoryFailures.add(league)).finally(()=>{
+      directoryTasks.delete(league);
+      if(stage==='pick'&&currentSport()===sport) renderSportTeams();
+    });
+    directoryTasks.set(league,task);
+  }
+  renderSportTeams();
+}
+function choicesFor(sport){
+  const teams=new Map(SPORT_LEAGUES[sport].flatMap(league=>teamDirectory.get(league)||[]).map(team=>[teamKey(team),team]));
+  // Keep account selections visible even if ESPN changes a league roster.
+  for(const team of draftTeams.values()) if(SPORT_LEAGUES[sport].includes(team.league)) teams.set(teamKey(team),team);
+  return [...teams.values()].sort((a,b)=>a.name.localeCompare(b.name));
+}
+function renderSportTeams(){
+  const sport=currentSport();
+  if(!sport||!$('sportTeamList')) return;
+  const leagues=SPORT_LEAGUES[sport];
+  const list=choicesFor(sport);
+  const query=teamName(searchTeams);
+  const visible=list.filter(team=>teamName(team.name).includes(query)||teamName(team.shortName).includes(query));
+  $('sportTeamList').innerHTML=visible.map(team=>`<button class="team-choice" type="button" data-pick-team="${esc(teamKey(team))}" aria-pressed="${draftTeams.has(teamKey(team))}"><span>${esc(team.name)}</span><small>${esc(team.league)}</small></button>`).join('');
+  const loading=leagues.some(league=>directoryTasks.has(league));
+  const failed=leagues.some(league=>directoryFailures.has(league));
+  $('teamLoadStatus').textContent=loading?'Loading teams…':failed?'Some team lists are unavailable. You can retry or continue.':!visible.length?'No matching teams.':'';
+  $('retrySportTeams').hidden=!failed;
+  $('teamCount').textContent=`${draftTeams.size} of ${TEAM_LIMIT} teams selected`;
+}
+function renderAccount(animate=false){
+  if(!['#teams','#history'].includes(location.hash)) return;
+  const ready=stage==='dashboard';
+  wizard.hidden=ready;
+  dashboard.hidden=!ready;
+  $('almanacHeader').hidden=!ready;
+  $('almanacFooter').hidden=!ready;
+  wizard.dataset.stage=stage;
+  if(ready){
+    $('teamAccountEmail').textContent=user?.email||'';
+    $('teamFavouriteSports').textContent=profile.sports.join(' · ');
+    renderTeamCards();
+    followed.forEach(team=>loadTeamUpdate(team));
+    return;
+  }
+  const sports=[...draftSports];
+  const sport=currentSport();
+  const steps={
+    loading:['My Teams','Connecting to your account…',''],
+    unavailable:['My Teams','Account sign-up is awaiting setup.',''],
+    connection:['Couldn’t connect','The account service is unavailable. Try again in a moment.','<button type="button" data-account="retry">Try again</button>'],
+    email:['Create an account','Enter your email to sign up or sign back in.',`<form data-account-form="email"><label for="teamEmail">Email address</label><input id="teamEmail" type="email" name="email" autocomplete="email" required><button type="submit">Send sign-in code</button></form>`],
+    code:['Check your email',`Enter the six-digit code sent to ${esc(email)}.`,'<form data-account-form="code"><label for="teamCode">Verification code</label><input id="teamCode" name="code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}" required><button type="submit">Verify and continue</button></form><div class="wizard-actions"><button class="outline" type="button" data-account="change-email">Change email</button><button class="outline" type="button" data-account="resend">Resend code</button></div>'],
+    sports:['What sports do you like?','Choose the sports you want to follow.',`<div class="wizard-choices">${Object.keys(SPORT_LEAGUES).map(name=>`<button class="team-choice" type="button" data-pick-sport="${esc(name)}" aria-pressed="${draftSports.has(name)}">${esc(name)}</button>`).join('')}</div><div class="wizard-actions">${profile?'<button class="outline" type="button" data-account="cancel">Cancel</button>':''}<button id="continueSports" type="button" data-account="sports-next" ${draftSports.size?'':'disabled'}>Continue</button></div>`],
+    pick:[`Pick your ${esc((sport||'').toLowerCase())} teams`,'Choose the teams you want on your dashboard. You can skip this sport.',
+      `<label for="sportTeamSearch">Search teams</label><input id="sportTeamSearch" type="search" autocomplete="off"><p id="teamLoadStatus" role="status"></p><button type="button" class="outline" id="retrySportTeams" data-account="retry-teams" hidden>Retry team lists</button><div id="sportTeamList" class="wizard-choices team-scroll"></div><p id="teamCount"></p><div class="wizard-actions"><button class="outline" type="button" data-account="back">Back</button><button type="button" data-account="teams-next">Continue</button></div>`],
+    review:['Ready to follow your teams?',`${sports.length} sport${sports.length===1?'':'s'} · ${draftTeams.size} team${draftTeams.size===1?'':'s'}`,
+      `<p class="wizard-review">${esc([...draftTeams.values()].map(team=>team.name).join(' · ')||'You can add teams any time.')}</p><div class="wizard-actions"><button class="outline" type="button" data-account="back">Back</button><button type="button" data-account="save">Save and open My Teams</button></div>`]
+  };
+  const [title,description,controls]=steps[stage];
+  const progress=stage==='sports'?'YOUR PREFERENCES':stage==='pick'?`SPORT ${sportIndex+1} OF ${sports.length}`:stage==='review'?'FINISH SETUP':'SPORTS ALMANAC ACCOUNT';
+  wizard.innerHTML=`<div class="wizard-step ${animate?'wizard-enter':''}"><p class="wizard-kicker">${progress}</p><h2 id="wizardTitle" tabindex="-1">${title}</h2><p class="wizard-intro">${description}</p>${controls}<p id="accountMessage" class="wizard-error" role="status">${esc(accountMessage)}</p></div>`;
+  if(stage==='pick'){
+    $('sportTeamSearch').value=searchTeams;
+    populateSport(sport);
+  }
+  if(accountBusy) accountButtons(true);
+  if(animate) $('wizardTitle').focus({preventScroll:true});
+}
+async function saveTeamProfile(){
+  const owner=user?.id;
+  const next=teamProfile({version:1,sports:[...draftSports],teams:[...draftTeams.values()]});
+  if(!owner||!next) throw new Error('Sign in and select a sport before saving.');
+  const {data,error}=await account.auth.updateUser({data:{[PROFILE_KEY]:next}});
+  if(error) throw error;
+  if(user?.id!==owner) return;
+  user=data.user;
+  profile=teamProfile(user?.user_metadata?.[PROFILE_KEY]);
+  if(!profile) throw new Error('The account did not confirm the save. Please try again.');
+  followed=profile.teams;
+  openStep('dashboard');
+}
+wizard.addEventListener('submit',event=>{
+  const form=event.target;
+  if(!form.dataset.accountForm) return;
+  event.preventDefault();
+  const values=new FormData(form);
+  if(form.dataset.accountForm==='email') accountAction(()=>sendTeamCode(String(values.get('email')).trim()));
+  else accountAction(async()=>{
+    const {data,error}=await account.auth.verifyOtp({email,token:String(values.get('code')).trim(),type:'email'});
+    if(error) throw error;
+    if(!data.user) throw new Error('We could not confirm this sign-in. Please request a new code.');
+    applyAccount(data.user);
+  });
 });
+wizard.addEventListener('input',event=>{
+  if(event.target.id!=='sportTeamSearch') return;
+  searchTeams=event.target.value;
+  renderSportTeams();
+});
+wizard.addEventListener('click',event=>{
+  const button=event.target.closest('button');
+  if(!button||accountBusy) return;
+  const sport=button.dataset.pickSport;
+  const key=button.dataset.pickTeam;
+  const action=button.dataset.account;
+  if(sport){
+    if(draftSports.has(sport)) draftSports.delete(sport);
+    else draftSports.add(sport);
+    button.setAttribute('aria-pressed',String(draftSports.has(sport)));
+    $('continueSports').disabled=!draftSports.size;
+  }else if(key){
+    if(draftTeams.has(key)) draftTeams.delete(key);
+    else{
+      if(draftTeams.size>=TEAM_LIMIT){setAccountMessage(`Choose up to ${TEAM_LIMIT} teams.`);return;}
+      const team=choicesFor(currentSport()).find(team=>teamKey(team)===key);
+      if(!team) return;
+      draftTeams.set(key,team);
+    }
+    setAccountMessage();
+    button.setAttribute('aria-pressed',String(draftTeams.has(key)));
+    $('teamCount').textContent=`${draftTeams.size} of ${TEAM_LIMIT} teams selected`;
+  }else if(action==='sports-next'){
+    const leagues=[...draftSports].flatMap(sport=>SPORT_LEAGUES[sport]);
+    for(const [key,team] of draftTeams) if(!leagues.includes(team.league)) draftTeams.delete(key);
+    sportIndex=0;
+    searchTeams='';
+    openStep('pick');
+  }else if(action==='teams-next'){
+    searchTeams='';
+    if(sportIndex+1<draftSports.size){sportIndex++;openStep('pick');}
+    else openStep('review');
+  }else if(action==='back'){
+    searchTeams='';
+    if(stage==='review') openStep('pick');
+    else if(sportIndex>0){sportIndex--;openStep('pick');}
+    else openStep('sports');
+  }else if(action==='retry-teams'){
+    for(const league of SPORT_LEAGUES[currentSport()]) directoryFailures.delete(league);
+    populateSport(currentSport());
+  }else if(action==='retry') startAccount();
+  else if(action==='change-email') openStep('email');
+  else if(action==='cancel') openStep('dashboard');
+  else if(action==='resend'){
+    const wait=Math.ceil((60000-(Date.now()-codeSentAt))/1000);
+    if(wait>0) setAccountMessage(`Try again in ${wait} seconds.`);
+    else accountAction(()=>sendTeamCode(email));
+  }else if(action==='save') accountAction(saveTeamProfile);
+});
+$('editTeamProfile').onclick=startPreferences;
+$('signOutTeams').onclick=()=>accountAction(async()=>{
+  const {error}=await account.auth.signOut({scope:'local'});
+  if(error){$('teamAccountStatus').textContent='Could not sign out. Please try again.';return;}
+  $('teamAccountStatus').textContent='';
+  applyAccount(null);
+});
+function showMyTeams(){
+  if(!accountStarted&&stage==='loading') startAccount();
+  else if(stage==='dashboard'||wizard.dataset.stage!==stage) renderAccount();
+}
+
+$('refreshTeams').onclick=()=>followed.forEach(team=>loadTeamUpdate(team,true));
 
 reportStatus();
 section();
