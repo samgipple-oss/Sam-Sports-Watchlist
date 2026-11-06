@@ -2,253 +2,491 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#43090e">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<title>Sports Almanac | Your Sports, UK Time</title>
-<style>
-:root{color-scheme:dark;--cream:#ffe9bf;--gold:#f3bd62;--red:#a81925;--muted:#dab9a1;--border:#d29651}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;color:var(--cream);font-family:Georgia,'Times New Roman',serif;background:#34080f;background-image:radial-gradient(ellipse 90% 42% at 47% 0%,#af2831 0%,#6a0e19 38%,transparent 82%),radial-gradient(ellipse 110% 65% at 55% 55%,#77111c 0%,#33090f 80%),linear-gradient(140deg,#3b0910,#26060c);background-attachment:fixed}
-body:before{content:'';pointer-events:none;position:fixed;inset:0;opacity:.1;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 170 170' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.86' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E")}
-button,input{font:inherit}
-button{cursor:pointer}
-button:focus-visible,input:focus-visible{outline:2px solid #ffdc8c;outline-offset:3px}
-.shell{position:relative;max-width:980px;margin:auto;padding:26px clamp(14px,4vw,42px) 75px}
-.masthead{text-align:center;margin:0 auto 10px}
-.eyebrow{display:flex;justify-content:center;align-items:center;gap:16px;font:800 10px Arial,sans-serif;letter-spacing:.32em;color:#f4d1a0;margin-bottom:11px}
-.eyebrow:before,.eyebrow:after{content:'';height:1px;width:11%;background:linear-gradient(90deg,transparent,var(--gold))}
-.eyebrow:after{transform:scaleX(-1)}
-.title-art{display:block;width:min(100%,795px);height:auto;margin:auto;filter:drop-shadow(0 9px 14px #19040899);-webkit-mask-image:linear-gradient(90deg,transparent,#000 2%,#000 98%,transparent);mask-image:linear-gradient(90deg,transparent,#000 2%,#000 98%,transparent)}
-.headerstatus{display:flex;align-items:center;gap:9px;justify-content:center;margin:5px 0 16px;font:11px/1.45 Arial,sans-serif;color:#e8bba2}
-.statusdot{width:7px;height:7px;border-radius:50%;background:#83cb7b;flex:none;box-shadow:0 0 9px #81c877}
-.headerstatus p{margin:0;opacity:.9}
-.topsearch{display:flex;gap:9px;align-items:stretch;margin-bottom:14px}
-.searchwrap{flex:1;position:relative;min-width:0}
-.searchwrap:before{content:'⌕';position:absolute;top:50%;left:17px;transform:translateY(-50%);font-size:29px;color:#e7bd77;pointer-events:none}
-#search{height:53px;width:100%;padding:0 17px 0 51px;color:#ffe8cf;background:linear-gradient(130deg,#3d1116,#20090d);border:2px solid var(--gold);border-radius:28px;box-shadow:0 4px 0 #6f2115,0 8px 16px #18050899;font:italic 17px Georgia,serif}
-#search::placeholder{color:#e3c5a5;opacity:.92}
-#refresh{flex:0 0 56px;background:linear-gradient(#a21d28,#530713);border:2px solid var(--gold);border-radius:15px;color:#ffe8c6;font:30px Georgia,serif;box-shadow:0 4px 0 #692016,0 7px 13px #190407aa}
-.tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:2px solid var(--gold);border-radius:28px;overflow:hidden;background:linear-gradient(#3d0b11,#28070c);box-shadow:0 4px 0 #702016,0 8px 14px #1a0509a0;margin-bottom:16px}
-.tabs button{height:50px;border:0;border-right:1px solid #bd815f;background:transparent;color:#ffe6bf;font:700 17px Georgia,serif;min-width:0}
-.tabs button:last-child{border-right:0}
-.tabs .active{background:linear-gradient(#c62630,#810a16);box-shadow:inset 0 0 0 2px #eab76c,0 2px 8px #150104;border-radius:28px;font-style:italic}
-.filterrow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 4px 15px}
-.filterbutton{width:100%;height:46px;display:flex;align-items:center;justify-content:space-between;gap:7px;border-radius:27px;padding:0 16px;border:1.5px solid var(--gold);background:linear-gradient(#4c111a,#24080d);color:#fce4be;box-shadow:0 4px 0 #6e2017,0 7px 12px #18040699;font:italic 16px Georgia,serif;min-width:0}
-.filterbutton span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.filterbutton[aria-expanded=true]{background:linear-gradient(#8e1823,#3e0c14)}
-.filterbutton .caret{font-size:15px;flex:none}
-.filterpanels{margin:0 3px}
-.filterpanel{display:none;border:1px solid #a85951;border-radius:15px;padding:13px;background:#270b13e8;margin-bottom:12px}
-.filterpanel.open{display:block}
-.filterhint{font:11px Arial,sans-serif;color:#d9ae98;margin-bottom:9px}
-.scrollchips{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}
-.chip{font:13px Arial,sans-serif;min-height:34px;background:#361b21;color:#f9dac6;border:1px solid #9f6960;border-radius:30px;padding:7px 13px;white-space:nowrap}
-.chip.active{background:linear-gradient(#ae2632,#71101f);border-color:#edba75;color:#fff2dd;font-weight:800}
-#sports{display:flex;flex-wrap:wrap;align-items:center}
-#sports>div:first-child{display:flex!important;flex-wrap:wrap!important;align-items:center!important;width:100%!important;margin:0 0 5px!important;gap:7px!important}
-#genderFilters{display:flex;flex-wrap:wrap;align-items:center;gap:7px!important;margin:10px 0!important}
-.datebar{display:grid;grid-template-columns:42px minmax(0,1fr) 42px 69px;gap:8px;margin:0 5px 17px}
-.datebar button{min-height:39px;border:1.5px solid #f4c17a;background:linear-gradient(#951f29,#510a15);border-radius:13px;color:var(--cream);font:24px Georgia,serif}
-.datebar button:last-child{font:700 13px Arial,sans-serif}
-#date{min-width:0;border:1px solid #bd776b;color:var(--cream);background:#280d14;padding:8px;border-radius:12px;text-align:center;font:14px Arial,sans-serif;color-scheme:dark}
-.day{margin:19px 0 24px}
-.dayhead{display:flex;align-items:center;gap:14px;justify-content:center;text-align:center;margin:0 4px 14px}
-.dayhead:before,.dayhead:after{content:'';height:2px;flex:1;background:linear-gradient(90deg,transparent,#f7c16f)}
-.dayhead:after{transform:scaleX(-1)}
-.dayhead strong{font:italic 800 clamp(19px,3.5vw,26px) Georgia,serif;color:#ffe9bd;white-space:normal;text-shadow:0 2px 3px #120005}
-.dayhead span{display:none}
-.game{display:grid;grid-template-columns:65px minmax(0,1fr) 36px;gap:14px;align-items:center;min-height:98px;margin-bottom:11px;padding:16px 18px;border:1.5px solid #dca060;border-radius:20px;background:linear-gradient(130deg,#8d1723 0%,#550d17 48%,#21070d 100%);box-shadow:inset 0 1px 0 #ffe5aa38,0 5px 0 #501007,0 10px 16px #1b030799}
-.game .time{height:100%;border-right:1px solid #c57c52;display:flex;align-items:center;color:#ffd9a3;font:800 14px Arial,sans-serif;padding-right:10px}
-.match{font:700 clamp(16px,2.8vw,21px)/1.2 Georgia,serif;color:#fff0d4;text-shadow:0 2px 2px #190508;overflow-wrap:anywhere}
-.meta{font:12px/1.4 Arial,sans-serif;color:#f0bf9f;margin-top:7px}
-.star{border:0;background:transparent;padding:0;font-size:32px;color:#edbc80;line-height:1}
-.star.on{color:#ffde8d}
-.empty{text-align:center;padding:28px 14px;border:1px solid #b67264;background:#320c15;border-radius:14px;font:14px Arial,sans-serif}
-.stats{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin:25px auto 8px;padding-top:14px;border-top:1px solid #88504b;font:12px Arial,sans-serif;color:#f1c3a5}
-.stats>div{display:flex;gap:5px}
-.stats strong{color:#ffe6ad}
-footer{text-align:center;color:#c3988d;font:10px/1.6 Arial,sans-serif;padding:14px 0 0}
-footer p{margin:4px 0}
-@media(max-width:600px){
-.shell{padding:max(44px,calc(env(safe-area-inset-top,0px) + 12px)) 12px max(44px,env(safe-area-inset-bottom,0px))}
-.eyebrow{font-size:9px;letter-spacing:.21em;margin-bottom:7px;gap:8px}
-.eyebrow:before,.eyebrow:after{width:6%}
-.title-art{width:100%}
-.headerstatus{font-size:9px;margin:2px 0 13px}
-.topsearch{margin-bottom:11px;gap:8px}
-#search{height:47px;font-size:14px;padding-left:43px}
-.searchwrap:before{left:14px;font-size:24px}
-#refresh{flex-basis:48px;font-size:25px;border-radius:13px}
-.tabs{margin-bottom:13px;border-radius:23px}
-.tabs button{height:44px;font-size:14px}
-.filterrow{gap:8px;margin-bottom:13px}
-.filterbutton{height:43px;font-size:13px;padding:0 11px}
-.datebar{margin-bottom:15px;grid-template-columns:34px minmax(0,1fr) 34px 59px;gap:6px}
-.datebar button{min-height:37px;font-size:19px}
-.datebar button:last-child{font-size:11px}
-#date{font-size:12px;padding:7px 2px}
-.day{margin:15px 0 22px}
-.dayhead{gap:7px;margin-bottom:11px}
-.dayhead strong{font-size:18px}
-.game{grid-template-columns:50px minmax(0,1fr) 28px;gap:10px;min-height:85px;padding:12px;margin-bottom:10px;border-radius:17px}
-.game .time{font-size:12px;padding-right:7px}
-.match{font-size:16px}
-.meta{font-size:10px;margin-top:5px}
-.star{font-size:27px}
-}
-@media(max-width:355px){
-.shell{padding-left:9px;padding-right:9px}
-.filterbutton{font-size:12px}
-.game{grid-template-columns:45px minmax(0,1fr) 25px;gap:7px;padding:11px 9px}
-.match{font-size:15px}
-}
-@media(prefers-reduced-motion:reduce){
-*{scroll-behavior:auto!important;transition:none!important}
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+  <meta name="theme-color" content="#84252f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent">
+  <meta name="apple-mobile-web-app-title"
+        content="SPORTS ALMANAC">
+
+  <meta name="description"
+        content="Your personal UK sports almanac">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon"
+        sizes="512x512"
+        href="./icon-512.png?v=5">
+  <link rel="stylesheet" href="style.css">
+
+  <title>SPORTS ALMANAC</title>
+
+  <style>
+    .headrow h1 {
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .headrow h1 .baseball {
+      font-family: "Apple Color Emoji",
+                   "Segoe UI Emoji",
+                   "Noto Color Emoji",
+                   sans-serif;
+      font-size: 0.75em;
+      font-weight: normal;
+      color: inherit;
+      text-shadow: none;
+      display: inline-block;
+      line-height: 1;
+    }
+
+    .jukebox-ball {
+      appearance: none;
+      background: transparent;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .jukebox-ball:hover {
+      transform: rotate(25deg) scale(1.12);
+    }
+
+    .jukebox-ball:active {
+      transform: rotate(80deg) scale(0.95);
+    }
+
+    .jukebox-ball:focus-visible {
+      outline: 2px solid #f4e5da;
+      outline-offset: 4px;
+      border-radius: 50%;
+    }
+
+    .jukebox-ball.playing {
+      filter: drop-shadow(0 0 5px #f4e5da);
+    }
+
+    /* Floating Spotify player */
+    .jukebox-player {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 9999;
+      width: 340px;
+      max-width: calc(100vw - 32px);
+      box-sizing: border-box;
+      padding: 12px;
+      background: #442a32;
+      border: 1px solid #81505a;
+      border-radius: 12px;
+      color: #f4e5da;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.45);
+      transition: opacity 0.2s ease,
+                  transform 0.2s ease,
+                  visibility 0.2s;
+    }
+
+    /* Keep Spotify loaded even while closed */
+    .jukebox-player:not(.open) {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(12px);
+    }
+
+    .jukebox-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+    }
+
+    .jukebox-top button {
+      appearance: none;
+      background: transparent;
+      border: 0;
+      padding: 0 3px;
+      color: #f4e5da;
+      font-size: 21px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .jukebox-video {
+      width: 100%;
+      height: 152px;
+    }
+
+    .jukebox-video iframe {
+      display: block;
+      width: 100% !important;
+      height: 152px !important;
+      border: 0;
+      border-radius: 8px;
+      background: #282828;
+    }
+
+    .jukebox-status {
+      margin: 8px 0 0;
+      font-size: 11px;
+      color: #e5c9c5;
+    }
+
+    /* Smaller player on iPhone */
+    @media (max-width: 600px) {
+      .jukebox-player {
+        width: 288px;
+        max-width: calc(100vw - 20px);
+        right: 10px;
+        bottom: calc(10px + env(safe-area-inset-bottom));
+        padding: 7px;
+        border-radius: 9px;
+      }
+
+      .jukebox-top {
+        margin-bottom: 6px;
+        font-size: 9px;
+        letter-spacing: 0.7px;
+      }
+
+      .jukebox-video,
+      .jukebox-video iframe {
+        height: 152px !important;
+      }
+
+      .jukebox-status {
+        display: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .jukebox-ball,
+      .jukebox-player {
+        transition: none;
+      }
+    }
+  </style>
 </head>
+
 <body>
 <main class="shell">
 
-<header class="masthead">
-<div class="eyebrow">YOUR SPORTS · UK TIME</div>
-<img class="title-art" id="titleArt" alt="Sports Almanac">
-</header>
+  <header>
+    <div class="eyebrow">YOUR SPORTS · UK TIME</div>
 
-<div class="topsearch">
-<div class="searchwrap">
-<input id="search" type="search" placeholder="Search teams, leagues or events…" aria-label="Search fixtures">
-</div>
-<button type="button" id="refresh" title="Refresh fixture feeds" aria-label="Refresh">↻</button>
-</div>
+    <div class="headrow">
+      <h1>
+        SPORTS ALMANAC
 
-<nav class="tabs" id="views" aria-label="Schedule view">
-<button type="button" data-view="upcoming" class="active">Upcoming</button>
-<button type="button" data-view="all">All dates</button>
-<button type="button" data-view="faves">☆ Saved</button>
-</nav>
+        <button
+          id="jukeboxBall"
+          class="baseball jukebox-ball"
+          type="button"
+          title="Press for good vibes 🎵"
+          aria-label="Play Jungle — Busy Earnin'"
+          aria-pressed="false"
+          aria-controls="jukeboxPlayer"
+        >⚾️</button>
+      </h1>
 
-<div class="filterrow">
-<button id="sportToggle" class="filterbutton" type="button" aria-expanded="false" aria-controls="sportPanel">
-<span id="sportLabel">⚲ Sport: All</span>
-<span class="caret">⌄</span>
-</button>
+      <button id="refresh"
+              aria-label="Refresh fixtures">
+        ↻ Refresh
+      </button>
+    </div>
 
-<button id="serviceToggle" class="filterbutton" type="button" aria-expanded="false" aria-controls="servicePanel">
-<span id="serviceLabel">▣ Service: All</span>
-<span class="caret">⌄</span>
-</button>
-</div>
+    <p class="muted" id="status">
+      Loading saved schedule…
+    </p>
+  </header>
 
-<div class="filterpanels">
-<div class="filterpanel" id="sportPanel">
-<p class="filterhint">Choose a sport, exclude sports, or filter by competition.</p>
-<div id="sports" class="scrollchips"></div>
-</div>
+  <!-- Spotify player stays mounted for faster playback -->
+  <div id="jukeboxPlayer"
+       class="jukebox-player"
+       aria-hidden="true"
+       inert>
 
-<div class="filterpanel" id="servicePanel">
-<p class="filterhint">Choose a broadcaster. Text labels only — no network logos.</p>
-<div id="services" class="scrollchips"></div>
-</div>
-</div>
+    <div class="jukebox-top">
+      <span>♫ THE ALMANAC JUKEBOX</span>
 
-<div class="datebar">
-<button type="button" id="prev" aria-label="Previous date">‹</button>
-<input id="date" type="date" aria-label="Selected date">
-<button type="button" id="next" aria-label="Next date">›</button>
-<button type="button" id="reset">Today</button>
-</div>
+      <button
+        id="closeJukebox"
+        type="button"
+        aria-label="Close jukebox"
+      >×</button>
+    </div>
 
-<div class="headerstatus">
-<span class="statusdot" aria-hidden="true"></span>
-<p id="status">Loading your personalised sports calendar…</p>
-</div>
+    <div id="spotifyEmbed"
+         class="jukebox-video"></div>
 
-<section id="results" aria-live="polite"></section>
+    <p id="jukeboxStatus"
+       class="jukebox-status"
+       role="status">
+      Preparing Spotify…
+    </p>
+  </div>
 
-<section class="stats" aria-label="Schedule totals">
-<div><strong id="gameCount">0</strong> Games</div>
-<div><strong id="dayCount">0</strong> Dates</div>
-<div><strong id="favCount">0</strong> Saved</div>
-</section>
+  <section class="stats">
+    <div>
+      <strong id="gameCount">0</strong>
+      <small>Games</small>
+    </div>
+    <div>
+      <strong id="dayCount">0</strong>
+      <small>Dates</small>
+    </div>
+    <div>
+      <strong id="favCount">0</strong>
+      <small>Saved</small>
+    </div>
+  </section>
 
-<footer>
-<p>UK time · GMT/BST automatically · Independent sports viewing guide</p>
-<p>Broadcast listings may change. Sports Almanac is not affiliated with broadcasters or leagues.</p>
-</footer>
+  <section class="controls">
+
+    <input id="search"
+           type="search"
+           placeholder="Search teams, competitions…"
+           aria-label="Search games">
+
+    <div class="tabs" id="views">
+      <button data-view="upcoming" class="active">
+        Upcoming
+      </button>
+      <button data-view="all">
+        All dates
+      </button>
+      <button data-view="faves">
+        ★ Saved
+      </button>
+    </div>
+
+    <div class="scrollchips" id="sports"></div>
+    <div class="scrollchips" id="services"></div>
+
+    <div class="datebar">
+      <button id="prev"
+              aria-label="Previous date">‹</button>
+
+      <input id="date" type="date">
+
+      <button id="next"
+              aria-label="Next date">›</button>
+
+      <button id="reset">Today</button>
+    </div>
+
+  </section>
+
+  <section id="results" aria-live="polite"></section>
+
+  <footer>
+    <p>
+      UK time · Times shown in GMT/BST automatically.
+      <strong>TV listings are provisional</strong>
+      unless explicitly marked verified.
+      Public fixture feeds may fail or omit competitions.
+      No scores are shown by default.
+    </p>
+
+    <p>
+      Data source: ESPN public scoreboards where accessible.
+      No paid API, no account required.
+      Saved favourites stay on this device.
+    </p>
+  </footer>
 
 </main>
 
+<!-- Existing fixtures application -->
+<script src="app.js" defer></script>
+
+<!-- Spotify jukebox -->
 <script>
-/*
-  Embedded masthead. The original graphic is included
-  directly in this file rather than loaded from GitHub.
-*/
-document.getElementById('titleArt').src =
-  'data:image/webp;base64,' +
-  [
-'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'
-  ].join('');
+  (() => {
+    const track =
+      "spotify:track:43tncrOBxBVimilLyZQAtF";
 
-</script>
+    const ball =
+      document.getElementById("jukeboxBall");
 
-<!-- Existing app logic: do not replace app.js -->
-<script src="./app.js" defer></script>
+    const panel =
+      document.getElementById("jukeboxPlayer");
 
-<script>
-(() => {
-  const $ = id => document.getElementById(id);
+    const embed =
+      document.getElementById("spotifyEmbed");
 
-  function toggle(which) {
-    const selected = which === 'sport' ? 'sport' : 'service';
-    const other = selected === 'sport' ? 'service' : 'sport';
+    const closeButton =
+      document.getElementById("closeJukebox");
 
-    const panel = $(selected + 'Panel');
-    const button = $(selected + 'Toggle');
-    const open = !panel.classList.contains('open');
+    const status =
+      document.getElementById("jukeboxStatus");
 
-    panel.classList.toggle('open', open);
-    button.setAttribute('aria-expanded', String(open));
-    button.querySelector('.caret').textContent = open ? '⌃' : '⌄';
+    let controller = null;
+    let ready = false;
+    let playing = false;
+    let pendingPlay = false;
+    let requestedPlay = false;
 
-    $(other + 'Panel').classList.remove('open');
-    $(other + 'Toggle').setAttribute('aria-expanded', 'false');
-    $(other + 'Toggle').querySelector('.caret').textContent = '⌄';
-  }
+    function showPanel() {
+      panel.classList.add("open");
+      panel.removeAttribute("inert");
+      panel.setAttribute("aria-hidden", "false");
+    }
 
-  $('sportToggle').addEventListener('click', () => toggle('sport'));
-  $('serviceToggle').addEventListener('click', () => toggle('service'));
+    function hidePanel() {
+      panel.classList.remove("open");
+      panel.setAttribute("inert", "");
+      panel.setAttribute("aria-hidden", "true");
+    }
 
-  function updateLabels() {
-    const selectedSport =
-      $('sports').querySelector('button.active[data-v]');
-    const selectedService =
-      $('services').querySelector('button.active[data-v]');
+    function updateBaseball() {
+      ball.classList.toggle("playing", playing);
+      ball.setAttribute(
+        "aria-pressed",
+        String(playing)
+      );
+      ball.setAttribute(
+        "aria-label",
+        playing
+          ? "Pause Jungle — Busy Earnin'"
+          : "Play Jungle — Busy Earnin'"
+      );
+    }
 
-    $('sportLabel').textContent =
-      '⚲ Sport: ' + (selectedSport?.dataset.v || 'All');
+    function setStatus(message) {
+      status.textContent = message;
+    }
 
-    $('serviceLabel').textContent =
-      '▣ Service: ' + (selectedService?.dataset.v || 'All');
-  }
+    function playMusic() {
+      requestedPlay = true;
+      showPanel();
 
-  const observer = new MutationObserver(updateLabels);
-  observer.observe($('sports'), { childList: true, subtree: true });
-  observer.observe($('services'), { childList: true, subtree: true });
+      if (!ready || !controller) {
+        pendingPlay = true;
+        setStatus("Preparing Spotify…");
+        return;
+      }
 
-  updateLabels();
-})();
+      pendingPlay = false;
+
+      // Called directly from the baseball tap
+      // whenever Spotify is already ready.
+      controller.play();
+
+      setStatus("Starting playback…");
+    }
+
+    function pauseMusic() {
+      requestedPlay = false;
+      pendingPlay = false;
+
+      if (controller) {
+        controller.pause();
+      }
+
+      playing = false;
+      updateBaseball();
+      setStatus("Paused");
+    }
+
+    function toggleMusic() {
+      if (playing || (requestedPlay && !ready)) {
+        pauseMusic();
+      } else {
+        playMusic();
+      }
+    }
+
+    function closeJukebox() {
+      pauseMusic();
+      hidePanel();
+    }
+
+    ball.addEventListener("click", toggleMusic);
+
+    closeButton.addEventListener(
+      "click",
+      closeJukebox
+    );
+
+    window.onSpotifyIframeApiReady = IFrameAPI => {
+      IFrameAPI.createController(
+        embed,
+        {
+          uri: track,
+          width: "100%",
+          height: 152
+        },
+        spotifyController => {
+          controller = spotifyController;
+
+          controller.addListener("ready", () => {
+            ready = true;
+            setStatus("Spotify ready");
+
+            if (pendingPlay && requestedPlay) {
+              pendingPlay = false;
+
+              // Best-effort delayed playback.
+              // Safari may block this request.
+              controller.play();
+            }
+          });
+
+          controller.addListener(
+            "playback_started",
+            () => {
+              playing = true;
+              requestedPlay = true;
+              updateBaseball();
+              setStatus("Playing");
+            }
+          );
+
+          controller.addListener(
+            "playback_update",
+            event => {
+              if (!event || !event.data) return;
+
+              playing = !event.data.isPaused;
+              requestedPlay = playing;
+
+              updateBaseball();
+
+              setStatus(
+                playing ? "Playing" : "Paused"
+              );
+            }
+          );
+        }
+      );
+    };
+
+    const script = document.createElement("script");
+
+    script.src =
+      "https://open.spotify.com/embed/iframe-api/v1";
+
+    script.async = true;
+
+    script.onerror = () => {
+      setStatus("Spotify could not load");
+    };
+
+    document.body.appendChild(script);
+  })();
 </script>
 
 </body>
