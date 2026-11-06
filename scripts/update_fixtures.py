@@ -24,6 +24,10 @@ GUIDE_URL = "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
 RUGBY_TV_URL = "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/"
 NFL_TV_URL = "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
 
+# NEW: Check the previous two UK calendar days as well.
+# This allows completed ESPN games to be reported as Final.
+HISTORY_DAYS = 2
+
 FEEDS = [
     ("NBA", "NBA", "basketball/nba", "League Pass"),
     ("MLB", "MLB", "baseball/mlb", "MLB.TV"),
@@ -105,6 +109,7 @@ def download(url, timeout=18):
 
 def fetch(job):
     sport, competition, path, service, day, today, end = job
+
     url = (
         "https://site.api.espn.com/apis/site/v2/sports/"
         + path
@@ -113,11 +118,13 @@ def fetch(job):
             {"dates": day.strftime("%Y%m%d"), "limit": 300}
         )
     )
+
     error = None
 
     for attempt in range(3):
         try:
             data = json.loads(download(url))
+
             if not isinstance(data.get("events"), list):
                 raise ValueError("Missing events array")
 
@@ -126,6 +133,7 @@ def fetch(job):
             for event in data["events"]:
                 try:
                     competitors = event["competitions"][0]["competitors"]
+
                     if len(competitors) < 2:
                         continue
 
@@ -136,6 +144,7 @@ def fetch(job):
                         ),
                         competitors[0],
                     )
+
                     home = next(
                         (
                             c for c in competitors
@@ -148,7 +157,10 @@ def fetch(job):
                         event["date"].replace("Z", "+00:00")
                     ).astimezone(TZ)
 
-                    if not today <= when.date() <= end:
+                    # NEW: Retain games from the previous two days.
+                    start = today - dt.timedelta(days=HISTORY_DAYS)
+
+                    if not start <= when.date() <= end:
                         continue
 
                     def team(c):
@@ -158,6 +170,22 @@ def fetch(job):
                             or obj.get("name")
                             or "TBC"
                         )
+
+                    # NEW: Preserve the ESPN completion flag
+                    # and its human-readable status.
+                    status = event.get("status") or {}
+                    status_type = status.get("type") or {}
+
+                    if not isinstance(status_type, dict):
+                        status_type = {}
+
+                    status_text = (
+                        status_type.get("description")
+                        or status_type.get("name")
+                        or ""
+                    )
+
+                    completed = status_type.get("completed") is True
 
                     games.append(
                         {
@@ -169,9 +197,8 @@ def fetch(job):
                             "title": f"{team(away)} at {team(home)}",
                             "service": service,
                             "source": "Scheduled data feed",
-                            "liveStatus": event.get("status", {})
-                            .get("type", {})
-                            .get("description", ""),
+                            "liveStatus": status_text,
+                            "completed": completed,
                         }
                     )
 
@@ -185,6 +212,7 @@ def fetch(job):
 
         except Exception as exc:
             error = f"{type(exc).__name__}: {exc}"
+
             if attempt < 2:
                 time.sleep(0.4 * (attempt + 1))
 
@@ -217,6 +245,7 @@ def nfl_service(g):
         return None
 
     teams = g.get("title", "").casefold().split(" at ")
+
     if len(teams) != 2:
         return None
 
@@ -231,23 +260,33 @@ def entitlement(game, overrides, old):
 
     if g["sport"] == "NBA":
         service = "League Pass"
+
     elif g["sport"] == "MLB":
         service = "MLB.TV"
+
     elif g["sport"] == "MLS":
         service = "Apple TV"
+
     elif g["competition"] == "Women’s Champions League":
         service = "Disney+"
+
     elif nations_service(g):
         service = nations_service(g)
         evidence = "https://www.uefa.com/uefanationsleague/"
+
     elif nfl_service(g):
         service = nfl_service(g)
         evidence = NFL_TV_URL
 
     if service:
-        g.update(service=service, broadcastVerified=True)
+        g.update(
+            service=service,
+            broadcastVerified=True,
+        )
+
         if evidence:
             g["broadcastSource"] = evidence
+
     else:
         g.update(
             service="Check broadcaster",
@@ -301,8 +340,10 @@ class TableRows(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == "tr":
             self.depth += 1
+
             if self.depth == 1:
                 self.cells = []
+
         elif tag in ("td", "th") and self.depth:
             self.in_cell = True
             self.current = []
@@ -317,8 +358,10 @@ class TableRows(HTMLParser):
                 " ".join(" ".join(self.current).split())
             )
             self.in_cell = False
+
         elif tag == "tr" and self.depth:
             self.depth -= 1
+
             if self.depth == 0 and self.cells:
                 self.rows.append(self.cells)
 
@@ -326,6 +369,7 @@ class TableRows(HTMLParser):
 def rugby_from_tv_guide(today, end):
     try:
         raw = download(GUIDE_URL)
+
     except Exception as exc:
         print(
             f"INFO: UK rugby TV guide unavailable: {exc}",
@@ -354,7 +398,9 @@ def rugby_from_tv_guide(today, end):
         joined = " ".join(cells)
 
         if not re.search(
-            r"\bITVX\b|\bBBC iPlayer\b", joined, re.I
+            r"\bITVX\b|\bBBC iPlayer\b",
+            joined,
+            re.I,
         ):
             continue
 
@@ -381,6 +427,7 @@ def rugby_from_tv_guide(today, end):
                 monthnames[month.lower()],
                 int(dd),
             )
+
         except ValueError:
             continue
 
@@ -436,10 +483,10 @@ def rugby_from_tv_guide(today, end):
         f"UK rugby TV guide: {len(out)} parsable fixtures",
         flush=True,
     )
+
     return out
 
 
-# Updated URLs for tennis, rugby league and club rugby.
 EXTRA_GUIDES = (
     (
         "Tennis",
@@ -475,36 +522,42 @@ MONTH_NUMBERS = {
 
 def free_service(broadcasters):
     """Identify only explicitly listed free UK broadcasters."""
+
     b = " ".join(broadcasters)
 
     if re.search(
         r"BBC\s*iPlayer|BBC\s*Sport\s*Website|"
         r"BBC\s*(?:One|Two|1|2)(?!\d)",
-        b, re.I,
+        b,
+        re.I,
     ):
         return "BBC iPlayer"
 
     if re.search(
         r"ITVX|ITV\s*[14](?!\d)",
-        b, re.I,
+        b,
+        re.I,
     ):
         return "ITVX"
 
     if re.search(
         r"Channel\s*4(?!\d)",
-        b, re.I,
+        b,
+        re.I,
     ):
         return "Channel 4"
 
     if re.search(
         r"5Action",
-        b, re.I,
+        b,
+        re.I,
     ):
         return "5Action"
 
     if re.search(
         r"Channel\s*5(?!\d)",
-        b, re.I,
+        b,
+        re.I,
     ):
         return "Channel 5"
 
@@ -513,6 +566,7 @@ def free_service(broadcasters):
 
 def extra_free_sport_from_guide(sport, url, today, end):
     """Read fixture rows and retain only free UK broadcasts."""
+
     try:
         raw = download(url)
         parser = TableRows()
@@ -541,8 +595,6 @@ def extra_free_sport_from_guide(sport, url, today, end):
         if len(cells) < 3:
             continue
 
-        # Expected columns:
-        # Fixture | Date/time | Competition | Broadcasters
         date_cell = next(
             (
                 c for c in cells[1:-1]
@@ -555,6 +607,7 @@ def extra_free_sport_from_guide(sport, url, today, end):
             continue
 
         match = date_pattern.search(date_cell)
+
         dd, month, year, hour, minute = match.groups()
 
         try:
@@ -563,6 +616,7 @@ def extra_free_sport_from_guide(sport, url, today, end):
                 MONTH_NUMBERS[month.lower()],
                 int(dd),
             )
+
         except (KeyError, ValueError):
             continue
 
@@ -571,14 +625,15 @@ def extra_free_sport_from_guide(sport, url, today, end):
 
         dated += 1
 
-        # Only inspect the broadcaster column.
         service = free_service(cells[-1:])
 
         if not service:
             continue
 
         title = re.sub(
-            r"\s+", " ", cells[0]
+            r"\s+",
+            " ",
+            cells[0],
         ).strip()
 
         title = re.sub(
@@ -821,6 +876,7 @@ def merge_curated(merged, entries, today, end):
                 broadcastVerified=True,
                 broadcastSource=e["sourceUrl"],
             )
+
         else:
             merged[e["id"]] = {
                 k: e[k]
@@ -872,13 +928,17 @@ class PlainText(HTMLParser):
 
 def normalize_club(name):
     name = name.casefold()
+
     name = re.sub(
         r"\b(fc|cf|afc|ssc|fk|rc|ac|club)\b",
         "",
         name,
     )
+
     name = re.sub(
-        r"[^a-z0-9]+", " ", name
+        r"[^a-z0-9]+",
+        " ",
+        name,
     ).strip()
 
     aliases = {
@@ -901,6 +961,7 @@ def prime_ucl_from_uk_guide(today, end):
 
     try:
         raw = download(PRIME_UCL_GUIDE)
+
         parser = PlainText()
         parser.feed(raw)
 
@@ -944,6 +1005,7 @@ def prime_ucl_from_uk_guide(today, end):
                         month_names[month.lower()],
                         int(day),
                     )
+
                 except (KeyError, ValueError):
                     current_date = None
 
@@ -1044,11 +1106,15 @@ def apply_prime_ucl(merged, today, end):
 
 def main():
     today = dt.datetime.now(TZ).date()
+
+    # NEW: Two days of history, plus 35 days
+    # covering today and the next 34 days.
+    start = today - dt.timedelta(days=HISTORY_DAYS)
     end = today + dt.timedelta(days=34)
 
     days = [
-        today + dt.timedelta(days=n)
-        for n in range(35)
+        start + dt.timedelta(days=n)
+        for n in range((end - start).days + 1)
     ]
 
     previous = read_json(OUT, {})
@@ -1082,6 +1148,7 @@ def main():
     successes = [
         r for r in results if r[2]
     ]
+
     failures = [
         r for r in results if not r[2]
     ]
@@ -1111,13 +1178,17 @@ def main():
         for path, day, ok, _, _ in successes
     }
 
+    # Preserve the original fallback behaviour
+    # when an ESPN request fails.
+    #
+    # NEW: Include the short historical window too.
     for gid, g in old.items():
         date = g.get("date", "")
 
         if (
             not isinstance(date, str)
             or not (
-                today.isoformat()
+                start.isoformat()
                 <= date
                 <= end.isoformat()
             )
@@ -1129,6 +1200,7 @@ def main():
             try:
                 path = gid.split(":", 2)[1]
                 local = dt.date.fromisoformat(date)
+
             except (ValueError, IndexError):
                 continue
 
@@ -1140,7 +1212,7 @@ def main():
             if not all(
                 (path, d.isoformat()) in success_ids
                 for d in nearby
-                if d >= today
+                if d >= start
             ):
                 merged[gid] = entitlement(
                     g, overrides, old
@@ -1263,7 +1335,9 @@ def main():
             "MLB.TV assumed; tennis, rugby union "
             "and rugby league included only when "
             "a free UK broadcaster is explicitly "
-            "listed in a parseable guide row."
+            "listed in a parseable guide row. "
+            "ESPN fixtures include recent historical "
+            "games and explicit completion status."
         ),
     }
 
@@ -1285,11 +1359,17 @@ def main():
         for g in merged.values()
     )
 
+    completed_count = sum(
+        g.get("completed") is True
+        for g in merged.values()
+    )
+
     print(
         f"Updated: {len(merged)} fixtures; "
         f"{len(successes)}/{len(results)} "
         f"checks succeeded; "
-        f"{watchable_count} watchable",
+        f"{watchable_count} watchable; "
+        f"{completed_count} confirmed completed",
         flush=True,
     )
 
