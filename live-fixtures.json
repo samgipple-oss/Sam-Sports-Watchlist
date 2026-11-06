@@ -1,44 +1,8 @@
 {
-  "updatedAt": "2026-11-05T21:54:25.741114+00:00",
+  "updatedAt": "2026-11-06T01:18:52.484551+00:00",
   "successfulChecks": 315,
   "totalChecks": 315,
   "items": [
-    {
-      "id": "espn:football/nfl:401873037",
-      "date": "2026-11-06",
-      "time": "01:15",
-      "sport": "NFL",
-      "competition": "NFL",
-      "title": "Jacksonville Jaguars at Baltimore Ravens",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:basketball/nba:401909936",
-      "date": "2026-11-06",
-      "time": "02:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Orlando Magic at Phoenix Suns",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909937",
-      "date": "2026-11-06",
-      "time": "03:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Miami Heat at Golden State Warriors",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "broadcastVerified": true
-    },
     {
       "id": "espn:soccer/eng.1:401879242",
       "date": "2026-11-06",
@@ -5983,11 +5947,6 @@
   "coverage": [
     {
       "feed": "baseball/mlb",
-      "date": "2026-11-05",
-      "ok": true
-    },
-    {
-      "feed": "baseball/mlb",
       "date": "2026-11-06",
       "ok": true
     },
@@ -6157,8 +6116,8 @@
       "ok": true
     },
     {
-      "feed": "basketball/nba",
-      "date": "2026-11-05",
+      "feed": "baseball/mlb",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -6332,8 +6291,8 @@
       "ok": true
     },
     {
-      "feed": "football/nfl",
-      "date": "2026-11-05",
+      "feed": "basketball/nba",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -6507,8 +6466,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.1",
-      "date": "2026-11-05",
+      "feed": "football/nfl",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -6682,8 +6641,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.w.1",
-      "date": "2026-11-05",
+      "feed": "soccer/eng.1",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -6857,8 +6816,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.champions",
-      "date": "2026-11-05",
+      "feed": "soccer/eng.w.1",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -7032,8 +6991,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.nations",
-      "date": "2026-11-05",
+      "feed": "soccer/uefa.champions",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -7207,8 +7166,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.wchampions",
-      "date": "2026-11-05",
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -7382,8 +7341,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/usa.1",
-      "date": "2026-11-05",
+      "feed": "soccer/uefa.wchampions",
+      "date": "2026-12-10",
       "ok": true
     },
     {
@@ -7554,6 +7513,11 @@
     {
       "feed": "soccer/usa.1",
       "date": "2026-12-09",
+      "ok": true
+    },
+    {
+      "feed": "soccer/usa.1",
+      "date": "2026-12-10",
       "ok": true
     }
   ],
