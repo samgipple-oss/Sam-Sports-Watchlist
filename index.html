@@ -21,9 +21,13 @@
   --orange: #f29336;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -44,13 +48,23 @@ body::before {
   height: 650px;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 56% 37% at 84% 39%,
-      #ac3d33bd, transparent 90%),
-    radial-gradient(ellipse 73% 47% at 26% 37%,
-      #521d2d8f, transparent 90%),
-    linear-gradient(180deg,
-      #111b2a 0%, #1c1926 29%,
-      #411c29 57%, #0a111b 100%);
+    radial-gradient(
+      ellipse 56% 37% at 84% 39%,
+      #ac3d33bd,
+      transparent 90%
+    ),
+    radial-gradient(
+      ellipse 73% 47% at 26% 37%,
+      #521d2d8f,
+      transparent 90%
+    ),
+    linear-gradient(
+      180deg,
+      #111b2a 0%,
+      #1c1926 29%,
+      #411c29 57%,
+      #0a111b 100%
+    );
 }
 
 body::after {
@@ -64,7 +78,10 @@ body::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23fff' filter='url(%23n)' opacity='.26' d='M0 0h160v160H0z'/%3E%3C/svg%3E");
 }
 
-button, input { font: inherit; }
+button,
+input {
+  font: inherit;
+}
 
 button {
   cursor: pointer;
@@ -99,7 +116,10 @@ input:focus-visible {
   z-index: -1;
   inset: -10px -22px -65px;
   background: linear-gradient(
-    transparent 0%, #14182000 58%, #0b1017 100%);
+    transparent 0%,
+    #14182000 58%,
+    #0b1017 100%
+  );
   pointer-events: none;
 }
 
@@ -119,7 +139,11 @@ input:focus-visible {
   content: "";
   height: 1px;
   width: 52px;
-  background: linear-gradient(90deg,#d8c0aa,transparent);
+  background: linear-gradient(
+    90deg,
+    #d8c0aa,
+    transparent
+  );
 }
 
 .headrow {
@@ -130,7 +154,7 @@ input:focus-visible {
 }
 
 .masthead {
-  width: min(74%,560px);
+  width: min(74%, 560px);
   height: auto;
   display: block;
   overflow: visible;
@@ -151,7 +175,9 @@ input:focus-visible {
   white-space: nowrap;
 }
 
-#refresh:disabled { opacity: .65; }
+#refresh:disabled {
+  opacity: .65;
+}
 
 .statusline {
   margin: 0 4px 21px;
@@ -165,7 +191,7 @@ input:focus-visible {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   margin-bottom: 18px;
 }
@@ -175,7 +201,11 @@ input:focus-visible {
   position: relative;
   border: 1px solid #867776;
   border-radius: 13px;
-  background: linear-gradient(120deg,#24272ce9,#11171ee9);
+  background: linear-gradient(
+    120deg,
+    #24272ce9,
+    #11171ee9
+  );
   padding: 12px 16px 12px 22px;
   box-shadow: 0 5px 15px #0005;
 }
@@ -202,8 +232,8 @@ input:focus-visible {
 .stats strong {
   display: block;
   color: var(--cream);
-  font: italic 750 clamp(27px,5.3vw,43px)/1.1
-    Georgia,"Times New Roman",serif;
+  font: italic 750 clamp(27px, 5.3vw, 43px)/1.1
+    Georgia, "Times New Roman", serif;
   font-variant-numeric: tabular-nums;
 }
 
@@ -266,7 +296,11 @@ input:focus-visible {
   height: 50px;
   border: 1px solid #8c8584;
   border-radius: 12px;
-  background: linear-gradient(120deg,#1d2329ec,#121920ef);
+  background: linear-gradient(
+    120deg,
+    #1d2329ec,
+    #121920ef
+  );
   color: var(--cream);
   padding: 0 17px 0 53px;
   font-size: 15px;
@@ -287,7 +321,11 @@ input:focus-visible {
   min-width: 104px;
   padding: 0 12px;
   border: 1px solid #988582;
-  background: linear-gradient(120deg,#25292d,#171c23);
+  background: linear-gradient(
+    120deg,
+    #25292d,
+    #171c23
+  );
   border-radius: 12px;
   color: #f3e9dc;
   font-size: 13px;
@@ -338,7 +376,7 @@ input:focus-visible {
 
 .tabs {
   display: grid;
-  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   border: 1px solid #938687;
   border-radius: 12px;
   background: #171d24e8;
@@ -362,7 +400,11 @@ input:focus-visible {
 
 .tabs button.active {
   border-radius: 10px;
-  background: linear-gradient(125deg,#aa2630,#801a29);
+  background: linear-gradient(
+    125deg,
+    #aa2630,
+    #801a29
+  );
   font-weight: 750;
   color: #fff0e8;
 }
@@ -372,7 +414,11 @@ input:focus-visible {
 .filter-panel {
   margin: 0 0 15px;
   padding: 15px;
-  background: linear-gradient(145deg,#22252cf5,#141922f8);
+  background: linear-gradient(
+    145deg,
+    #22252cf5,
+    #141922f8
+  );
   border: 1px solid #8c7c7c;
   border-radius: 13px;
   box-shadow: 0 10px 25px #0004;
@@ -387,7 +433,7 @@ input:focus-visible {
 }
 
 .filter-panel-top strong {
-  font: italic bold 19px Georgia,serif;
+  font: italic bold 19px Georgia, serif;
 }
 
 .filter-panel-top button {
@@ -426,7 +472,10 @@ input:focus-visible {
   flex: none;
   border: 1px solid #938582;
   border-radius: 10px;
-  background: linear-gradient(#272a2ddc,#171c23e8);
+  background: linear-gradient(
+    #272a2ddc,
+    #171c23e8
+  );
   color: #f1e8db;
   font-size: 13px;
   white-space: nowrap;
@@ -436,7 +485,11 @@ input:focus-visible {
 
 .chip.active {
   border-color: #eb6667;
-  background: linear-gradient(115deg,#a7232e,#771b28);
+  background: linear-gradient(
+    115deg,
+    #a7232e,
+    #771b28
+  );
   color: white;
   font-weight: 750;
 }
@@ -474,7 +527,11 @@ input:focus-visible {
   display: block;
   width: 100%;
   border: 1px solid #e76a68;
-  background: linear-gradient(120deg,#a42431,#751923);
+  background: linear-gradient(
+    120deg,
+    #a42431,
+    #751923
+  );
   border-radius: 9px;
   color: white;
   font-weight: 750;
@@ -482,14 +539,22 @@ input:focus-visible {
   margin-top: 14px;
 }
 
-/* DATE NAVIGATION */
+/*
+  DATE NAVIGATION — FIXED
+
+  Flexbox prevents the native iOS date input
+  from squeezing or overlapping either arrow.
+
+  Both arrow buttons have the same fixed width.
+  The gaps on either side of the date are equal.
+*/
 
 .datebar {
-  display: grid;
-  grid-template-columns: 40px minmax(0,1fr) 40px 78px;
-  gap: 9px;
-  margin-bottom: 4px;
+  display: flex;
   align-items: stretch;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 4px;
 }
 
 .datebar button,
@@ -497,50 +562,64 @@ input:focus-visible {
   min-height: 42px;
   border-radius: 11px;
   border: 1px solid #928785;
-  background: linear-gradient(120deg,#252a30,#151c23);
+  background: linear-gradient(
+    120deg,
+    #252a30,
+    #151c23
+  );
   color: #f9ebdf;
 }
 
-.datebar button {
-  font-size: 22px;
-}
-
-.datebar button:last-child {
-  font-size: 14px;
-  font-weight: 650;
-  border-color: #df6361;
-  background: linear-gradient(#8c1d2a,#681821);
-}
-
-#date {
-  padding: 9px 8px;
-  text-align: center;
-  font-size: 14px;
-  width: 100%;
-  min-width: 0;
-  color-scheme: dark;
-}
-
-/* MATCHING DATE ARROWS */
-
 .datebar .date-nav {
+  flex: 0 0 38px;
+  width: 38px;
+  min-width: 38px;
+  min-height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  width: 100%;
   line-height: 1;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .date-nav svg {
   display: block;
   width: 16px;
   height: 16px;
+  flex: none;
   stroke: currentColor;
   stroke-width: 2.4;
   stroke-linecap: round;
   stroke-linejoin: round;
   fill: none;
+}
+
+.datebar #date {
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+  max-width: 100%;
+  padding: 9px 8px;
+  text-align: center;
+  font-size: 14px;
+  color-scheme: dark;
+  box-sizing: border-box;
+}
+
+.datebar #reset {
+  flex: 0 0 68px;
+  width: 68px;
+  min-width: 68px;
+  padding: 0 4px;
+  font-size: 14px;
+  font-weight: 650;
+  border-color: #df6361;
+  background: linear-gradient(
+    #8c1d2a,
+    #681821
+  );
 }
 
 /* FIXTURE CARDS */
@@ -549,7 +628,11 @@ input:focus-visible {
   margin: 21px 0 18px;
   border: 1px solid #8b7b76;
   border-radius: 13px;
-  background: linear-gradient(130deg,#191e25e8,#10161fe8);
+  background: linear-gradient(
+    130deg,
+    #191e25e8,
+    #10161fe8
+  );
   overflow: hidden;
   box-shadow: 0 6px 20px #0004;
 }
@@ -561,12 +644,16 @@ input:focus-visible {
   gap: 10px;
   border-bottom: 2px solid #c52638;
   padding: 12px 17px 13px;
-  background: linear-gradient(90deg,#262329,#1b2027);
+  background: linear-gradient(
+    90deg,
+    #262329,
+    #1b2027
+  );
 }
 
 .dayhead strong {
-  font: italic 700 clamp(18px,3.1vw,26px)/1.2
-    Georgia,"Times New Roman",serif;
+  font: italic 700 clamp(18px, 3.1vw, 26px)/1.2
+    Georgia, "Times New Roman", serif;
   color: var(--cream);
 }
 
@@ -579,7 +666,8 @@ input:focus-visible {
 
 .game {
   display: grid;
-  grid-template-columns: 60px 29px minmax(0,1fr) 30px;
+  grid-template-columns:
+    60px 29px minmax(0, 1fr) 30px;
   align-items: center;
   gap: 13px;
   padding: 14px 17px;
@@ -642,7 +730,8 @@ input:focus-visible {
 
 .match {
   color: #fff0e2;
-  font: 700 17px/1.22 Georgia,"Times New Roman",serif;
+  font: 700 17px/1.22
+    Georgia, "Times New Roman", serif;
   overflow-wrap: anywhere;
 }
 
@@ -693,10 +782,14 @@ footer p {
 
 /* MOBILE LAYOUT */
 
-@media (max-width:560px) {
+@media (max-width: 560px) {
+
   .shell {
     padding:
-      max(45px,calc(env(safe-area-inset-top,0px) + 14px))
+      max(
+        45px,
+        calc(env(safe-area-inset-top, 0px) + 14px)
+      )
       13px 45px;
   }
 
@@ -707,7 +800,9 @@ footer p {
     gap: 9px;
   }
 
-  .masthead { width: min(79%,400px); }
+  .masthead {
+    width: min(79%, 400px);
+  }
 
   #refresh {
     margin-top: 26px;
@@ -717,9 +812,18 @@ footer p {
     min-height: 37px;
   }
 
-  .headrow { gap: 5px; }
-  .hero { padding: 0 2px 6px; }
-  .statusline { margin: 0 2px 15px; font-size: 10px; }
+  .headrow {
+    gap: 5px;
+  }
+
+  .hero {
+    padding: 0 2px 6px;
+  }
+
+  .statusline {
+    margin: 0 2px 15px;
+    font-size: 10px;
+  }
 
   .stats {
     gap: 8px;
@@ -737,7 +841,7 @@ footer p {
   }
 
   .stats strong {
-    font-size: clamp(26px,8vw,37px);
+    font-size: clamp(26px, 8vw, 37px);
   }
 
   .stats small {
@@ -762,8 +866,13 @@ footer p {
     height: 16px;
   }
 
-  .filter-panel { padding: 12px; }
-  .tabs { margin-bottom: 12px; }
+  .filter-panel {
+    padding: 12px;
+  }
+
+  .tabs {
+    margin-bottom: 12px;
+  }
 
   .tabs button {
     padding: 10px 2px;
@@ -776,22 +885,20 @@ footer p {
     min-height: 34px;
   }
 
+  /*
+    Matching mobile arrow widths.
+    No grid override: datebar remains flex.
+  */
+
   .datebar {
-    grid-template-columns: 34px minmax(0,1fr) 34px 61px;
-    gap: 6px;
+    gap: 8px;
   }
 
-  .datebar button,
-  #date {
+  .datebar .date-nav {
+    flex: 0 0 34px;
+    width: 34px;
+    min-width: 34px;
     min-height: 38px;
-  }
-
-  .datebar button { font-size: 20px; }
-  .datebar button:last-child { font-size: 12px; }
-
-  #date {
-    font-size: 12px;
-    padding: 6px 4px;
   }
 
   .date-nav svg {
@@ -799,13 +906,39 @@ footer p {
     height: 14px;
   }
 
-  .day { margin-top: 17px; }
-  .dayhead { padding: 11px 12px; }
-  .dayhead strong { font-size: 19px; }
-  .dayhead span { font-size: 10px; }
+  .datebar #date {
+    min-height: 38px;
+    padding: 6px 4px;
+    font-size: 12px;
+  }
+
+  .datebar #reset {
+    flex: 0 0 61px;
+    width: 61px;
+    min-width: 61px;
+    min-height: 38px;
+    font-size: 12px;
+  }
+
+  .day {
+    margin-top: 17px;
+  }
+
+  .dayhead {
+    padding: 11px 12px;
+  }
+
+  .dayhead strong {
+    font-size: 19px;
+  }
+
+  .dayhead span {
+    font-size: 10px;
+  }
 
   .game {
-    grid-template-columns: 51px 23px minmax(0,1fr) 26px;
+    grid-template-columns:
+      51px 23px minmax(0, 1fr) 26px;
     gap: 8px;
     padding: 12px 11px;
     min-height: 75px;
@@ -816,42 +949,78 @@ footer p {
     padding-left: 9px;
   }
 
-  .game .time::before { height: 27px; }
-  .sporticon { width: 22px; }
-  .match { font-size: 15px; }
+  .game .time::before {
+    height: 27px;
+  }
+
+  .sporticon {
+    width: 22px;
+  }
+
+  .match {
+    font-size: 15px;
+  }
 
   .meta {
     font-size: 10px;
     letter-spacing: .01em;
   }
 
-  .star { font-size: 26px; }
+  .star {
+    font-size: 26px;
+  }
 }
 
-@media (max-width:350px) {
+@media (max-width: 350px) {
+
   .shell {
     padding-left: 9px;
     padding-right: 9px;
   }
 
-  .eyebrow { font-size: 8px; }
-  .masthead { width: 77%; }
-
-  .datebar {
-    grid-template-columns: 32px minmax(0,1fr) 32px 55px;
+  .eyebrow {
+    font-size: 8px;
   }
 
-  .game {
-    grid-template-columns: 46px 21px minmax(0,1fr) 24px;
+  .masthead {
+    width: 77%;
+  }
+
+  .datebar {
     gap: 6px;
   }
 
-  .game .time { font-size: 11px; }
-  .match { font-size: 14px; }
+  .datebar .date-nav {
+    flex-basis: 32px;
+    width: 32px;
+    min-width: 32px;
+  }
+
+  .datebar #reset {
+    flex-basis: 55px;
+    width: 55px;
+    min-width: 55px;
+  }
+
+  .game {
+    grid-template-columns:
+      46px 21px minmax(0, 1fr) 24px;
+    gap: 6px;
+  }
+
+  .game .time {
+    font-size: 11px;
+  }
+
+  .match {
+    font-size: 14px;
+  }
 }
 
-@media (prefers-reduced-motion:reduce) {
-  *, *::before, *::after {
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
     scroll-behavior: auto !important;
     transition: none !important;
   }
@@ -863,56 +1032,110 @@ footer p {
 <main class="shell">
 
 <header class="hero">
-  <div class="eyebrow">YOUR SPORTS · UK TIME</div>
+
+  <div class="eyebrow">
+    YOUR SPORTS · UK TIME
+  </div>
 
   <div class="headrow">
-    <svg class="masthead"
+
+    <svg
+      class="masthead"
       viewBox="0 0 660 250"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
       aria-label="Sports Almanac baseball logo">
 
       <defs>
-        <linearGradient id="ball" x1="0" y1="0" x2="1" y2="1">
+
+        <linearGradient
+          id="ball"
+          x1="0"
+          y1="0"
+          x2="1"
+          y2="1">
+
           <stop stop-color="#fffef4"/>
           <stop offset=".6" stop-color="#f4ead9"/>
           <stop offset="1" stop-color="#a99e91"/>
         </linearGradient>
 
-        <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
-          <stop stop-color="#9e182c" stop-opacity="0"/>
-          <stop offset=".32" stop-color="#bf2630"/>
-          <stop offset=".72" stop-color="#f5573d"/>
-          <stop offset="1" stop-color="#ffe8a7"/>
+        <linearGradient
+          id="trail"
+          x1="0"
+          y1="0"
+          x2="1"
+          y2="0">
+
+          <stop
+            stop-color="#9e182c"
+            stop-opacity="0"/>
+
+          <stop
+            offset=".32"
+            stop-color="#bf2630"/>
+
+          <stop
+            offset=".72"
+            stop-color="#f5573d"/>
+
+          <stop
+            offset="1"
+            stop-color="#ffe8a7"/>
         </linearGradient>
 
-        <filter id="shine"
-          x="-20%" y="-100%"
-          width="160%" height="300%">
+        <filter
+          id="shine"
+          x="-20%"
+          y="-100%"
+          width="160%"
+          height="300%">
+
           <feGaussianBlur stdDeviation="4"/>
         </filter>
 
-        <filter id="ballshadow"
-          x="-50%" y="-50%"
-          width="200%" height="200%">
-          <feDropShadow dx="3" dy="6" stdDeviation="5"
-            flood-color="#000" flood-opacity=".55"/>
+        <filter
+          id="ballshadow"
+          x="-50%"
+          y="-50%"
+          width="200%"
+          height="200%">
+
+          <feDropShadow
+            dx="3"
+            dy="6"
+            stdDeviation="5"
+            flood-color="#000"
+            flood-opacity=".55"/>
         </filter>
+
       </defs>
 
-      <g fill="#fcf0db"
+      <g
+        fill="#fcf0db"
         font-family="Georgia,'Times New Roman',serif"
         font-weight="bold"
         font-style="italic"
         letter-spacing="-5">
 
-        <text x="10" y="94" font-size="109"
+        <text
+          x="10"
+          y="94"
+          font-size="109"
           textLength="435"
-          lengthAdjust="spacingAndGlyphs">SPORTS</text>
+          lengthAdjust="spacingAndGlyphs">
+          SPORTS
+        </text>
 
-        <text x="6" y="192" font-size="107"
+        <text
+          x="6"
+          y="192"
+          font-size="107"
           textLength="555"
-          lengthAdjust="spacingAndGlyphs">ALMANAC</text>
+          lengthAdjust="spacingAndGlyphs">
+          ALMANAC
+        </text>
+
       </g>
 
       <path
@@ -943,9 +1166,12 @@ footer p {
         stroke-width="2.5"
         fill="none"/>
 
-      <g transform="translate(591 187) rotate(-19)"
+      <g
+        transform="translate(591 187) rotate(-19)"
         filter="url(#ballshadow)">
-        <circle r="43"
+
+        <circle
+          r="43"
           fill="url(#ball)"
           stroke="#ddd4c6"
           stroke-width="1.5"/>
@@ -957,32 +1183,45 @@ footer p {
           stroke="#bf3030"
           stroke-width="2.8"/>
 
-        <g stroke="#bf3030"
+        <g
+          stroke="#bf3030"
           stroke-width="1.8"
           stroke-linecap="round">
 
-          <path d="M-29 -28l11 6 M-30 -17l12 5
-                   M-31 -6l13 4 M-31 6l13 -4
-                   M-30 18l12 -5 M-29 29l11 -7"/>
+          <path
+            d="M-29 -28l11 6 M-30 -17l12 5
+               M-31 -6l13 4 M-31 6l13 -4
+               M-30 18l12 -5 M-29 29l11 -7"/>
 
-          <path d="M29 -28l-11 6 M30 -17l-12 5
-                   M31 -6l-13 4 M31 6l-13 -4
-                   M30 18l-12 -5 M29 29l-11 -7"/>
+          <path
+            d="M29 -28l-11 6 M30 -17l-12 5
+               M31 -6l-13 4 M31 6l-13 -4
+               M30 18l-12 -5 M29 29l-11 -7"/>
+
         </g>
       </g>
     </svg>
 
-    <button id="refresh" type="button">
+    <button
+      id="refresh"
+      type="button">
       ↻ Refresh
     </button>
+
   </div>
 </header>
 
-<p id="status" class="statusline" role="status">
+<p
+  id="status"
+  class="statusline"
+  role="status">
   Loading your sports…
 </p>
 
-<section class="stats" aria-label="Schedule counts">
+<section
+  class="stats"
+  aria-label="Schedule counts">
+
   <div>
     <strong id="gameCount">0</strong>
     <small>Games</small>
@@ -997,17 +1236,25 @@ footer p {
     <strong id="favCount">0</strong>
     <small>Saved</small>
   </div>
+
 </section>
 
-<section class="controls" aria-label="Fixture filters">
+<section
+  class="controls"
+  aria-label="Fixture filters">
+
+  <!-- SEARCH AND FILTER BUTTON -->
 
   <div class="searchrow">
+
     <div class="searchwrap">
+
       <input
         id="search"
         type="search"
         placeholder="Search teams, competitions…"
         aria-label="Search games">
+
     </div>
 
     <button
@@ -1017,7 +1264,9 @@ footer p {
       aria-controls="filterPanel"
       aria-expanded="false">
 
-      <svg width="19" height="19"
+      <svg
+        width="19"
+        height="19"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -1027,14 +1276,29 @@ footer p {
         aria-hidden="true">
 
         <path d="M4 7h16M4 17h16"/>
-        <circle cx="9" cy="7" r="2.5" fill="#181d24"/>
-        <circle cx="16" cy="17" r="2.5" fill="#181d24"/>
+
+        <circle
+          cx="9"
+          cy="7"
+          r="2.5"
+          fill="#181d24"/>
+
+        <circle
+          cx="16"
+          cy="17"
+          r="2.5"
+          fill="#181d24"/>
+
       </svg>
 
       <span>Filters</span>
+
       <b id="filterCount" hidden>0</b>
+
     </button>
   </div>
+
+  <!-- ACTIVE FILTER CHIPS -->
 
   <div
     id="activeFilters"
@@ -1043,7 +1307,10 @@ footer p {
     aria-label="Applied filters">
   </div>
 
-  <nav class="tabs"
+  <!-- VIEW TABS -->
+
+  <nav
+    class="tabs"
     id="views"
     aria-label="Fixture view">
 
@@ -1065,16 +1332,26 @@ footer p {
       data-view="faves">
       ☆ Saved (<span id="savedTabCount">0</span>)
     </button>
+
   </nav>
 
-  <div id="filterPanel" class="filter-panel" hidden>
+  <!-- COLLAPSIBLE FILTER PANEL -->
+
+  <div
+    id="filterPanel"
+    class="filter-panel"
+    hidden>
 
     <div class="filter-panel-top">
+
       <strong>Filter your sports</strong>
 
-      <button type="button" id="clearFilters">
+      <button
+        type="button"
+        id="clearFilters">
         Clear all
       </button>
+
     </div>
 
     <div class="filter-label">
@@ -1101,12 +1378,15 @@ footer p {
       aria-label="Broadcaster filters">
     </div>
 
-    <button type="button" id="applyFilters">
+    <button
+      type="button"
+      id="applyFilters">
       Show fixtures
     </button>
+
   </div>
 
-  <!-- DATE NAVIGATION WITH MATCHING ARROWS -->
+  <!-- FIXED, SYMMETRICAL DATE NAVIGATION -->
 
   <div class="datebar">
 
@@ -1116,8 +1396,12 @@ footer p {
       class="date-nav"
       aria-label="Previous date">
 
-      <svg viewBox="0 0 24 24" aria-hidden="true">
+      <svg
+        viewBox="0 0 24 24"
+        aria-hidden="true">
+
         <path d="M14.5 5.5 8 12l6.5 6.5"/>
+
       </svg>
     </button>
 
@@ -1132,60 +1416,98 @@ footer p {
       class="date-nav"
       aria-label="Next date">
 
-      <svg viewBox="0 0 24 24" aria-hidden="true">
+      <svg
+        viewBox="0 0 24 24"
+        aria-hidden="true">
+
         <path d="M9.5 5.5 16 12l-6.5 6.5"/>
+
       </svg>
     </button>
 
-    <button id="reset" type="button">
+    <button
+      id="reset"
+      type="button">
       Today
     </button>
+
   </div>
+
 </section>
 
-<section id="results" aria-live="polite"></section>
+<!-- GAME RESULTS -->
+
+<section
+  id="results"
+  aria-live="polite">
+</section>
 
 <footer>
-  <p>UK time · GMT/BST automatically. Broadcast listings may change. No official broadcaster or league affiliation.</p>
-  <p>Your saved fixtures stay on this device. Sports Almanac is an independent fixture guide.</p>
+  <p>
+    UK time · GMT/BST automatically.
+    Broadcast listings may change.
+    No official broadcaster or league affiliation.
+  </p>
+
+  <p>
+    Your saved fixtures stay on this device.
+    Sports Almanac is an independent fixture guide.
+  </p>
 </footer>
 
 </main>
 
+<!-- EXISTING SPORTS ALMANAC FUNCTIONALITY -->
+
 <script src="./app.js" defer></script>
 
+<!-- SPORT ICONS -->
+
 <script>
-/* Add sports icons to fixtures without modifying app.js. */
 (() => {
   const result = document.getElementById('results');
 
   function iconFor(meta) {
     const m = meta.toLowerCase();
 
-    if (m.includes('nba') || m.includes('basketball'))
+    if (
+      m.includes('nba') ||
+      m.includes('basketball')
+    ) {
       return 'basketball';
+    }
 
-    if (m.includes('rugby'))
+    if (m.includes('rugby')) {
       return 'rugby';
+    }
 
-    if (m.includes('nfl'))
+    if (m.includes('nfl')) {
       return 'nfl';
+    }
 
-    if (m.includes('mlb') || m.includes('baseball'))
+    if (
+      m.includes('mlb') ||
+      m.includes('baseball')
+    ) {
       return 'baseball';
+    }
 
-    if (m.includes('mls'))
+    if (m.includes('mls')) {
       return 'football';
+    }
 
     if (
       m.includes('football') ||
       m.includes('premier') ||
       m.includes('uefa') ||
       m.includes('soccer')
-    ) return 'football';
+    ) {
+      return 'football';
+    }
 
-    if (m.includes('tennis'))
+    if (m.includes('tennis')) {
       return 'tennis';
+    }
 
     return 'other';
   }
@@ -1223,150 +1545,229 @@ footer p {
 
   function enhance() {
     result
-      .querySelectorAll('.game:not([data-illustrated])')
+      .querySelectorAll(
+        '.game:not([data-illustrated])'
+      )
       .forEach(game => {
         const meta = game.querySelector('.meta');
 
-        if (!meta) return;
+        if (!meta) {
+          return;
+        }
 
         const sport = iconFor(meta.textContent);
+
         const icon = document.createElement('span');
 
         icon.className = 'sporticon ' + sport;
+
         icon.setAttribute('aria-hidden', 'true');
 
         icon.innerHTML =
           '<svg viewBox="0 0 24 24" ' +
           'width="25" height="25" ' +
-          'fill="none" stroke="currentColor" ' +
+          'fill="none" ' +
+          'stroke="currentColor" ' +
           'stroke-width="1.45" ' +
           'stroke-linecap="round" ' +
           'stroke-linejoin="round">' +
           paths[sport] +
           '</svg>';
 
-        game.querySelector('.time')
-          ?.insertAdjacentElement('afterend', icon);
+        game
+          .querySelector('.time')
+          ?.insertAdjacentElement(
+            'afterend',
+            icon
+          );
 
         game.dataset.illustrated = '1';
       });
   }
 
-  new MutationObserver(enhance)
-    .observe(result, { childList: true });
+  new MutationObserver(enhance).observe(
+    result,
+    {
+      childList: true
+    }
+  );
 
   enhance();
 })();
 </script>
 
+<!-- COLLAPSIBLE FILTER DRAWER -->
+
 <script>
-/*
-  Collapsible filter drawer.
-  Existing sports, gender and broadcaster filtering
-  remains controlled by app.js.
-*/
 (() => {
-  const panel = document.getElementById('filterPanel');
-  const toggle = document.getElementById('filterToggle');
-  const chips = document.getElementById('activeFilters');
-  const counter = document.getElementById('filterCount');
-  const savedTab = document.getElementById('savedTabCount');
-  const favCount = document.getElementById('favCount');
-  const sportBox = document.getElementById('sports');
-  const servicesBox = document.getElementById('services');
+
+  const panel =
+    document.getElementById('filterPanel');
+
+  const toggle =
+    document.getElementById('filterToggle');
+
+  const chips =
+    document.getElementById('activeFilters');
+
+  const counter =
+    document.getElementById('filterCount');
+
+  const savedTab =
+    document.getElementById('savedTabCount');
+
+  const favCount =
+    document.getElementById('favCount');
+
+  const sportBox =
+    document.getElementById('sports');
+
+  const servicesBox =
+    document.getElementById('services');
 
   let queued = false;
 
   function openPanel(open) {
     panel.hidden = !open;
-    toggle.setAttribute('aria-expanded', String(open));
+
+    toggle.setAttribute(
+      'aria-expanded',
+      String(open)
+    );
   }
 
-  toggle.addEventListener('click', () => {
-    openPanel(panel.hidden);
-  });
+  toggle.addEventListener(
+    'click',
+    () => {
+      openPanel(panel.hidden);
+    }
+  );
 
-  document.getElementById('applyFilters')
+  document
+    .getElementById('applyFilters')
     .addEventListener('click', () => {
       openPanel(false);
     });
 
   function activeState() {
-    const gender = document.getElementById('genderFilters');
-    const mode = document.getElementById('sportMode');
+
+    const gender =
+      document.getElementById('genderFilters');
+
+    const mode =
+      document.getElementById('sportMode');
 
     const excluding =
       mode?.getAttribute('aria-pressed') === 'true';
 
     const sports = [
-      ...sportBox.querySelectorAll('button[data-v].active')
-    ].filter(b => b.dataset.v !== 'All');
+      ...sportBox.querySelectorAll(
+        'button[data-v].active'
+      )
+    ].filter(
+      b => b.dataset.v !== 'All'
+    );
 
     const service = [
-      ...servicesBox.querySelectorAll('button[data-v].active')
-    ].find(b => b.dataset.v !== 'All');
+      ...servicesBox.querySelectorAll(
+        'button[data-v].active'
+      )
+    ].find(
+      b => b.dataset.v !== 'All'
+    );
 
     const competition = [
       ...(gender?.querySelectorAll(
         'button[data-gender].active'
       ) || [])
-    ].find(b => b.dataset.gender !== 'all');
+    ].find(
+      b => b.dataset.gender !== 'all'
+    );
 
     const entries = [];
 
     sports.forEach(b => {
+
       entries.push({
-        label: (excluding ? 'Exclude ' : '') + b.dataset.v,
+
+        label:
+          (excluding ? 'Exclude ' : '') +
+          b.dataset.v,
 
         remove: () => {
+
           const currentMode =
-            document.getElementById('sportMode');
+            document.getElementById(
+              'sportMode'
+            );
 
           const currentlyExcluding =
-            currentMode?.getAttribute('aria-pressed') === 'true';
+            currentMode?.getAttribute(
+              'aria-pressed'
+            ) === 'true';
 
           if (excluding) {
+
             if (!currentlyExcluding) {
               currentMode?.click();
             }
 
             [
-              ...sportBox.querySelectorAll('button[data-v]')
-            ].find(x => x.dataset.v === b.dataset.v)?.click();
+              ...sportBox.querySelectorAll(
+                'button[data-v]'
+              )
+            ]
+              .find(
+                x => x.dataset.v === b.dataset.v
+              )
+              ?.click();
 
           } else {
+
             if (currentlyExcluding) {
               currentMode?.click();
             }
 
-            sportBox.querySelector(
-              'button[data-v="All"]'
-            )?.click();
+            sportBox
+              .querySelector(
+                'button[data-v="All"]'
+              )
+              ?.click();
           }
         }
       });
     });
 
     if (service) {
+
       entries.push({
+
         label: service.dataset.v,
 
         remove: () => {
-          servicesBox.querySelector(
-            'button[data-v="All"]'
-          )?.click();
+          servicesBox
+            .querySelector(
+              'button[data-v="All"]'
+            )
+            ?.click();
         }
       });
     }
 
     if (competition) {
+
       entries.push({
-        label: competition.textContent.trim(),
+
+        label:
+          competition.textContent.trim(),
 
         remove: () => {
-          document.querySelector(
-            '#genderFilters button[data-gender="all"]'
-          )?.click();
+
+          document
+            .querySelector(
+              '#genderFilters button[data-gender="all"]'
+            )
+            ?.click();
         }
       });
     }
@@ -1375,12 +1776,23 @@ footer p {
   }
 
   function repaint() {
+
     queued = false;
 
-    const gender = document.getElementById('genderFilters');
+    const gender =
+      document.getElementById(
+        'genderFilters'
+      );
 
-    if (gender && gender.parentElement !== panel) {
-      sportBox.insertAdjacentElement('afterend', gender);
+    if (
+      gender &&
+      gender.parentElement !== panel
+    ) {
+
+      sportBox.insertAdjacentElement(
+        'afterend',
+        gender
+      );
     }
 
     const entries = activeState();
@@ -1388,14 +1800,20 @@ footer p {
     chips.replaceChildren();
 
     for (const entry of entries) {
-      const button = document.createElement('button');
+
+      const button =
+        document.createElement('button');
 
       button.type = 'button';
-      button.textContent = entry.label + ' ×';
+
+      button.textContent =
+        entry.label + ' ×';
 
       button.setAttribute(
         'aria-label',
-        'Remove ' + entry.label + ' filter'
+        'Remove ' +
+          entry.label +
+          ' filter'
       );
 
       button.onclick = entry.remove;
@@ -1404,65 +1822,111 @@ footer p {
     }
 
     chips.hidden = !entries.length;
+
     counter.hidden = !entries.length;
+
     counter.textContent = entries.length;
 
-    savedTab.textContent = favCount.textContent;
+    savedTab.textContent =
+      favCount.textContent;
   }
 
   function schedule() {
+
     if (!queued) {
+
       queued = true;
+
       queueMicrotask(repaint);
     }
   }
 
-  new MutationObserver(schedule).observe(sportBox, {
-    childList: true,
-    subtree: true,
-    attributes: true,
-    attributeFilter: ['class', 'aria-pressed']
-  });
+  new MutationObserver(schedule).observe(
+    sportBox,
+    {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: [
+        'class',
+        'aria-pressed'
+      ]
+    }
+  );
 
-  new MutationObserver(schedule).observe(servicesBox, {
-    childList: true,
-    subtree: true,
-    attributes: true,
-    attributeFilter: ['class']
-  });
+  new MutationObserver(schedule).observe(
+    servicesBox,
+    {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['class']
+    }
+  );
 
-  new MutationObserver(schedule).observe(favCount, {
-    childList: true,
-    characterData: true,
-    subtree: true
-  });
+  new MutationObserver(schedule).observe(
+    favCount,
+    {
+      childList: true,
+      characterData: true,
+      subtree: true
+    }
+  );
 
-  document.getElementById('clearFilters')
-    .addEventListener('click', () => {
+  document
+    .getElementById('clearFilters')
+    .addEventListener(
+      'click',
+      () => {
 
-      const mode = document.getElementById('sportMode');
+        const mode =
+          document.getElementById(
+            'sportMode'
+          );
 
-      if (mode?.getAttribute('aria-pressed') === 'true') {
-        document.getElementById('clearExcluded')?.click();
-        document.getElementById('sportMode')?.click();
+        if (
+          mode?.getAttribute(
+            'aria-pressed'
+          ) === 'true'
+        ) {
+
+          document
+            .getElementById(
+              'clearExcluded'
+            )
+            ?.click();
+
+          document
+            .getElementById(
+              'sportMode'
+            )
+            ?.click();
+        }
+
+        sportBox
+          .querySelector(
+            'button[data-v="All"]'
+          )
+          ?.click();
+
+        servicesBox
+          .querySelector(
+            'button[data-v="All"]'
+          )
+          ?.click();
+
+        document
+          .querySelector(
+            '#genderFilters button[data-gender="all"]'
+          )
+          ?.click();
+
+        schedule();
       }
-
-      sportBox.querySelector(
-        'button[data-v="All"]'
-      )?.click();
-
-      servicesBox.querySelector(
-        'button[data-v="All"]'
-      )?.click();
-
-      document.querySelector(
-        '#genderFilters button[data-gender="all"]'
-      )?.click();
-
-      schedule();
-    });
+    );
 
   repaint();
+
 })();
 </script>
 
