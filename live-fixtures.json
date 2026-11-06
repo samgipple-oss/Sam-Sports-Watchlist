@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T20:34:39.200483+00:00",
+  "updatedAt": "2026-11-06T21:12:45.345539+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -350,7 +350,7 @@
       "title": "Coventry City at Everton",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
