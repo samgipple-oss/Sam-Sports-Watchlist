@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:46:32.813942+00:00",
+  "updatedAt": "2026-11-07T18:52:40.662065+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -244,8 +244,8 @@
       "title": "Hull City at Arsenal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -257,8 +257,8 @@
       "title": "Newcastle United at Fulham",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -282,7 +282,7 @@
       "title": "Manchester City at Nottingham Forest",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
