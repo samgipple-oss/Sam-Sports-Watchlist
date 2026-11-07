@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:07:51.061739+00:00",
+  "updatedAt": "2026-11-07T03:57:08.325434+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -64,8 +64,8 @@
       "title": "Boston Celtics at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -77,8 +77,8 @@
       "title": "Washington Wizards at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -90,8 +90,8 @@
       "title": "Philadelphia 76ers at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -103,8 +103,8 @@
       "title": "Minnesota Timberwolves at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -116,8 +116,8 @@
       "title": "Oklahoma City Thunder at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -129,8 +129,8 @@
       "title": "Toronto Raptors at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -142,8 +142,8 @@
       "title": "Utah Jazz at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -155,7 +155,7 @@
       "title": "Portland Trail Blazers at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -168,7 +168,7 @@
       "title": "San Antonio Spurs at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "End of Period",
       "completed": false,
       "broadcastVerified": true
     },
