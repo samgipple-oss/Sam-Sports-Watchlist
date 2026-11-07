@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T09:54:02.117068+00:00",
+  "updatedAt": "2026-11-07T12:58:26.471924+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -193,7 +193,7 @@
       "title": "Tottenham Hotspur at Leeds United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -206,7 +206,7 @@
       "title": "Everton at Chelsea",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -219,7 +219,7 @@
       "title": "West Ham United at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": false
     },
