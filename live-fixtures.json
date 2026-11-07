@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T03:57:08.325434+00:00",
+  "updatedAt": "2026-11-07T07:07:03.161248+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -155,8 +155,8 @@
       "title": "Portland Trail Blazers at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -168,8 +168,8 @@
       "title": "San Antonio Spurs at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "End of Period",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
