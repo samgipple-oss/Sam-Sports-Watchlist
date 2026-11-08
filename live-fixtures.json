@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T01:13:58.792178+00:00",
+  "updatedAt": "2026-11-08T03:59:07.643951+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -337,8 +337,8 @@
       "title": "Colorado Rapids at FC Dallas",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -350,8 +350,8 @@
       "title": "LA Galaxy at Real Salt Lake",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -363,8 +363,8 @@
       "title": "LAFC at Seattle Sounders FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -376,8 +376,8 @@
       "title": "Portland Timbers at Austin FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -389,8 +389,8 @@
       "title": "San Jose Earthquakes at Minnesota United FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -402,8 +402,8 @@
       "title": "Sporting Kansas City at San Diego FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -415,8 +415,8 @@
       "title": "St. Louis CITY SC at Houston Dynamo FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -428,8 +428,8 @@
       "title": "Brooklyn Nets at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -441,8 +441,8 @@
       "title": "New York Knicks at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -454,8 +454,8 @@
       "title": "Washington Wizards at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -467,7 +467,7 @@
       "title": "Orlando Magic at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -480,7 +480,7 @@
       "title": "Houston Rockets at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -493,7 +493,7 @@
       "title": "San Antonio Spurs at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -2867,12 +2867,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:basketball/nba:401910005",
+      "id": "espn:basketball/nba:401910006",
       "date": "2026-11-18",
-      "time": "03:00",
+      "time": "03:30",
       "sport": "NBA",
       "competition": "NBA",
-      "title": "Charlotte Hornets at Los Angeles Lakers",
+      "title": "Utah Jazz at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -2880,12 +2880,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:basketball/nba:401910006",
+      "id": "espn:basketball/nba:401910005",
       "date": "2026-11-18",
       "time": "04:00",
       "sport": "NBA",
       "competition": "NBA",
-      "title": "Utah Jazz at LA Clippers",
+      "title": "Charlotte Hornets at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -4515,6 +4515,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-27:tbc:tbc",
+      "date": "2026-11-27",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879225",
       "date": "2026-11-27",
       "time": "20:00",
@@ -4708,6 +4720,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-28:tbc:tbc",
+      "date": "2026-11-28",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -4847,6 +4871,18 @@
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
       "source": "Published 2026 Nations Championship schedule"
+    },
+    {
+      "id": "ukrugby:2026-11-29:tbc:tbc",
+      "date": "2026-11-29",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "espn:soccer/eng.1:401879228",
