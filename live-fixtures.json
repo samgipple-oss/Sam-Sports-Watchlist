@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:45:16.066666+00:00",
+  "updatedAt": "2026-11-08T18:52:34.483931+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -532,8 +532,8 @@
       "title": "AFC Bournemouth at Ipswich Town",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -545,8 +545,8 @@
       "title": "Brentford at Brighton & Hove Albion",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -558,8 +558,8 @@
       "title": "Brighton & Hove Albion at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -571,8 +571,8 @@
       "title": "Charlton Athletic at Crystal Palace",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -584,8 +584,8 @@
       "title": "Chelsea at Sunderland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -597,8 +597,8 @@
       "title": "Liverpool at Crystal Palace",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -610,8 +610,8 @@
       "title": "Birmingham City at London City Lionesses",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -623,8 +623,8 @@
       "title": "Cincinnati Bengals at Atlanta Falcons",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -648,8 +648,8 @@
       "title": "Aston Villa at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -661,7 +661,7 @@
       "title": "Cleveland Browns at New Orleans Saints",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -674,7 +674,7 @@
       "title": "Dallas Cowboys at Indianapolis Colts",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -687,7 +687,7 @@
       "title": "Denver Broncos at Carolina Panthers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -700,7 +700,7 @@
       "title": "Detroit Lions at Miami Dolphins",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -713,7 +713,7 @@
       "title": "Los Angeles Rams at Washington Commanders",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -726,7 +726,7 @@
       "title": "New York Giants at Philadelphia Eagles",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -739,7 +739,7 @@
       "title": "New York Jets at Kansas City Chiefs",
       "service": "5Action",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
