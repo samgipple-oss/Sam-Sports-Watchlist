@@ -1,47 +1,8 @@
 {
-  "updatedAt": "2026-11-07T21:44:48.367326+00:00",
+  "updatedAt": "2026-11-08T01:13:58.792178+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
-    {
-      "id": "espn:football/nfl:401873037",
-      "date": "2026-11-06",
-      "time": "01:15",
-      "sport": "NFL",
-      "competition": "NFL",
-      "title": "Jacksonville Jaguars at Baltimore Ravens",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:basketball/nba:401909936",
-      "date": "2026-11-06",
-      "time": "02:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Orlando Magic at Phoenix Suns",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909937",
-      "date": "2026-11-06",
-      "time": "03:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Miami Heat at Golden State Warriors",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
     {
       "id": "espn:soccer/eng.1:401879242",
       "date": "2026-11-06",
@@ -173,18 +134,6 @@
       "broadcastVerified": true
     },
     {
-      "id": "nationschampionship:2026:11-07:11:40",
-      "date": "2026-11-07",
-      "time": "11:40",
-      "sport": "Rugby",
-      "competition": "Nations Championship",
-      "title": "Italy vs South Africa",
-      "service": "ITVX",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
-      "source": "Published 2026 Nations Championship schedule"
-    },
-    {
       "id": "espn:soccer/eng.1:401878758",
       "date": "2026-11-07",
       "time": "12:30",
@@ -224,18 +173,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "nationschampionship:2026:11-07:14:10",
-      "date": "2026-11-07",
-      "time": "14:10",
-      "sport": "Rugby",
-      "competition": "Nations Championship",
-      "title": "Scotland vs New Zealand",
-      "service": "ITVX",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
-      "source": "Published 2026 Nations Championship schedule"
-    },
-    {
       "id": "espn:soccer/eng.1:401878760",
       "date": "2026-11-07",
       "time": "15:00",
@@ -262,18 +199,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "nationschampionship:2026:11-07:16:40",
-      "date": "2026-11-07",
-      "time": "16:40",
-      "sport": "Rugby",
-      "competition": "Nations Championship",
-      "title": "Wales vs Japan",
-      "service": "ITVX",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
-      "source": "Published 2026 Nations Championship schedule"
-    },
-    {
       "id": "espn:soccer/eng.1:401878757",
       "date": "2026-11-07",
       "time": "17:30",
@@ -287,18 +212,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "nationschampionship:2026:11-07:20:10",
-      "date": "2026-11-07",
-      "time": "20:10",
-      "sport": "Rugby",
-      "competition": "Nations Championship",
-      "title": "France vs Fiji",
-      "service": "ITVX",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
-      "source": "Published 2026 Nations Championship schedule"
-    },
-    {
       "id": "espn:soccer/usa.1:761939",
       "date": "2026-11-07",
       "time": "21:00",
@@ -307,8 +220,8 @@
       "title": "Atlanta United FC at Red Bull New York",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -320,8 +233,8 @@
       "title": "Charlotte FC at Inter Miami CF",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -333,8 +246,8 @@
       "title": "Columbus Crew at Chicago Fire FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -346,8 +259,8 @@
       "title": "Nashville SC at FC Cincinnati",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -359,8 +272,8 @@
       "title": "New England Revolution at Orlando City SC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -372,8 +285,8 @@
       "title": "New York City FC at D.C. United",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -385,8 +298,8 @@
       "title": "Toronto FC at Philadelphia Union",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -398,8 +311,8 @@
       "title": "Vancouver Whitecaps at CF Montréal",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -411,8 +324,8 @@
       "title": "Denver Nuggets at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -424,7 +337,7 @@
       "title": "Colorado Rapids at FC Dallas",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -437,7 +350,7 @@
       "title": "LA Galaxy at Real Salt Lake",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -450,7 +363,7 @@
       "title": "LAFC at Seattle Sounders FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -463,7 +376,7 @@
       "title": "Portland Timbers at Austin FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -476,7 +389,7 @@
       "title": "San Jose Earthquakes at Minnesota United FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -489,7 +402,7 @@
       "title": "Sporting Kansas City at San Diego FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -502,7 +415,7 @@
       "title": "St. Louis CITY SC at Houston Dynamo FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -515,7 +428,7 @@
       "title": "Brooklyn Nets at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -528,7 +441,7 @@
       "title": "New York Knicks at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -541,7 +454,7 @@
       "title": "Washington Wizards at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -4602,18 +4515,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-27:tbc:tbc",
-      "date": "2026-11-27",
-      "time": "16:40",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879225",
       "date": "2026-11-27",
       "time": "20:00",
@@ -4807,18 +4708,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-28:tbc:tbc",
-      "date": "2026-11-28",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -4958,18 +4847,6 @@
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
       "source": "Published 2026 Nations Championship schedule"
-    },
-    {
-      "id": "ukrugby:2026-11-29:tbc:tbc",
-      "date": "2026-11-29",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "espn:soccer/eng.1:401879228",
@@ -6491,16 +6368,89 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.w.1:401902848",
+      "date": "2026-12-12",
+      "time": "12:45",
+      "sport": "Football",
+      "competition": "WSL",
+      "title": "London City Lionesses at Chelsea",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401879206",
+      "date": "2026-12-12",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Brentford at Fulham",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401878743",
+      "date": "2026-12-12",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Leeds United at Liverpool",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401878744",
+      "date": "2026-12-12",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Newcastle United at Ipswich Town",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401878742",
+      "date": "2026-12-12",
+      "time": "17:30",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Chelsea at Manchester City",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:basketball/nba:401910090",
+      "date": "2026-12-12",
+      "time": "22:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Milwaukee Bucks at Memphis Grizzlies",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
     }
   ],
   "coverage": [
     {
       "feed": "baseball/mlb",
-      "date": "2026-11-05",
-      "ok": true
-    },
-    {
-      "feed": "baseball/mlb",
       "date": "2026-11-06",
       "ok": true
     },
@@ -6680,8 +6630,8 @@
       "ok": true
     },
     {
-      "feed": "basketball/nba",
-      "date": "2026-11-05",
+      "feed": "baseball/mlb",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -6865,8 +6815,8 @@
       "ok": true
     },
     {
-      "feed": "football/nfl",
-      "date": "2026-11-05",
+      "feed": "basketball/nba",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -7050,8 +7000,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.1",
-      "date": "2026-11-05",
+      "feed": "football/nfl",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -7235,8 +7185,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.w.1",
-      "date": "2026-11-05",
+      "feed": "soccer/eng.1",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -7420,8 +7370,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.champions",
-      "date": "2026-11-05",
+      "feed": "soccer/eng.w.1",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -7605,8 +7555,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.nations",
-      "date": "2026-11-05",
+      "feed": "soccer/uefa.champions",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -7790,8 +7740,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.wchampions",
-      "date": "2026-11-05",
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -7975,8 +7925,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/usa.1",
-      "date": "2026-11-05",
+      "feed": "soccer/uefa.wchampions",
+      "date": "2026-12-12",
       "ok": true
     },
     {
@@ -8157,6 +8107,11 @@
     {
       "feed": "soccer/usa.1",
       "date": "2026-12-11",
+      "ok": true
+    },
+    {
+      "feed": "soccer/usa.1",
+      "date": "2026-12-12",
       "ok": true
     }
   ],
