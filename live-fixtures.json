@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T03:59:07.643951+00:00",
+  "updatedAt": "2026-11-08T07:09:46.468779+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -467,8 +467,8 @@
       "title": "Orlando Magic at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -480,8 +480,8 @@
       "title": "Houston Rockets at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -493,8 +493,8 @@
       "title": "San Antonio Spurs at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
