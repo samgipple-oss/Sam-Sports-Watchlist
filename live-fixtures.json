@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T09:54:08.077545+00:00",
+  "updatedAt": "2026-11-08T12:59:16.362901+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -506,7 +506,7 @@
       "title": "Arsenal at Liverpool",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": false
     },
@@ -519,7 +519,7 @@
       "title": "Manchester United at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": false
     },
@@ -3166,6 +3166,19 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/usa.1:401933535",
+      "date": "2026-11-20",
+      "time": "00:30",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "FC Cincinnati at Orlando City SC",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
       "id": "espn:basketball/nba:401910019",
       "date": "2026-11-20",
       "time": "01:00",
@@ -3229,6 +3242,19 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/usa.1:401933555",
+      "date": "2026-11-20",
+      "time": "03:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "Real Salt Lake at Seattle Sounders FC",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909305",
