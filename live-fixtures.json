@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T18:52:34.483931+00:00",
+  "updatedAt": "2026-11-08T21:44:36.066253+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -661,8 +661,8 @@
       "title": "Cleveland Browns at New Orleans Saints",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -674,8 +674,8 @@
       "title": "Dallas Cowboys at Indianapolis Colts",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -687,8 +687,8 @@
       "title": "Denver Broncos at Carolina Panthers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -700,8 +700,8 @@
       "title": "Detroit Lions at Miami Dolphins",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -713,8 +713,8 @@
       "title": "Los Angeles Rams at Washington Commanders",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -726,8 +726,8 @@
       "title": "New York Giants at Philadelphia Eagles",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -739,8 +739,8 @@
       "title": "New York Jets at Kansas City Chiefs",
       "service": "5Action",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
     },
@@ -753,7 +753,7 @@
       "title": "Philadelphia 76ers at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -766,7 +766,7 @@
       "title": "Houston Texans at Los Angeles Chargers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -779,7 +779,7 @@
       "title": "Arizona Cardinals at Seattle Seahawks",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -792,7 +792,7 @@
       "title": "Green Bay Packers at New England Patriots",
       "service": "Channel 5",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/nfl/live-nfl-today-tv/"
@@ -806,7 +806,7 @@
       "title": "Las Vegas Raiders at San Francisco 49ers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
