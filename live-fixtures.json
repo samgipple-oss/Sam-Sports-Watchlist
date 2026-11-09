@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T16:11:18.213329+00:00",
+  "updatedAt": "2026-11-09T19:02:05.667963+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -3619,19 +3619,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "espn:football/nfl:401873069",
-      "date": "2026-11-22",
-      "time": "18:00",
-      "sport": "NFL",
-      "competition": "NFL",
-      "title": "Jacksonville Jaguars at New York Giants",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": false
-    },
-    {
       "id": "espn:football/nfl:401873070",
       "date": "2026-11-22",
       "time": "18:00",
@@ -3651,6 +3638,19 @@
       "sport": "NFL",
       "competition": "NFL",
       "title": "New Orleans Saints at Chicago Bears",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:football/nfl:401873076",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "sport": "NFL",
+      "competition": "NFL",
+      "title": "Pittsburgh Steelers at Philadelphia Eagles",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -3723,12 +3723,12 @@
       "broadcastVerified": false
     },
     {
-      "id": "espn:football/nfl:401873075",
+      "id": "espn:football/nfl:401873069",
       "date": "2026-11-22",
       "time": "21:25",
       "sport": "NFL",
       "competition": "NFL",
-      "title": "Las Vegas Raiders at Denver Broncos",
+      "title": "Jacksonville Jaguars at New York Giants",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -3736,12 +3736,12 @@
       "broadcastVerified": false
     },
     {
-      "id": "espn:football/nfl:401873076",
+      "id": "espn:football/nfl:401873075",
       "date": "2026-11-22",
       "time": "21:25",
       "sport": "NFL",
       "competition": "NFL",
-      "title": "Pittsburgh Steelers at Philadelphia Eagles",
+      "title": "Las Vegas Raiders at Denver Broncos",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
