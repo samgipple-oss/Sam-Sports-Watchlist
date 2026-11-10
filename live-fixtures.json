@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T03:58:17.556896+00:00",
+  "updatedAt": "2026-11-10T07:19:38.433906+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -469,8 +469,8 @@
       "title": "Buffalo Bills at Minnesota Vikings",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -495,8 +495,8 @@
       "title": "San Antonio Spurs at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -508,8 +508,8 @@
       "title": "New Orleans Pelicans at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
