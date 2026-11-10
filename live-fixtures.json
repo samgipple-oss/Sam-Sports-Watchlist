@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T19:02:15.463480+00:00",
+  "updatedAt": "2026-11-10T21:49:11.195771+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -521,8 +521,8 @@
       "title": "Chelsea at BK Häcken",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -534,8 +534,8 @@
       "title": "Paris FC at Real Madrid",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -547,7 +547,7 @@
       "title": "Bayern Munich at Paris Saint-Germain",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
@@ -560,7 +560,7 @@
       "title": "Manchester City at Internazionale",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
@@ -573,7 +573,7 @@
       "title": "Servette at Roma",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
