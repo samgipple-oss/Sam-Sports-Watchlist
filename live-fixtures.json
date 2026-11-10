@@ -1,372 +1,8 @@
 {
-  "updatedAt": "2026-11-09T21:55:04.503686+00:00",
+  "updatedAt": "2026-11-10T01:11:27.042683+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
-    {
-      "id": "espn:soccer/eng.1:401878758",
-      "date": "2026-11-07",
-      "time": "12:30",
-      "sport": "Football",
-      "competition": "Premier League",
-      "title": "Tottenham Hotspur at Leeds United",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/eng.w.1:401902869",
-      "date": "2026-11-07",
-      "time": "12:45",
-      "sport": "Football",
-      "competition": "WSL",
-      "title": "Everton at Chelsea",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/eng.w.1:401902868",
-      "date": "2026-11-07",
-      "time": "12:45",
-      "sport": "Football",
-      "competition": "WSL",
-      "title": "West Ham United at Manchester City",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/eng.1:401878760",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "sport": "Football",
-      "competition": "Premier League",
-      "title": "Hull City at Arsenal",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/eng.1:401879241",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "sport": "Football",
-      "competition": "Premier League",
-      "title": "Newcastle United at Fulham",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/eng.1:401878757",
-      "date": "2026-11-07",
-      "time": "17:30",
-      "sport": "Football",
-      "competition": "Premier League",
-      "title": "Manchester City at Nottingham Forest",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/usa.1:761939",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Atlanta United FC at Red Bull New York",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761938",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Charlotte FC at Inter Miami CF",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761935",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Columbus Crew at Chicago Fire FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761937",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Nashville SC at FC Cincinnati",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761940",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "New England Revolution at Orlando City SC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761936",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "New York City FC at D.C. United",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761941",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Toronto FC at Philadelphia Union",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761934",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Vancouver Whitecaps at CF Montréal",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909938",
-      "date": "2026-11-07",
-      "time": "22:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Denver Nuggets at Indiana Pacers",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761943",
-      "date": "2026-11-08",
-      "time": "00:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Colorado Rapids at FC Dallas",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761946",
-      "date": "2026-11-08",
-      "time": "00:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "LA Galaxy at Real Salt Lake",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761948",
-      "date": "2026-11-08",
-      "time": "00:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "LAFC at Seattle Sounders FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761942",
-      "date": "2026-11-08",
-      "time": "00:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Portland Timbers at Austin FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761945",
-      "date": "2026-11-08",
-      "time": "00:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "San Jose Earthquakes at Minnesota United FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761947",
-      "date": "2026-11-08",
-      "time": "00:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Sporting Kansas City at San Diego FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:761944",
-      "date": "2026-11-08",
-      "time": "00:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "St. Louis CITY SC at Houston Dynamo FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909939",
-      "date": "2026-11-08",
-      "time": "00:30",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Brooklyn Nets at Atlanta Hawks",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909940",
-      "date": "2026-11-08",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "New York Knicks at Cleveland Cavaliers",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909941",
-      "date": "2026-11-08",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Washington Wizards at Oklahoma City Thunder",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909942",
-      "date": "2026-11-08",
-      "time": "01:30",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Orlando Magic at Golden State Warriors",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909943",
-      "date": "2026-11-08",
-      "time": "02:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Houston Rockets at Phoenix Suns",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909944",
-      "date": "2026-11-08",
-      "time": "03:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "San Antonio Spurs at Portland Trail Blazers",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
     {
       "id": "espn:soccer/eng.w.1:401902871",
       "date": "2026-11-08",
@@ -768,7 +404,7 @@
       "title": "Cleveland Cavaliers at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -781,7 +417,7 @@
       "title": "Los Angeles Lakers at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -794,7 +430,7 @@
       "title": "Washington Wizards at Detroit Pistons",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -807,7 +443,7 @@
       "title": "Memphis Grizzlies at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "End of Period",
       "completed": false,
       "broadcastVerified": true
     },
@@ -820,7 +456,7 @@
       "title": "Indiana Pacers at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -7094,16 +6730,63 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": true
+    },
+    {
+      "id": "espn:basketball/nba:401910102",
+      "date": "2026-12-14",
+      "time": "00:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "LA Clippers at San Antonio Spurs",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:football/nfl:401873122",
+      "date": "2026-12-14",
+      "time": "01:20",
+      "sport": "NFL",
+      "competition": "NFL",
+      "title": "Buffalo Bills at Green Bay Packers",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:basketball/nba:401910103",
+      "date": "2026-12-14",
+      "time": "02:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "New Orleans Pelicans at Sacramento Kings",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/eng.1:401879205",
+      "date": "2026-12-14",
+      "time": "20:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Tottenham Hotspur at Hull City",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
     }
   ],
   "coverage": [
     {
       "feed": "baseball/mlb",
-      "date": "2026-11-07",
-      "ok": true
-    },
-    {
-      "feed": "baseball/mlb",
       "date": "2026-11-08",
       "ok": true
     },
@@ -7283,8 +6966,8 @@
       "ok": true
     },
     {
-      "feed": "basketball/nba",
-      "date": "2026-11-07",
+      "feed": "baseball/mlb",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -7468,8 +7151,8 @@
       "ok": true
     },
     {
-      "feed": "football/nfl",
-      "date": "2026-11-07",
+      "feed": "basketball/nba",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -7653,8 +7336,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.1",
-      "date": "2026-11-07",
+      "feed": "football/nfl",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -7838,8 +7521,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.w.1",
-      "date": "2026-11-07",
+      "feed": "soccer/eng.1",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -8023,8 +7706,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.champions",
-      "date": "2026-11-07",
+      "feed": "soccer/eng.w.1",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -8208,8 +7891,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.nations",
-      "date": "2026-11-07",
+      "feed": "soccer/uefa.champions",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -8393,8 +8076,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.wchampions",
-      "date": "2026-11-07",
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -8578,8 +8261,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/usa.1",
-      "date": "2026-11-07",
+      "feed": "soccer/uefa.wchampions",
+      "date": "2026-12-14",
       "ok": true
     },
     {
@@ -8760,6 +8443,11 @@
     {
       "feed": "soccer/usa.1",
       "date": "2026-12-13",
+      "ok": true
+    },
+    {
+      "feed": "soccer/usa.1",
+      "date": "2026-12-14",
       "ok": true
     }
   ],
