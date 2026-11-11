@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T15:58:23.908023+00:00",
+  "updatedAt": "2026-11-11T19:06:22.231623+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -272,7 +272,7 @@
       "title": "HB Køge at OH Leuven",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
