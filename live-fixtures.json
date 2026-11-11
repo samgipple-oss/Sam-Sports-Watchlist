@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T10:07:16.155749+00:00",
+  "updatedAt": "2026-11-11T13:19:30.538701+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -277,19 +277,6 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:soccer/uefa.wchampions:401916983",
-      "date": "2026-11-11",
-      "time": "20:00",
-      "sport": "Football",
-      "competition": "Women’s Champions League",
-      "title": "Austria Vienna at Benfica",
-      "service": "Disney+",
-      "source": "Scheduled data feed",
-      "liveStatus": "Postponed",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
       "id": "espn:soccer/uefa.wchampions:401916984",
       "date": "2026-11-11",
       "time": "20:00",
@@ -549,6 +536,19 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/uefa.wchampions:401916983",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "sport": "Football",
+      "competition": "Women’s Champions League",
+      "title": "Austria Vienna at Benfica",
+      "service": "Disney+",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
     },
     {
       "id": "espn:basketball/nba:401909977",
