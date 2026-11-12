@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T04:02:08.860062+00:00",
+  "updatedAt": "2026-11-12T07:29:10.333281+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -272,8 +272,8 @@
       "title": "Orlando Magic at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -285,8 +285,8 @@
       "title": "Golden State Warriors at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -298,8 +298,8 @@
       "title": "Oklahoma City Thunder at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
