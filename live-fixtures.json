@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:11:02.205797+00:00",
+  "updatedAt": "2026-11-12T19:04:21.147670+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -311,8 +311,8 @@
       "title": "Belgium at Türkiye",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -324,8 +324,8 @@
       "title": "Cyprus at Armenia",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -337,7 +337,7 @@
       "title": "Arsenal at Barcelona",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
