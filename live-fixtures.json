@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:04:21.147670+00:00",
+  "updatedAt": "2026-11-12T21:54:40.810909+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -337,8 +337,8 @@
       "title": "Arsenal at Barcelona",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -350,8 +350,8 @@
       "title": "Belarus at San Marino",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -363,8 +363,8 @@
       "title": "Croatia at England",
       "service": "ITVX",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true,
       "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
     },
@@ -377,8 +377,8 @@
       "title": "Finland at Albania",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -390,8 +390,8 @@
       "title": "France at Italy",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -403,8 +403,8 @@
       "title": "Latvia at Montenegro",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -416,8 +416,8 @@
       "title": "Spain at Czechia",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -429,7 +429,7 @@
       "title": "Austria Vienna at Benfica",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
