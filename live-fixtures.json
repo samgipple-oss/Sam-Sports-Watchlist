@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:17:53.472962+00:00",
+  "updatedAt": "2026-11-13T04:00:36.270896+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -299,8 +299,8 @@
       "title": "Detroit Pistons at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -312,8 +312,8 @@
       "title": "Toronto Raptors at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -325,8 +325,8 @@
       "title": "Dallas Mavericks at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -351,7 +351,7 @@
       "title": "Charlotte Hornets at Phoenix Suns",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -3487,18 +3487,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-27:tbc:tbc",
-      "date": "2026-11-27",
-      "time": "16:40",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879225",
       "date": "2026-11-27",
       "time": "20:00",
@@ -3718,18 +3706,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-28:tbc:tbc",
-      "date": "2026-11-28",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -3947,18 +3923,6 @@
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
       "source": "Published 2026 Nations Championship schedule"
-    },
-    {
-      "id": "ukrugby:2026-11-29:tbc:tbc",
-      "date": "2026-11-29",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "espn:soccer/eng.1:401879228",
