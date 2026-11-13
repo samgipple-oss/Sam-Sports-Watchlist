@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T15:56:51.556188+00:00",
+  "updatedAt": "2026-11-13T19:02:12.378442+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -364,8 +364,8 @@
       "title": "Kazakhstan at Moldova",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
