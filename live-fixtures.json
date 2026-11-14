@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T15:48:24.545350+00:00",
+  "updatedAt": "2026-11-14T18:53:12.731134+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -494,8 +494,8 @@
       "title": "Israel at Kosovo",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -519,8 +519,8 @@
       "title": "Everton at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -544,7 +544,7 @@
       "title": "Hungary at Georgia",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -557,7 +557,7 @@
       "title": "Wales at Norway",
       "service": "BBC iPlayer",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true,
       "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
@@ -571,7 +571,7 @@
       "title": "Liverpool at Brighton & Hove Albion",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -1723,12 +1723,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:basketball/nba:401910015",
+      "id": "espn:basketball/nba:401910016",
       "date": "2026-11-19",
-      "time": "02:00",
+      "time": "01:00",
       "sport": "NBA",
       "competition": "NBA",
-      "title": "Boston Celtics at Denver Nuggets",
+      "title": "Golden State Warriors at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -1736,12 +1736,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:basketball/nba:401910016",
+      "id": "espn:basketball/nba:401910015",
       "date": "2026-11-19",
       "time": "02:30",
       "sport": "NBA",
       "competition": "NBA",
-      "title": "Golden State Warriors at Dallas Mavericks",
+      "title": "Boston Celtics at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
