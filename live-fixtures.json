@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T12:59:20.707976+00:00",
+  "updatedAt": "2026-11-14T15:48:24.545350+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -468,8 +468,8 @@
       "title": "Crystal Palace at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -481,8 +481,8 @@
       "title": "Manchester City at Chelsea",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -494,7 +494,7 @@
       "title": "Israel at Kosovo",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -519,7 +519,7 @@
       "title": "Everton at Tottenham Hotspur",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": false
     },
