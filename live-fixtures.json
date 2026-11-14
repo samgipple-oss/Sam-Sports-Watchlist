@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T09:54:37.687738+00:00",
+  "updatedAt": "2026-11-14T12:59:20.707976+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -468,7 +468,7 @@
       "title": "Crystal Palace at Manchester United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": false
     },
