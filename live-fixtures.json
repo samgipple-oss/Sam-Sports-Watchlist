@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T01:16:05.450178+00:00",
+  "updatedAt": "2026-11-15T03:59:27.861633+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -418,8 +418,8 @@
       "title": "Denver Nuggets at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -431,8 +431,8 @@
       "title": "Dallas Mavericks at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -444,8 +444,8 @@
       "title": "Brooklyn Nets at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -457,8 +457,8 @@
       "title": "Chicago Bulls at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -470,8 +470,8 @@
       "title": "Detroit Pistons at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
