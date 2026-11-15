@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T13:01:51.558169+00:00",
+  "updatedAt": "2026-11-15T15:49:25.902914+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -483,7 +483,7 @@
       "title": "Armenia at Latvia",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -496,7 +496,7 @@
       "title": "Birmingham City at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -509,7 +509,7 @@
       "title": "Charlton Athletic at West Ham United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -522,7 +522,7 @@
       "title": "Montenegro at Cyprus",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -535,7 +535,7 @@
       "title": "New England Patriots at Detroit Lions",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
