@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T15:49:25.902914+00:00",
+  "updatedAt": "2026-11-15T18:53:52.894056+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -483,8 +483,8 @@
       "title": "Armenia at Latvia",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -496,8 +496,8 @@
       "title": "Birmingham City at Aston Villa",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -509,8 +509,8 @@
       "title": "Charlton Athletic at West Ham United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -522,8 +522,8 @@
       "title": "Montenegro at Cyprus",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -535,8 +535,8 @@
       "title": "New England Patriots at Detroit Lions",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -560,8 +560,8 @@
       "title": "London City Lionesses at Arsenal",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -573,8 +573,8 @@
       "title": "Albania at Belarus",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -586,8 +586,8 @@
       "title": "San Marino at Finland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -599,7 +599,7 @@
       "title": "Buffalo Bills at New York Jets",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -612,7 +612,7 @@
       "title": "Carolina Panthers at New Orleans Saints",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -625,7 +625,7 @@
       "title": "Houston Texans at Cleveland Browns",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -638,7 +638,7 @@
       "title": "Indiana Pacers at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -651,7 +651,7 @@
       "title": "Jacksonville Jaguars at Tennessee Titans",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -664,7 +664,7 @@
       "title": "Kansas City Chiefs at Atlanta Falcons",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -677,7 +677,7 @@
       "title": "Miami Dolphins at Indianapolis Colts",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -690,7 +690,7 @@
       "title": "Minnesota Vikings at Green Bay Packers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
