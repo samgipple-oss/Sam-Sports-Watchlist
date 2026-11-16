@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T16:48:18.285954+00:00",
+  "updatedAt": "2026-11-16T19:04:11.703191+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -652,8 +652,8 @@
       "title": "Moldova at Faroe Islands",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -665,8 +665,8 @@
       "title": "Slovakia at Kazakhstan",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -678,8 +678,8 @@
       "title": "Bulgaria at Estonia",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -691,8 +691,8 @@
       "title": "Liechtenstein at Lithuania",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -704,8 +704,8 @@
       "title": "Luxembourg at Iceland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
