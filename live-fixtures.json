@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:01:40.702773+00:00",
+  "updatedAt": "2026-11-17T07:28:50.116541+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -651,8 +651,8 @@
       "title": "Los Angeles Chargers at Baltimore Ravens",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -664,8 +664,8 @@
       "title": "Phoenix Suns at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
