@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T13:19:16.477140+00:00",
+  "updatedAt": "2026-11-17T16:04:27.153609+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -3676,84 +3676,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "espn:soccer/usa.1:401933718",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Charlotte FC at Chicago Fire FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:401933720",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Columbus Crew at Inter Miami CF",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:401933715",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Houston Dynamo FC at San Jose Earthquakes",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:401933735",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "LAFC at St. Louis CITY SC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:401933719",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Philadelphia Union at New England Revolution",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:401933716",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Portland Timbers at FC Dallas",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
       "id": "espn:soccer/usa.1:401933736",
       "date": "2026-12-02",
       "time": "20:00",
@@ -3858,6 +3780,19 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/usa.1:401933719",
+      "date": "2026-12-03",
+      "time": "00:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "Philadelphia Union at New England Revolution",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
       "id": "espn:basketball/nba:401910078",
       "date": "2026-12-03",
       "time": "00:30",
@@ -3871,6 +3806,19 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/usa.1:401933720",
+      "date": "2026-12-03",
+      "time": "00:30",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "Columbus Crew at Inter Miami CF",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
       "id": "espn:basketball/nba:401910082",
       "date": "2026-12-03",
       "time": "01:00",
@@ -3878,6 +3826,32 @@
       "competition": "NBA",
       "title": "Brooklyn Nets at Oklahoma City Thunder",
       "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/usa.1:401933718",
+      "date": "2026-12-03",
+      "time": "01:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "Charlotte FC at Chicago Fire FC",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/usa.1:401933735",
+      "date": "2026-12-03",
+      "time": "01:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "LAFC at St. Louis CITY SC",
+      "service": "Apple TV",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "completed": false,
@@ -3923,6 +3897,19 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/usa.1:401933716",
+      "date": "2026-12-03",
+      "time": "01:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "Portland Timbers at FC Dallas",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
       "id": "espn:basketball/nba:401910083",
       "date": "2026-12-03",
       "time": "02:00",
@@ -3930,6 +3917,19 @@
       "competition": "NBA",
       "title": "Sacramento Kings at Phoenix Suns",
       "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/usa.1:401933715",
+      "date": "2026-12-03",
+      "time": "03:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "Houston Dynamo FC at San Jose Earthquakes",
+      "service": "Apple TV",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
       "completed": false,
