@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T16:04:27.153609+00:00",
+  "updatedAt": "2026-11-17T19:11:00.716390+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -2592,18 +2592,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-27:tbc:tbc",
-      "date": "2026-11-27",
-      "time": "16:40",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879225",
       "date": "2026-11-27",
       "time": "20:00",
@@ -2821,18 +2809,6 @@
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
       "source": "Published 2026 Nations Championship schedule"
-    },
-    {
-      "id": "ukrugby:2026-11-28:tbc:tbc",
-      "date": "2026-11-28",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "espn:soccer/eng.1:401879226",
@@ -3054,18 +3030,6 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
-      "id": "ukrugby:2026-11-29:tbc:tbc",
-      "date": "2026-11-29",
-      "time": "13:10",
-      "sport": "Rugby",
-      "competition": "Rugby Union",
-      "title": "TBC vs TBC",
-      "service": "ITVX",
-      "source": "UK rugby TV guide",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
-    },
-    {
       "id": "espn:soccer/eng.1:401879228",
       "date": "2026-11-29",
       "time": "14:05",
@@ -3169,19 +3133,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "espn:football/nfl:401873086",
-      "date": "2026-11-29",
-      "time": "18:00",
-      "sport": "NFL",
-      "competition": "NFL",
-      "title": "Las Vegas Raiders at Cleveland Browns",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": false
-    },
-    {
       "id": "espn:football/nfl:401873087",
       "date": "2026-11-29",
       "time": "18:00",
@@ -3221,6 +3172,19 @@
       "broadcastVerified": false
     },
     {
+      "id": "espn:football/nfl:401873090",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "sport": "NFL",
+      "competition": "NFL",
+      "title": "Tennessee Titans at Jacksonville Jaguars",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
       "id": "espn:basketball/nba:401910052",
       "date": "2026-11-29",
       "time": "21:00",
@@ -3247,12 +3211,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:football/nfl:401873090",
+      "id": "espn:football/nfl:401873093",
       "date": "2026-11-29",
       "time": "21:05",
       "sport": "NFL",
       "competition": "NFL",
-      "title": "Tennessee Titans at Jacksonville Jaguars",
+      "title": "New England Patriots at Los Angeles Chargers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -3364,12 +3328,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:football/nfl:401873093",
+      "id": "espn:football/nfl:401873086",
       "date": "2026-11-30",
       "time": "01:20",
       "sport": "NFL",
       "competition": "NFL",
-      "title": "New England Patriots at Los Angeles Chargers",
+      "title": "Las Vegas Raiders at Cleveland Browns",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
