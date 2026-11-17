@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:11:00.716390+00:00",
+  "updatedAt": "2026-11-17T21:59:58.456908+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -677,8 +677,8 @@
       "title": "Austria at Israel",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -690,8 +690,8 @@
       "title": "Georgia at Ukraine",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -703,8 +703,8 @@
       "title": "Kosovo at Republic of Ireland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -716,8 +716,8 @@
       "title": "Northern Ireland at Hungary",
       "service": "BBC iPlayer",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true,
       "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
     },
@@ -730,8 +730,8 @@
       "title": "Norway at Denmark",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -743,8 +743,8 @@
       "title": "Portugal at Wales",
       "service": "BBC iPlayer",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true,
       "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
     },
@@ -757,8 +757,8 @@
       "title": "Romania at Bosnia-Herzegovina",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -770,8 +770,8 @@
       "title": "Sweden at Poland",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -2592,6 +2592,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-27:tbc:tbc",
+      "date": "2026-11-27",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879225",
       "date": "2026-11-27",
       "time": "20:00",
@@ -2811,6 +2823,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-28:tbc:tbc",
+      "date": "2026-11-28",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -3028,6 +3052,18 @@
       "broadcastVerified": true,
       "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
       "source": "Published 2026 Nations Championship schedule"
+    },
+    {
+      "id": "ukrugby:2026-11-29:tbc:tbc",
+      "date": "2026-11-29",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "TBC vs TBC",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "espn:soccer/eng.1:401879228",
