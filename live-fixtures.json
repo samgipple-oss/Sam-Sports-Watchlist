@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T16:10:59.014646+00:00",
+  "updatedAt": "2026-11-18T19:05:35.758624+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -431,7 +431,7 @@
       "title": "Internazionale at Real Madrid",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
@@ -444,7 +444,7 @@
       "title": "Manchester City at BK Häcken",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
@@ -3259,19 +3259,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "espn:soccer/usa.1:401933736",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "TBD Away at Nashville SC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
       "id": "espn:soccer/usa.1:401933717",
       "date": "2026-12-02",
       "time": "20:00",
@@ -3486,6 +3473,19 @@
       "sport": "MLS",
       "competition": "MLS",
       "title": "Portland Timbers at FC Dallas",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/usa.1:401933736",
+      "date": "2026-12-03",
+      "time": "01:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "TBD Away at Nashville SC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
