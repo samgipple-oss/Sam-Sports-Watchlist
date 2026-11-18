@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T04:04:08.764988+00:00",
+  "updatedAt": "2026-11-18T07:28:27.066156+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -405,8 +405,8 @@
       "title": "Utah Jazz at LA Clippers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -418,8 +418,8 @@
       "title": "Charlotte Hornets at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
