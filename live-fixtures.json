@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T19:05:35.758624+00:00",
+  "updatedAt": "2026-11-18T21:58:44.536993+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -431,8 +431,8 @@
       "title": "Internazionale at Real Madrid",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -444,8 +444,8 @@
       "title": "Manchester City at BK Häcken",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -457,8 +457,8 @@
       "title": "OH Leuven at Juventus",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -470,8 +470,8 @@
       "title": "Paris Saint-Germain at Chelsea",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
