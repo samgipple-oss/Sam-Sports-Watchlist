@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:09:35.580326+00:00",
+  "updatedAt": "2026-11-19T21:58:25.100252+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -391,8 +391,8 @@
       "title": "Bayern Munich at Austria Vienna",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -404,8 +404,8 @@
       "title": "HB Køge at Paris FC",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -417,8 +417,8 @@
       "title": "OL Lyonnes at Arsenal",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -430,8 +430,8 @@
       "title": "Roma at Benfica",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -443,8 +443,8 @@
       "title": "Servette at Barcelona",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -2556,6 +2556,19 @@
       "broadcastVerified": false
     },
     {
+      "id": "espn:basketball/nba:401910054",
+      "date": "2026-11-29",
+      "time": "20:30",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Miami Heat at Cleveland Cavaliers",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
       "id": "espn:basketball/nba:401910052",
       "date": "2026-11-29",
       "time": "21:00",
@@ -2653,19 +2666,6 @@
       "sport": "NBA",
       "competition": "NBA",
       "title": "Denver Nuggets at Toronto Raptors",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401910054",
-      "date": "2026-11-29",
-      "time": "23:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Miami Heat at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
