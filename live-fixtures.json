@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T16:10:48.830053+00:00",
+  "updatedAt": "2026-11-19T19:09:35.580326+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -391,7 +391,7 @@
       "title": "Bayern Munich at Austria Vienna",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
@@ -404,7 +404,7 @@
       "title": "HB Køge at Paris FC",
       "service": "Disney+",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": true
     },
