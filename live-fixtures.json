@@ -1,256 +1,8 @@
 {
-  "updatedAt": "2026-11-18T21:58:44.536993+00:00",
+  "updatedAt": "2026-11-19T01:23:39.760257+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
-    {
-      "id": "espn:soccer/uefa.nations:401861180",
-      "date": "2026-11-16",
-      "time": "15:00",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Moldova at Faroe Islands",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861181",
-      "date": "2026-11-16",
-      "time": "15:00",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Slovakia at Kazakhstan",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861183",
-      "date": "2026-11-16",
-      "time": "17:00",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Bulgaria at Estonia",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861184",
-      "date": "2026-11-16",
-      "time": "17:00",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Liechtenstein at Lithuania",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861182",
-      "date": "2026-11-16",
-      "time": "17:00",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Luxembourg at Iceland",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861179",
-      "date": "2026-11-16",
-      "time": "19:45",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Malta at Gibraltar",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861185",
-      "date": "2026-11-16",
-      "time": "19:45",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Netherlands at Germany",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861186",
-      "date": "2026-11-16",
-      "time": "19:45",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Scotland at Switzerland",
-      "service": "BBC iPlayer",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861188",
-      "date": "2026-11-16",
-      "time": "19:45",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Serbia at Greece",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/uefa.nations:401861187",
-      "date": "2026-11-16",
-      "time": "19:45",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "title": "Slovenia at North Macedonia",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:basketball/nba:401909995",
-      "date": "2026-11-17",
-      "time": "00:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Chicago Bulls at Cleveland Cavaliers",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909996",
-      "date": "2026-11-17",
-      "time": "00:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Memphis Grizzlies at Washington Wizards",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909994",
-      "date": "2026-11-17",
-      "time": "00:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Orlando Magic at Boston Celtics",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909998",
-      "date": "2026-11-17",
-      "time": "00:30",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Houston Rockets at Miami Heat",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909997",
-      "date": "2026-11-17",
-      "time": "00:30",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Philadelphia 76ers at Brooklyn Nets",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401910000",
-      "date": "2026-11-17",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Golden State Warriors at New Orleans Pelicans",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401909999",
-      "date": "2026-11-17",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Portland Trail Blazers at Minnesota Timberwolves",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:football/nfl:401873065",
-      "date": "2026-11-17",
-      "time": "01:15",
-      "sport": "NFL",
-      "competition": "NFL",
-      "title": "Los Angeles Chargers at Baltimore Ravens",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:basketball/nba:401910001",
-      "date": "2026-11-17",
-      "time": "02:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Phoenix Suns at Denver Nuggets",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
     {
       "id": "espn:soccer/uefa.nations:401861193",
       "date": "2026-11-17",
@@ -483,7 +235,7 @@
       "title": "Houston Rockets at Indiana Pacers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -496,7 +248,7 @@
       "title": "Memphis Grizzlies at Cleveland Cavaliers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -509,7 +261,7 @@
       "title": "Milwaukee Bucks at Miami Heat",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -522,7 +274,7 @@
       "title": "Philadelphia 76ers at Orlando Magic",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -535,7 +287,7 @@
       "title": "Chicago Bulls at Brooklyn Nets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -548,7 +300,7 @@
       "title": "Washington Wizards at Toronto Raptors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -561,7 +313,7 @@
       "title": "Atlanta Hawks at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -574,7 +326,7 @@
       "title": "Detroit Pistons at New Orleans Pelicans",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -587,7 +339,7 @@
       "title": "Golden State Warriors at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -6222,16 +5974,50 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": true
+    },
+    {
+      "id": "espn:basketball/nba:401910169",
+      "date": "2026-12-23",
+      "time": "00:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Toronto Raptors at Washington Wizards",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:basketball/nba:401910170",
+      "date": "2026-12-23",
+      "time": "01:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Detroit Pistons at Oklahoma City Thunder",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:basketball/nba:401910171",
+      "date": "2026-12-23",
+      "time": "03:30",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Dallas Mavericks at Golden State Warriors",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
     }
   ],
   "coverage": [
     {
       "feed": "baseball/mlb",
-      "date": "2026-11-16",
-      "ok": true
-    },
-    {
-      "feed": "baseball/mlb",
       "date": "2026-11-17",
       "ok": true
     },
@@ -6411,8 +6197,8 @@
       "ok": true
     },
     {
-      "feed": "basketball/nba",
-      "date": "2026-11-16",
+      "feed": "baseball/mlb",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -6596,8 +6382,8 @@
       "ok": true
     },
     {
-      "feed": "football/nfl",
-      "date": "2026-11-16",
+      "feed": "basketball/nba",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -6781,8 +6567,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.1",
-      "date": "2026-11-16",
+      "feed": "football/nfl",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -6966,8 +6752,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.w.1",
-      "date": "2026-11-16",
+      "feed": "soccer/eng.1",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -7151,8 +6937,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.champions",
-      "date": "2026-11-16",
+      "feed": "soccer/eng.w.1",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -7336,8 +7122,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.nations",
-      "date": "2026-11-16",
+      "feed": "soccer/uefa.champions",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -7521,8 +7307,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.wchampions",
-      "date": "2026-11-16",
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -7706,8 +7492,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/usa.1",
-      "date": "2026-11-16",
+      "feed": "soccer/uefa.wchampions",
+      "date": "2026-12-23",
       "ok": true
     },
     {
@@ -7888,6 +7674,11 @@
     {
       "feed": "soccer/usa.1",
       "date": "2026-12-22",
+      "ok": true
+    },
+    {
+      "feed": "soccer/usa.1",
+      "date": "2026-12-23",
       "ok": true
     }
   ],
