@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T19:10:20.461757+00:00",
+  "updatedAt": "2026-11-20T21:56:41.046632+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -2762,12 +2762,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:basketball/nba:401910074",
+      "id": "espn:basketball/nba:401910075",
       "date": "2026-12-02",
-      "time": "04:00",
+      "time": "03:00",
       "sport": "NBA",
       "competition": "NBA",
-      "title": "Minnesota Timberwolves at Portland Trail Blazers",
+      "title": "Utah Jazz at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -2775,12 +2775,12 @@
       "broadcastVerified": true
     },
     {
-      "id": "espn:basketball/nba:401910075",
+      "id": "espn:basketball/nba:401910074",
       "date": "2026-12-02",
       "time": "04:00",
       "sport": "NBA",
       "competition": "NBA",
-      "title": "Utah Jazz at Golden State Warriors",
+      "title": "Minnesota Timberwolves at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
