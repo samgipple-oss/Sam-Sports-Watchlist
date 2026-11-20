@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T01:16:35.870647+00:00",
+  "updatedAt": "2026-11-20T04:02:01.657866+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -285,8 +285,8 @@
       "title": "FC Cincinnati at Orlando City SC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -298,8 +298,8 @@
       "title": "Golden State Warriors at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -311,8 +311,8 @@
       "title": "LA Clippers at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -324,8 +324,8 @@
       "title": "New York Knicks at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -337,8 +337,8 @@
       "title": "Portland Trail Blazers at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -363,7 +363,7 @@
       "title": "Real Salt Lake at Seattle Sounders FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": true
     },
@@ -955,7 +955,7 @@
       "time": "21:00",
       "sport": "MLS",
       "competition": "MLS",
-      "title": "TBD Away at Nashville SC",
+      "title": "FC Cincinnati at Nashville SC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -2120,7 +2120,7 @@
       "time": "23:30",
       "sport": "MLS",
       "competition": "MLS",
-      "title": "Nashville SC at TBD Home",
+      "title": "Nashville SC at FC Cincinnati",
       "service": "Apple TV",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
@@ -2996,6 +2996,19 @@
       "broadcastVerified": true
     },
     {
+      "id": "espn:soccer/usa.1:401933736",
+      "date": "2026-12-03",
+      "time": "01:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "FC Cincinnati at Nashville SC",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
       "id": "espn:soccer/usa.1:401933735",
       "date": "2026-12-03",
       "time": "01:00",
@@ -3054,19 +3067,6 @@
       "sport": "MLS",
       "competition": "MLS",
       "title": "Portland Timbers at FC Dallas",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:401933736",
-      "date": "2026-12-03",
-      "time": "01:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "TBD Away at Nashville SC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
