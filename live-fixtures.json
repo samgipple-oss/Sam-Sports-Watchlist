@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T09:56:11.291259+00:00",
+  "updatedAt": "2026-11-21T13:05:33.373554+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -285,7 +285,7 @@
       "title": "Fulham at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -298,7 +298,7 @@
       "title": "Chelsea at Liverpool",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": false
     },
