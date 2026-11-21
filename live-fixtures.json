@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T03:59:40.651317+00:00",
+  "updatedAt": "2026-11-21T07:19:44.142448+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -246,8 +246,8 @@
       "title": "Phoenix Suns at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -259,8 +259,8 @@
       "title": "Houston Rockets at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -272,8 +272,8 @@
       "title": "Sacramento Kings at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
