@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T18:56:58.719671+00:00",
+  "updatedAt": "2026-11-21T21:51:03.877738+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -400,8 +400,8 @@
       "title": "Crystal Palace at London City Lionesses",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -413,8 +413,8 @@
       "title": "Arsenal at Newcastle United",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -426,8 +426,8 @@
       "title": "Milwaukee Bucks at Philadelphia 76ers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -439,8 +439,8 @@
       "title": "Philadelphia Union at New England Revolution",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -464,7 +464,7 @@
       "title": "Portland Timbers at FC Dallas",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": true
     },
