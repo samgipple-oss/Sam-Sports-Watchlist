@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T18:58:00.275604+00:00",
+  "updatedAt": "2026-11-22T21:53:04.777786+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -454,8 +454,8 @@
       "title": "Arizona Cardinals at Kansas City Chiefs",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -467,8 +467,8 @@
       "title": "Baltimore Ravens at Carolina Panthers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -480,8 +480,8 @@
       "title": "Miami Dolphins at Buffalo Bills",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -493,8 +493,8 @@
       "title": "New Orleans Saints at Chicago Bears",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -506,8 +506,8 @@
       "title": "Pittsburgh Steelers at Philadelphia Eagles",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -519,8 +519,8 @@
       "title": "Tampa Bay Buccaneers at Detroit Lions",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -532,8 +532,8 @@
       "title": "Tennessee Titans at Dallas Cowboys",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -545,7 +545,7 @@
       "title": "Detroit Pistons at Atlanta Hawks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -558,7 +558,7 @@
       "title": "FC Cincinnati at Nashville SC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": true
     },
@@ -571,7 +571,7 @@
       "title": "New York Jets at Los Angeles Chargers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -584,7 +584,7 @@
       "title": "Jacksonville Jaguars at New York Giants",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -597,7 +597,7 @@
       "title": "Las Vegas Raiders at Denver Broncos",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
