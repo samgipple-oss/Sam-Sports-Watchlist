@@ -1,164 +1,8 @@
 {
-  "updatedAt": "2026-11-21T21:51:03.877738+00:00",
+  "updatedAt": "2026-11-22T01:18:11.404550+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
-    {
-      "id": "espn:soccer/uefa.wchampions:401916978",
-      "date": "2026-11-19",
-      "time": "17:45",
-      "sport": "Football",
-      "competition": "Women’s Champions League",
-      "title": "Bayern Munich at Austria Vienna",
-      "service": "Disney+",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/uefa.wchampions:401916977",
-      "date": "2026-11-19",
-      "time": "17:45",
-      "sport": "Football",
-      "competition": "Women’s Champions League",
-      "title": "HB Køge at Paris FC",
-      "service": "Disney+",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/uefa.wchampions:401916976",
-      "date": "2026-11-19",
-      "time": "20:00",
-      "sport": "Football",
-      "competition": "Women’s Champions League",
-      "title": "OL Lyonnes at Arsenal",
-      "service": "Disney+",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/uefa.wchampions:401916974",
-      "date": "2026-11-19",
-      "time": "20:00",
-      "sport": "Football",
-      "competition": "Women’s Champions League",
-      "title": "Roma at Benfica",
-      "service": "Disney+",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/uefa.wchampions:401916975",
-      "date": "2026-11-19",
-      "time": "20:00",
-      "sport": "Football",
-      "competition": "Women’s Champions League",
-      "title": "Servette at Barcelona",
-      "service": "Disney+",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:soccer/usa.1:401933535",
-      "date": "2026-11-20",
-      "time": "00:30",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "FC Cincinnati at Orlando City SC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Full Time",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401910019",
-      "date": "2026-11-20",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Golden State Warriors at Memphis Grizzlies",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401910022",
-      "date": "2026-11-20",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "LA Clippers at San Antonio Spurs",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401910021",
-      "date": "2026-11-20",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "New York Knicks at Minnesota Timberwolves",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:basketball/nba:401910020",
-      "date": "2026-11-20",
-      "time": "01:00",
-      "sport": "NBA",
-      "competition": "NBA",
-      "title": "Portland Trail Blazers at Milwaukee Bucks",
-      "service": "League Pass",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": true
-    },
-    {
-      "id": "espn:football/nfl:401873066",
-      "date": "2026-11-20",
-      "time": "01:15",
-      "sport": "NFL",
-      "competition": "NFL",
-      "title": "Indianapolis Colts at Houston Texans",
-      "service": "Check broadcaster",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final",
-      "completed": true,
-      "broadcastVerified": false
-    },
-    {
-      "id": "espn:soccer/usa.1:401933555",
-      "date": "2026-11-20",
-      "time": "03:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Real Salt Lake at Seattle Sounders FC",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Final Score - After Penalties",
-      "completed": true,
-      "broadcastVerified": true
-    },
     {
       "id": "espn:basketball/nba:401909305",
       "date": "2026-11-21",
@@ -303,18 +147,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "nationschampionship:2026:11-21:14:10",
-      "date": "2026-11-21",
-      "time": "14:10",
-      "sport": "Rugby",
-      "competition": "Nations Championship",
-      "title": "Scotland vs Japan",
-      "service": "ITVX",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
-      "source": "Published 2026 Nations Championship schedule"
-    },
-    {
       "id": "espn:soccer/eng.1:401879235",
       "date": "2026-11-21",
       "time": "15:00",
@@ -380,18 +212,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "nationschampionship:2026:11-21:16:40",
-      "date": "2026-11-21",
-      "time": "16:40",
-      "sport": "Rugby",
-      "competition": "Nations Championship",
-      "title": "Italy vs Fiji",
-      "service": "ITVX",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
-      "source": "Published 2026 Nations Championship schedule"
-    },
-    {
       "id": "espn:soccer/eng.w.1:401902854",
       "date": "2026-11-21",
       "time": "17:15",
@@ -444,18 +264,6 @@
       "broadcastVerified": true
     },
     {
-      "id": "nationschampionship:2026:11-21:20:10",
-      "date": "2026-11-21",
-      "time": "20:10",
-      "sport": "Rugby",
-      "competition": "Nations Championship",
-      "title": "Wales vs Australia",
-      "service": "ITVX",
-      "broadcastVerified": true,
-      "broadcastSource": "https://www.radiotimes.com/tv/sport/rugby-union/nations-championship-2026-tv/",
-      "source": "Published 2026 Nations Championship schedule"
-    },
-    {
       "id": "espn:soccer/usa.1:401933732",
       "date": "2026-11-21",
       "time": "21:00",
@@ -464,8 +272,8 @@
       "title": "Portland Timbers at FC Dallas",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -477,8 +285,8 @@
       "title": "Columbus Crew at Inter Miami CF",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -490,7 +298,7 @@
       "title": "Portland Trail Blazers at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -503,7 +311,7 @@
       "title": "LA Clippers at Dallas Mavericks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -516,7 +324,7 @@
       "title": "Memphis Grizzlies at Minnesota Timberwolves",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -529,7 +337,7 @@
       "title": "New Orleans Pelicans at San Antonio Spurs",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -5907,16 +5715,193 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": true
+    },
+    {
+      "id": "espn:basketball/nba:401909100",
+      "date": "2026-12-26",
+      "time": "01:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Oklahoma City Thunder at Minnesota Timberwolves",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:football/nfl:401873143",
+      "date": "2026-12-26",
+      "time": "01:15",
+      "sport": "NFL",
+      "competition": "NFL",
+      "title": "Los Angeles Rams at Seattle Seahawks",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:basketball/nba:401909101",
+      "date": "2026-12-26",
+      "time": "03:30",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Denver Nuggets at Golden State Warriors",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/eng.1:401878737",
+      "date": "2026-12-26",
+      "time": "12:30",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Leeds United at Aston Villa",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401878731",
+      "date": "2026-12-26",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "AFC Bournemouth at Tottenham Hotspur",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401879196",
+      "date": "2026-12-26",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Brentford at Ipswich Town",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401878734",
+      "date": "2026-12-26",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Brighton & Hove Albion at Fulham",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401879197",
+      "date": "2026-12-26",
+      "time": "15:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Sunderland at Everton",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:soccer/eng.1:401878733",
+      "date": "2026-12-26",
+      "time": "17:30",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Liverpool at Hull City",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:basketball/nba:401910187",
+      "date": "2026-12-26",
+      "time": "18:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Portland Trail Blazers at Washington Wizards",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/eng.1:401878732",
+      "date": "2026-12-26",
+      "time": "20:00",
+      "sport": "Football",
+      "competition": "Premier League",
+      "title": "Manchester City at Newcastle United",
+      "service": "Check broadcaster",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": false
+    },
+    {
+      "id": "espn:basketball/nba:401910188",
+      "date": "2026-12-26",
+      "time": "20:30",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Charlotte Hornets at Atlanta Hawks",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:basketball/nba:401910189",
+      "date": "2026-12-26",
+      "time": "22:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "Indiana Pacers at Utah Jazz",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:basketball/nba:401910190",
+      "date": "2026-12-26",
+      "time": "23:00",
+      "sport": "NBA",
+      "competition": "NBA",
+      "title": "New Orleans Pelicans at Brooklyn Nets",
+      "service": "League Pass",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
     }
   ],
   "coverage": [
     {
       "feed": "baseball/mlb",
-      "date": "2026-11-19",
-      "ok": true
-    },
-    {
-      "feed": "baseball/mlb",
       "date": "2026-11-20",
       "ok": true
     },
@@ -6096,8 +6081,8 @@
       "ok": true
     },
     {
-      "feed": "basketball/nba",
-      "date": "2026-11-19",
+      "feed": "baseball/mlb",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -6281,8 +6266,8 @@
       "ok": true
     },
     {
-      "feed": "football/nfl",
-      "date": "2026-11-19",
+      "feed": "basketball/nba",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -6466,8 +6451,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.1",
-      "date": "2026-11-19",
+      "feed": "football/nfl",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -6651,8 +6636,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/eng.w.1",
-      "date": "2026-11-19",
+      "feed": "soccer/eng.1",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -6836,8 +6821,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.champions",
-      "date": "2026-11-19",
+      "feed": "soccer/eng.w.1",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -7021,8 +7006,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.nations",
-      "date": "2026-11-19",
+      "feed": "soccer/uefa.champions",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -7206,8 +7191,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/uefa.wchampions",
-      "date": "2026-11-19",
+      "feed": "soccer/uefa.nations",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -7391,8 +7376,8 @@
       "ok": true
     },
     {
-      "feed": "soccer/usa.1",
-      "date": "2026-11-19",
+      "feed": "soccer/uefa.wchampions",
+      "date": "2026-12-26",
       "ok": true
     },
     {
@@ -7573,6 +7558,11 @@
     {
       "feed": "soccer/usa.1",
       "date": "2026-12-25",
+      "ok": true
+    },
+    {
+      "feed": "soccer/usa.1",
+      "date": "2026-12-26",
       "ok": true
     }
   ],
