@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T09:56:04.841842+00:00",
+  "updatedAt": "2026-11-22T13:03:53.057543+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -363,7 +363,7 @@
       "title": "Manchester United at Birmingham City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -376,7 +376,7 @@
       "title": "Tottenham Hotspur at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
