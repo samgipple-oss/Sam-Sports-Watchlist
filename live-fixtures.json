@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T04:17:49.984586+00:00",
+  "updatedAt": "2026-11-23T07:45:38.367167+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -571,8 +571,8 @@
       "title": "Minnesota Vikings at San Francisco 49ers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
