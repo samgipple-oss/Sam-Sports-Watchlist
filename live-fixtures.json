@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T10:22:03.590712+00:00",
+  "updatedAt": "2026-11-23T13:30:09.925758+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -1227,6 +1227,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "ukrugby:2026-11-27:italy:fiji",
+      "date": "2026-11-27",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Italy vs Fiji",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "nationschampionship:2026:11-27:16:40",
       "date": "2026-11-27",
       "time": "16:40",
@@ -1263,6 +1275,18 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "ukrugby:2026-11-27:ireland:australia",
+      "date": "2026-11-27",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Ireland vs Australia",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "nationschampionship:2026:11-27:20:10",
@@ -1458,6 +1482,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-28:wales:japan",
+      "date": "2026-11-28",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Wales vs Japan",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -1482,6 +1518,18 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "ukrugby:2026-11-28:england:new-zealand",
+      "date": "2026-11-28",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "England vs New Zealand",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "nationschampionship:2026:11-28:16:40",
@@ -1677,6 +1725,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-29:scotland:argentina",
+      "date": "2026-11-29",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Scotland vs Argentina",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879228",
       "date": "2026-11-29",
       "time": "14:05",
@@ -1740,6 +1800,18 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "ukrugby:2026-11-29:france:south-africa",
+      "date": "2026-11-29",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "France vs South Africa",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "nationschampionship:2026:11-29:16:40",
