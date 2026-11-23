@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T01:24:39.446396+00:00",
+  "updatedAt": "2026-11-23T04:17:49.984586+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -506,8 +506,8 @@
       "title": "Charlotte FC at Chicago Fire FC",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -519,8 +519,8 @@
       "title": "Dallas Mavericks at Utah Jazz",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -532,8 +532,8 @@
       "title": "Denver Nuggets at Chicago Bulls",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -545,8 +545,8 @@
       "title": "Orlando Magic at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -558,8 +558,8 @@
       "title": "Indiana Pacers at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -571,7 +571,7 @@
       "title": "Minnesota Vikings at San Francisco 49ers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
@@ -584,8 +584,8 @@
       "title": "Boston Celtics at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -597,8 +597,8 @@
       "title": "Real Salt Lake at Vancouver Whitecaps",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
