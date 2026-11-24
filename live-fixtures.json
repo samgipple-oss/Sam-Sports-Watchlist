@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T04:09:50.824255+00:00",
+  "updatedAt": "2026-11-24T07:29:48.781787+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -480,8 +480,8 @@
       "title": "Cincinnati Bengals at Washington Commanders",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -519,8 +519,8 @@
       "title": "San Antonio Spurs at Sacramento Kings",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -532,8 +532,8 @@
       "title": "Utah Jazz at Los Angeles Lakers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
