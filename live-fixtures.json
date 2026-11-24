@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:27:15.834974+00:00",
+  "updatedAt": "2026-11-24T16:22:14.841299+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -2125,19 +2125,6 @@
       "broadcastVerified": false
     },
     {
-      "id": "espn:soccer/usa.1:401933717",
-      "date": "2026-12-02",
-      "time": "20:00",
-      "sport": "MLS",
-      "competition": "MLS",
-      "title": "Real Salt Lake at Vancouver Whitecaps",
-      "service": "Apple TV",
-      "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
-      "broadcastVerified": true
-    },
-    {
       "id": "espn:soccer/eng.1:401878750",
       "date": "2026-12-02",
       "time": "20:15",
@@ -2352,6 +2339,19 @@
       "sport": "MLS",
       "competition": "MLS",
       "title": "Portland Timbers at FC Dallas",
+      "service": "Apple TV",
+      "source": "Scheduled data feed",
+      "liveStatus": "Scheduled",
+      "completed": false,
+      "broadcastVerified": true
+    },
+    {
+      "id": "espn:soccer/usa.1:401933717",
+      "date": "2026-12-03",
+      "time": "02:00",
+      "sport": "MLS",
+      "competition": "MLS",
+      "title": "Real Salt Lake at Vancouver Whitecaps",
       "service": "Apple TV",
       "source": "Scheduled data feed",
       "liveStatus": "Scheduled",
