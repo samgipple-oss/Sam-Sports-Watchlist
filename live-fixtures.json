@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:09:44.381870+00:00",
+  "updatedAt": "2026-11-24T22:07:10.071987+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -545,8 +545,8 @@
       "title": "Aston Villa at Galatasaray",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -558,8 +558,8 @@
       "title": "LASK Linz at Bodo/Glimt",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -571,8 +571,8 @@
       "title": "AEK Athens at Como",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -584,8 +584,8 @@
       "title": "Borussia Dortmund at Arsenal",
       "service": "Prime Video",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true,
       "broadcastSource": "https://www.live-footballontv.com/live-champions-league-football-on-tv.html"
     },
@@ -598,8 +598,8 @@
       "title": "FC Porto at Feyenoord Rotterdam",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -611,8 +611,8 @@
       "title": "Lens at RB Leipzig",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -624,8 +624,8 @@
       "title": "Napoli at Manchester City",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -637,8 +637,8 @@
       "title": "PSV Eindhoven at Real Madrid",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -650,8 +650,8 @@
       "title": "Real Betis at Slovan Bratislava",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
