@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:22:14.841299+00:00",
+  "updatedAt": "2026-11-24T19:09:44.381870+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -545,7 +545,7 @@
       "title": "Aston Villa at Galatasaray",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -558,7 +558,7 @@
       "title": "LASK Linz at Bodo/Glimt",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
