@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T04:17:01.779390+00:00",
+  "updatedAt": "2026-11-25T07:33:34.052371+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -325,8 +325,8 @@
       "title": "Dallas Mavericks at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -338,8 +338,8 @@
       "title": "Houston Dynamo FC at San Jose Earthquakes",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "First Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": true
     },
     {
