@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:03:27.485894+00:00",
+  "updatedAt": "2026-11-25T22:05:52.785602+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -351,8 +351,8 @@
       "title": "Barcelona at Sabah FK",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -364,8 +364,8 @@
       "title": "Villarreal at Slavia Prague",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Second Half",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -377,8 +377,8 @@
       "title": "AS Roma at Paris Saint-Germain",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -390,8 +390,8 @@
       "title": "Bayern Munich at Lille",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -403,8 +403,8 @@
       "title": "Fenerbahce at Shakhtar Donetsk",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -416,8 +416,8 @@
       "title": "Liverpool at Club Brugge",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -429,8 +429,8 @@
       "title": "Manchester United at Sporting CP",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -442,8 +442,8 @@
       "title": "VfB Stuttgart at Internazionale",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -455,8 +455,8 @@
       "title": "Viking FK at Atlético Madrid",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
