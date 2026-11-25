@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T01:27:24.219154+00:00",
+  "updatedAt": "2026-11-25T04:17:01.779390+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -299,8 +299,8 @@
       "title": "Detroit Pistons at Orlando Magic",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -312,8 +312,8 @@
       "title": "Boston Celtics at Washington Wizards",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -325,7 +325,7 @@
       "title": "Dallas Mavericks at Denver Nuggets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -338,7 +338,7 @@
       "title": "Houston Dynamo FC at San Jose Earthquakes",
       "service": "Apple TV",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "First Half",
       "completed": false,
       "broadcastVerified": true
     },
