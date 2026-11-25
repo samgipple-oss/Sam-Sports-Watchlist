@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T16:19:34.443271+00:00",
+  "updatedAt": "2026-11-25T19:03:27.485894+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -351,7 +351,7 @@
       "title": "Barcelona at Sabah FK",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
@@ -364,7 +364,7 @@
       "title": "Villarreal at Slavia Prague",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Second Half",
       "completed": false,
       "broadcastVerified": false
     },
