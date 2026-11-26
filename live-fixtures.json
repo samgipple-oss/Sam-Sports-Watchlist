@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T16:16:25.093302+00:00",
+  "updatedAt": "2026-11-26T19:09:54.557645+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -429,7 +429,7 @@
       "title": "Chicago Bears at Detroit Lions",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
