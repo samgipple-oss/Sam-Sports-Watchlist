@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T01:28:08.288462+00:00",
+  "updatedAt": "2026-11-26T04:12:42.414434+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -312,8 +312,8 @@
       "title": "Chicago Bulls at Charlotte Hornets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -325,8 +325,8 @@
       "title": "Cleveland Cavaliers at New York Knicks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -338,8 +338,8 @@
       "title": "Minnesota Timberwolves at Oklahoma City Thunder",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -351,8 +351,8 @@
       "title": "Brooklyn Nets at Milwaukee Bucks",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -377,8 +377,8 @@
       "title": "LA Clippers at Memphis Grizzlies",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -390,8 +390,8 @@
       "title": "Phoenix Suns at Houston Rockets",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -403,7 +403,7 @@
       "title": "Sacramento Kings at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "Halftime",
       "completed": false,
       "broadcastVerified": true
     },
@@ -416,7 +416,7 @@
       "title": "San Antonio Spurs at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": true
     },
@@ -460,6 +460,18 @@
       "broadcastVerified": false
     },
     {
+      "id": "ukrugby:2026-11-27:italy:fiji",
+      "date": "2026-11-27",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Italy vs Fiji",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "nationschampionship:2026:11-27:16:40",
       "date": "2026-11-27",
       "time": "16:40",
@@ -496,6 +508,18 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "ukrugby:2026-11-27:ireland:australia",
+      "date": "2026-11-27",
+      "time": "20:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Ireland vs Australia",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "nationschampionship:2026:11-27:20:10",
@@ -691,6 +715,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-28:wales:japan",
+      "date": "2026-11-28",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Wales vs Japan",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879226",
       "date": "2026-11-28",
       "time": "15:00",
@@ -715,6 +751,18 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "ukrugby:2026-11-28:england:new-zealand",
+      "date": "2026-11-28",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "England vs New Zealand",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "nationschampionship:2026:11-28:16:40",
@@ -910,6 +958,18 @@
       "source": "Published 2026 Nations Championship schedule"
     },
     {
+      "id": "ukrugby:2026-11-29:scotland:argentina",
+      "date": "2026-11-29",
+      "time": "13:10",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "Scotland vs Argentina",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
+    },
+    {
       "id": "espn:soccer/eng.1:401879228",
       "date": "2026-11-29",
       "time": "14:05",
@@ -973,6 +1033,18 @@
       "liveStatus": "Scheduled",
       "completed": false,
       "broadcastVerified": false
+    },
+    {
+      "id": "ukrugby:2026-11-29:france:south-africa",
+      "date": "2026-11-29",
+      "time": "16:40",
+      "sport": "Rugby",
+      "competition": "Rugby Union",
+      "title": "France vs South Africa",
+      "service": "ITVX",
+      "source": "UK rugby TV guide",
+      "broadcastVerified": true,
+      "broadcastSource": "https://www.wheresthematch.com/rugby-union-internationals-on-tv/"
     },
     {
       "id": "nationschampionship:2026:11-29:16:40",
