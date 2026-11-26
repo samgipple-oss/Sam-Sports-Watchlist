@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T04:12:42.414434+00:00",
+  "updatedAt": "2026-11-26T07:32:27.091048+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -364,8 +364,8 @@
       "title": "Green Bay Packers at Los Angeles Rams",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -403,8 +403,8 @@
       "title": "Sacramento Kings at Golden State Warriors",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "Halftime",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
@@ -416,8 +416,8 @@
       "title": "San Antonio Spurs at Portland Trail Blazers",
       "service": "League Pass",
       "source": "Scheduled data feed",
-      "liveStatus": "In Progress",
-      "completed": false,
+      "liveStatus": "Final",
+      "completed": true,
       "broadcastVerified": true
     },
     {
