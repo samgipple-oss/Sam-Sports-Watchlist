@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T19:08:04.953910+00:00",
+  "updatedAt": "2026-11-27T22:05:47.117868+00:00",
   "successfulChecks": 333,
   "totalChecks": 333,
   "items": [
@@ -322,8 +322,8 @@
       "title": "Chelsea at Nottingham Forest",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
-      "completed": false,
+      "liveStatus": "Full Time",
+      "completed": true,
       "broadcastVerified": false
     },
     {
@@ -335,7 +335,7 @@
       "title": "Denver Broncos at Pittsburgh Steelers",
       "service": "Check broadcaster",
       "source": "Scheduled data feed",
-      "liveStatus": "Scheduled",
+      "liveStatus": "In Progress",
       "completed": false,
       "broadcastVerified": false
     },
